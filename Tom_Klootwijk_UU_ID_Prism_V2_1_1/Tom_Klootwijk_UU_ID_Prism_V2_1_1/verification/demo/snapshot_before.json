@@ -1,0 +1,652 @@
+{
+  "format": "UU-PRISM-SNAPSHOT",
+  "version": "2.1.1",
+  "holder_ref": "holder:synthetic-001",
+  "purpose": "personal_archive_migration",
+  "credential_status": "not_issued",
+  "as_of": "2026-09-11T12:00:00Z",
+  "registry_hash": "13c43edd1ab17f79f9b6b6eb1cfe41487c3f440b2fd7d1a7d13b82f573a74460",
+  "plan": {
+    "F01": 2,
+    "F02": 1,
+    "F03": 1,
+    "F04": 1,
+    "F05": 0,
+    "F06": 1,
+    "F07": 1,
+    "F08": 1,
+    "F09": 1,
+    "F10": 1,
+    "F11": 1,
+    "F12": 1,
+    "F13": 1,
+    "F14": 1,
+    "F15": 1,
+    "F16": 1,
+    "F17": 1,
+    "F18": 1,
+    "F19": 1,
+    "F20": 1,
+    "F21": 1,
+    "F22": 1,
+    "F23": 1,
+    "F24": 1,
+    "F25": 1,
+    "F26": 1,
+    "F27": 1,
+    "F28": 1,
+    "F29": 1,
+    "F30": 1,
+    "F31": 1,
+    "F32": 1,
+    "F33": 1,
+    "F34": 1,
+    "F35": 1
+  },
+  "facets": [
+    {
+      "facet_id": "F01",
+      "band": "R",
+      "name": "Still imagery",
+      "count": 1,
+      "target": 2,
+      "plan_status": "partial",
+      "data_status": "stale",
+      "coverage": {
+        "numerator": 1,
+        "denominator": 2
+      },
+      "latest_observed_at": "2024-06-01T08:00:00Z",
+      "age_seconds": 71899200,
+      "record_ids": [
+        "demo:F01"
+      ]
+    },
+    {
+      "facet_id": "F02",
+      "band": "R",
+      "name": "Video and visual sequences",
+      "count": 1,
+      "target": 1,
+      "plan_status": "complete",
+      "data_status": "stale",
+      "coverage": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "latest_observed_at": "2024-06-01T08:00:00Z",
+      "age_seconds": 71899200,
+      "record_ids": [
+        "demo:F02"
+      ]
+    },
+    {
+      "facet_id": "F03",
+      "band": "R",
+      "name": "Gaze and fixation",
+      "count": 1,
+      "target": 1,
+      "plan_status": "complete",
+      "data_status": "fresh",
+      "coverage": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "latest_observed_at": "2026-09-11T11:59:45Z",
+      "age_seconds": 15,
+      "record_ids": [
+        "demo:F03"
+      ]
+    },
+    {
+      "facet_id": "F04",
+      "band": "R",
+      "name": "Screen and visual context",
+      "count": 0,
+      "target": 1,
+      "plan_status": "missing",
+      "data_status": "missing",
+      "coverage": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "latest_observed_at": null,
+      "age_seconds": null,
+      "record_ids": []
+    },
+    {
+      "facet_id": "F05",
+      "band": "R",
+      "name": "Visual accessibility",
+      "count": 0,
+      "target": 0,
+      "plan_status": "not_planned",
+      "data_status": "missing",
+      "coverage": null,
+      "latest_observed_at": null,
+      "age_seconds": null,
+      "record_ids": []
+    },
+    {
+      "facet_id": "F06",
+      "band": "O",
+      "name": "Audio recordings",
+      "count": 1,
+      "target": 1,
+      "plan_status": "complete",
+      "data_status": "fresh",
+      "coverage": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "latest_observed_at": "2026-09-11T11:59:45Z",
+      "age_seconds": 15,
+      "record_ids": [
+        "demo:F06"
+      ]
+    },
+    {
+      "facet_id": "F07",
+      "band": "O",
+      "name": "Speech and transcripts",
+      "count": 0,
+      "target": 1,
+      "plan_status": "missing",
+      "data_status": "missing",
+      "coverage": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "latest_observed_at": null,
+      "age_seconds": null,
+      "record_ids": []
+    },
+    {
+      "facet_id": "F08",
+      "band": "O",
+      "name": "Acoustic observations",
+      "count": 1,
+      "target": 1,
+      "plan_status": "complete",
+      "data_status": "clock_conflict",
+      "coverage": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "latest_observed_at": "2026-09-11T12:00:15Z",
+      "age_seconds": null,
+      "record_ids": [
+        "demo:F08"
+      ]
+    },
+    {
+      "facet_id": "F09",
+      "band": "O",
+      "name": "Listening history",
+      "count": 0,
+      "target": 1,
+      "plan_status": "missing",
+      "data_status": "missing",
+      "coverage": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "latest_observed_at": null,
+      "age_seconds": null,
+      "record_ids": []
+    },
+    {
+      "facet_id": "F10",
+      "band": "O",
+      "name": "Communication records",
+      "count": 0,
+      "target": 1,
+      "plan_status": "missing",
+      "data_status": "missing",
+      "coverage": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "latest_observed_at": null,
+      "age_seconds": null,
+      "record_ids": []
+    },
+    {
+      "facet_id": "F11",
+      "band": "Y",
+      "name": "Touch and pressure",
+      "count": 1,
+      "target": 1,
+      "plan_status": "complete",
+      "data_status": "fresh",
+      "coverage": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "latest_observed_at": "2026-09-11T11:59:45Z",
+      "age_seconds": 15,
+      "record_ids": [
+        "demo:F11"
+      ]
+    },
+    {
+      "facet_id": "F12",
+      "band": "Y",
+      "name": "Haptic interactions",
+      "count": 0,
+      "target": 1,
+      "plan_status": "missing",
+      "data_status": "missing",
+      "coverage": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "latest_observed_at": null,
+      "age_seconds": null,
+      "record_ids": []
+    },
+    {
+      "facet_id": "F13",
+      "band": "Y",
+      "name": "Movement and acceleration",
+      "count": 1,
+      "target": 1,
+      "plan_status": "complete",
+      "data_status": "fresh",
+      "coverage": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "latest_observed_at": "2026-09-11T11:59:45Z",
+      "age_seconds": 15,
+      "record_ids": [
+        "demo:F13"
+      ]
+    },
+    {
+      "facet_id": "F14",
+      "band": "Y",
+      "name": "Posture and proprioception",
+      "count": 0,
+      "target": 1,
+      "plan_status": "missing",
+      "data_status": "missing",
+      "coverage": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "latest_observed_at": null,
+      "age_seconds": null,
+      "record_ids": []
+    },
+    {
+      "facet_id": "F15",
+      "band": "Y",
+      "name": "Balance and orientation",
+      "count": 0,
+      "target": 1,
+      "plan_status": "missing",
+      "data_status": "missing",
+      "coverage": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "latest_observed_at": null,
+      "age_seconds": null,
+      "record_ids": []
+    },
+    {
+      "facet_id": "F16",
+      "band": "G",
+      "name": "Physiological observations",
+      "count": 1,
+      "target": 1,
+      "plan_status": "complete",
+      "data_status": "fresh",
+      "coverage": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "latest_observed_at": "2026-09-11T11:59:45Z",
+      "age_seconds": 15,
+      "record_ids": [
+        "demo:F16"
+      ]
+    },
+    {
+      "facet_id": "F17",
+      "band": "G",
+      "name": "Sleep and rest",
+      "count": 0,
+      "target": 1,
+      "plan_status": "missing",
+      "data_status": "missing",
+      "coverage": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "latest_observed_at": null,
+      "age_seconds": null,
+      "record_ids": []
+    },
+    {
+      "facet_id": "F18",
+      "band": "G",
+      "name": "Taste and food experience",
+      "count": 0,
+      "target": 1,
+      "plan_status": "missing",
+      "data_status": "missing",
+      "coverage": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "latest_observed_at": null,
+      "age_seconds": null,
+      "record_ids": []
+    },
+    {
+      "facet_id": "F19",
+      "band": "G",
+      "name": "Smell and air observations",
+      "count": 1,
+      "target": 1,
+      "plan_status": "complete",
+      "data_status": "fresh",
+      "coverage": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "latest_observed_at": "2026-09-11T11:59:45Z",
+      "age_seconds": 15,
+      "record_ids": [
+        "demo:F19"
+      ]
+    },
+    {
+      "facet_id": "F20",
+      "band": "G",
+      "name": "Environmental context",
+      "count": 0,
+      "target": 1,
+      "plan_status": "missing",
+      "data_status": "missing",
+      "coverage": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "latest_observed_at": null,
+      "age_seconds": null,
+      "record_ids": []
+    },
+    {
+      "facet_id": "F21",
+      "band": "B",
+      "name": "Location",
+      "count": 1,
+      "target": 1,
+      "plan_status": "complete",
+      "data_status": "fresh",
+      "coverage": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "latest_observed_at": "2026-09-11T11:59:45Z",
+      "age_seconds": 15,
+      "record_ids": [
+        "demo:F21"
+      ]
+    },
+    {
+      "facet_id": "F22",
+      "band": "B",
+      "name": "Journeys and transport",
+      "count": 0,
+      "target": 1,
+      "plan_status": "missing",
+      "data_status": "missing",
+      "coverage": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "latest_observed_at": null,
+      "age_seconds": null,
+      "record_ids": []
+    },
+    {
+      "facet_id": "F23",
+      "band": "B",
+      "name": "Calendar and routine",
+      "count": 0,
+      "target": 1,
+      "plan_status": "missing",
+      "data_status": "missing",
+      "coverage": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "latest_observed_at": null,
+      "age_seconds": null,
+      "record_ids": []
+    },
+    {
+      "facet_id": "F24",
+      "band": "B",
+      "name": "Application use and screen time",
+      "count": 1,
+      "target": 1,
+      "plan_status": "complete",
+      "data_status": "fresh",
+      "coverage": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "latest_observed_at": "2026-09-11T11:59:45Z",
+      "age_seconds": 15,
+      "record_ids": [
+        "demo:F24"
+      ]
+    },
+    {
+      "facet_id": "F25",
+      "band": "B",
+      "name": "Transactions and activity",
+      "count": 0,
+      "target": 1,
+      "plan_status": "missing",
+      "data_status": "missing",
+      "coverage": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "latest_observed_at": null,
+      "age_seconds": null,
+      "record_ids": []
+    },
+    {
+      "facet_id": "F26",
+      "band": "I",
+      "name": "Authored work",
+      "count": 1,
+      "target": 1,
+      "plan_status": "complete",
+      "data_status": "stale",
+      "coverage": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "latest_observed_at": "2024-06-01T08:00:00Z",
+      "age_seconds": 71899200,
+      "record_ids": [
+        "demo:F26"
+      ]
+    },
+    {
+      "facet_id": "F27",
+      "band": "I",
+      "name": "Learning and skills",
+      "count": 1,
+      "target": 1,
+      "plan_status": "complete",
+      "data_status": "fresh",
+      "coverage": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "latest_observed_at": "2026-09-11T11:59:45Z",
+      "age_seconds": 15,
+      "record_ids": [
+        "demo:F27"
+      ]
+    },
+    {
+      "facet_id": "F28",
+      "band": "I",
+      "name": "Relationships and permissions",
+      "count": 0,
+      "target": 1,
+      "plan_status": "missing",
+      "data_status": "missing",
+      "coverage": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "latest_observed_at": null,
+      "age_seconds": null,
+      "record_ids": []
+    },
+    {
+      "facet_id": "F29",
+      "band": "I",
+      "name": "Experience and self-report",
+      "count": 0,
+      "target": 1,
+      "plan_status": "missing",
+      "data_status": "missing",
+      "coverage": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "latest_observed_at": null,
+      "age_seconds": null,
+      "record_ids": []
+    },
+    {
+      "facet_id": "F30",
+      "band": "I",
+      "name": "Voluntary identity declarations",
+      "count": 1,
+      "target": 1,
+      "plan_status": "complete",
+      "data_status": "time_unknown",
+      "coverage": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "latest_observed_at": null,
+      "age_seconds": null,
+      "record_ids": [
+        "demo:F30"
+      ]
+    },
+    {
+      "facet_id": "F31",
+      "band": "V",
+      "name": "Holder identity records",
+      "count": 1,
+      "target": 1,
+      "plan_status": "complete",
+      "data_status": "fresh",
+      "coverage": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "latest_observed_at": "2026-09-11T11:59:45Z",
+      "age_seconds": 15,
+      "record_ids": [
+        "demo:F31"
+      ]
+    },
+    {
+      "facet_id": "F32",
+      "band": "V",
+      "name": "Issuer credentials",
+      "count": 0,
+      "target": 1,
+      "plan_status": "missing",
+      "data_status": "missing",
+      "coverage": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "latest_observed_at": null,
+      "age_seconds": null,
+      "record_ids": []
+    },
+    {
+      "facet_id": "F33",
+      "band": "V",
+      "name": "Consent and purpose",
+      "count": 0,
+      "target": 1,
+      "plan_status": "missing",
+      "data_status": "missing",
+      "coverage": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "latest_observed_at": null,
+      "age_seconds": null,
+      "record_ids": []
+    },
+    {
+      "facet_id": "F34",
+      "band": "V",
+      "name": "Correction and withdrawal",
+      "count": 0,
+      "target": 1,
+      "plan_status": "missing",
+      "data_status": "missing",
+      "coverage": {
+        "numerator": 0,
+        "denominator": 1
+      },
+      "latest_observed_at": null,
+      "age_seconds": null,
+      "record_ids": []
+    },
+    {
+      "facet_id": "F35",
+      "band": "V",
+      "name": "Provenance and lineage",
+      "count": 1,
+      "target": 1,
+      "plan_status": "complete",
+      "data_status": "fresh",
+      "coverage": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "latest_observed_at": "2026-09-11T11:59:45Z",
+      "age_seconds": 15,
+      "record_ids": [
+        "demo:F35"
+      ]
+    }
+  ],
+  "active_links": 16,
+  "active_objects": 15,
+  "active_unique_bytes": 726,
+  "withdrawn_links": 0,
+  "quarantined_attempts": 0,
+  "duplicate_attempts": 0,
+  "event_count": 16,
+  "event_root": "3abc1b812922e2823ee2229333754f481bedf2fcd786951b0c74dba8e6f38af8",
+  "uu_minimum": {
+    "numerator": 0,
+    "denominator": 1
+  },
+  "declared_plan_complete": false,
+  "coverage_scope": "declared metadata slots only; not all data about the holder",
+  "snapshot_hash": "c0b896101706e4495fd39359b012dddfb9cb76b0540bc5ba9dc16b72618f95b0"
+}

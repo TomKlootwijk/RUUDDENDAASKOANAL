@@ -1,0 +1,1724 @@
+{
+  "snapshot": {
+    "format": "UU-PRISM-SNAPSHOT",
+    "version": "2.1.1",
+    "holder_ref": "holder:synthetic-001",
+    "purpose": "personal_archive_migration",
+    "credential_status": "not_issued",
+    "as_of": "2026-09-11T12:00:00Z",
+    "registry_hash": "13c43edd1ab17f79f9b6b6eb1cfe41487c3f440b2fd7d1a7d13b82f573a74460",
+    "plan": {
+      "F01": 2,
+      "F02": 1,
+      "F03": 1,
+      "F04": 1,
+      "F05": 0,
+      "F06": 1,
+      "F07": 1,
+      "F08": 1,
+      "F09": 1,
+      "F10": 1,
+      "F11": 1,
+      "F12": 1,
+      "F13": 1,
+      "F14": 1,
+      "F15": 1,
+      "F16": 1,
+      "F17": 1,
+      "F18": 1,
+      "F19": 1,
+      "F20": 1,
+      "F21": 1,
+      "F22": 1,
+      "F23": 1,
+      "F24": 1,
+      "F25": 1,
+      "F26": 1,
+      "F27": 1,
+      "F28": 1,
+      "F29": 1,
+      "F30": 1,
+      "F31": 1,
+      "F32": 1,
+      "F33": 1,
+      "F34": 1,
+      "F35": 1
+    },
+    "facets": [
+      {
+        "facet_id": "F01",
+        "band": "R",
+        "name": "Still imagery",
+        "count": 1,
+        "target": 2,
+        "plan_status": "partial",
+        "data_status": "stale",
+        "coverage": {
+          "numerator": 1,
+          "denominator": 2
+        },
+        "latest_observed_at": "2024-06-01T08:00:00Z",
+        "age_seconds": 71899200,
+        "record_ids": [
+          "demo:F01"
+        ]
+      },
+      {
+        "facet_id": "F02",
+        "band": "R",
+        "name": "Video and visual sequences",
+        "count": 1,
+        "target": 1,
+        "plan_status": "complete",
+        "data_status": "stale",
+        "coverage": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "latest_observed_at": "2024-06-01T08:00:00Z",
+        "age_seconds": 71899200,
+        "record_ids": [
+          "demo:F02"
+        ]
+      },
+      {
+        "facet_id": "F03",
+        "band": "R",
+        "name": "Gaze and fixation",
+        "count": 0,
+        "target": 1,
+        "plan_status": "missing",
+        "data_status": "withdrawn",
+        "coverage": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "latest_observed_at": null,
+        "age_seconds": null,
+        "record_ids": []
+      },
+      {
+        "facet_id": "F04",
+        "band": "R",
+        "name": "Screen and visual context",
+        "count": 0,
+        "target": 1,
+        "plan_status": "missing",
+        "data_status": "missing",
+        "coverage": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "latest_observed_at": null,
+        "age_seconds": null,
+        "record_ids": []
+      },
+      {
+        "facet_id": "F05",
+        "band": "R",
+        "name": "Visual accessibility",
+        "count": 0,
+        "target": 0,
+        "plan_status": "not_planned",
+        "data_status": "missing",
+        "coverage": null,
+        "latest_observed_at": null,
+        "age_seconds": null,
+        "record_ids": []
+      },
+      {
+        "facet_id": "F06",
+        "band": "O",
+        "name": "Audio recordings",
+        "count": 1,
+        "target": 1,
+        "plan_status": "complete",
+        "data_status": "fresh",
+        "coverage": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "latest_observed_at": "2026-09-11T11:59:45Z",
+        "age_seconds": 15,
+        "record_ids": [
+          "demo:F06"
+        ]
+      },
+      {
+        "facet_id": "F07",
+        "band": "O",
+        "name": "Speech and transcripts",
+        "count": 0,
+        "target": 1,
+        "plan_status": "missing",
+        "data_status": "missing",
+        "coverage": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "latest_observed_at": null,
+        "age_seconds": null,
+        "record_ids": []
+      },
+      {
+        "facet_id": "F08",
+        "band": "O",
+        "name": "Acoustic observations",
+        "count": 1,
+        "target": 1,
+        "plan_status": "complete",
+        "data_status": "clock_conflict",
+        "coverage": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "latest_observed_at": "2026-09-11T12:00:15Z",
+        "age_seconds": null,
+        "record_ids": [
+          "demo:F08"
+        ]
+      },
+      {
+        "facet_id": "F09",
+        "band": "O",
+        "name": "Listening history",
+        "count": 0,
+        "target": 1,
+        "plan_status": "missing",
+        "data_status": "missing",
+        "coverage": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "latest_observed_at": null,
+        "age_seconds": null,
+        "record_ids": []
+      },
+      {
+        "facet_id": "F10",
+        "band": "O",
+        "name": "Communication records",
+        "count": 0,
+        "target": 1,
+        "plan_status": "missing",
+        "data_status": "missing",
+        "coverage": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "latest_observed_at": null,
+        "age_seconds": null,
+        "record_ids": []
+      },
+      {
+        "facet_id": "F11",
+        "band": "Y",
+        "name": "Touch and pressure",
+        "count": 1,
+        "target": 1,
+        "plan_status": "complete",
+        "data_status": "fresh",
+        "coverage": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "latest_observed_at": "2026-09-11T11:59:45Z",
+        "age_seconds": 15,
+        "record_ids": [
+          "demo:F11"
+        ]
+      },
+      {
+        "facet_id": "F12",
+        "band": "Y",
+        "name": "Haptic interactions",
+        "count": 0,
+        "target": 1,
+        "plan_status": "missing",
+        "data_status": "missing",
+        "coverage": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "latest_observed_at": null,
+        "age_seconds": null,
+        "record_ids": []
+      },
+      {
+        "facet_id": "F13",
+        "band": "Y",
+        "name": "Movement and acceleration",
+        "count": 1,
+        "target": 1,
+        "plan_status": "complete",
+        "data_status": "fresh",
+        "coverage": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "latest_observed_at": "2026-09-11T11:59:45Z",
+        "age_seconds": 15,
+        "record_ids": [
+          "demo:F13"
+        ]
+      },
+      {
+        "facet_id": "F14",
+        "band": "Y",
+        "name": "Posture and proprioception",
+        "count": 0,
+        "target": 1,
+        "plan_status": "missing",
+        "data_status": "missing",
+        "coverage": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "latest_observed_at": null,
+        "age_seconds": null,
+        "record_ids": []
+      },
+      {
+        "facet_id": "F15",
+        "band": "Y",
+        "name": "Balance and orientation",
+        "count": 0,
+        "target": 1,
+        "plan_status": "missing",
+        "data_status": "missing",
+        "coverage": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "latest_observed_at": null,
+        "age_seconds": null,
+        "record_ids": []
+      },
+      {
+        "facet_id": "F16",
+        "band": "G",
+        "name": "Physiological observations",
+        "count": 1,
+        "target": 1,
+        "plan_status": "complete",
+        "data_status": "fresh",
+        "coverage": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "latest_observed_at": "2026-09-11T11:59:45Z",
+        "age_seconds": 15,
+        "record_ids": [
+          "demo:F16"
+        ]
+      },
+      {
+        "facet_id": "F17",
+        "band": "G",
+        "name": "Sleep and rest",
+        "count": 0,
+        "target": 1,
+        "plan_status": "missing",
+        "data_status": "missing",
+        "coverage": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "latest_observed_at": null,
+        "age_seconds": null,
+        "record_ids": []
+      },
+      {
+        "facet_id": "F18",
+        "band": "G",
+        "name": "Taste and food experience",
+        "count": 0,
+        "target": 1,
+        "plan_status": "missing",
+        "data_status": "missing",
+        "coverage": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "latest_observed_at": null,
+        "age_seconds": null,
+        "record_ids": []
+      },
+      {
+        "facet_id": "F19",
+        "band": "G",
+        "name": "Smell and air observations",
+        "count": 1,
+        "target": 1,
+        "plan_status": "complete",
+        "data_status": "fresh",
+        "coverage": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "latest_observed_at": "2026-09-11T11:59:45Z",
+        "age_seconds": 15,
+        "record_ids": [
+          "demo:F19"
+        ]
+      },
+      {
+        "facet_id": "F20",
+        "band": "G",
+        "name": "Environmental context",
+        "count": 0,
+        "target": 1,
+        "plan_status": "missing",
+        "data_status": "missing",
+        "coverage": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "latest_observed_at": null,
+        "age_seconds": null,
+        "record_ids": []
+      },
+      {
+        "facet_id": "F21",
+        "band": "B",
+        "name": "Location",
+        "count": 1,
+        "target": 1,
+        "plan_status": "complete",
+        "data_status": "fresh",
+        "coverage": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "latest_observed_at": "2026-09-11T11:59:45Z",
+        "age_seconds": 15,
+        "record_ids": [
+          "demo:F21"
+        ]
+      },
+      {
+        "facet_id": "F22",
+        "band": "B",
+        "name": "Journeys and transport",
+        "count": 0,
+        "target": 1,
+        "plan_status": "missing",
+        "data_status": "missing",
+        "coverage": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "latest_observed_at": null,
+        "age_seconds": null,
+        "record_ids": []
+      },
+      {
+        "facet_id": "F23",
+        "band": "B",
+        "name": "Calendar and routine",
+        "count": 0,
+        "target": 1,
+        "plan_status": "missing",
+        "data_status": "missing",
+        "coverage": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "latest_observed_at": null,
+        "age_seconds": null,
+        "record_ids": []
+      },
+      {
+        "facet_id": "F24",
+        "band": "B",
+        "name": "Application use and screen time",
+        "count": 1,
+        "target": 1,
+        "plan_status": "complete",
+        "data_status": "fresh",
+        "coverage": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "latest_observed_at": "2026-09-11T11:59:49Z",
+        "age_seconds": 11,
+        "record_ids": [
+          "demo:F24"
+        ]
+      },
+      {
+        "facet_id": "F25",
+        "band": "B",
+        "name": "Transactions and activity",
+        "count": 0,
+        "target": 1,
+        "plan_status": "missing",
+        "data_status": "missing",
+        "coverage": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "latest_observed_at": null,
+        "age_seconds": null,
+        "record_ids": []
+      },
+      {
+        "facet_id": "F26",
+        "band": "I",
+        "name": "Authored work",
+        "count": 1,
+        "target": 1,
+        "plan_status": "complete",
+        "data_status": "stale",
+        "coverage": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "latest_observed_at": "2024-06-01T08:00:00Z",
+        "age_seconds": 71899200,
+        "record_ids": [
+          "demo:F26"
+        ]
+      },
+      {
+        "facet_id": "F27",
+        "band": "I",
+        "name": "Learning and skills",
+        "count": 1,
+        "target": 1,
+        "plan_status": "complete",
+        "data_status": "fresh",
+        "coverage": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "latest_observed_at": "2026-09-11T11:59:45Z",
+        "age_seconds": 15,
+        "record_ids": [
+          "demo:F27"
+        ]
+      },
+      {
+        "facet_id": "F28",
+        "band": "I",
+        "name": "Relationships and permissions",
+        "count": 0,
+        "target": 1,
+        "plan_status": "missing",
+        "data_status": "missing",
+        "coverage": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "latest_observed_at": null,
+        "age_seconds": null,
+        "record_ids": []
+      },
+      {
+        "facet_id": "F29",
+        "band": "I",
+        "name": "Experience and self-report",
+        "count": 0,
+        "target": 1,
+        "plan_status": "missing",
+        "data_status": "missing",
+        "coverage": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "latest_observed_at": null,
+        "age_seconds": null,
+        "record_ids": []
+      },
+      {
+        "facet_id": "F30",
+        "band": "I",
+        "name": "Voluntary identity declarations",
+        "count": 1,
+        "target": 1,
+        "plan_status": "complete",
+        "data_status": "time_unknown",
+        "coverage": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "latest_observed_at": null,
+        "age_seconds": null,
+        "record_ids": [
+          "demo:F30"
+        ]
+      },
+      {
+        "facet_id": "F31",
+        "band": "V",
+        "name": "Holder identity records",
+        "count": 1,
+        "target": 1,
+        "plan_status": "complete",
+        "data_status": "fresh",
+        "coverage": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "latest_observed_at": "2026-09-11T11:59:45Z",
+        "age_seconds": 15,
+        "record_ids": [
+          "demo:F31"
+        ]
+      },
+      {
+        "facet_id": "F32",
+        "band": "V",
+        "name": "Issuer credentials",
+        "count": 0,
+        "target": 1,
+        "plan_status": "missing",
+        "data_status": "missing",
+        "coverage": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "latest_observed_at": null,
+        "age_seconds": null,
+        "record_ids": []
+      },
+      {
+        "facet_id": "F33",
+        "band": "V",
+        "name": "Consent and purpose",
+        "count": 0,
+        "target": 1,
+        "plan_status": "missing",
+        "data_status": "missing",
+        "coverage": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "latest_observed_at": null,
+        "age_seconds": null,
+        "record_ids": []
+      },
+      {
+        "facet_id": "F34",
+        "band": "V",
+        "name": "Correction and withdrawal",
+        "count": 0,
+        "target": 1,
+        "plan_status": "missing",
+        "data_status": "missing",
+        "coverage": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "latest_observed_at": null,
+        "age_seconds": null,
+        "record_ids": []
+      },
+      {
+        "facet_id": "F35",
+        "band": "V",
+        "name": "Provenance and lineage",
+        "count": 1,
+        "target": 1,
+        "plan_status": "complete",
+        "data_status": "fresh",
+        "coverage": {
+          "numerator": 1,
+          "denominator": 1
+        },
+        "latest_observed_at": "2026-09-11T11:59:45Z",
+        "age_seconds": 15,
+        "record_ids": [
+          "demo:F35"
+        ]
+      }
+    ],
+    "active_links": 15,
+    "active_objects": 14,
+    "active_unique_bytes": 667,
+    "withdrawn_links": 1,
+    "quarantined_attempts": 4,
+    "duplicate_attempts": 1,
+    "event_count": 18,
+    "event_root": "ed443db9f86b931fa8014d3d39305bf9b9f44fe954ea2932d0c96e13f1f48269",
+    "uu_minimum": {
+      "numerator": 0,
+      "denominator": 1
+    },
+    "declared_plan_complete": false,
+    "coverage_scope": "declared metadata slots only; not all data about the holder",
+    "snapshot_hash": "5119d9587e7b91c48040a21d32d96982a27ccc470382adb0a21e1185696f7ace"
+  },
+  "registry": {
+    "version": "2.1.1",
+    "profile": "UU-PRISM-35-1",
+    "bands": [
+      {
+        "code": "R",
+        "color_name": "Red",
+        "hex": "#C43B3B",
+        "name": "Vision and visual context"
+      },
+      {
+        "code": "O",
+        "color_name": "Orange",
+        "hex": "#D87518",
+        "name": "Sound and language"
+      },
+      {
+        "code": "Y",
+        "color_name": "Yellow",
+        "hex": "#D3AD24",
+        "name": "Touch, motion and orientation"
+      },
+      {
+        "code": "G",
+        "color_name": "Green",
+        "hex": "#26835D",
+        "name": "Body, chemical senses and environment"
+      },
+      {
+        "code": "B",
+        "color_name": "Blue",
+        "hex": "#2875B6",
+        "name": "Place, activity and time"
+      },
+      {
+        "code": "I",
+        "color_name": "Indigo",
+        "hex": "#514FA3",
+        "name": "Expression, learning and relationships"
+      },
+      {
+        "code": "V",
+        "color_name": "Violet",
+        "hex": "#914DA8",
+        "name": "Identity, rights and provenance"
+      }
+    ],
+    "facets": [
+      {
+        "id": "F01",
+        "band": "R",
+        "name": "Still imagery",
+        "meaning": "Photo/export references; capture metadata",
+        "freshness_seconds": 86400,
+        "default_visibility": "private",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F02",
+        "band": "R",
+        "name": "Video and visual sequences",
+        "meaning": "Video references; frame and capture context",
+        "freshness_seconds": 86400,
+        "default_visibility": "private",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F03",
+        "band": "R",
+        "name": "Gaze and fixation",
+        "meaning": "Holder-authorized gaze coordinates; calibration record",
+        "freshness_seconds": 60,
+        "default_visibility": "restricted",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F04",
+        "band": "R",
+        "name": "Screen and visual context",
+        "meaning": "Selected window or screen-event export",
+        "freshness_seconds": 300,
+        "default_visibility": "restricted",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F05",
+        "band": "R",
+        "name": "Visual accessibility",
+        "meaning": "Holder-entered visual-access requirements",
+        "freshness_seconds": 2592000,
+        "default_visibility": "restricted",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F06",
+        "band": "O",
+        "name": "Audio recordings",
+        "meaning": "Holder-owned audio references; recorded context",
+        "freshness_seconds": 86400,
+        "default_visibility": "private",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F07",
+        "band": "O",
+        "name": "Speech and transcripts",
+        "meaning": "Approved speech/transcript export; speaker permission",
+        "freshness_seconds": 86400,
+        "default_visibility": "restricted",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F08",
+        "band": "O",
+        "name": "Acoustic observations",
+        "meaning": "Sound-level/frequency measurements with units",
+        "freshness_seconds": 60,
+        "default_visibility": "private",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F09",
+        "band": "O",
+        "name": "Listening history",
+        "meaning": "Holder-exported playback and listening events",
+        "freshness_seconds": 3600,
+        "default_visibility": "private",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F10",
+        "band": "O",
+        "name": "Communication records",
+        "meaning": "Approved message metadata; third-party minimization",
+        "freshness_seconds": 86400,
+        "default_visibility": "restricted",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F11",
+        "band": "Y",
+        "name": "Touch and pressure",
+        "meaning": "Contact, pressure or surface-temperature observations",
+        "freshness_seconds": 60,
+        "default_visibility": "restricted",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F12",
+        "band": "Y",
+        "name": "Haptic interactions",
+        "meaning": "Holder device haptic input/output event log",
+        "freshness_seconds": 60,
+        "default_visibility": "private",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F13",
+        "band": "Y",
+        "name": "Movement and acceleration",
+        "meaning": "Authorized motion/IMU observations",
+        "freshness_seconds": 60,
+        "default_visibility": "restricted",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F14",
+        "band": "Y",
+        "name": "Posture and proprioception",
+        "meaning": "Recorded posture or holder-reported body position",
+        "freshness_seconds": 60,
+        "default_visibility": "restricted",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F15",
+        "band": "Y",
+        "name": "Balance and orientation",
+        "meaning": "Authorized orientation/balance observations",
+        "freshness_seconds": 60,
+        "default_visibility": "restricted",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F16",
+        "band": "G",
+        "name": "Physiological observations",
+        "meaning": "Holder-approved physiological record references",
+        "freshness_seconds": 300,
+        "default_visibility": "restricted",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F17",
+        "band": "G",
+        "name": "Sleep and rest",
+        "meaning": "Holder-exported sleep/rest records",
+        "freshness_seconds": 86400,
+        "default_visibility": "restricted",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F18",
+        "band": "G",
+        "name": "Taste and food experience",
+        "meaning": "Voluntary sensory journal; no inferred preference",
+        "freshness_seconds": 86400,
+        "default_visibility": "restricted",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F19",
+        "band": "G",
+        "name": "Smell and air observations",
+        "meaning": "Voluntary smell journal or labelled air-sensor record",
+        "freshness_seconds": 300,
+        "default_visibility": "restricted",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F20",
+        "band": "G",
+        "name": "Environmental context",
+        "meaning": "Ambient temperature, light or environmental record",
+        "freshness_seconds": 300,
+        "default_visibility": "private",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F21",
+        "band": "B",
+        "name": "Location",
+        "meaning": "Holder-authorized place record; coarse view by default",
+        "freshness_seconds": 300,
+        "default_visibility": "restricted",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F22",
+        "band": "B",
+        "name": "Journeys and transport",
+        "meaning": "Approved journey/export references",
+        "freshness_seconds": 3600,
+        "default_visibility": "restricted",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F23",
+        "band": "B",
+        "name": "Calendar and routine",
+        "meaning": "Selected appointments and holder-defined routines",
+        "freshness_seconds": 86400,
+        "default_visibility": "private",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F24",
+        "band": "B",
+        "name": "Application use and screen time",
+        "meaning": "Holder-exported session durations",
+        "freshness_seconds": 3600,
+        "default_visibility": "restricted",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F25",
+        "band": "B",
+        "name": "Transactions and activity",
+        "meaning": "Selected receipts or activity records; no wealth score",
+        "freshness_seconds": 2592000,
+        "default_visibility": "restricted",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F26",
+        "band": "I",
+        "name": "Authored work",
+        "meaning": "Holder-authored documents and creative-work references",
+        "freshness_seconds": 2592000,
+        "default_visibility": "private",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F27",
+        "band": "I",
+        "name": "Learning and skills",
+        "meaning": "Courses, projects and holder-maintained skills records",
+        "freshness_seconds": 2592000,
+        "default_visibility": "private",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F28",
+        "band": "I",
+        "name": "Relationships and permissions",
+        "meaning": "Selected contact permissions, not a social graph",
+        "freshness_seconds": 2592000,
+        "default_visibility": "restricted",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F29",
+        "band": "I",
+        "name": "Experience and self-report",
+        "meaning": "Voluntary journal entries; no mental-state inference",
+        "freshness_seconds": 86400,
+        "default_visibility": "restricted",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F30",
+        "band": "I",
+        "name": "Voluntary identity declarations",
+        "meaning": "Optional self-description, belief or sexuality; private",
+        "freshness_seconds": 2592000,
+        "default_visibility": "restricted",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F31",
+        "band": "V",
+        "name": "Holder identity records",
+        "meaning": "Private holder anchor and approved identity references",
+        "freshness_seconds": 2592000,
+        "default_visibility": "restricted",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F32",
+        "band": "V",
+        "name": "Issuer credentials",
+        "meaning": "Credential references with issuer and verification status",
+        "freshness_seconds": 2592000,
+        "default_visibility": "restricted",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F33",
+        "band": "V",
+        "name": "Consent and purpose",
+        "meaning": "Permission receipts; scope and expiry",
+        "freshness_seconds": 86400,
+        "default_visibility": "private",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F34",
+        "band": "V",
+        "name": "Correction and withdrawal",
+        "meaning": "Correction, revocation and retention decisions",
+        "freshness_seconds": 86400,
+        "default_visibility": "private",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      },
+      {
+        "id": "F35",
+        "band": "V",
+        "name": "Provenance and lineage",
+        "meaning": "Source manifest, transform version and integrity references",
+        "freshness_seconds": 86400,
+        "default_visibility": "private",
+        "default_enabled": false,
+        "label_semantics": "data facet, not a person category",
+        "origin": "V2.1.1 design construction"
+      }
+    ],
+    "totality": "extensible registry; not a claim that every human experience is measured"
+  },
+  "records": {
+    "demo:F01": {
+      "record_id": "demo:F01",
+      "holder_ref": "holder:synthetic-001",
+      "facet_id": "F01",
+      "source_ref": "synthetic:object:0",
+      "source_kind": "synthetic",
+      "permission": "granted",
+      "permission_ref": "synthetic:grant:001",
+      "link_status": "holder_confirmed",
+      "observed_at": "2024-06-01T08:00:00Z",
+      "received_at": "2026-09-11T11:59:00Z",
+      "payload_sha256": "900e0f9bf7becc0f04fa33cfcc68d6f1c9858276b3be3efb7662ace0224347ea",
+      "byte_size": 48,
+      "assertion_kind": "synthetic"
+    },
+    "demo:F02": {
+      "record_id": "demo:F02",
+      "holder_ref": "holder:synthetic-001",
+      "facet_id": "F02",
+      "source_ref": "synthetic:object:0",
+      "source_kind": "synthetic",
+      "permission": "granted",
+      "permission_ref": "synthetic:grant:001",
+      "link_status": "holder_confirmed",
+      "observed_at": "2024-06-01T08:00:00Z",
+      "received_at": "2026-09-11T11:59:01Z",
+      "payload_sha256": "900e0f9bf7becc0f04fa33cfcc68d6f1c9858276b3be3efb7662ace0224347ea",
+      "byte_size": 48,
+      "assertion_kind": "synthetic"
+    },
+    "demo:F03": {
+      "record_id": "demo:F03",
+      "holder_ref": "holder:synthetic-001",
+      "facet_id": "F03",
+      "source_ref": "synthetic:object:2",
+      "source_kind": "synthetic",
+      "permission": "granted",
+      "permission_ref": "synthetic:grant:001",
+      "link_status": "holder_confirmed",
+      "observed_at": "2026-09-11T11:59:45Z",
+      "received_at": "2026-09-11T11:59:02Z",
+      "payload_sha256": "f7575d81ffbd8e8eba812efe6374c6c73d1d903ce05b71d43fcbe44bd42aaf61",
+      "byte_size": 48,
+      "assertion_kind": "synthetic"
+    },
+    "demo:F06": {
+      "record_id": "demo:F06",
+      "holder_ref": "holder:synthetic-001",
+      "facet_id": "F06",
+      "source_ref": "synthetic:object:3",
+      "source_kind": "synthetic",
+      "permission": "granted",
+      "permission_ref": "synthetic:grant:001",
+      "link_status": "holder_confirmed",
+      "observed_at": "2026-09-11T11:59:45Z",
+      "received_at": "2026-09-11T11:59:03Z",
+      "payload_sha256": "af3c3be44f472b7e1120108d1242b751b2de4443d2b538a51c3ef2d9aa3e271d",
+      "byte_size": 48,
+      "assertion_kind": "synthetic"
+    },
+    "demo:F08": {
+      "record_id": "demo:F08",
+      "holder_ref": "holder:synthetic-001",
+      "facet_id": "F08",
+      "source_ref": "synthetic:object:4",
+      "source_kind": "synthetic",
+      "permission": "granted",
+      "permission_ref": "synthetic:grant:001",
+      "link_status": "holder_confirmed",
+      "observed_at": "2026-09-11T12:00:15Z",
+      "received_at": "2026-09-11T11:59:04Z",
+      "payload_sha256": "5e60f5797e5a3936fa0ae32e0efce52bec9c802eb8998090c311b07eb025d517",
+      "byte_size": 48,
+      "assertion_kind": "synthetic"
+    },
+    "demo:F11": {
+      "record_id": "demo:F11",
+      "holder_ref": "holder:synthetic-001",
+      "facet_id": "F11",
+      "source_ref": "synthetic:object:5",
+      "source_kind": "synthetic",
+      "permission": "granted",
+      "permission_ref": "synthetic:grant:001",
+      "link_status": "holder_confirmed",
+      "observed_at": "2026-09-11T11:59:45Z",
+      "received_at": "2026-09-11T11:59:05Z",
+      "payload_sha256": "2ea1bb821612d67ad32861ed6e2e7a24a8da2b43ad01ea3da77ebcd950e9273f",
+      "byte_size": 48,
+      "assertion_kind": "synthetic"
+    },
+    "demo:F13": {
+      "record_id": "demo:F13",
+      "holder_ref": "holder:synthetic-001",
+      "facet_id": "F13",
+      "source_ref": "synthetic:object:6",
+      "source_kind": "synthetic",
+      "permission": "granted",
+      "permission_ref": "synthetic:grant:001",
+      "link_status": "holder_confirmed",
+      "observed_at": "2026-09-11T11:59:45Z",
+      "received_at": "2026-09-11T11:59:06Z",
+      "payload_sha256": "ea5aa83ce2e0d7fe0d1c3c0908e4cd0c021d865ee13946121b6488a4fcf4f007",
+      "byte_size": 48,
+      "assertion_kind": "synthetic"
+    },
+    "demo:F16": {
+      "record_id": "demo:F16",
+      "holder_ref": "holder:synthetic-001",
+      "facet_id": "F16",
+      "source_ref": "synthetic:object:7",
+      "source_kind": "synthetic",
+      "permission": "granted",
+      "permission_ref": "synthetic:grant:001",
+      "link_status": "holder_confirmed",
+      "observed_at": "2026-09-11T11:59:45Z",
+      "received_at": "2026-09-11T11:59:07Z",
+      "payload_sha256": "8eec52a285c11376a6bd9183053319a6355183d5c2162a3d427d71eb4a2c3187",
+      "byte_size": 48,
+      "assertion_kind": "synthetic"
+    },
+    "demo:F19": {
+      "record_id": "demo:F19",
+      "holder_ref": "holder:synthetic-001",
+      "facet_id": "F19",
+      "source_ref": "synthetic:object:8",
+      "source_kind": "synthetic",
+      "permission": "granted",
+      "permission_ref": "synthetic:grant:001",
+      "link_status": "holder_confirmed",
+      "observed_at": "2026-09-11T11:59:45Z",
+      "received_at": "2026-09-11T11:59:08Z",
+      "payload_sha256": "f29f44704cbe96daf4f9fcb3532f6a718df42f86a40639cf0fece082124cc7ae",
+      "byte_size": 48,
+      "assertion_kind": "synthetic"
+    },
+    "demo:F21": {
+      "record_id": "demo:F21",
+      "holder_ref": "holder:synthetic-001",
+      "facet_id": "F21",
+      "source_ref": "synthetic:object:9",
+      "source_kind": "synthetic",
+      "permission": "granted",
+      "permission_ref": "synthetic:grant:001",
+      "link_status": "holder_confirmed",
+      "observed_at": "2026-09-11T11:59:45Z",
+      "received_at": "2026-09-11T11:59:09Z",
+      "payload_sha256": "9ddac26e12501b2063558ea89cf98ec34c4dbf5cc95a27b063519493a769222d",
+      "byte_size": 48,
+      "assertion_kind": "synthetic"
+    },
+    "demo:F24": {
+      "record_id": "demo:F24",
+      "holder_ref": "holder:synthetic-001",
+      "facet_id": "F24",
+      "source_ref": "synthetic:object:10",
+      "source_kind": "synthetic",
+      "permission": "granted",
+      "permission_ref": "synthetic:grant:001",
+      "link_status": "holder_confirmed",
+      "observed_at": "2026-09-11T11:59:49Z",
+      "received_at": "2026-09-11T11:59:50Z",
+      "payload_sha256": "49fbd051a7f8661f8d8f17c3ede6e5c11f45f6a6808820d016a3e4186800b23e",
+      "byte_size": 38,
+      "assertion_kind": "synthetic",
+      "supersedes": "bda7651434e99be5b4025e038bd72f12ddf3d5d6c5c75b0cd686326303ef4415"
+    },
+    "demo:F26": {
+      "record_id": "demo:F26",
+      "holder_ref": "holder:synthetic-001",
+      "facet_id": "F26",
+      "source_ref": "synthetic:object:11",
+      "source_kind": "synthetic",
+      "permission": "granted",
+      "permission_ref": "synthetic:grant:001",
+      "link_status": "holder_confirmed",
+      "observed_at": "2024-06-01T08:00:00Z",
+      "received_at": "2026-09-11T11:59:11Z",
+      "payload_sha256": "f1c7952d7f106aa6552d47cbced6acd19dc772e5f2378c972182e51499d53fbc",
+      "byte_size": 49,
+      "assertion_kind": "synthetic"
+    },
+    "demo:F27": {
+      "record_id": "demo:F27",
+      "holder_ref": "holder:synthetic-001",
+      "facet_id": "F27",
+      "source_ref": "synthetic:object:12",
+      "source_kind": "synthetic",
+      "permission": "granted",
+      "permission_ref": "synthetic:grant:001",
+      "link_status": "holder_confirmed",
+      "observed_at": "2026-09-11T11:59:45Z",
+      "received_at": "2026-09-11T11:59:12Z",
+      "payload_sha256": "4ad67cdff182c3c1e667bcdd66396b4e3ddbff1cffcf80ac584bf7c445383f0b",
+      "byte_size": 49,
+      "assertion_kind": "synthetic"
+    },
+    "demo:F30": {
+      "record_id": "demo:F30",
+      "holder_ref": "holder:synthetic-001",
+      "facet_id": "F30",
+      "source_ref": "synthetic:object:13",
+      "source_kind": "synthetic",
+      "permission": "granted",
+      "permission_ref": "synthetic:grant:001",
+      "link_status": "holder_confirmed",
+      "observed_at": null,
+      "received_at": "2026-09-11T11:59:13Z",
+      "payload_sha256": "e276536facaf6377ee4380e8a843ab8bdce969b4f95b92b60a80105bf30255ff",
+      "byte_size": 49,
+      "assertion_kind": "synthetic"
+    },
+    "demo:F31": {
+      "record_id": "demo:F31",
+      "holder_ref": "holder:synthetic-001",
+      "facet_id": "F31",
+      "source_ref": "synthetic:object:14",
+      "source_kind": "synthetic",
+      "permission": "granted",
+      "permission_ref": "synthetic:grant:001",
+      "link_status": "holder_confirmed",
+      "observed_at": "2026-09-11T11:59:45Z",
+      "received_at": "2026-09-11T11:59:14Z",
+      "payload_sha256": "4181ef4dd556badc11ada4713cb3d2c3025d2e76d3e07a7ce1e858e0dded21a6",
+      "byte_size": 49,
+      "assertion_kind": "synthetic"
+    },
+    "demo:F35": {
+      "record_id": "demo:F35",
+      "holder_ref": "holder:synthetic-001",
+      "facet_id": "F35",
+      "source_ref": "synthetic:object:15",
+      "source_kind": "synthetic",
+      "permission": "granted",
+      "permission_ref": "synthetic:grant:001",
+      "link_status": "holder_confirmed",
+      "observed_at": "2026-09-11T11:59:45Z",
+      "received_at": "2026-09-11T11:59:15Z",
+      "payload_sha256": "4f90541c0fc5c3782cd3fb58ab57ed87a8dd17eca0d2f5094946f1210535f86c",
+      "byte_size": 49,
+      "assertion_kind": "synthetic"
+    }
+  },
+  "withdrawn": [
+    "demo:F03"
+  ],
+  "events": [
+    {
+      "sequence": 1,
+      "kind": "admit",
+      "previous": "0000000000000000000000000000000000000000000000000000000000000000",
+      "body": {
+        "record_id": "demo:F01",
+        "holder_ref": "holder:synthetic-001",
+        "facet_id": "F01",
+        "source_ref": "synthetic:object:0",
+        "source_kind": "synthetic",
+        "permission": "granted",
+        "permission_ref": "synthetic:grant:001",
+        "link_status": "holder_confirmed",
+        "observed_at": "2024-06-01T08:00:00Z",
+        "received_at": "2026-09-11T11:59:00Z",
+        "payload_sha256": "900e0f9bf7becc0f04fa33cfcc68d6f1c9858276b3be3efb7662ace0224347ea",
+        "byte_size": 48,
+        "assertion_kind": "synthetic"
+      },
+      "event_hash": "0694391b56aa2a100af063436153ac3207faac09e545db1175d43d52fc386b08"
+    },
+    {
+      "sequence": 2,
+      "kind": "admit",
+      "previous": "0694391b56aa2a100af063436153ac3207faac09e545db1175d43d52fc386b08",
+      "body": {
+        "record_id": "demo:F02",
+        "holder_ref": "holder:synthetic-001",
+        "facet_id": "F02",
+        "source_ref": "synthetic:object:0",
+        "source_kind": "synthetic",
+        "permission": "granted",
+        "permission_ref": "synthetic:grant:001",
+        "link_status": "holder_confirmed",
+        "observed_at": "2024-06-01T08:00:00Z",
+        "received_at": "2026-09-11T11:59:01Z",
+        "payload_sha256": "900e0f9bf7becc0f04fa33cfcc68d6f1c9858276b3be3efb7662ace0224347ea",
+        "byte_size": 48,
+        "assertion_kind": "synthetic"
+      },
+      "event_hash": "8b7cac58e736e2896bc1c035f885b275a119372fd55cf6cd03a0ab1a934a5b06"
+    },
+    {
+      "sequence": 3,
+      "kind": "admit",
+      "previous": "8b7cac58e736e2896bc1c035f885b275a119372fd55cf6cd03a0ab1a934a5b06",
+      "body": {
+        "record_id": "demo:F03",
+        "holder_ref": "holder:synthetic-001",
+        "facet_id": "F03",
+        "source_ref": "synthetic:object:2",
+        "source_kind": "synthetic",
+        "permission": "granted",
+        "permission_ref": "synthetic:grant:001",
+        "link_status": "holder_confirmed",
+        "observed_at": "2026-09-11T11:59:45Z",
+        "received_at": "2026-09-11T11:59:02Z",
+        "payload_sha256": "f7575d81ffbd8e8eba812efe6374c6c73d1d903ce05b71d43fcbe44bd42aaf61",
+        "byte_size": 48,
+        "assertion_kind": "synthetic"
+      },
+      "event_hash": "1afdac835fa46cac674e8d550934f3f29c5071cb4558ceb5d63a79e71a3d8f06"
+    },
+    {
+      "sequence": 4,
+      "kind": "admit",
+      "previous": "1afdac835fa46cac674e8d550934f3f29c5071cb4558ceb5d63a79e71a3d8f06",
+      "body": {
+        "record_id": "demo:F06",
+        "holder_ref": "holder:synthetic-001",
+        "facet_id": "F06",
+        "source_ref": "synthetic:object:3",
+        "source_kind": "synthetic",
+        "permission": "granted",
+        "permission_ref": "synthetic:grant:001",
+        "link_status": "holder_confirmed",
+        "observed_at": "2026-09-11T11:59:45Z",
+        "received_at": "2026-09-11T11:59:03Z",
+        "payload_sha256": "af3c3be44f472b7e1120108d1242b751b2de4443d2b538a51c3ef2d9aa3e271d",
+        "byte_size": 48,
+        "assertion_kind": "synthetic"
+      },
+      "event_hash": "6fd8c69b337fa00e9e11e1cff12ad79f744ee6f510b16f673e3fc91b19e96dc2"
+    },
+    {
+      "sequence": 5,
+      "kind": "admit",
+      "previous": "6fd8c69b337fa00e9e11e1cff12ad79f744ee6f510b16f673e3fc91b19e96dc2",
+      "body": {
+        "record_id": "demo:F08",
+        "holder_ref": "holder:synthetic-001",
+        "facet_id": "F08",
+        "source_ref": "synthetic:object:4",
+        "source_kind": "synthetic",
+        "permission": "granted",
+        "permission_ref": "synthetic:grant:001",
+        "link_status": "holder_confirmed",
+        "observed_at": "2026-09-11T12:00:15Z",
+        "received_at": "2026-09-11T11:59:04Z",
+        "payload_sha256": "5e60f5797e5a3936fa0ae32e0efce52bec9c802eb8998090c311b07eb025d517",
+        "byte_size": 48,
+        "assertion_kind": "synthetic"
+      },
+      "event_hash": "23ce14ecf355ef591543b68ad90f1c2fa1eaf81c93f382288e8e48b0314b641b"
+    },
+    {
+      "sequence": 6,
+      "kind": "admit",
+      "previous": "23ce14ecf355ef591543b68ad90f1c2fa1eaf81c93f382288e8e48b0314b641b",
+      "body": {
+        "record_id": "demo:F11",
+        "holder_ref": "holder:synthetic-001",
+        "facet_id": "F11",
+        "source_ref": "synthetic:object:5",
+        "source_kind": "synthetic",
+        "permission": "granted",
+        "permission_ref": "synthetic:grant:001",
+        "link_status": "holder_confirmed",
+        "observed_at": "2026-09-11T11:59:45Z",
+        "received_at": "2026-09-11T11:59:05Z",
+        "payload_sha256": "2ea1bb821612d67ad32861ed6e2e7a24a8da2b43ad01ea3da77ebcd950e9273f",
+        "byte_size": 48,
+        "assertion_kind": "synthetic"
+      },
+      "event_hash": "2f40476a537150ebb38d21db5f3b0f1fb7b8958835b3a41a2532c9e000c1e826"
+    },
+    {
+      "sequence": 7,
+      "kind": "admit",
+      "previous": "2f40476a537150ebb38d21db5f3b0f1fb7b8958835b3a41a2532c9e000c1e826",
+      "body": {
+        "record_id": "demo:F13",
+        "holder_ref": "holder:synthetic-001",
+        "facet_id": "F13",
+        "source_ref": "synthetic:object:6",
+        "source_kind": "synthetic",
+        "permission": "granted",
+        "permission_ref": "synthetic:grant:001",
+        "link_status": "holder_confirmed",
+        "observed_at": "2026-09-11T11:59:45Z",
+        "received_at": "2026-09-11T11:59:06Z",
+        "payload_sha256": "ea5aa83ce2e0d7fe0d1c3c0908e4cd0c021d865ee13946121b6488a4fcf4f007",
+        "byte_size": 48,
+        "assertion_kind": "synthetic"
+      },
+      "event_hash": "cd54b9bce9fa7bb1bf378a06711569aa6b2546634770ae3fa09247e20bc3183b"
+    },
+    {
+      "sequence": 8,
+      "kind": "admit",
+      "previous": "cd54b9bce9fa7bb1bf378a06711569aa6b2546634770ae3fa09247e20bc3183b",
+      "body": {
+        "record_id": "demo:F16",
+        "holder_ref": "holder:synthetic-001",
+        "facet_id": "F16",
+        "source_ref": "synthetic:object:7",
+        "source_kind": "synthetic",
+        "permission": "granted",
+        "permission_ref": "synthetic:grant:001",
+        "link_status": "holder_confirmed",
+        "observed_at": "2026-09-11T11:59:45Z",
+        "received_at": "2026-09-11T11:59:07Z",
+        "payload_sha256": "8eec52a285c11376a6bd9183053319a6355183d5c2162a3d427d71eb4a2c3187",
+        "byte_size": 48,
+        "assertion_kind": "synthetic"
+      },
+      "event_hash": "d1cdd9dd85a1b864d4276e404f76aed470e03a626dac46a11d38693e0455e3ae"
+    },
+    {
+      "sequence": 9,
+      "kind": "admit",
+      "previous": "d1cdd9dd85a1b864d4276e404f76aed470e03a626dac46a11d38693e0455e3ae",
+      "body": {
+        "record_id": "demo:F19",
+        "holder_ref": "holder:synthetic-001",
+        "facet_id": "F19",
+        "source_ref": "synthetic:object:8",
+        "source_kind": "synthetic",
+        "permission": "granted",
+        "permission_ref": "synthetic:grant:001",
+        "link_status": "holder_confirmed",
+        "observed_at": "2026-09-11T11:59:45Z",
+        "received_at": "2026-09-11T11:59:08Z",
+        "payload_sha256": "f29f44704cbe96daf4f9fcb3532f6a718df42f86a40639cf0fece082124cc7ae",
+        "byte_size": 48,
+        "assertion_kind": "synthetic"
+      },
+      "event_hash": "db6c1c3525f3225b27e5937cdc628082fcd93c04b30154fcb0e5bf26043eb34a"
+    },
+    {
+      "sequence": 10,
+      "kind": "admit",
+      "previous": "db6c1c3525f3225b27e5937cdc628082fcd93c04b30154fcb0e5bf26043eb34a",
+      "body": {
+        "record_id": "demo:F21",
+        "holder_ref": "holder:synthetic-001",
+        "facet_id": "F21",
+        "source_ref": "synthetic:object:9",
+        "source_kind": "synthetic",
+        "permission": "granted",
+        "permission_ref": "synthetic:grant:001",
+        "link_status": "holder_confirmed",
+        "observed_at": "2026-09-11T11:59:45Z",
+        "received_at": "2026-09-11T11:59:09Z",
+        "payload_sha256": "9ddac26e12501b2063558ea89cf98ec34c4dbf5cc95a27b063519493a769222d",
+        "byte_size": 48,
+        "assertion_kind": "synthetic"
+      },
+      "event_hash": "fecded7e562d874775839ca1b969448096fa0caecb63541b75808142d4870cf9"
+    },
+    {
+      "sequence": 11,
+      "kind": "admit",
+      "previous": "fecded7e562d874775839ca1b969448096fa0caecb63541b75808142d4870cf9",
+      "body": {
+        "record_id": "demo:F24",
+        "holder_ref": "holder:synthetic-001",
+        "facet_id": "F24",
+        "source_ref": "synthetic:object:10",
+        "source_kind": "synthetic",
+        "permission": "granted",
+        "permission_ref": "synthetic:grant:001",
+        "link_status": "holder_confirmed",
+        "observed_at": "2026-09-11T11:59:45Z",
+        "received_at": "2026-09-11T11:59:10Z",
+        "payload_sha256": "019efdecc176585e2dcdef0f68217f82c4b76fb61338c1a5479edbf3cd25c05f",
+        "byte_size": 49,
+        "assertion_kind": "synthetic"
+      },
+      "event_hash": "5d34f8865ef69b680b23bf589a6a9d312efd3f89ff627117d4725c2c28099708"
+    },
+    {
+      "sequence": 12,
+      "kind": "admit",
+      "previous": "5d34f8865ef69b680b23bf589a6a9d312efd3f89ff627117d4725c2c28099708",
+      "body": {
+        "record_id": "demo:F26",
+        "holder_ref": "holder:synthetic-001",
+        "facet_id": "F26",
+        "source_ref": "synthetic:object:11",
+        "source_kind": "synthetic",
+        "permission": "granted",
+        "permission_ref": "synthetic:grant:001",
+        "link_status": "holder_confirmed",
+        "observed_at": "2024-06-01T08:00:00Z",
+        "received_at": "2026-09-11T11:59:11Z",
+        "payload_sha256": "f1c7952d7f106aa6552d47cbced6acd19dc772e5f2378c972182e51499d53fbc",
+        "byte_size": 49,
+        "assertion_kind": "synthetic"
+      },
+      "event_hash": "e249d5776c074a98d6364de76aea0d29a803f8c71742894cabb447089dc43add"
+    },
+    {
+      "sequence": 13,
+      "kind": "admit",
+      "previous": "e249d5776c074a98d6364de76aea0d29a803f8c71742894cabb447089dc43add",
+      "body": {
+        "record_id": "demo:F27",
+        "holder_ref": "holder:synthetic-001",
+        "facet_id": "F27",
+        "source_ref": "synthetic:object:12",
+        "source_kind": "synthetic",
+        "permission": "granted",
+        "permission_ref": "synthetic:grant:001",
+        "link_status": "holder_confirmed",
+        "observed_at": "2026-09-11T11:59:45Z",
+        "received_at": "2026-09-11T11:59:12Z",
+        "payload_sha256": "4ad67cdff182c3c1e667bcdd66396b4e3ddbff1cffcf80ac584bf7c445383f0b",
+        "byte_size": 49,
+        "assertion_kind": "synthetic"
+      },
+      "event_hash": "23726b1d5b88ae1816168ae3ab03129163a50eb09b9a9c4e3305bdd909a62466"
+    },
+    {
+      "sequence": 14,
+      "kind": "admit",
+      "previous": "23726b1d5b88ae1816168ae3ab03129163a50eb09b9a9c4e3305bdd909a62466",
+      "body": {
+        "record_id": "demo:F30",
+        "holder_ref": "holder:synthetic-001",
+        "facet_id": "F30",
+        "source_ref": "synthetic:object:13",
+        "source_kind": "synthetic",
+        "permission": "granted",
+        "permission_ref": "synthetic:grant:001",
+        "link_status": "holder_confirmed",
+        "observed_at": null,
+        "received_at": "2026-09-11T11:59:13Z",
+        "payload_sha256": "e276536facaf6377ee4380e8a843ab8bdce969b4f95b92b60a80105bf30255ff",
+        "byte_size": 49,
+        "assertion_kind": "synthetic"
+      },
+      "event_hash": "d9599ab04a41f0df849e5d695a71d92e5721c69ba1537c287c23b3dea904a8e3"
+    },
+    {
+      "sequence": 15,
+      "kind": "admit",
+      "previous": "d9599ab04a41f0df849e5d695a71d92e5721c69ba1537c287c23b3dea904a8e3",
+      "body": {
+        "record_id": "demo:F31",
+        "holder_ref": "holder:synthetic-001",
+        "facet_id": "F31",
+        "source_ref": "synthetic:object:14",
+        "source_kind": "synthetic",
+        "permission": "granted",
+        "permission_ref": "synthetic:grant:001",
+        "link_status": "holder_confirmed",
+        "observed_at": "2026-09-11T11:59:45Z",
+        "received_at": "2026-09-11T11:59:14Z",
+        "payload_sha256": "4181ef4dd556badc11ada4713cb3d2c3025d2e76d3e07a7ce1e858e0dded21a6",
+        "byte_size": 49,
+        "assertion_kind": "synthetic"
+      },
+      "event_hash": "b8a10a5d815de91ed1ac0ca4c05271c820ec2c82ed016565bd5a040f0bd94f82"
+    },
+    {
+      "sequence": 16,
+      "kind": "admit",
+      "previous": "b8a10a5d815de91ed1ac0ca4c05271c820ec2c82ed016565bd5a040f0bd94f82",
+      "body": {
+        "record_id": "demo:F35",
+        "holder_ref": "holder:synthetic-001",
+        "facet_id": "F35",
+        "source_ref": "synthetic:object:15",
+        "source_kind": "synthetic",
+        "permission": "granted",
+        "permission_ref": "synthetic:grant:001",
+        "link_status": "holder_confirmed",
+        "observed_at": "2026-09-11T11:59:45Z",
+        "received_at": "2026-09-11T11:59:15Z",
+        "payload_sha256": "4f90541c0fc5c3782cd3fb58ab57ed87a8dd17eca0d2f5094946f1210535f86c",
+        "byte_size": 49,
+        "assertion_kind": "synthetic"
+      },
+      "event_hash": "3abc1b812922e2823ee2229333754f481bedf2fcd786951b0c74dba8e6f38af8"
+    },
+    {
+      "sequence": 17,
+      "kind": "correct",
+      "previous": "3abc1b812922e2823ee2229333754f481bedf2fcd786951b0c74dba8e6f38af8",
+      "body": {
+        "record_id": "demo:F24",
+        "holder_ref": "holder:synthetic-001",
+        "facet_id": "F24",
+        "source_ref": "synthetic:object:10",
+        "source_kind": "synthetic",
+        "permission": "granted",
+        "permission_ref": "synthetic:grant:001",
+        "link_status": "holder_confirmed",
+        "observed_at": "2026-09-11T11:59:49Z",
+        "received_at": "2026-09-11T11:59:50Z",
+        "payload_sha256": "49fbd051a7f8661f8d8f17c3ede6e5c11f45f6a6808820d016a3e4186800b23e",
+        "byte_size": 38,
+        "assertion_kind": "synthetic",
+        "supersedes": "bda7651434e99be5b4025e038bd72f12ddf3d5d6c5c75b0cd686326303ef4415"
+      },
+      "event_hash": "fb6b8825f93e69e0bdd7ab250f4913dc1854caf3ad0299f9c61e76e5eae8cfd6"
+    },
+    {
+      "sequence": 18,
+      "kind": "withdraw",
+      "previous": "fb6b8825f93e69e0bdd7ab250f4913dc1854caf3ad0299f9c61e76e5eae8cfd6",
+      "body": {
+        "record_id": "demo:F03",
+        "at": "2026-09-11T11:59:55Z"
+      },
+      "event_hash": "ed443db9f86b931fa8014d3d39305bf9b9f44fe954ea2932d0c96e13f1f48269"
+    }
+  ],
+  "rejections": [
+    {
+      "quarantine_sequence": 1,
+      "reason": "holder_mismatch"
+    },
+    {
+      "quarantine_sequence": 2,
+      "reason": "unsupported_inference"
+    },
+    {
+      "quarantine_sequence": 3,
+      "reason": "permission_not_granted"
+    },
+    {
+      "quarantine_sequence": 4,
+      "reason": "unknown_facet"
+    }
+  ],
+  "duplicates": 1,
+  "max_records": 10000
+}

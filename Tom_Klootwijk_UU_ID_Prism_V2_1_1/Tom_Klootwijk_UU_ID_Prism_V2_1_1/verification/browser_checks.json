@@ -1,0 +1,10 @@
+{
+  "renderer": "Chromium / Playwright",
+  "load_mode": "exact shipped HTML via set_content",
+  "facet_rows": 35,
+  "import_view": "passed",
+  "private_view": "passed",
+  "replay_controls": "passed",
+  "javascript_errors": [],
+  "external_network_requests": []
+}

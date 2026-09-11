@@ -1,0 +1,36 @@
+id,band,name,meaning,freshness_seconds,default_visibility,default_enabled,label_semantics,origin
+F01,R,Still imagery,Photo/export references; capture metadata,86400,private,False,"data facet, not a person category",V2.1.1 design construction
+F02,R,Video and visual sequences,Video references; frame and capture context,86400,private,False,"data facet, not a person category",V2.1.1 design construction
+F03,R,Gaze and fixation,Holder-authorized gaze coordinates; calibration record,60,restricted,False,"data facet, not a person category",V2.1.1 design construction
+F04,R,Screen and visual context,Selected window or screen-event export,300,restricted,False,"data facet, not a person category",V2.1.1 design construction
+F05,R,Visual accessibility,Holder-entered visual-access requirements,2592000,restricted,False,"data facet, not a person category",V2.1.1 design construction
+F06,O,Audio recordings,Holder-owned audio references; recorded context,86400,private,False,"data facet, not a person category",V2.1.1 design construction
+F07,O,Speech and transcripts,Approved speech/transcript export; speaker permission,86400,restricted,False,"data facet, not a person category",V2.1.1 design construction
+F08,O,Acoustic observations,Sound-level/frequency measurements with units,60,private,False,"data facet, not a person category",V2.1.1 design construction
+F09,O,Listening history,Holder-exported playback and listening events,3600,private,False,"data facet, not a person category",V2.1.1 design construction
+F10,O,Communication records,Approved message metadata; third-party minimization,86400,restricted,False,"data facet, not a person category",V2.1.1 design construction
+F11,Y,Touch and pressure,"Contact, pressure or surface-temperature observations",60,restricted,False,"data facet, not a person category",V2.1.1 design construction
+F12,Y,Haptic interactions,Holder device haptic input/output event log,60,private,False,"data facet, not a person category",V2.1.1 design construction
+F13,Y,Movement and acceleration,Authorized motion/IMU observations,60,restricted,False,"data facet, not a person category",V2.1.1 design construction
+F14,Y,Posture and proprioception,Recorded posture or holder-reported body position,60,restricted,False,"data facet, not a person category",V2.1.1 design construction
+F15,Y,Balance and orientation,Authorized orientation/balance observations,60,restricted,False,"data facet, not a person category",V2.1.1 design construction
+F16,G,Physiological observations,Holder-approved physiological record references,300,restricted,False,"data facet, not a person category",V2.1.1 design construction
+F17,G,Sleep and rest,Holder-exported sleep/rest records,86400,restricted,False,"data facet, not a person category",V2.1.1 design construction
+F18,G,Taste and food experience,Voluntary sensory journal; no inferred preference,86400,restricted,False,"data facet, not a person category",V2.1.1 design construction
+F19,G,Smell and air observations,Voluntary smell journal or labelled air-sensor record,300,restricted,False,"data facet, not a person category",V2.1.1 design construction
+F20,G,Environmental context,"Ambient temperature, light or environmental record",300,private,False,"data facet, not a person category",V2.1.1 design construction
+F21,B,Location,Holder-authorized place record; coarse view by default,300,restricted,False,"data facet, not a person category",V2.1.1 design construction
+F22,B,Journeys and transport,Approved journey/export references,3600,restricted,False,"data facet, not a person category",V2.1.1 design construction
+F23,B,Calendar and routine,Selected appointments and holder-defined routines,86400,private,False,"data facet, not a person category",V2.1.1 design construction
+F24,B,Application use and screen time,Holder-exported session durations,3600,restricted,False,"data facet, not a person category",V2.1.1 design construction
+F25,B,Transactions and activity,Selected receipts or activity records; no wealth score,2592000,restricted,False,"data facet, not a person category",V2.1.1 design construction
+F26,I,Authored work,Holder-authored documents and creative-work references,2592000,private,False,"data facet, not a person category",V2.1.1 design construction
+F27,I,Learning and skills,"Courses, projects and holder-maintained skills records",2592000,private,False,"data facet, not a person category",V2.1.1 design construction
+F28,I,Relationships and permissions,"Selected contact permissions, not a social graph",2592000,restricted,False,"data facet, not a person category",V2.1.1 design construction
+F29,I,Experience and self-report,Voluntary journal entries; no mental-state inference,86400,restricted,False,"data facet, not a person category",V2.1.1 design construction
+F30,I,Voluntary identity declarations,"Optional self-description, belief or sexuality; private",2592000,restricted,False,"data facet, not a person category",V2.1.1 design construction
+F31,V,Holder identity records,Private holder anchor and approved identity references,2592000,restricted,False,"data facet, not a person category",V2.1.1 design construction
+F32,V,Issuer credentials,Credential references with issuer and verification status,2592000,restricted,False,"data facet, not a person category",V2.1.1 design construction
+F33,V,Consent and purpose,Permission receipts; scope and expiry,86400,private,False,"data facet, not a person category",V2.1.1 design construction
+F34,V,Correction and withdrawal,"Correction, revocation and retention decisions",86400,private,False,"data facet, not a person category",V2.1.1 design construction
+F35,V,Provenance and lineage,"Source manifest, transform version and integrity references",86400,private,False,"data facet, not a person category",V2.1.1 design construction

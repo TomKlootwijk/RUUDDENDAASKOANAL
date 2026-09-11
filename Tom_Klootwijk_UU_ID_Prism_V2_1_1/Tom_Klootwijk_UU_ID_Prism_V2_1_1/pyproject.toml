@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tom-klootwijk-uu-id-prism"
+version = "2.1.1"
+description = "Single-holder UU ID facet projection and offline legacy metadata passport"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]

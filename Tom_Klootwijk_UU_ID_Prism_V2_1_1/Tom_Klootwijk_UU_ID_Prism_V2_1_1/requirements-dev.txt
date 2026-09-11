@@ -1,0 +1,6 @@
+# Optional verification/rebuild tools; the runtime and 66 tests use the stdlib.
+jsonschema>=4
+PyMuPDF>=1.24
+playwright>=1.40
+# A separate Chromium executable is required only by tools/check_viewer.py.
+# The PDF sources use a separate LaTeX installation; nothing is auto-installed.

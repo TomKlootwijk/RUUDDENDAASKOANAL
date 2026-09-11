@@ -1,0 +1,55 @@
+[
+  {
+    "id": "B",
+    "title": "Tom Klootwijk — Unified Field Theory V2.1",
+    "local_file": "baseline/Unified_Field_Theory_V2_1_0.pdf",
+    "pages": 48,
+    "sha256": "d6e5db3a95006b91c92c1ea6787174cf42b27dcc7a2c797561b3167f467bda5f",
+    "role": "Unchanged mathematical and monotheistic baseline; semantic parent 2.1.0"
+  },
+  {
+    "id": "B2",
+    "title": "Tom Klootwijk — Unified Field Theory V2 executable archive",
+    "local_file": "baseline/Unified_Field_Theory_V2_0_0.zip",
+    "sha256": "d01ca98900ee2a755bc93ec7ffee6785cd210e25c917f46ffd56cdf87f74c2b4",
+    "role": "Unchanged executable baseline, original source files and 126-method verification suite"
+  },
+  {
+    "id": "S5",
+    "title": "Pasted markdown.md",
+    "sha256": "bbecc422dd020b7c29be3120e9b2ef82aaf0680a80ea4fb2c237e7daa6b4115e",
+    "role": "User-supplied prism, rainbow, identity and total-harvesting dialogue; source assertions distinguished from new constructions"
+  },
+  {
+    "id": "E1",
+    "title": "PCLOB, Report on the Surveillance Program Operated Pursuant to Section 702 (2023)",
+    "url": "https://documents.pclob.gov/prod/Documents/OversightReport/054417e4-9d20-427a-9850-862a6f29ac42/2023%20PCLOB%20702%20Report%20(002).pdf",
+    "location": "printed pp. 3–4; physical PDF pp. 9–10",
+    "role": "Historical provider/downstream versus backbone/upstream distinction",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "E2",
+    "title": "W3C Verifiable Credentials Data Model v2.0",
+    "url": "https://www.w3.org/TR/2025/REC-vc-data-model-2.0-20250515/",
+    "location": "Sections 1.1–1.2, 8.4 and 8.9",
+    "role": "Issuer/holder/verifier separation; correlation and minimum disclosure",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "E3",
+    "title": "RFC 9562, Universally Unique IDentifiers (UUIDs)",
+    "url": "https://www.rfc-editor.org/rfc/rfc9562.html",
+    "location": "Sections 4, 5.4 and 8",
+    "role": "UUID namespace and the distinction between a locator and an access capability",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "E4",
+    "title": "W3C Understanding WCAG 2.2, Success Criterion 1.4.1: Use of Color",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html",
+    "location": "Success criterion and intent",
+    "role": "Pair the rainbow encoding with text labels, not color alone",
+    "accessed": "2026-09-11"
+  }
+]
