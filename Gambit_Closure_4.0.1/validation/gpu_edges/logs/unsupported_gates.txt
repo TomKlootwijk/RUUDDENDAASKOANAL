@@ -1,0 +1,1 @@
+FAIL: Boolean ALU backend is a CPU conformance oracle, not a CUDA option

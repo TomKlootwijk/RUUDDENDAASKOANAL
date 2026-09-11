@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\src\legacy_host.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\src\engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\src\boolean.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\src\capsule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\src\run.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ECA6636E-D87C-347C-A6E2-7BE89E6F17EA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+========= COMPUTE-SANITIZER
+PASS backend=cuda_checked cells=2112 segment=8 phase=8 level=1 mass=87128
+========= RACECHECK SUMMARY: 0 hazards displayed (0 errors, 0 warnings)

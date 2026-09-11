@@ -1,0 +1,144 @@
+{
+  "schema": "gambit-closure-goldens-4.0",
+  "cases": {
+    "micro_xx": {
+      "asset": "micro_xx.gblut",
+      "steps": 64,
+      "files": {
+        "initial.gbc": "1a0ef03aa45ba86841367c3cc440f354e14ebbcc4cad1a6c08166612da44bb0e",
+        "final.gbc": "226acbab0e19153fd8645d03b250d1ccbfea6692c1bd2e18f8f3a45949515a5f",
+        "words.bin": "bb17f48608e403fba0bb583ff279b3f234499bf05e2c7ec062f9b872306705af",
+        "summary.csv": "22c263811044b07aa0338cf4238fa075a6ee353fa0584bf285184f2917bd2513",
+        "counts.bin": "df3e47491e811b83a573751b855add75bf7da8f6e99ed2dc5457716ef60f2e4b"
+      },
+      "audit": {
+        "status": "PASS",
+        "steps": 64,
+        "cells": 64,
+        "pulse_bits": 4096,
+        "ones": 1623,
+        "total_input": 108606494,
+        "mass": 2779,
+        "endpoint_count_certificate": true,
+        "parity_and_events": true,
+        "complete_historical_input_reconstructed": false
+      }
+    },
+    "micro_xy": {
+      "asset": "micro_xy.gblut",
+      "steps": 64,
+      "files": {
+        "initial.gbc": "61a59c493be0d48e8dec4ede9db270fead6e0f819a150f4b74ebe50f7ba06194",
+        "final.gbc": "9d3a8f1209f1f184c046df2387b4dffb305c766ba6dad0e021836f29e478ea4a",
+        "words.bin": "fc121fd4056e3dd4125d8005b8d6d6d8ec95fbd3f03704e472622321540e9f5a",
+        "summary.csv": "6af3522a5e63a5f933d7f1a9e376ec82906ce3e7886820fa139e5daafe596edf",
+        "counts.bin": "81731b56cb294f5d28d32374b4690c50b2043f32e13d43fce3187c1a34f00543"
+      },
+      "audit": {
+        "status": "PASS",
+        "steps": 64,
+        "cells": 64,
+        "pulse_bits": 4096,
+        "ones": 1603,
+        "total_input": 106923790,
+        "mass": 2766,
+        "endpoint_count_certificate": true,
+        "parity_and_events": true,
+        "complete_historical_input_reconstructed": false
+      }
+    },
+    "verify_xx": {
+      "asset": "verify_xx.gblut",
+      "steps": 64,
+      "files": {
+        "initial.gbc": "14b5041476264094acc4ac11ea79b1e845c707405fc1e17f037f7f48c0403788",
+        "final.gbc": "b01a266f41842ccdfdbe307df126cd5a7789380617c91339bac81c609e1f8207",
+        "words.bin": "091159f9d0d9c146d75a00546b076362e3a6a7fd50c0c64dc42d2180618a551e",
+        "summary.csv": "008ee94a781b66efd7cffeab1323e31feb190b1738a087263eeb7fa833c80ea0",
+        "counts.bin": "16d0277d7eca2d88d24c2da5ebe9e62963089d6c9a552803ca8b1e6259c45e25"
+      },
+      "audit": {
+        "status": "PASS",
+        "steps": 64,
+        "cells": 2112,
+        "pulse_bits": 135168,
+        "ones": 49025,
+        "total_input": 3291229405,
+        "mass": 86047,
+        "endpoint_count_certificate": true,
+        "parity_and_events": true,
+        "complete_historical_input_reconstructed": false
+      }
+    },
+    "verify_xy": {
+      "asset": "verify_xy.gblut",
+      "steps": 64,
+      "files": {
+        "initial.gbc": "3b6065e214caf9b9340ec35b52ae84c372eb88aa1d7405d92fd936b33a9670ba",
+        "final.gbc": "3037c8c5ce7b8bb2e035d1a957fa004e59cbf4374161e56687aceb35f3f5ba0d",
+        "words.bin": "7572eed571baa89cd41f94b6472c5ee5a09d00ae9cdf29cccf5b8845af9509b9",
+        "summary.csv": "2a52dda705691f2d8dae20098ef68772c73ce8b4d572c5763776f9318d56878f",
+        "counts.bin": "9cd1c162a5d3c7ef14514d2ff570d32e3a3689a95c652194bab7d99bec6f2da0"
+      },
+      "audit": {
+        "status": "PASS",
+        "steps": 64,
+        "cells": 2112,
+        "pulse_bits": 135168,
+        "ones": 49015,
+        "total_input": 3290315686,
+        "mass": 87128,
+        "endpoint_count_certificate": true,
+        "parity_and_events": true,
+        "complete_historical_input_reconstructed": false
+      }
+    },
+    "laptop_xx": {
+      "asset": "laptop_xx.gblut",
+      "steps": 256,
+      "files": {
+        "initial.gbc": "81e8a6539bae32d1683b825a9f5c52eb762c5557c8308c0d2d9ba3c98296a2f6",
+        "final.gbc": "1afcdc8248d2405ee1e197d72d4bdcffb39b54be9be4e3e4920e68c71d3db48c",
+        "words.bin": "de53306fcfd81fc44d1765d1a1dc26d18581d75a957c663655f716aa8fab4bbf",
+        "summary.csv": "07f22df9abd4f4487911358122822bb1c30132689dceca1f7a5a3dce2b457f37",
+        "counts.bin": "e44359acb4d1d5a5739b7ca1687308dc1906006618e185d52eb98bddfa351591"
+      },
+      "audit": {
+        "status": "PASS",
+        "steps": 256,
+        "cells": 131072,
+        "pulse_bits": 33554432,
+        "ones": 12169202,
+        "total_input": 802121495571,
+        "mass": 5208103,
+        "endpoint_count_certificate": true,
+        "parity_and_events": true,
+        "complete_historical_input_reconstructed": false
+      }
+    },
+    "laptop_xy": {
+      "asset": "laptop_xy.gblut",
+      "steps": 256,
+      "files": {
+        "initial.gbc": "5cbe7d0f44e766b478aa57f7881c75a529b7265657f491591db1dd397c57fdf3",
+        "final.gbc": "9102b5b6a52ced3a2dcfce15dc75c43087070ef90d02205bc63343282f3a2030",
+        "words.bin": "d58ee3d31f5ab82910ba8383c9394357866a7bb848c34a94e4b5bb94df4d8048",
+        "summary.csv": "b84236e6e8029ab176b6a2e55813b5d61606a1ebd644842f011779842506c14c",
+        "counts.bin": "caa09bf3c3cc9bc1f470972f8da6c5577b0ada24e4b6a9fdac88ffe9141f3bbc"
+      },
+      "audit": {
+        "status": "PASS",
+        "steps": 256,
+        "cells": 131072,
+        "pulse_bits": 33554432,
+        "ones": 12180402,
+        "total_input": 802859545674,
+        "mass": 5217058,
+        "endpoint_count_certificate": true,
+        "parity_and_events": true,
+        "complete_historical_input_reconstructed": false
+      }
+    }
+  },
+  "basis": "Four small cases matched native, Boolean ALU and Python before freezing. Laptop cases are native reference outputs with independent record audits; GPU not executed."
+}

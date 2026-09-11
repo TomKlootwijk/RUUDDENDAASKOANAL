@@ -1,0 +1,400 @@
+{
+  "status": "PASS",
+  "scope": "Post-fix code verification; PDF rendering and delivery audited separately",
+  "checked_utc": "2026-09-11T08:08:18.457707+00:00",
+  "checks": [
+    {
+      "name": "original_release_integrity",
+      "status": "PASS",
+      "evidence": "C:\\RUUDDENDAASKOANAL\\Tom_Klootwijk_Gambit_Closed_Engine_4.0\\Tom_Klootwijk_Gambit_Closure_4.0\\SHA256SUMS.txt",
+      "details": {
+        "matched_files": 196
+      }
+    },
+    {
+      "name": "revised_release_integrity",
+      "status": "PASS",
+      "evidence": "SHA256SUMS.txt",
+      "details": {
+        "matched_files": 203
+      }
+    },
+    {
+      "name": "protected_model_and_goldens_unchanged",
+      "status": "PASS",
+      "evidence": "REVISION.json",
+      "details": {
+        "changed_original_files": [
+          "CMakeLists.txt",
+          "README.md",
+          "docs/VERIFICATION.md",
+          "src/cuda.cu",
+          "tools/verify.py"
+        ],
+        "unchanged_original_files": 191,
+        "assets_and_formal_and_core_unchanged": true
+      }
+    },
+    {
+      "name": "tested_runtime_matches_delivered_revision",
+      "status": "PASS",
+      "evidence": "validation/full/verified_source_manifest.txt",
+      "details": {
+        "post_run_changes": [
+          "README.md",
+          "REVISION.json",
+          "REVISION.patch"
+        ],
+        "reason": "UTF-8 patch repair and README accuracy corrections only; compiled sources, tests, verification tools, model and inputs unchanged"
+      }
+    },
+    {
+      "name": "revision_diff_applies_to_original",
+      "status": "PASS",
+      "evidence": "validation/patch_apply_check.txt",
+      "details": {
+        "utf8_diff": true,
+        "original_not_modified": true
+      }
+    },
+    {
+      "name": "full_requested_coordinator",
+      "status": "PASS",
+      "evidence": "validation/full/verification.json",
+      "details": {
+        "status": "GPU_CPU_EXACT_PASS",
+        "commands": 43
+      }
+    },
+    {
+      "name": "cpu_formal_coordinator",
+      "status": "PASS",
+      "evidence": "validation/cpu/verification.json",
+      "details": {
+        "status": "CPU_PASS_GPU_NOT_RUN"
+      }
+    },
+    {
+      "name": "full_commands_succeeded",
+      "status": "PASS",
+      "evidence": "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\verification.json",
+      "details": {
+        "commands": 43
+      }
+    },
+    {
+      "name": "cpu_commands_succeeded",
+      "status": "PASS",
+      "evidence": "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\cpu\\verification.json",
+      "details": {
+        "commands": 17
+      }
+    },
+    {
+      "name": "native_suite",
+      "status": "PASS",
+      "evidence": "validation/full/logs/native_tests.txt",
+      "details": {
+        "native_checks": 338184
+      }
+    },
+    {
+      "name": "python_suites",
+      "status": "PASS",
+      "evidence": "validation/full/logs/python_tests.txt",
+      "details": {
+        "model_methods": 24,
+        "coordinator_methods": 4,
+        "total_methods": 28
+      }
+    },
+    {
+      "name": "production_cuda_helper_regression",
+      "status": "PASS",
+      "evidence": "validation/full/logs/cuda_tests.txt",
+      "details": {
+        "uses_production_source": true,
+        "single_evaluation_success_error_and_message": true
+      }
+    },
+    {
+      "name": "clean_cuda_compile",
+      "status": "PASS",
+      "evidence": "validation/full/logs/cuda_build.txt",
+      "details": {
+        "link_runtime_conflict_absent": true
+      }
+    },
+    {
+      "name": "native_golden_and_independent_conformance",
+      "status": "PASS",
+      "evidence": "validation/full/native; validation/full/python; validation/full/gates",
+      "details": {
+        "native_profiles": 6,
+        "independent_python_boolean_profiles": 4,
+        "consensus_files_per_profile": 5,
+        "golden_files_matched": 30
+      }
+    },
+    {
+      "name": "gpu_frozen_conformance",
+      "status": "PASS",
+      "evidence": "validation/full/cuda",
+      "details": {
+        "runs": [
+          {
+            "profile": "micro_xx",
+            "fetch": "texture",
+            "block": 256,
+            "steps": 64,
+            "cells": 64
+          },
+          {
+            "profile": "micro_xy",
+            "fetch": "texture",
+            "block": 256,
+            "steps": 64,
+            "cells": 64
+          },
+          {
+            "profile": "verify_xx",
+            "fetch": "texture",
+            "block": 256,
+            "steps": 64,
+            "cells": 2112
+          },
+          {
+            "profile": "verify_xy",
+            "fetch": "texture",
+            "block": 32,
+            "steps": 64,
+            "cells": 2112
+          },
+          {
+            "profile": "verify_xy",
+            "fetch": "texture",
+            "block": 128,
+            "steps": 64,
+            "cells": 2112
+          },
+          {
+            "profile": "verify_xy",
+            "fetch": "texture",
+            "block": 256,
+            "steps": 64,
+            "cells": 2112
+          },
+          {
+            "profile": "verify_xy",
+            "fetch": "texture",
+            "block": 512,
+            "steps": 64,
+            "cells": 2112
+          },
+          {
+            "profile": "verify_xy",
+            "fetch": "global",
+            "block": 256,
+            "steps": 64,
+            "cells": 2112
+          },
+          {
+            "profile": "laptop_xx",
+            "fetch": "texture",
+            "block": 256,
+            "steps": 256,
+            "cells": 131072
+          },
+          {
+            "profile": "laptop_xy",
+            "fetch": "texture",
+            "block": 256,
+            "steps": 256,
+            "cells": 131072
+          }
+        ],
+        "five_file_exact_comparison": true
+      }
+    },
+    {
+      "name": "checkpoint_restart",
+      "status": "PASS",
+      "evidence": "validation/full/cuda_resume",
+      "details": {
+        "segment_split": [
+          17,
+          47
+        ]
+      }
+    },
+    {
+      "name": "repeat_and_forced_ptx",
+      "status": "PASS",
+      "evidence": "validation/full/logs/cuda_forced_ptx.txt",
+      "details": {
+        "forced_ptx_jit": true,
+        "fresh_process_repeat": true
+      }
+    },
+    {
+      "name": "ptx_and_sass_saved",
+      "status": "PASS",
+      "evidence": "validation/full/logs/ptx_sass.txt",
+      "details": {
+        "bytes": 199436
+      }
+    },
+    {
+      "name": "all_formal_obligations",
+      "status": "PASS",
+      "evidence": "validation/full/formal/report.json",
+      "details": {
+        "unsat": 22,
+        "intentional_sat": 2,
+        "runs": [
+          {
+            "path": "validation\\cpu\\formal",
+            "solver": "Z3 version 4.15.4 - 64 bit"
+          },
+          {
+            "path": "validation\\full\\formal",
+            "solver": "Z3 version 4.15.4 - 64 bit"
+          }
+        ],
+        "scope": "Submitted algebraic targets, not whole-program proof"
+      }
+    },
+    {
+      "name": "sanitizer_memcheck",
+      "status": "PASS",
+      "evidence": "validation\\full\\logs\\sanitize_memcheck.txt",
+      "details": {
+        "steps": 8,
+        "profile": "verify_xy",
+        "zero_errors_or_hazards": true
+      }
+    },
+    {
+      "name": "sanitizer_racecheck",
+      "status": "PASS",
+      "evidence": "validation\\full\\logs\\sanitize_racecheck.txt",
+      "details": {
+        "steps": 8,
+        "profile": "verify_xy",
+        "zero_errors_or_hazards": true
+      }
+    },
+    {
+      "name": "sanitizer_initcheck",
+      "status": "PASS",
+      "evidence": "validation\\full\\logs\\sanitize_initcheck.txt",
+      "details": {
+        "steps": 8,
+        "profile": "verify_xy",
+        "zero_errors_or_hazards": true
+      }
+    },
+    {
+      "name": "sanitizer_synccheck",
+      "status": "PASS",
+      "evidence": "validation\\full\\logs\\sanitize_synccheck.txt",
+      "details": {
+        "steps": 8,
+        "profile": "verify_xy",
+        "zero_errors_or_hazards": true
+      }
+    },
+    {
+      "name": "profile_texture",
+      "status": "PASS",
+      "evidence": "validation\\full\\ncu_texture.ncu-rep",
+      "details": {
+        "bytes": 930621,
+        "scope": "Captured profiling data; no throughput comparison claim"
+      }
+    },
+    {
+      "name": "profile_global",
+      "status": "PASS",
+      "evidence": "validation\\full\\ncu_global.ncu-rep",
+      "details": {
+        "bytes": 931261,
+        "scope": "Captured profiling data; no throughput comparison claim"
+      }
+    },
+    {
+      "name": "gpu_edges",
+      "status": "PASS",
+      "evidence": "validation/gpu_edges/verification.json",
+      "details": {
+        "cases": [
+          "texture_block64_frozen_golden",
+          "feedback0_native_python",
+          "feedback0_cuda_texture",
+          "feedback0_cuda_global",
+          "invalid_block31",
+          "invalid_steps0",
+          "invalid_fetch",
+          "invalid_feedback2",
+          "unsupported_gates",
+          "invalid_resume_feedback",
+          "no_visible_device"
+        ]
+      }
+    },
+    {
+      "name": "gpu_edge_commands",
+      "status": "PASS",
+      "evidence": "validation/gpu_edges/verification.json",
+      "details": {
+        "commands": 18,
+        "negative_tests_expect_failure": true
+      }
+    },
+    {
+      "name": "step3_diagnostic_cell",
+      "status": "PASS",
+      "evidence": "validation/gpu_edges/verification.json",
+      "details": {
+        "test_only_fault_injection": true,
+        "production_source_unchanged": true
+      }
+    },
+    {
+      "name": "step3_diagnostic_clock",
+      "status": "PASS",
+      "evidence": "validation/gpu_edges/verification.json",
+      "details": {
+        "test_only_fault_injection": true,
+        "production_source_unchanged": true
+      }
+    }
+  ],
+  "source_manifest_sha256": "5d6a1d2f1e17f6ad0c63f2768d07689ed10c6a3aa905e292cdf4e839b14b7e3b",
+  "original_manifest_sha256": "7e1a34bf61de6c650b8035ab292d44b0f7a1822dc0b0eb6d4435c50a0c33dc81",
+  "protected_model_files_unchanged": true,
+  "asset_golden_sha256": "1c3e4e7fc27f0f5d0a9c2760fb5b1fe3063dcbf3329e3453e4743d1c8713e4c3",
+  "binaries": {
+    "gambit": {
+      "path": "validation\\full\\build\\Release\\gambit.exe",
+      "sha256": "a9c7427d0583402815213249b8d2eb58a911467914bd57a0ad1fe481060ff9c8"
+    },
+    "gambit_cuda": {
+      "path": "validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+      "sha256": "192627c30b47a0f0b2f60b2454b75c36a55846e7452422e1bcefdb1718843cc9"
+    },
+    "gambit_cuda_contract": {
+      "path": "validation\\full\\cuda_build\\Release\\gambit_cuda_contract.exe",
+      "sha256": "dd50fc26acb189865d860d281bb1337f5157d627818e65813b806cb29104625c"
+    }
+  },
+  "device": {
+    "device": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+    "compute_major": 12,
+    "compute_minor": 0,
+    "driver": 13010,
+    "runtime": 12080,
+    "total_vram": 12820480000,
+    "free_vram": 11561598976
+  }
+}

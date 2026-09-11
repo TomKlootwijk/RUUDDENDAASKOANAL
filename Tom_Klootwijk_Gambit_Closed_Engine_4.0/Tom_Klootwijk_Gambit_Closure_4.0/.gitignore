@@ -1,0 +1,10 @@
+build*/
+local_verification/
+run_*/
+__pycache__/
+*.pyc
+*.aux
+*.log
+*.toc
+*.out
+*.ncu-rep

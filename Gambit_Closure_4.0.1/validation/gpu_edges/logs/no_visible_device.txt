@@ -1,0 +1,1 @@
+FAIL: cudaGetDeviceProperties(&d,0): no CUDA-capable device is detected

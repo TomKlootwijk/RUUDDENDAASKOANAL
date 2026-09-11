@@ -1,0 +1,292 @@
+{
+  "command": [
+    "python",
+    "tools/check_formal.py",
+    "--out",
+    "validation/formal_initial"
+  ],
+  "working_directory": "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1",
+  "process_path_prefix": "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\local_tools\\z3-4.15.4.0\\bin",
+  "exit_code": 0,
+  "solver_version": "Z3 version 4.15.4 - 64 bit",
+  "status": "PASS",
+  "expected_unsat": 22,
+  "expected_sat": 2,
+  "unchanged_against_original": [
+    {
+      "path": "tools/check_formal.py",
+      "sha256": "aa50caf280bc59b57622345308433b673688ff73d425caf08af6dfbf6d9fe63b"
+    },
+    {
+      "path": "formal/obligations.json",
+      "sha256": "9a79585ea64a2c67974186b30bffbccf0564c2b48b0d28b6578c374e010ebca2"
+    },
+    {
+      "path": "formal/targets/full_adder.smt2",
+      "sha256": "5c6cea4a6392292d63657a563f6502e3b2747468ff116b8c44d13c3b6265d520"
+    },
+    {
+      "path": "formal/targets/codec_local_and_bounds.smt2",
+      "sha256": "b9e4cd4ec3c73eea1273996bf14b5dad2239a10ff876b6d2c96f4a18853c2c00"
+    },
+    {
+      "path": "formal/targets/memory_bounds.smt2",
+      "sha256": "43b40fc9f3ceb857de58572b19d66a40475e9508ccd25cdc20865830d89a570e"
+    },
+    {
+      "path": "formal/targets/four_edge_outflow.smt2",
+      "sha256": "8ca878263c98f34addd334d77474c464ecfde9a288b156ddd76683d8b133330c"
+    },
+    {
+      "path": "formal/targets/edge_conservation.smt2",
+      "sha256": "66aa7424ca9059cf28de4e4d5f475a20dd6ddf20785a2b731e48009e4bf5bcba"
+    },
+    {
+      "path": "formal/targets/reaction_nonnegative_mass.smt2",
+      "sha256": "3763b6b80847ba7c165c212b860d62598e17e4abbfd62dcfb3c867a8d323cd5c"
+    },
+    {
+      "path": "formal/targets/phase_closure_32.smt2",
+      "sha256": "0150e7d146699f3342f7987ccc1627340a86d8c84098533a20f13484488358f6"
+    },
+    {
+      "path": "formal/targets/phase_closure_512.smt2",
+      "sha256": "36a25e8d9343a312e5a9ddeaaee25dd09d3e99088e8586cc1b1f0e7f1d5d5541"
+    },
+    {
+      "path": "formal/targets/phase_closure_2048.smt2",
+      "sha256": "e1d108d5bbda4db875837b5ad3df977de46a3236d0b35a50f9678010ea89be8f"
+    },
+    {
+      "path": "formal/targets/cooldown_quotient.smt2",
+      "sha256": "260a63c9f7c635fd6b869362d3cfa830e6b4cc74464cb94ef84f94a51691e06c"
+    },
+    {
+      "path": "formal/targets/hysteresis_total.smt2",
+      "sha256": "6309dd09c1514ea06f2ed4a5cbecbf95dc5233dd95b846bf0444a40e51db2d39"
+    },
+    {
+      "path": "formal/targets/latch_event_telescope.smt2",
+      "sha256": "44ce240274230608d7df576c7d77e3584d6a37e121dd10b13ed40ea5e09d5787"
+    },
+    {
+      "path": "formal/targets/prefix_certificate_compose.smt2",
+      "sha256": "afcbba285d34a04590bc7a8514e4200ab32d6dc5f3eb782f591b69e380fccf7c"
+    },
+    {
+      "path": "formal/targets/ripple_add_8.smt2",
+      "sha256": "2fc66400c8769494d1c2df7e4ce8c8fd1605cf3d3fe16c291ad18ce69321cb30"
+    },
+    {
+      "path": "formal/targets/ripple_add_17.smt2",
+      "sha256": "9e3b98d2ff011028eca96cb7d6ea43edd265745525108597995b631a24f96039"
+    },
+    {
+      "path": "formal/targets/ripple_add_32.smt2",
+      "sha256": "df0334747684dc757f72a8e075bec14625675ed26f9354cd8780c0ce57faad76"
+    },
+    {
+      "path": "formal/targets/ripple_add_64.smt2",
+      "sha256": "8ac00f6643b42326508d5bca19a70e9c80a2fe018f2cad356965be702b19e41a"
+    },
+    {
+      "path": "formal/targets/ripple_less_8.smt2",
+      "sha256": "2d5ede667e03c43a04db4dae547a9bed6aa4267697a9b1deae6861e9b2f46379"
+    },
+    {
+      "path": "formal/targets/ripple_less_32.smt2",
+      "sha256": "4064a6fb4522c5bfc3193ecc660d2ec68850793c67b2421aabeaeef527d92b85"
+    },
+    {
+      "path": "formal/targets/restoring_divide_8.smt2",
+      "sha256": "24ddef782fa5a3b3330cb0ae75a2f0aeb4f7d04f07f92d7d23fb3f873593fca1"
+    },
+    {
+      "path": "formal/targets/parity_three_word_homomorphism.smt2",
+      "sha256": "80b3ec1f91f12d2a136f84565ac3b4972af9c52372b8f504944e15649002d939"
+    },
+    {
+      "path": "formal/targets/hadamard_roundtrip.smt2",
+      "sha256": "55e9dd03c89ac8f1c1cfde9ee80b07eb44c8faecc5786f481d5348b983ee8123"
+    },
+    {
+      "path": "formal/targets/one_bit_not_sufficient.smt2",
+      "sha256": "313cd4f606eee61d127caf996a19c9a34333a32d6f4dcaaa83d48465463519de"
+    },
+    {
+      "path": "formal/targets/even_error_parity_counterexample.smt2",
+      "sha256": "588717896b02efa45e0dbec50624fc0e244552ebd15a896f93cb29ead1321300"
+    }
+  ],
+  "logs": [
+    {
+      "target": "full_adder",
+      "expected": "unsat",
+      "actual": "unsat",
+      "log": "full_adder.log",
+      "log_sha256": "dbf826235c22ece34430c3d8a983b6e7a406e2854d3edb8cbffc1173d155acd8"
+    },
+    {
+      "target": "codec_local_and_bounds",
+      "expected": "unsat",
+      "actual": "unsat",
+      "log": "codec_local_and_bounds.log",
+      "log_sha256": "4c30522737cb8c68f94b5b96a3fe32745a14822bb84b5bd93837709790eb247b"
+    },
+    {
+      "target": "memory_bounds",
+      "expected": "unsat",
+      "actual": "unsat",
+      "log": "memory_bounds.log",
+      "log_sha256": "8daf46028228fe4e9a6a270614f13773fbda0c0014f64636648cb567a4045b72"
+    },
+    {
+      "target": "four_edge_outflow",
+      "expected": "unsat",
+      "actual": "unsat",
+      "log": "four_edge_outflow.log",
+      "log_sha256": "8e14a9d6c902f257475d5c62f1b71e81d4c929a0933132b560041a5a7a289407"
+    },
+    {
+      "target": "edge_conservation",
+      "expected": "unsat",
+      "actual": "unsat",
+      "log": "edge_conservation.log",
+      "log_sha256": "a2d068b9bb95b290a3e6ebb6cb883ff618a287051cabbe7274c238a099d9acbc"
+    },
+    {
+      "target": "reaction_nonnegative_mass",
+      "expected": "unsat",
+      "actual": "unsat",
+      "log": "reaction_nonnegative_mass.log",
+      "log_sha256": "9e69fb0cbdc4d2c50b151100868be722fad56fd494624afdb4670b5e21e78c54"
+    },
+    {
+      "target": "phase_closure_32",
+      "expected": "unsat",
+      "actual": "unsat",
+      "log": "phase_closure_32.log",
+      "log_sha256": "05ef13489f185b691129ecbb62143b6573e46503deaeac388c07bb1180c54e84"
+    },
+    {
+      "target": "phase_closure_512",
+      "expected": "unsat",
+      "actual": "unsat",
+      "log": "phase_closure_512.log",
+      "log_sha256": "e76bbeb65eaf2dcb774909ce5af331805608350b0efd31e8bd52de386716757f"
+    },
+    {
+      "target": "phase_closure_2048",
+      "expected": "unsat",
+      "actual": "unsat",
+      "log": "phase_closure_2048.log",
+      "log_sha256": "ca789050000d5e8f5ba4642429bf4a7f3c162f1907c26119cc9cf814b4c40c00"
+    },
+    {
+      "target": "cooldown_quotient",
+      "expected": "unsat",
+      "actual": "unsat",
+      "log": "cooldown_quotient.log",
+      "log_sha256": "12ae32db81d6449b66130adb33e5d240e6eeed93c5c41a9e89194d3dabc40050"
+    },
+    {
+      "target": "hysteresis_total",
+      "expected": "unsat",
+      "actual": "unsat",
+      "log": "hysteresis_total.log",
+      "log_sha256": "9de2a189c6a50c118733fe440c1ee84c7445ed4910729b00ff07187967317f7f"
+    },
+    {
+      "target": "latch_event_telescope",
+      "expected": "unsat",
+      "actual": "unsat",
+      "log": "latch_event_telescope.log",
+      "log_sha256": "a794ec64100fafe8090afc3cef92e2f4487f24763949eeee43ab95eb1814039e"
+    },
+    {
+      "target": "prefix_certificate_compose",
+      "expected": "unsat",
+      "actual": "unsat",
+      "log": "prefix_certificate_compose.log",
+      "log_sha256": "8eda0586c54b570b46387ac362d7ee56d8ee5329ffe1665bd799c9c7689810d1"
+    },
+    {
+      "target": "ripple_add_8",
+      "expected": "unsat",
+      "actual": "unsat",
+      "log": "ripple_add_8.log",
+      "log_sha256": "0092b0fb3ee86b4159afa5cdccf08dfffc191e9dc89412a6cddb75a181c906e6"
+    },
+    {
+      "target": "ripple_add_17",
+      "expected": "unsat",
+      "actual": "unsat",
+      "log": "ripple_add_17.log",
+      "log_sha256": "ed9c9cb8ea8ca95bd74aede56cd81332dc94194029c91fc2d1dc75ee9e26d65a"
+    },
+    {
+      "target": "ripple_add_32",
+      "expected": "unsat",
+      "actual": "unsat",
+      "log": "ripple_add_32.log",
+      "log_sha256": "99399d1bcb86ec25febe08f11d1b8f295015d98f75071e8f513d7e5d2b5fe581"
+    },
+    {
+      "target": "ripple_add_64",
+      "expected": "unsat",
+      "actual": "unsat",
+      "log": "ripple_add_64.log",
+      "log_sha256": "0843874918f4c747a48ba687c7433eda331aa405d9e46e6dafeefa14599a3e98"
+    },
+    {
+      "target": "ripple_less_8",
+      "expected": "unsat",
+      "actual": "unsat",
+      "log": "ripple_less_8.log",
+      "log_sha256": "5ec3b83a3d2bd134170b58d452adf582eeab0d2e06de8196ce79c5c6b4da4cdd"
+    },
+    {
+      "target": "ripple_less_32",
+      "expected": "unsat",
+      "actual": "unsat",
+      "log": "ripple_less_32.log",
+      "log_sha256": "1492fc5ca6e133f1624a11692592f1edc92f6d4860f0cac72271ce26648ee9f9"
+    },
+    {
+      "target": "restoring_divide_8",
+      "expected": "unsat",
+      "actual": "unsat",
+      "log": "restoring_divide_8.log",
+      "log_sha256": "00930a961b27f2c6af563432822b6af83b6781ed3b817bf25cd583209efda7d1"
+    },
+    {
+      "target": "parity_three_word_homomorphism",
+      "expected": "unsat",
+      "actual": "unsat",
+      "log": "parity_three_word_homomorphism.log",
+      "log_sha256": "4555f1e3c779a0f059cc729fe75786c3e67b11b2c1f128e0c8deb78334d12359"
+    },
+    {
+      "target": "hadamard_roundtrip",
+      "expected": "unsat",
+      "actual": "unsat",
+      "log": "hadamard_roundtrip.log",
+      "log_sha256": "d4f9b5010c788f63166bbf8b3649ff3eecf722d43ffb88fefe86cf49c1e7e5d1"
+    },
+    {
+      "target": "one_bit_not_sufficient",
+      "expected": "sat",
+      "actual": "sat",
+      "log": "one_bit_not_sufficient.log",
+      "log_sha256": "db773c85b5014791522e4cc1b8e469df5be0a2800d86c15855c75cd561c73522"
+    },
+    {
+      "target": "even_error_parity_counterexample",
+      "expected": "sat",
+      "actual": "sat",
+      "log": "even_error_parity_counterexample.log",
+      "log_sha256": "907daba54f1f53a4160800be5c8765eeed91581287541c180389d2eb85dde255"
+    }
+  ],
+  "scope": "Exact submitted SMT-LIB targets only; logs are not independently rechecked proof objects."
+}

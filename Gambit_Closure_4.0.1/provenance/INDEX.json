@@ -1,0 +1,13 @@
+{
+  "note": "Original bytes preserved. Earlier editions recursively retained in the original engineering ZIP.",
+  "sources": {
+    "engineering_3.1_original": {
+      "path": "provenance/engineering_3.1_original.zip",
+      "sha256": "d95c5d177e48b78e44bccde9972f47dbc4a1446e63265f73a6e43c6f98fd2aeb"
+    },
+    "closure_corpus_original": {
+      "path": "provenance/closure_corpus_original.pdf",
+      "sha256": "83d642775a2dea48eb0d218e8ae45e801a9929b6334bf0cec7358b3b0a2466c5"
+    }
+  }
+}

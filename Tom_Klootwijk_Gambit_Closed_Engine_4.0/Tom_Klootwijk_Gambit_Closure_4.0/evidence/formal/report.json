@@ -1,0 +1,198 @@
+{
+  "status": "PASS",
+  "targets": [
+    {
+      "name": "full_adder",
+      "file": "targets/full_adder.smt2",
+      "expected": "unsat",
+      "scope": "Specified algebraic obligation, not whole-program verification",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "codec_local_and_bounds",
+      "file": "targets/codec_local_and_bounds.smt2",
+      "expected": "unsat",
+      "scope": "Specified algebraic obligation, not whole-program verification",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "memory_bounds",
+      "file": "targets/memory_bounds.smt2",
+      "expected": "unsat",
+      "scope": "Specified algebraic obligation, not whole-program verification",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "four_edge_outflow",
+      "file": "targets/four_edge_outflow.smt2",
+      "expected": "unsat",
+      "scope": "Specified algebraic obligation, not whole-program verification",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "edge_conservation",
+      "file": "targets/edge_conservation.smt2",
+      "expected": "unsat",
+      "scope": "Specified algebraic obligation, not whole-program verification",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "reaction_nonnegative_mass",
+      "file": "targets/reaction_nonnegative_mass.smt2",
+      "expected": "unsat",
+      "scope": "Specified algebraic obligation, not whole-program verification",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "phase_closure_32",
+      "file": "targets/phase_closure_32.smt2",
+      "expected": "unsat",
+      "scope": "Specified algebraic obligation, not whole-program verification",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "phase_closure_512",
+      "file": "targets/phase_closure_512.smt2",
+      "expected": "unsat",
+      "scope": "Specified algebraic obligation, not whole-program verification",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "phase_closure_2048",
+      "file": "targets/phase_closure_2048.smt2",
+      "expected": "unsat",
+      "scope": "Specified algebraic obligation, not whole-program verification",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "cooldown_quotient",
+      "file": "targets/cooldown_quotient.smt2",
+      "expected": "unsat",
+      "scope": "Specified algebraic obligation, not whole-program verification",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "hysteresis_total",
+      "file": "targets/hysteresis_total.smt2",
+      "expected": "unsat",
+      "scope": "Specified algebraic obligation, not whole-program verification",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "latch_event_telescope",
+      "file": "targets/latch_event_telescope.smt2",
+      "expected": "unsat",
+      "scope": "Specified algebraic obligation, not whole-program verification",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "prefix_certificate_compose",
+      "file": "targets/prefix_certificate_compose.smt2",
+      "expected": "unsat",
+      "scope": "Specified algebraic obligation, not whole-program verification",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "ripple_add_8",
+      "file": "targets/ripple_add_8.smt2",
+      "expected": "unsat",
+      "scope": "All pairs of 8-bit inputs: explicit Boolean carry circuit equals modular bitvector addition",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "ripple_add_17",
+      "file": "targets/ripple_add_17.smt2",
+      "expected": "unsat",
+      "scope": "All pairs of 17-bit inputs: explicit Boolean carry circuit equals modular bitvector addition",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "ripple_add_32",
+      "file": "targets/ripple_add_32.smt2",
+      "expected": "unsat",
+      "scope": "All pairs of 32-bit inputs: explicit Boolean carry circuit equals modular bitvector addition",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "ripple_add_64",
+      "file": "targets/ripple_add_64.smt2",
+      "expected": "unsat",
+      "scope": "All pairs of 64-bit inputs: explicit Boolean carry circuit equals modular bitvector addition",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "ripple_less_8",
+      "file": "targets/ripple_less_8.smt2",
+      "expected": "unsat",
+      "scope": "All pairs of 8-bit inputs: explicit borrow circuit equals unsigned less-than",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "ripple_less_32",
+      "file": "targets/ripple_less_32.smt2",
+      "expected": "unsat",
+      "scope": "All pairs of 32-bit inputs: explicit borrow circuit equals unsigned less-than",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "restoring_divide_8",
+      "file": "targets/restoring_divide_8.smt2",
+      "expected": "unsat",
+      "scope": "Specified algebraic obligation, not whole-program verification",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "parity_three_word_homomorphism",
+      "file": "targets/parity_three_word_homomorphism.smt2",
+      "expected": "unsat",
+      "scope": "Specified algebraic obligation, not whole-program verification",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "hadamard_roundtrip",
+      "file": "targets/hadamard_roundtrip.smt2",
+      "expected": "unsat",
+      "scope": "Specified algebraic obligation, not whole-program verification",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "one_bit_not_sufficient",
+      "file": "targets/one_bit_not_sufficient.smt2",
+      "expected": "sat",
+      "scope": "Constructive counterexample: same emitted bit does not determine the residual or the next pulse",
+      "actual": "sat",
+      "passed": true
+    },
+    {
+      "name": "even_error_parity_counterexample",
+      "file": "targets/even_error_parity_counterexample.smt2",
+      "expected": "sat",
+      "scope": "Two data-bit flips can preserve parity",
+      "actual": "sat",
+      "passed": true
+    }
+  ],
+  "solver_version": "4.13.3.0"
+}

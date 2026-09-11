@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\local_validation\cuda128\CMakeFiles\CheckCUDA\CMakeFiles\9a6c042a09a1a9595e7acbb3d0950ed7\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D19DDEA4-F2D3-3D78-B729-E88F08E6974E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

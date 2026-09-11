@@ -1,0 +1,1 @@
+{"schema":"gambit-closure-4.0","backend":"cuda_checked","status":"PASS","steps_in_segment":64,"autonomous_transition":true,"physical_actuators":false,"gpu_verified":true,"every_step_cpu_comparison":true,"full_lut_readback":true,"host_control_update":true,"device":"NVIDIA GeForce RTX 5070 Ti Laptop GPU","fetch":"texture"}

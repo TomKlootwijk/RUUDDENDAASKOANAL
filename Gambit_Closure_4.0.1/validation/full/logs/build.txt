@@ -1,0 +1,18 @@
+MSBuild version 17.14.23+b0019275e for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule C:/RUUDDENDAASKOANAL/Gambit_Closure_4.0.1/CMakeLists.txt
+  legacy_host.cpp
+  engine.cpp
+  boolean.cpp
+  capsule.cpp
+  run.cpp
+  Generating Code...
+  closure_core.vcxproj -> C:\RUUDDENDAASKOANAL\Gambit_Closure_4.0.1\validation\full\build\Release\closure_core.lib
+  Building Custom Rule C:/RUUDDENDAASKOANAL/Gambit_Closure_4.0.1/CMakeLists.txt
+  Building Custom Rule C:/RUUDDENDAASKOANAL/Gambit_Closure_4.0.1/CMakeLists.txt
+  native_test.cpp
+  main.cpp
+  gambit.vcxproj -> C:\RUUDDENDAASKOANAL\Gambit_Closure_4.0.1\validation\full\build\Release\gambit.exe
+  gambit_tests.vcxproj -> C:\RUUDDENDAASKOANAL\Gambit_Closure_4.0.1\validation\full\build\Release\gambit_tests.exe
+  Building Custom Rule C:/RUUDDENDAASKOANAL/Gambit_Closure_4.0.1/CMakeLists.txt

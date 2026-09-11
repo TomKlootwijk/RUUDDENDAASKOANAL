@@ -1,0 +1,16 @@
+{
+  "output": "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\output\\pdf\\Gambit_Closure_4.0.1_Verification.pdf",
+  "sha256": "5e148cc5acca6a2eb63cd0709fa34a12302ce570f14fd2fbad564f8d30845de6",
+  "pages": 6,
+  "generated_utc": "2026-09-11 08:11 UTC",
+  "builder_sha256": "d7cf3f4eabb744a7b23a52754add665d3ff2c60e9cf56f359cad8617b5d1bdee",
+  "source_reports": {
+    "validation\\full\\verification.json": "4b7744a354ca79a26174b8579ea9f8880b8d027760126f9f42983071038bc7a2",
+    "validation\\cpu\\verification.json": "3fad8b919e2b3078386ee83b06c48316c5a7c82754fd1044a4cc972408359493",
+    "validation\\full\\formal\\report.json": "86111f0f6dcb8e5171f764896f2814903f81598eaa122f2503ef2ec28c162da2",
+    "validation\\gpu_edges\\verification.json": "19d38147bb5e277793481f705d314bfbe2e1490b0eab6111b7e120369d926bf0",
+    "validation\\completion_audit.json": "3f6003f1d85d965a6872f08301bd883b2971919cfba6d05099ffa3bd1463e61b",
+    "REVISION.json": "1366370908e8478d2dd7e1e4f80c8b7a267a9229758292f6657be07bf4c318ae"
+  },
+  "visual_review": "PASS - all six final PNG pages inspected; see validation/pdf_qa.json"
+}

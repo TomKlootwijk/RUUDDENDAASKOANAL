@@ -1,0 +1,36 @@
+{
+  "recorded_utc": "2026-09-11T07:17:48.034701+00:00",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "z3": "4.13.3.0 (installed C API)",
+  "gpu_compiled": false,
+  "gpu_executed": false,
+  "tools": {
+    "g++": {
+      "path": "/usr/bin/g++",
+      "version_first_line": "g++ (Debian 14.2.0-19) 14.2.0"
+    },
+    "clang++": {
+      "path": "/usr/local/swift/usr/bin/clang++",
+      "version_first_line": "clang version 17.0.0 (https://github.com/swiftlang/llvm-project.git 10999b6d034fe318f3d56c83bddb6572593a8bb0)"
+    },
+    "cmake": {
+      "path": "/usr/bin/cmake",
+      "version_first_line": "cmake version 3.31.6"
+    },
+    "nvcc": {
+      "path": null
+    },
+    "nvidia-smi": {
+      "path": null
+    },
+    "pdflatex": {
+      "path": "/usr/bin/pdflatex",
+      "version_first_line": "pdfTeX 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian)"
+    },
+    "pandoc": {
+      "path": "/usr/bin/pandoc",
+      "version_first_line": "pandoc 3.1.11.1"
+    }
+  }
+}

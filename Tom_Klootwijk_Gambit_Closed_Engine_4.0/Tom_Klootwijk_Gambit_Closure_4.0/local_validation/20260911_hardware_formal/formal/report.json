@@ -1,0 +1,5 @@
+{
+  "status": "BLOCKED",
+  "targets": [],
+  "reason": "Neither z3 executable nor libz3 is installed"
+}

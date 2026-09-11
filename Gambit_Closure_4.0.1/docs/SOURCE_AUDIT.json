@@ -1,0 +1,257 @@
+{
+  "source": "provenance/closure_corpus_original.pdf (36 pages), plus preserved engineering 3.1 for C34-C36",
+  "rows": [
+    {
+      "id": "C01",
+      "source_pages_or_section": "3-5",
+      "claim": "Normalized SDF in [0,1]",
+      "disposition": "QUALIFIED",
+      "decision": "Normalization is a code/drive map. The signed field and its sign convention remain separate; a value in [0,1] is not by itself a signed distance."
+    },
+    {
+      "id": "C02",
+      "source_pages_or_section": "6",
+      "claim": "Klein-cone polynomial is an acoustic signed distance",
+      "disposition": "NOT ESTABLISHED",
+      "decision": "The supplied polynomial specifies an implicit zero set. No distance identity, topology proof or calibrated acoustic law is supplied. It is not the runtime pressure law."
+    },
+    {
+      "id": "C03",
+      "source_pages_or_section": "6, 31",
+      "claim": "phi supplies the unique growth scale",
+      "disposition": "NOT ADOPTED AS UNIVERSAL",
+      "decision": "The reciprocal golden-ratio motif remains source notation. Frozen 3.1 assets actually use turtle_shrink=0.72, not phi. Changing this requires a new asset seed."
+    },
+    {
+      "id": "C04",
+      "source_pages_or_section": "7",
+      "claim": "Trichromatic channels are frequency and interference physics",
+      "disposition": "NOT IMPLEMENTED",
+      "decision": "The retained uint32 texel holds a biased signed field code and an unsigned drive. Neither component denotes a physical frequency or actuator setting."
+    },
+    {
+      "id": "C05",
+      "source_pages_or_section": "7",
+      "claim": "Unbalanced BST finds an 8-bit pointer in three steps",
+      "disposition": "NOT ESTABLISHED",
+      "decision": "A generic unbalanced tree has no such fixed depth guarantee. The shipped execution uses direct, bounded dense LUT indexing, not this unspecified BST."
+    },
+    {
+      "id": "C06",
+      "source_pages_or_section": "8",
+      "claim": "Shifting the top bit is pulse-density conversion",
+      "disposition": "DISTINGUISHED",
+      "decision": "Bit selection and lossless serialization differ from pulse-density quantization. The retained residual accumulator defines the emitted pulse sequence."
+    },
+    {
+      "id": "C07",
+      "source_pages_or_section": "9, 32",
+      "claim": "XOR random jitter eliminates quantization noise",
+      "disposition": "NOT ESTABLISHED",
+      "decision": "No runtime noise is injected. Arbitrary XOR can change pulse counts and break the stated codec identity. No blue-noise or spectral-quality claim is made."
+    },
+    {
+      "id": "C08",
+      "source_pages_or_section": "9",
+      "claim": "Parity guarantees telemetry integrity",
+      "disposition": "QUALIFIED",
+      "decision": "XOR parity detects odd-weight bit changes in a checked word, not every error and not malicious replacement. Hash checking is separate."
+    },
+    {
+      "id": "C09",
+      "source_pages_or_section": "9-10",
+      "claim": "Parity is symmetric-difference blending",
+      "disposition": "RETAINED AT INDICATOR LEVEL",
+      "decision": "The indicator identity 1_(A triangle B)=1_A XOR 1_B is exact. It does not identify metric distance blending with a scalar parity reduction."
+    },
+    {
+      "id": "C10",
+      "source_pages_or_section": "10",
+      "claim": "Parity gives topological volume or dimension",
+      "disposition": "NOT ESTABLISHED",
+      "decision": "Parity gives cardinality modulo two for the represented bits. Topological dimension or physical volume is not obtained from this reduction."
+    },
+    {
+      "id": "C11",
+      "source_pages_or_section": "11-12",
+      "claim": "Geometry plus parity supplies zero-overhead encryption",
+      "disposition": "NOT ESTABLISHED",
+      "decision": "No encryption scheme or adversarial security proof is supplied. Capsule SHA-256 detects changes against a trusted digest; it is not a signature."
+    },
+    {
+      "id": "C12",
+      "source_pages_or_section": "13-14",
+      "claim": "Passive photonics has zero operational latency",
+      "disposition": "NOT ESTABLISHED",
+      "decision": "There is no photonic layout, fabrication model, propagation budget or device measurement in the package. No zero-latency statement is certified."
+    },
+    {
+      "id": "C13",
+      "source_pages_or_section": "15-17",
+      "claim": "Log-radius automatically implements time dilation",
+      "disposition": "NOT ESTABLISHED",
+      "decision": "The runtime phase is a finite logical index. No Lorentz transformation, relativistic channel or physical time-dilation model is implemented."
+    },
+    {
+      "id": "C14",
+      "source_pages_or_section": "17-19",
+      "claim": "IPD and ITD are one interchangeable spatial quantity",
+      "disposition": "DISTINGUISHED",
+      "decision": "The source explicitly clarifies IPD as interpupillary distance. IPD and ITD retain different types and units; they are not inputs to this autonomous numerical release."
+    },
+    {
+      "id": "C15",
+      "source_pages_or_section": "20-22",
+      "claim": "T is both geometry and an exact arrival root",
+      "disposition": "QUALIFIED",
+      "decision": "T as a geometric motif, continuous root time and integer update index are typed separately. Earlier analytic toy roots are not the kernel clock or a calibrated arrival law."
+    },
+    {
+      "id": "C16",
+      "source_pages_or_section": "23-25",
+      "claim": "Every field has one homogeneous SDF type",
+      "disposition": "NEW EXPLICIT CONSTRUCTION",
+      "decision": "U4 uses a product state with an exact binary encoding. Lemma C13 constructs a true SDF representation of each encoded state; no implicit type equivalence is assumed."
+    },
+    {
+      "id": "C17",
+      "source_pages_or_section": "24",
+      "claim": "One sign evaluation solves every boundary-crossing time",
+      "disposition": "NOT ESTABLISHED",
+      "decision": "A sign query alone does not specify a root-search algorithm, uniqueness or a time bracket. This release uses declared discrete thresholds and update rules."
+    },
+    {
+      "id": "C18",
+      "source_pages_or_section": "25",
+      "claim": "Geometry completely eliminates execution",
+      "disposition": "NOT ESTABLISHED",
+      "decision": "The deliverable is executable software requiring an interpreter/compiler, memory and hardware execution. Representational equivalence is not zero work."
+    },
+    {
+      "id": "C19",
+      "source_pages_or_section": "25-27",
+      "claim": "Human consciousness is this field loop",
+      "disposition": "HYPOTHESIS",
+      "decision": "Causal self-feedback is proved for the model. The corpus supplies no experiment identifying the resulting computation with human subjective experience."
+    },
+    {
+      "id": "C20",
+      "source_pages_or_section": "26",
+      "claim": "Hadamard transform is the same operator as XOR",
+      "disposition": "DISTINGUISHED",
+      "decision": "Walsh characters may be indexed by binary parity, while the real-valued transform sums weighted amplitudes. H squared equals 2I for the displayed 2x2 matrix; it is not a Boolean XOR gate."
+    },
+    {
+      "id": "C21",
+      "source_pages_or_section": "28-29",
+      "claim": "Memory is permanent quantum-holographic geometry",
+      "disposition": "HYPOTHESIS / MODEL CHOICE",
+      "decision": "The executable memory is a bounded integer moving average that affects subsequent field sampling. Permanent biological storage and electron-cloud mechanisms are not established."
+    },
+    {
+      "id": "C22",
+      "source_pages_or_section": "30-31",
+      "claim": "alpha/beta/gamma grammar completes all growth",
+      "disposition": "INCOMPLETE SOURCE SKETCH",
+      "decision": "The sketch does not specify the complete interpreter and all operational rules. The total XX/XY grammar from earlier releases remains authoritative for these assets."
+    },
+    {
+      "id": "C23",
+      "source_pages_or_section": "30-34",
+      "claim": "A single scalar seed contains an arbitrary infinite structure",
+      "disposition": "QUALIFIED",
+      "decision": "The complete seed contains program semantics, grammar/interpreter parameters and frozen LUT bytes. One selector bit chooses between predeclared alternatives; it does not replace their descriptions."
+    },
+    {
+      "id": "C24",
+      "source_pages_or_section": "31",
+      "claim": "phi guarantees perfect self-similarity at every scale",
+      "disposition": "NOT CERTIFIED",
+      "decision": "The implementation contains five finite baked levels with explicit sampling. It proves neither infinite self-similarity nor a universal scale law."
+    },
+    {
+      "id": "C25",
+      "source_pages_or_section": "31",
+      "claim": "Kinematic advection automatically preserves an SDF",
+      "disposition": "NOT ESTABLISHED",
+      "decision": "A transported scalar field and a unit-gradient distance function are different conditions. The implemented transport is an integer graph law, not an asserted continuum PDE equivalence."
+    },
+    {
+      "id": "C26",
+      "source_pages_or_section": "32",
+      "claim": "An infinite log-polar LUT gives infinite near-field precision",
+      "disposition": "NOT IMPLEMENTED",
+      "decision": "The frozen chart excludes r=0 and has finite radial/angular bins. No interpolation or infinite-resolution claim is used by the closure theorem."
+    },
+    {
+      "id": "C27",
+      "source_pages_or_section": "33-34",
+      "claim": "The pseudocode is a completed executable operator chain",
+      "disposition": "SOURCE SKETCH COMPLETED IN NEW CODE",
+      "decision": "The source calls undefined functions and includes float operations. New C++ and Python files define the actual finite transition, serialization, checks and Boolean arithmetic."
+    },
+    {
+      "id": "C28",
+      "source_pages_or_section": "35",
+      "claim": "f:R^n to R has matching range and domain",
+      "disposition": "CORRECTED EXPLICITLY",
+      "decision": "For n not equal to one this is not an endomorphism. U4 instead specifies T_sigma:S_sigma to S_sigma and a conjugate map on the image of its binary/SDF encoding."
+    },
+    {
+      "id": "C29",
+      "source_pages_or_section": "35",
+      "claim": "A Klein-bottle hinge enforces physical closure",
+      "disposition": "NOT ESTABLISHED",
+      "decision": "Geometric or topological closure does not alone establish causal or thermodynamic isolation. The actual index graph has angular wrap and radial no-exterior-edge boundaries."
+    },
+    {
+      "id": "C30",
+      "source_pages_or_section": "35-36",
+      "claim": "The final parity token is the entire next seed",
+      "disposition": "REJECTED AS COMPLETE STATE",
+      "decision": "The previous output participates in feedback, but residuals, material, memory, latches, phase, level and cooldown remain. The exact quotient criterion rejects unsupported one-bit erasure."
+    },
+    {
+      "id": "C31",
+      "source_pages_or_section": "36",
+      "claim": "The engine requires no external buffers or runtime",
+      "disposition": "NOT AN IMPLEMENTATION CLAIM",
+      "decision": "The operational law is autonomous after initialization; the program still uses old/new buffers, software and hardware. The capsule stores sufficient state, not the whole physical computer."
+    },
+    {
+      "id": "C32",
+      "source_pages_or_section": "36",
+      "claim": "All past and future states are already materially present",
+      "disposition": "NOT ESTABLISHED",
+      "decision": "A deterministic rule fixes a mathematical trajectory. It does not store the complete trace or eliminate future execution. Only sufficient present state is checkpointed."
+    },
+    {
+      "id": "C33",
+      "source_pages_or_section": "36",
+      "claim": "Absolute closure implies a digital perpetuum mobile",
+      "disposition": "NOT ESTABLISHED",
+      "decision": "U4 proves finite-state operational closure and eventual recurrence, not free energy or unlimited physical operation."
+    },
+    {
+      "id": "C34",
+      "source_pages_or_section": "Engineering 3.1, model sections 1, 3, 5",
+      "claim": "Absolute step and last-growth are necessary state",
+      "disposition": "EXACT QUOTIENT ADDED",
+      "decision": "The operative phase is (n*stride) mod width; cooldown is min(dwell,n-last_growth). These are sufficient for the retained autonomous transition."
+    },
+    {
+      "id": "C35",
+      "source_pages_or_section": "Engineering 3.1, model sections 3, 5",
+      "claim": "Cumulative K and Q must remain operational forever",
+      "disposition": "AUDIT STATE SEPARATED",
+      "decision": "K and Q do not drive any next-cell equation. They are external segment witnesses; the residual remains operational. The exact certificate is generalized to nonzero segment-start residuals."
+    },
+    {
+      "id": "C36",
+      "source_pages_or_section": "Engineering 3.1, theorem part 6",
+      "claim": "CUDA source equivalence proves the laptop already passed",
+      "disposition": "CONDITIONAL ONLY",
+      "decision": "This release includes a CUDA verification target, but no nvcc or NVIDIA device was available here. CPU, Boolean and solver results never substitute for local GPU evidence."
+    }
+  ]
+}

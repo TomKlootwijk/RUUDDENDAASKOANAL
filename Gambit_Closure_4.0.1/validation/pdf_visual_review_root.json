@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "reviewer": "Root agent visual and content review",
+  "pdf": "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\output\\pdf\\Gambit_Closure_4.0.1_Verification.pdf",
+  "pdf_sha256": "5e148cc5acca6a2eb63cd0709fa34a12302ce570f14fd2fbad564f8d30845de6",
+  "pages": 6,
+  "checked_utc": "2026-09-11T08:13:02.276723+00:00",
+  "checks": [
+    "All six final rendered pages visually inspected",
+    "No clipped text, overlaps, missing glyphs or table overflow",
+    "Page numbering and revision/version consistent",
+    "All 24 formal targets present",
+    "Numerical versus coordinator tests distinguished",
+    "All source/binary identities checked against saved evidence",
+    "Scope and post-run documentation-only changes disclosed"
+  ],
+  "rendered_page_hashes": [
+    {
+      "page": 1,
+      "sha256": "58d7c94fe48180d3f006627805249c3ad9557573c21839b00482b98fcceb66c8"
+    },
+    {
+      "page": 2,
+      "sha256": "6bf794a45172d03d3a7da03db91bb97288121b8fa94bc77a4b0f6e884d07df4d"
+    },
+    {
+      "page": 3,
+      "sha256": "6560332886f65f0c9b04e624af9f53506d009220f60dfa347f031273379a576e"
+    },
+    {
+      "page": 4,
+      "sha256": "e6655d6fc693f6c1e5f36892356d65486f6f74129a54df25028d6376e2774d3e"
+    },
+    {
+      "page": 5,
+      "sha256": "e93cf0b2612bf5019a21e401ab1a17c759c2155f052c2744409999e4a4e7cb22"
+    },
+    {
+      "page": 6,
+      "sha256": "68b78250b40ab24a7770ff3410a44dd191b35782330faefb9b549cdfbe06676f"
+    }
+  ]
+}

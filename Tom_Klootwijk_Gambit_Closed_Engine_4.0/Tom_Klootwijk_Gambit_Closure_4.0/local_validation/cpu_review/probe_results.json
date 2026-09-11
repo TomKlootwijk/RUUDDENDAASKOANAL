@@ -1,0 +1,398 @@
+{
+  "scope": "Additional deterministic CPU/native/Boolean/Python edge and malformed-capsule checks",
+  "cases": [
+    {
+      "kind": "valid_boundary",
+      "case": 0,
+      "backend": "native",
+      "cells": 64,
+      "steps": 5,
+      "returncode": 0,
+      "python_final_capsule_equal": true
+    },
+    {
+      "kind": "valid_boundary",
+      "case": 0,
+      "backend": "gates",
+      "cells": 64,
+      "steps": 5,
+      "returncode": 0,
+      "python_final_capsule_equal": true
+    },
+    {
+      "kind": "valid_boundary",
+      "case": 1,
+      "backend": "native",
+      "cells": 64,
+      "steps": 5,
+      "returncode": 0,
+      "python_final_capsule_equal": true
+    },
+    {
+      "kind": "valid_boundary",
+      "case": 1,
+      "backend": "gates",
+      "cells": 64,
+      "steps": 5,
+      "returncode": 0,
+      "python_final_capsule_equal": true
+    },
+    {
+      "kind": "valid_boundary",
+      "case": 2,
+      "backend": "native",
+      "cells": 64,
+      "steps": 5,
+      "returncode": 0,
+      "python_final_capsule_equal": true
+    },
+    {
+      "kind": "valid_boundary",
+      "case": 2,
+      "backend": "gates",
+      "cells": 64,
+      "steps": 5,
+      "returncode": 0,
+      "python_final_capsule_equal": true
+    },
+    {
+      "kind": "valid_boundary",
+      "case": 3,
+      "backend": "native",
+      "cells": 64,
+      "steps": 5,
+      "returncode": 0,
+      "python_final_capsule_equal": true
+    },
+    {
+      "kind": "valid_boundary",
+      "case": 3,
+      "backend": "gates",
+      "cells": 64,
+      "steps": 5,
+      "returncode": 0,
+      "python_final_capsule_equal": true
+    },
+    {
+      "kind": "valid_boundary",
+      "case": 4,
+      "backend": "native",
+      "cells": 64,
+      "steps": 5,
+      "returncode": 0,
+      "python_final_capsule_equal": true
+    },
+    {
+      "kind": "valid_boundary",
+      "case": 4,
+      "backend": "gates",
+      "cells": 64,
+      "steps": 5,
+      "returncode": 0,
+      "python_final_capsule_equal": true
+    },
+    {
+      "kind": "valid_boundary",
+      "case": 5,
+      "backend": "native",
+      "cells": 64,
+      "steps": 5,
+      "returncode": 0,
+      "python_final_capsule_equal": true
+    },
+    {
+      "kind": "valid_boundary",
+      "case": 5,
+      "backend": "gates",
+      "cells": 64,
+      "steps": 5,
+      "returncode": 0,
+      "python_final_capsule_equal": true
+    },
+    {
+      "kind": "valid_boundary",
+      "case": 6,
+      "backend": "native",
+      "cells": 64,
+      "steps": 5,
+      "returncode": 0,
+      "python_final_capsule_equal": true
+    },
+    {
+      "kind": "valid_boundary",
+      "case": 6,
+      "backend": "gates",
+      "cells": 64,
+      "steps": 5,
+      "returncode": 0,
+      "python_final_capsule_equal": true
+    },
+    {
+      "kind": "valid_boundary",
+      "case": 7,
+      "backend": "native",
+      "cells": 64,
+      "steps": 5,
+      "returncode": 0,
+      "python_final_capsule_equal": true
+    },
+    {
+      "kind": "valid_boundary",
+      "case": 7,
+      "backend": "gates",
+      "cells": 64,
+      "steps": 5,
+      "returncode": 0,
+      "python_final_capsule_equal": true
+    },
+    {
+      "kind": "valid_boundary",
+      "case": 8,
+      "backend": "native",
+      "cells": 64,
+      "steps": 5,
+      "returncode": 0,
+      "python_final_capsule_equal": true
+    },
+    {
+      "kind": "valid_boundary",
+      "case": 8,
+      "backend": "gates",
+      "cells": 64,
+      "steps": 5,
+      "returncode": 0,
+      "python_final_capsule_equal": true
+    },
+    {
+      "kind": "valid_boundary",
+      "case": 9,
+      "backend": "native",
+      "cells": 4096,
+      "steps": 2,
+      "returncode": 0,
+      "python_final_capsule_equal": true
+    },
+    {
+      "kind": "valid_boundary",
+      "case": 9,
+      "backend": "gates",
+      "cells": 4096,
+      "steps": 2,
+      "returncode": 0,
+      "python_final_capsule_equal": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "magic",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "version",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "asset_length",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "feedback",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "mass_descriptor",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "state_bits",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "reserved",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "asset_magic",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "asset_version",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "asset_count",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "phase",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "level",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "cooldown",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "mass_state",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "z_state",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "memory_state",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "padding",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "param_width",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "param_height",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "param_levels",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "param_start_level",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "param_steps",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "param_threshold",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "param_feedback_gain",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "param_memory_divisor",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "param_phase_stride",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "param_feedback_angle",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "param_open_shift",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "param_closed_shift",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "param_reaction_uv_shift",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "param_reaction_vu_shift",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "param_growth_dwell",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "param_growth_divisor",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "param_pair",
+      "native_returncode": 1,
+      "python_rejected": true
+    },
+    {
+      "kind": "malformed_resigned",
+      "case": "param_device_budget_mib",
+      "native_returncode": 1,
+      "python_rejected": true
+    }
+  ],
+  "status": "PASS",
+  "valid_boundary_executions": 20,
+  "malformed_resigned_cases": 35
+}

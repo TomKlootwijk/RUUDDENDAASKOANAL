@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\RUUDDENDAASKOANAL\Gambit_Closure_4.0.1\validation\full\cuda_build\CMakeFiles\5539965bbd34489fbc594ecbe300896a\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7ECCD03D-ECF5-3955-B473-9786CF3CF810}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

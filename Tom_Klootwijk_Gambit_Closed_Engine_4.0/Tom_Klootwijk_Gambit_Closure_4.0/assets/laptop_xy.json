@@ -1,0 +1,101 @@
+{
+  "schema": "gambit-lut-3.1",
+  "file": "laptop_xy.gblut",
+  "sha256": "379d1a7c4ac93a020fcd0b788851f45f4e18018a74576ca44721a555a134f696",
+  "params": {
+    "width": 512,
+    "height": 256,
+    "levels": 5,
+    "start_level": 1,
+    "steps": 256,
+    "threshold": 49,
+    "feedback_gain": 8192,
+    "memory_divisor": 256,
+    "phase_stride": 1,
+    "feedback_angle": 3,
+    "open_shift": 3,
+    "closed_shift": 5,
+    "reaction_uv_shift": 6,
+    "reaction_vu_shift": 7,
+    "growth_dwell": 16,
+    "growth_divisor": 4,
+    "seed": 20260911,
+    "pair": 1,
+    "device_budget_mib": 2048
+  },
+  "author": {
+    "name": "Tom Klootwijk",
+    "identifier": "NL200678942",
+    "date_as_supplied": "10-07-1990"
+  },
+  "chart": {
+    "rho": "natural logarithm r; r0=1",
+    "r_min": 0.03125,
+    "r_max": 4,
+    "radial_sampling": "inclusive equally spaced log radius",
+    "angular_sampling": "theta=2*pi*j/width; j=0..width-1",
+    "origin": "excluded",
+    "units": "dimensionless simulation units"
+  },
+  "format": {
+    "low16": "signed-field code plus 32768",
+    "high16": "clip(32768 - 16*code, 0, 65535)",
+    "distance_scale": 4096,
+    "rounding": "floor(4096*float_sample + 0.5); then saturation",
+    "array_layout": "[generation][radial][angular]; little-endian uint32"
+  },
+  "geometry_source": "provenance/upstream_seed_xy.json; zero incoming memory; tools/geometry_v3.py",
+  "baked_with": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41"
+  },
+  "generations": [
+    {
+      "level": 0,
+      "word_length": 6,
+      "drawing_symbols": 2,
+      "word": "[X][Y]",
+      "occupied_bins": 36459,
+      "saturated_bins": 0,
+      "float_to_code_max_error_unsaturated": 0.00012206931538903676
+    },
+    {
+      "level": 1,
+      "word_length": 16,
+      "drawing_symbols": 6,
+      "word": "[X[+X]Y][Y[-Y]X]",
+      "occupied_bins": 36459,
+      "saturated_bins": 0,
+      "float_to_code_max_error_unsaturated": 0.00012206931538903676
+    },
+    {
+      "level": 2,
+      "word_length": 46,
+      "drawing_symbols": 18,
+      "word": "[X[+X]Y[+X[+X]Y]Y[-Y]X][Y[-Y]X[-Y[-Y]X]X[+X]Y]",
+      "occupied_bins": 36463,
+      "saturated_bins": 0,
+      "float_to_code_max_error_unsaturated": 0.00012206931538903676
+    },
+    {
+      "level": 3,
+      "word_length": 136,
+      "drawing_symbols": 54,
+      "word": "[X[+X]Y[+X[+X]Y]Y[-Y]X[+X[+X]Y[+X[+X]Y]Y[-Y]X]Y[-Y]X[-Y[-Y]X]X[+X]Y][Y[-Y]X[-Y[-Y]X]X[+X]Y[-Y[-Y]X[-Y[-Y]X]X[+X]Y]X[+X]Y[+X[+X]Y]Y[-Y]X]",
+      "occupied_bins": 36955,
+      "saturated_bins": 0,
+      "float_to_code_max_error_unsaturated": 0.00012206931538903676
+    },
+    {
+      "level": 4,
+      "word_length": 406,
+      "drawing_symbols": 162,
+      "word": "[X[+X]Y[+X[+X]Y]Y[-Y]X[+X[+X]Y[+X[+X]Y]Y[-Y]X]Y[-Y]X[-Y[-Y]X]X[+X]Y[+X[+X]Y[+X[+X]Y]Y[-Y]X[+X[+X]Y[+X[+X]Y]Y[-Y]X]Y[-Y]X[-Y[-Y]X]X[+X]Y]Y[-Y]X[-Y[-Y]X]X[+X]Y[-Y[-Y]X[-Y[-Y]X]X[+X]Y]X[+X]Y[+X[+X]Y]Y[-Y]X][Y[-Y]X[-Y[-Y]X]X[+X]Y[-Y[-Y]X[-Y[-Y]X]X[+X]Y]X[+X]Y[+X[+X]Y]Y[-Y]X[-Y[-Y]X[-Y[-Y]X]X[+X]Y[-Y[-Y]X[-Y[-Y]X]X[+X]Y]X[+X]Y[+X[+X]Y]Y[-Y]X]X[+X]Y[+X[+X]Y]Y[-Y]X[+X[+X]Y[+X[+X]Y]Y[-Y]X]Y[-Y]X[-Y[-Y]X]X[+X]Y]",
+      "occupied_bins": 37795,
+      "saturated_bins": 0,
+      "float_to_code_max_error_unsaturated": 0.00012206931538903676
+    }
+  ],
+  "scope": "Finite sampled field, not an infinite chart or exact continuous-space representation. XX/XY are symbolic tokens."
+}

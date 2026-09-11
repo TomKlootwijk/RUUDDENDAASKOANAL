@@ -1,0 +1,109 @@
+{
+  "pdf_sha256": "8939f4738fed8bb8401e193ff327336af9de63e8b5b73be09c306c1212569f0f",
+  "pages": 20,
+  "rendered_review": "Complete contact sheets plus full-resolution theorem and operator-chain pages; final heading-only cleanup followed by text/bounds check",
+  "latex_overfull_boxes": 0,
+  "font_files_distributed": false,
+  "checks": [
+    {
+      "page": 1,
+      "text_chars": 689,
+      "horizontal_outliers": 0
+    },
+    {
+      "page": 2,
+      "text_chars": 5400,
+      "horizontal_outliers": 0
+    },
+    {
+      "page": 3,
+      "text_chars": 3372,
+      "horizontal_outliers": 0
+    },
+    {
+      "page": 4,
+      "text_chars": 2922,
+      "horizontal_outliers": 0
+    },
+    {
+      "page": 5,
+      "text_chars": 2658,
+      "horizontal_outliers": 0
+    },
+    {
+      "page": 6,
+      "text_chars": 2439,
+      "horizontal_outliers": 0
+    },
+    {
+      "page": 7,
+      "text_chars": 1678,
+      "horizontal_outliers": 0
+    },
+    {
+      "page": 8,
+      "text_chars": 2210,
+      "horizontal_outliers": 0
+    },
+    {
+      "page": 9,
+      "text_chars": 2322,
+      "horizontal_outliers": 0
+    },
+    {
+      "page": 10,
+      "text_chars": 3246,
+      "horizontal_outliers": 0
+    },
+    {
+      "page": 11,
+      "text_chars": 2687,
+      "horizontal_outliers": 0
+    },
+    {
+      "page": 12,
+      "text_chars": 3598,
+      "horizontal_outliers": 0
+    },
+    {
+      "page": 13,
+      "text_chars": 2140,
+      "horizontal_outliers": 0
+    },
+    {
+      "page": 14,
+      "text_chars": 3574,
+      "horizontal_outliers": 0
+    },
+    {
+      "page": 15,
+      "text_chars": 2942,
+      "horizontal_outliers": 0
+    },
+    {
+      "page": 16,
+      "text_chars": 3206,
+      "horizontal_outliers": 0
+    },
+    {
+      "page": 17,
+      "text_chars": 2619,
+      "horizontal_outliers": 0
+    },
+    {
+      "page": 18,
+      "text_chars": 3652,
+      "horizontal_outliers": 0
+    },
+    {
+      "page": 19,
+      "text_chars": 2894,
+      "horizontal_outliers": 0
+    },
+    {
+      "page": 20,
+      "text_chars": 2354,
+      "horizontal_outliers": 0
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+; Tom Klootwijk Gambit 4.0 -- cooldown_quotient
+(set-option :produce-proofs true)
+(set-option :timeout 15000)
+(declare-const elapsed Int)(declare-const d Int)
+(assert (and (>= elapsed 0) (>= d 1)))
+(define-fun cd () Int (ite (< elapsed d) elapsed d))
+(define-fun stepcd () Int (ite (< (+ cd 1) d) (+ cd 1) d))
+(define-fun projected () Int (ite (< (+ elapsed 1) d) (+ elapsed 1) d))
+(assert (not (= stepcd projected)))
+(check-sat)
+(get-proof)

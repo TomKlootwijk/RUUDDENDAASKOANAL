@@ -1,0 +1,2 @@
+# Optional offline LUT re-baking only; not required for frozen replay.
+numpy>=1.24

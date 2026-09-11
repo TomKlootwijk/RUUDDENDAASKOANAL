@@ -1,0 +1,21 @@
+==PROF== Connected to process 118244 (C:\RUUDDENDAASKOANAL\Gambit_Closure_4.0.1\validation\full\cuda_build\Release\gambit_cuda.exe)
+==PROF== Profiling "probe" - 0: 0%....50%....100% - 9 passes
+==PROF== Profiling "prepare" - 1: 0%....50%....100% - 9 passes
+==PROF== Profiling "advance" - 2: 0%....50%....100% - 9 passes
+==PROF== Profiling "prepare" - 3: 0%....50%....100% - 9 passes
+==PROF== Profiling "advance" - 4: 0%....50%....100% - 9 passes
+==PROF== Profiling "prepare" - 5: 0%....50%....100% - 9 passes
+==PROF== Profiling "advance" - 6: 0%....50%....100% - 9 passes
+==PROF== Profiling "prepare" - 7: 0%....50%....100% - 9 passes
+==PROF== Profiling "advance" - 8: 0%....50%....100% - 9 passes
+==PROF== Profiling "prepare" - 9: 0%....50%....100% - 9 passes
+==PROF== Profiling "advance" - 10: 0%....50%....100% - 9 passes
+==PROF== Profiling "prepare" - 11: 0%....50%....100% - 9 passes
+==PROF== Profiling "advance" - 12: 0%....50%....100% - 9 passes
+==PROF== Profiling "prepare" - 13: 0%....50%....100% - 9 passes
+==PROF== Profiling "advance" - 14: 0%....50%....100% - 9 passes
+==PROF== Profiling "prepare" - 15: 0%....50%....100% - 9 passes
+==PROF== Profiling "advance" - 16: 0%....50%....100% - 9 passes
+PASS backend=cuda_checked cells=2112 segment=8 phase=8 level=1 mass=87128
+==PROF== Disconnected from process 118244
+==PROF== Report: C:\RUUDDENDAASKOANAL\Gambit_Closure_4.0.1\validation\full\ncu_texture.ncu-rep

@@ -1,0 +1,52 @@
+MSBuild version 17.14.23+b0019275e for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule C:/RUUDDENDAASKOANAL/Tom_Klootwijk_Gambit_Closed_Engine_4.0/Tom_Klootwijk_Gambit_Closure_4.0/CMakeLists.txt
+  legacy_host.cpp
+  engine.cpp
+  boolean.cpp
+  capsule.cpp
+  run.cpp
+  Generating Code...
+  closure_core.vcxproj -> C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\local_validation\cuda128\Release\closure_core.lib
+  Building Custom Rule C:/RUUDDENDAASKOANAL/Tom_Klootwijk_Gambit_Closed_Engine_4.0/Tom_Klootwijk_Gambit_Closure_4.0/CMakeLists.txt
+  Compiling CUDA source file ..\..\src\cuda.cu...
+  Building Custom Rule C:/RUUDDENDAASKOANAL/Tom_Klootwijk_Gambit_Closed_Engine_4.0/Tom_Klootwijk_Gambit_Closure_4.0/CMakeLists.txt
+  Building Custom Rule C:/RUUDDENDAASKOANAL/Tom_Klootwijk_Gambit_Closed_Engine_4.0/Tom_Klootwijk_Gambit_Closure_4.0/CMakeLists.txt
+  
+  C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\local_validation\cuda128>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\bin\nvcc.exe"  --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64" -x cu   -IC:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\include"     --keep-dir gambit_cuda\x64\Release  -maxrregcount=0    --machine 64 --compile -cudart static -forward-unknown-to-host-compiler -std=c++17 --generate-code=arch=compute_120,code=[sm_120] --generate-code=arch=compute_120,code=[compute_120] -lineinfo --fmad=false -Xptxas=-v -Xcompiler="/EHsc -Ob2"   -D_WINDOWS -DNDEBUG -D"CMAKE_INTDIR=\"Release\"" -D_MBCS -DWIN32 -D_WINDOWS -DNDEBUG -D"CMAKE_INTDIR=\"Release\"" -Xcompiler "/EHsc /W1 /nologo /O2 /FS   /MD " -Xcompiler "/Fdgambit_cuda.dir\Release\vc143.pdb" -o gambit_cuda.dir\Release\cuda.obj "C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\src\cuda.cu" 
+C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\src\cuda.cu(44): error : a variable declared with an auto type specifier cannot appear in its own initializer [C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\local_validation\cuda128\gambit_cuda.vcxproj]
+                do{const auto e=(cudaMemcpy(a.p,e.cells.data(),e.cells.size()*sizeof(Cell),cudaMemcpyHostToDevice));if(e!=cudaSuccess)throw std::runtime_error(std::string("cudaMemcpy(a.p,e.cells.data(),e.cells.size()*sizeof(Cell),cudaMemcpyHostToDevice)")+": "+cudaGetErrorString(e));}while(0);
+                                                ^
+  
+C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\src\cuda.cu(44): error : a variable declared with an auto type specifier cannot appear in its own initializer [C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\local_validation\cuda128\gambit_cuda.vcxproj]
+                do{const auto e=(cudaMemcpy(a.p,e.cells.data(),e.cells.size()*sizeof(Cell),cudaMemcpyHostToDevice));if(e!=cudaSuccess)throw std::runtime_error(std::string("cudaMemcpy(a.p,e.cells.data(),e.cells.size()*sizeof(Cell),cudaMemcpyHostToDevice)")+": "+cudaGetErrorString(e));}while(0);
+                                                               ^
+  
+C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\src\cuda.cu(45): error : a variable declared with an auto type specifier cannot appear in its own initializer [C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\local_validation\cuda128\gambit_cuda.vcxproj]
+                do{const auto e=(cudaMemcpy(words.p,e.words.data(),e.words.size()*4,cudaMemcpyHostToDevice));if(e!=cudaSuccess)throw std::runtime_error(std::string("cudaMemcpy(words.p,e.words.data(),e.words.size()*4,cudaMemcpyHostToDevice)")+": "+cudaGetErrorString(e));}while(0);
+                                                    ^
+  
+C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\src\cuda.cu(45): error : a variable declared with an auto type specifier cannot appear in its own initializer [C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\local_validation\cuda128\gambit_cuda.vcxproj]
+                do{const auto e=(cudaMemcpy(words.p,e.words.data(),e.words.size()*4,cudaMemcpyHostToDevice));if(e!=cudaSuccess)throw std::runtime_error(std::string("cudaMemcpy(words.p,e.words.data(),e.words.size()*4,cudaMemcpyHostToDevice)")+": "+cudaGetErrorString(e));}while(0);
+                                                                   ^
+  
+C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\src\cuda.cu(48): error : a variable declared with an auto type specifier cannot appear in its own initializer [C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\local_validation\cuda128\gambit_cuda.vcxproj]
+                    do{const auto e=(cudaMemcpy2DToArray(array,0,0,e.asset.texels.data(),p.width*4,p.width*4,p.height*p.levels,cudaMemcpyHostToDevice));if(e!=cudaSuccess)throw std::runtime_error(std::string("cudaMemcpy2DToArray(array,0,0,e.asset.texels.data(),p.width*4,p.width*4,p.height*p.levels,cudaMemcpyHostToDevice)")+": "+cudaGetErrorString(e));}while(0);
+                                                                   ^
+  
+C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\src\cuda.cu(53): error : a variable declared with an auto type specifier cannot appear in its own initializer [C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\local_validation\cuda128\gambit_cuda.vcxproj]
+                }else{global=new Buffer<uint32_t>(e.asset.texels.size());do{const auto e=(cudaMemcpy(global->p,e.asset.texels.data(),e.asset.texels.size()*4,cudaMemcpyHostToDevice));if(e!=cudaSuccess)throw std::runtime_error(std::string("cudaMemcpy(global->p,e.asset.texels.data(),e.asset.texels.size()*4,cudaMemcpyHostToDevice)")+": "+cudaGetErrorString(e));}while(0);}
+                                                                                                               ^
+  
+C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\src\cuda.cu(53): error : a variable declared with an auto type specifier cannot appear in its own initializer [C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\local_validation\cuda128\gambit_cuda.vcxproj]
+                }else{global=new Buffer<uint32_t>(e.asset.texels.size());do{const auto e=(cudaMemcpy(global->p,e.asset.texels.data(),e.asset.texels.size()*4,cudaMemcpyHostToDevice));if(e!=cudaSuccess)throw std::runtime_error(std::string("cudaMemcpy(global->p,e.asset.texels.data(),e.asset.texels.size()*4,cudaMemcpyHostToDevice)")+": "+cudaGetErrorString(e));}while(0);}
+                                                                                                                                     ^
+  
+  7 errors detected in the compilation of "C:/RUUDDENDAASKOANAL/Tom_Klootwijk_Gambit_Closed_Engine_4.0/Tom_Klootwijk_Gambit_Closure_4.0/src/cuda.cu".
+  cuda.cu
+C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Microsoft\VC\v170\BuildCustomizations\CUDA 12.8.targets(800,9): error MSB3721: The command ""C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\bin\nvcc.exe"  --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64" -x cu   -IC:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\include"     --keep-dir gambit_cuda\x64\Release  -maxrregcount=0    --machine 64 --compile -cudart static -forward-unknown-to-host-compiler -std=c++17 --generate-code=arch=compute_120,code=[sm_120] --generate-code=arch=compute_120,code=[compute_120] -lineinfo --fmad=false -Xptxas=-v -Xcompiler="/EHsc -Ob2"   -D_WINDOWS -DNDEBUG -D"CMAKE_INTDIR=\"Release\"" -D_MBCS -DWIN32 -D_WINDOWS -DNDEBUG -D"CMAKE_INTDIR=\"Release\"" -Xcompiler "/EHsc /W1 /nologo /O2 /FS   /MD " -Xcompiler "/Fdgambit_cuda.dir\Release\vc143.pdb" -o gambit_cuda.dir\Release\cuda.obj "C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\src\cuda.cu"" exited with code 2. [C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\local_validation\cuda128\gambit_cuda.vcxproj]
+  main.cpp
+  native_test.cpp
+  gambit.vcxproj -> C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\local_validation\cuda128\Release\gambit.exe
+  gambit_tests.vcxproj -> C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\local_validation\cuda128\Release\gambit_tests.exe

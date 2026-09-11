@@ -1,0 +1,1 @@
+{"device":"NVIDIA GeForce RTX 5070 Ti Laptop GPU","compute_major":12,"compute_minor":0,"driver":13010,"runtime":12080,"total_vram":12820480000,"free_vram":11561598976}

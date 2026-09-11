@@ -1,0 +1,86 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[a4paper,top=22mm,bottom=22mm,left=22mm,right=22mm]{geometry}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{microtype,graphicx}
+\usepackage{booktabs,longtable,array}
+\usepackage{etoolbox,fvextra,titlesec,xcolor,xurl,hyperref,fancyhdr,enumitem,needspace,placeins,float}
+\definecolor{ink}{HTML}{143247}
+\definecolor{accent}{HTML}{147D92}
+\definecolor{muted}{HTML}{53616B}
+\hypersetup{colorlinks=true,linkcolor=ink,urlcolor=accent,
+ pdftitle={Tom Klootwijk Gambit - Unified One-Bit Self-Referential Engine - Formal Closure 4.0},
+ pdfauthor={Tom Klootwijk - NL200678942 - 10-07-1990},
+ pdfsubject={Unified Closure Theorem U4, deterministic kernel and exact state encoding; CPU verification executed; CUDA pending},
+ pdfkeywords={Gambit, closure, one-bit, deterministic, seed-field, self-reference, formal theorem}}
+\urlstyle{same}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\sffamily\color{ink}TOM KLOOTWIJK GAMBIT}
+\fancyhead[R]{\small\sffamily\color{muted}FORMAL CLOSURE 4.0}
+\fancyfoot[L]{\small\color{muted}Unified one-bit self-referential engine}
+\fancyfoot[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\headheight}{15pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45em}
+\setlength{\emergencystretch}{3em}
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+\titleformat{\section}{\Large\sffamily\bfseries\color{ink}}{\thesection}{0.7em}{}
+\titleformat{\subsection}{\large\sffamily\bfseries\color{ink}}{\thesubsection}{0.7em}{}
+\titleformat{\subsubsection}{\normalsize\sffamily\bfseries\color{ink}}{}{0pt}{}
+\titlespacing*{\section}{0pt}{0.7em}{1em}
+\titlespacing*{\subsection}{0pt}{1.15em}{0.5em}
+\setlist{itemsep=0.25em,topsep=0.35em,leftmargin=1.6em}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\DefineVerbatimEnvironment{verbatim}{Verbatim}{breaklines=true,breakanywhere=true,fontsize=\small}
+\AtBeginEnvironment{longtable}{\footnotesize\setlength{\tabcolsep}{5pt}\renewcommand{\arraystretch}{1.22}}
+\AtBeginEnvironment{figure}{\centering}
+\providecommand{\pandocbounded}[1]{#1}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>0.55\textheight0.55\textheight\else\Gin@nat@height\fi}
+\makeatother
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\topfraction}{0.90}
+\setcounter{topnumber}{2}
+\widowpenalty=10000
+\clubpenalty=10000
+\begin{document}
+\begin{titlepage}
+\thispagestyle{empty}
+{\sffamily\color{accent}\large MATHEMATICAL CLOSURE / REPLAYABLE EXECUTION\par}
+\vspace{16mm}
+{\sffamily\bfseries\color{ink}\fontsize{34}{39}\selectfont Tom Klootwijk\par Gambit\par}
+\vspace{8mm}
+{\sffamily\color{ink}\fontsize{23}{29}\selectfont Unified One-Bit\par Self-Referential Engine\par}
+\vspace{4mm}
+{\sffamily\color{muted}\Large Formal Closure Edition 4.0\par}
+\vspace{8mm}
+{\color{accent}\rule{\linewidth}{1.2pt}\par}
+\vspace{5mm}
+{\large Unified Seed--Field Theorem\par and Theory of Consciousness\par}
+\vspace{5mm}
+{\color{muted}Unified Theorem U4 / Sixteen supporting proofs\par
+Complete binary state / Native and Boolean kernels\par}
+\vspace{10mm}
+{\large\bfseries Tom Klootwijk\par}
+{NL200678942\quad /\quad 10-07-1990\par}
+\vfill
+\begingroup\setlength{\fboxsep}{11pt}\color{ink}
+\fbox{\parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}{
+\sffamily\bfseries Closed under its specified transition.\par
+\vspace{4pt}\normalfont\small
+The numerical state, exact one-bit arithmetic, self-feedback and complete restart word are defined and tested. CPU verification is executed. CUDA device verification remains pending. Closure is not presented as proof of subjective consciousness or physically unlimited operation.}}
+\endgroup\par
+\vspace{6mm}
+{\small\color{muted}11 September 2026\hfill Private-attribution edition\par}
+\end{titlepage}
+\pagenumbering{roman}
+{\footnotesize\setlength{\parskip}{0pt}\tableofcontents}
+\clearpage
+\pagenumbering{arabic}

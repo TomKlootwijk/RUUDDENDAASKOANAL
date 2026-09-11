@@ -1,0 +1,20 @@
+UpdateCTestConfiguration  from :C:/RUUDDENDAASKOANAL/Tom_Klootwijk_Gambit_Closed_Engine_4.0/Tom_Klootwijk_Gambit_Closure_4.0/local_validation/20260911_hardware_formal/build/DartConfiguration.tcl
+Test project C:/RUUDDENDAASKOANAL/Tom_Klootwijk_Gambit_Closed_Engine_4.0/Tom_Klootwijk_Gambit_Closure_4.0/local_validation/20260911_hardware_formal/build
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: closure_native_contract
+
+1: Test command: C:\RUUDDENDAASKOANAL\Tom_Klootwijk_Gambit_Closed_Engine_4.0\Tom_Klootwijk_Gambit_Closure_4.0\local_validation\20260911_hardware_formal\build\Release\gambit_tests.exe "C:/RUUDDENDAASKOANAL/Tom_Klootwijk_Gambit_Closed_Engine_4.0/Tom_Klootwijk_Gambit_Closure_4.0/assets/micro_xy.gblut"
+1: Working Directory: C:/RUUDDENDAASKOANAL/Tom_Klootwijk_Gambit_Closed_Engine_4.0/Tom_Klootwijk_Gambit_Closure_4.0/local_validation/20260911_hardware_formal/build
+1: Test timeout computed to be: 10000000
+1: PASS checks=338184 exhaustive_pairs_8bit=65536 random_64bit_pairs=1200 continued_ticks=10000
+1/1 Test #1: closure_native_contract ..........   Passed    0.34 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.38 sec

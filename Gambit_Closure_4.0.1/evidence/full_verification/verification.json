@@ -1,0 +1,332 @@
+{
+  "schema": "gambit-closure-verification-4.0",
+  "status": "CPU_PASS_GPU_NOT_RUN",
+  "scope": "full",
+  "gpu": "NOT_RUN",
+  "formal": "PASS",
+  "goldens_modified": false,
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "commands": [
+    {
+      "argv": [
+        "cmake",
+        "-S",
+        "/mnt/data/Tom_Klootwijk_Gambit_Closure_4.0",
+        "-B",
+        "/mnt/data/_closure_work/full_verification/build",
+        "-DGAMBIT_ENABLE_CUDA=OFF",
+        "-DCMAKE_BUILD_TYPE=Release"
+      ],
+      "returncode": 0,
+      "log": "configure.txt"
+    },
+    {
+      "argv": [
+        "cmake",
+        "--build",
+        "/mnt/data/_closure_work/full_verification/build",
+        "--config",
+        "Release",
+        "--parallel",
+        "2"
+      ],
+      "returncode": 0,
+      "log": "build.txt"
+    },
+    {
+      "argv": [
+        "ctest",
+        "--test-dir",
+        "/mnt/data/_closure_work/full_verification/build",
+        "-C",
+        "Release",
+        "-V",
+        "--output-on-failure"
+      ],
+      "returncode": 0,
+      "log": "native_tests.txt"
+    },
+    {
+      "argv": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "log": "python_tests.txt"
+    },
+    {
+      "argv": [
+        "/mnt/data/_closure_work/full_verification/build/gambit",
+        "--asset",
+        "/mnt/data/Tom_Klootwijk_Gambit_Closure_4.0/assets/micro_xx.gblut",
+        "--out",
+        "/mnt/data/_closure_work/full_verification/native/micro_xx",
+        "--steps",
+        "64"
+      ],
+      "returncode": 0,
+      "log": "native_micro_xx.txt"
+    },
+    {
+      "argv": [
+        "/mnt/data/_closure_work/full_verification/build/gambit",
+        "--asset",
+        "/mnt/data/Tom_Klootwijk_Gambit_Closure_4.0/assets/micro_xx.gblut",
+        "--backend",
+        "gates",
+        "--out",
+        "/mnt/data/_closure_work/full_verification/gates/micro_xx",
+        "--steps",
+        "64"
+      ],
+      "returncode": 0,
+      "log": "gates_micro_xx.txt"
+    },
+    {
+      "argv": [
+        "/mnt/data/_closure_work/full_verification/build/gambit",
+        "--asset",
+        "/mnt/data/Tom_Klootwijk_Gambit_Closure_4.0/assets/micro_xy.gblut",
+        "--out",
+        "/mnt/data/_closure_work/full_verification/native/micro_xy",
+        "--steps",
+        "64"
+      ],
+      "returncode": 0,
+      "log": "native_micro_xy.txt"
+    },
+    {
+      "argv": [
+        "/mnt/data/_closure_work/full_verification/build/gambit",
+        "--asset",
+        "/mnt/data/Tom_Klootwijk_Gambit_Closure_4.0/assets/micro_xy.gblut",
+        "--backend",
+        "gates",
+        "--out",
+        "/mnt/data/_closure_work/full_verification/gates/micro_xy",
+        "--steps",
+        "64"
+      ],
+      "returncode": 0,
+      "log": "gates_micro_xy.txt"
+    },
+    {
+      "argv": [
+        "/mnt/data/_closure_work/full_verification/build/gambit",
+        "--asset",
+        "/mnt/data/Tom_Klootwijk_Gambit_Closure_4.0/assets/verify_xx.gblut",
+        "--out",
+        "/mnt/data/_closure_work/full_verification/native/verify_xx",
+        "--steps",
+        "64"
+      ],
+      "returncode": 0,
+      "log": "native_verify_xx.txt"
+    },
+    {
+      "argv": [
+        "/mnt/data/_closure_work/full_verification/build/gambit",
+        "--asset",
+        "/mnt/data/Tom_Klootwijk_Gambit_Closure_4.0/assets/verify_xx.gblut",
+        "--backend",
+        "gates",
+        "--out",
+        "/mnt/data/_closure_work/full_verification/gates/verify_xx",
+        "--steps",
+        "64"
+      ],
+      "returncode": 0,
+      "log": "gates_verify_xx.txt"
+    },
+    {
+      "argv": [
+        "/mnt/data/_closure_work/full_verification/build/gambit",
+        "--asset",
+        "/mnt/data/Tom_Klootwijk_Gambit_Closure_4.0/assets/verify_xy.gblut",
+        "--out",
+        "/mnt/data/_closure_work/full_verification/native/verify_xy",
+        "--steps",
+        "64"
+      ],
+      "returncode": 0,
+      "log": "native_verify_xy.txt"
+    },
+    {
+      "argv": [
+        "/mnt/data/_closure_work/full_verification/build/gambit",
+        "--asset",
+        "/mnt/data/Tom_Klootwijk_Gambit_Closure_4.0/assets/verify_xy.gblut",
+        "--backend",
+        "gates",
+        "--out",
+        "/mnt/data/_closure_work/full_verification/gates/verify_xy",
+        "--steps",
+        "64"
+      ],
+      "returncode": 0,
+      "log": "gates_verify_xy.txt"
+    },
+    {
+      "argv": [
+        "/mnt/data/_closure_work/full_verification/build/gambit",
+        "--asset",
+        "/mnt/data/Tom_Klootwijk_Gambit_Closure_4.0/assets/laptop_xx.gblut",
+        "--out",
+        "/mnt/data/_closure_work/full_verification/native/laptop_xx",
+        "--steps",
+        "256"
+      ],
+      "returncode": 0,
+      "log": "native_laptop_xx.txt"
+    },
+    {
+      "argv": [
+        "/mnt/data/_closure_work/full_verification/build/gambit",
+        "--asset",
+        "/mnt/data/Tom_Klootwijk_Gambit_Closure_4.0/assets/laptop_xy.gblut",
+        "--out",
+        "/mnt/data/_closure_work/full_verification/native/laptop_xy",
+        "--steps",
+        "256"
+      ],
+      "returncode": 0,
+      "log": "native_laptop_xy.txt"
+    },
+    {
+      "argv": [
+        "/mnt/data/_closure_work/full_verification/build/gambit",
+        "--asset",
+        "/mnt/data/Tom_Klootwijk_Gambit_Closure_4.0/assets/micro_xy.gblut",
+        "--out",
+        "/mnt/data/_closure_work/full_verification/split_first",
+        "--steps",
+        "17"
+      ],
+      "returncode": 0,
+      "log": "split_first.txt"
+    },
+    {
+      "argv": [
+        "/mnt/data/_closure_work/full_verification/build/gambit",
+        "--resume",
+        "/mnt/data/_closure_work/full_verification/split_first/final.gbc",
+        "--out",
+        "/mnt/data/_closure_work/full_verification/split_second",
+        "--steps",
+        "47"
+      ],
+      "returncode": 0,
+      "log": "split_second.txt"
+    },
+    {
+      "argv": [
+        "/opt/pyvenv/bin/python",
+        "tools/check_formal.py",
+        "--out",
+        "/mnt/data/_closure_work/full_verification/formal"
+      ],
+      "returncode": 0,
+      "log": "formal.txt"
+    }
+  ],
+  "cases": {
+    "micro_xx": {
+      "status": "PASS",
+      "steps": 64,
+      "cells": 64,
+      "pulse_bits": 4096,
+      "ones": 1623,
+      "total_input": 108606494,
+      "mass": 2779,
+      "endpoint_count_certificate": true,
+      "parity_and_events": true,
+      "complete_historical_input_reconstructed": false,
+      "golden_match": true,
+      "independent_python": true,
+      "boolean_ALU": true
+    },
+    "micro_xy": {
+      "status": "PASS",
+      "steps": 64,
+      "cells": 64,
+      "pulse_bits": 4096,
+      "ones": 1603,
+      "total_input": 106923790,
+      "mass": 2766,
+      "endpoint_count_certificate": true,
+      "parity_and_events": true,
+      "complete_historical_input_reconstructed": false,
+      "golden_match": true,
+      "independent_python": true,
+      "boolean_ALU": true
+    },
+    "verify_xx": {
+      "status": "PASS",
+      "steps": 64,
+      "cells": 2112,
+      "pulse_bits": 135168,
+      "ones": 49025,
+      "total_input": 3291229405,
+      "mass": 86047,
+      "endpoint_count_certificate": true,
+      "parity_and_events": true,
+      "complete_historical_input_reconstructed": false,
+      "golden_match": true,
+      "independent_python": true,
+      "boolean_ALU": true
+    },
+    "verify_xy": {
+      "status": "PASS",
+      "steps": 64,
+      "cells": 2112,
+      "pulse_bits": 135168,
+      "ones": 49015,
+      "total_input": 3290315686,
+      "mass": 87128,
+      "endpoint_count_certificate": true,
+      "parity_and_events": true,
+      "complete_historical_input_reconstructed": false,
+      "golden_match": true,
+      "independent_python": true,
+      "boolean_ALU": true
+    },
+    "laptop_xx": {
+      "status": "PASS",
+      "steps": 256,
+      "cells": 131072,
+      "pulse_bits": 33554432,
+      "ones": 12169202,
+      "total_input": 802121495571,
+      "mass": 5208103,
+      "endpoint_count_certificate": true,
+      "parity_and_events": true,
+      "complete_historical_input_reconstructed": false,
+      "golden_match": true
+    },
+    "laptop_xy": {
+      "status": "PASS",
+      "steps": 256,
+      "cells": 131072,
+      "pulse_bits": 33554432,
+      "ones": 12180402,
+      "total_input": 802859545674,
+      "mass": 5217058,
+      "endpoint_count_certificate": true,
+      "parity_and_events": true,
+      "complete_historical_input_reconstructed": false,
+      "golden_match": true
+    }
+  },
+  "integrity_files": 154,
+  "checkpoint_split_17_47": "PASS",
+  "negative_cli_cases": 4,
+  "cpu": "PASS"
+}

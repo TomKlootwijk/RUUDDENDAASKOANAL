@@ -1,0 +1,50 @@
+MSBuild version 17.14.23+b0019275e for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule C:/RUUDDENDAASKOANAL/Gambit_Closure_4.0.1/CMakeLists.txt
+  legacy_host.cpp
+  engine.cpp
+  boolean.cpp
+  capsule.cpp
+  run.cpp
+  Generating Code...
+  closure_core.vcxproj -> C:\RUUDDENDAASKOANAL\Gambit_Closure_4.0.1\validation\full\cuda_build\Release\closure_core.lib
+  Building Custom Rule C:/RUUDDENDAASKOANAL/Gambit_Closure_4.0.1/CMakeLists.txt
+  Compiling CUDA source file ..\..\..\tests\cuda_contract.cu...
+  Building Custom Rule C:/RUUDDENDAASKOANAL/Gambit_Closure_4.0.1/CMakeLists.txt
+  Building Custom Rule C:/RUUDDENDAASKOANAL/Gambit_Closure_4.0.1/CMakeLists.txt
+  
+  C:\RUUDDENDAASKOANAL\Gambit_Closure_4.0.1\validation\full\cuda_build>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\bin\nvcc.exe"  --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64" -x cu   -IC:\RUUDDENDAASKOANAL\Gambit_Closure_4.0.1\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\include"     --keep-dir gambit_c.15918606\x64\Release  -maxrregcount=0    --machine 64 --compile -cudart static -forward-unknown-to-host-compiler -std=c++17 --generate-code=arch=compute_120,code=[sm_120] --generate-code=arch=compute_120,code=[compute_120] -Xcompiler="/EHsc -Ob2"   -D_WINDOWS -DNDEBUG -D"CMAKE_INTDIR=\"Release\"" -D_MBCS -DWIN32 -D_WINDOWS -DNDEBUG -D"CMAKE_INTDIR=\"Release\"" -Xcompiler "/EHsc /W1 /nologo /O2 /FS   /MT " -Xcompiler "/Fdgambit_cuda_contract.dir\Release\vc143.pdb" -o gambit_cuda_contract.dir\Release\cuda_contract.obj "C:\RUUDDENDAASKOANAL\Gambit_Closure_4.0.1\tests\cuda_contract.cu" 
+  Building Custom Rule C:/RUUDDENDAASKOANAL/Gambit_Closure_4.0.1/CMakeLists.txt
+  Compiling CUDA source file ..\..\..\src\cuda.cu...
+  
+  C:\RUUDDENDAASKOANAL\Gambit_Closure_4.0.1\validation\full\cuda_build>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\bin\nvcc.exe"  --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64" -x cu   -IC:\RUUDDENDAASKOANAL\Gambit_Closure_4.0.1\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\include"     --keep-dir gambit_cuda\x64\Release  -maxrregcount=0    --machine 64 --compile -cudart static -forward-unknown-to-host-compiler -std=c++17 --generate-code=arch=compute_120,code=[sm_120] --generate-code=arch=compute_120,code=[compute_120] -lineinfo --fmad=false -Xptxas=-v -Xcompiler="/EHsc -Ob2"   -D_WINDOWS -DNDEBUG -D"CMAKE_INTDIR=\"Release\"" -D_MBCS -DWIN32 -D_WINDOWS -DNDEBUG -D"CMAKE_INTDIR=\"Release\"" -Xcompiler "/EHsc /W1 /nologo /O2 /FS   /MT " -Xcompiler "/Fdgambit_cuda.dir\Release\vc143.pdb" -o gambit_cuda.dir\Release\cuda.obj "C:\RUUDDENDAASKOANAL\Gambit_Closure_4.0.1\src\cuda.cu" 
+  cuda_contract.cu
+  ptxas info    : 0 bytes gmem
+  ptxas info    : Compiling entry function '_ZN35_GLOBAL__N__cf0717b3_7_cuda_cu_main7advanceEPKN6gambit4CellEPS1_PKNS0_6SampleEPjNS0_6ParamsE' for 'sm_120'
+  ptxas info    : Function properties for _ZN35_GLOBAL__N__cf0717b3_7_cuda_cu_main7advanceEPKN6gambit4CellEPS1_PKNS0_6SampleEPjNS0_6ParamsE
+      0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+  ptxas info    : Used 36 registers, used 0 barriers
+  ptxas info    : Compile time = 0.000 ms
+  ptxas info    : Compiling entry function '_ZN35_GLOBAL__N__cf0717b3_7_cuda_cu_main7prepareEPKN6gambit4CellEPKjPNS0_6SampleENS0_6ParamsEN7closure5ClockEjyS5_' for 'sm_120'
+  ptxas info    : Function properties for _ZN35_GLOBAL__N__cf0717b3_7_cuda_cu_main7prepareEPKN6gambit4CellEPKjPNS0_6SampleENS0_6ParamsEN7closure5ClockEjyS5_
+      0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+  ptxas info    : Used 16 registers, used 0 barriers
+  ptxas info    : Compile time = 0.000 ms
+  ptxas info    : Compiling entry function '_ZN35_GLOBAL__N__cf0717b3_7_cuda_cu_main5probeEPjjN6gambit6ParamsEyPKj' for 'sm_120'
+  ptxas info    : Function properties for _ZN35_GLOBAL__N__cf0717b3_7_cuda_cu_main5probeEPjjN6gambit6ParamsEyPKj
+      0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+  ptxas info    : Used 10 registers, used 0 barriers
+  ptxas info    : Compile time = 0.000 ms
+  cuda.cu
+  tmpxft_00020494_00000000-7_cuda_contract.cudafe1.cpp
+  tmpxft_00020720_00000000-7_cuda.cudafe1.cpp
+     Creating library C:/RUUDDENDAASKOANAL/Gambit_Closure_4.0.1/validation/full/cuda_build/Release/gambit_cuda_contract.lib and object C:/RUUDDENDAASKOANAL/Gambit_Closure_4.0.1/validation/full/cuda_build/Release/gambit_cuda_contract.exp
+  gambit_cuda_contract.vcxproj -> C:\RUUDDENDAASKOANAL\Gambit_Closure_4.0.1\validation\full\cuda_build\Release\gambit_cuda_contract.exe
+  main.cpp
+  native_test.cpp
+     Creating library C:/RUUDDENDAASKOANAL/Gambit_Closure_4.0.1/validation/full/cuda_build/Release/gambit_cuda.lib and object C:/RUUDDENDAASKOANAL/Gambit_Closure_4.0.1/validation/full/cuda_build/Release/gambit_cuda.exp
+  gambit_cuda.vcxproj -> C:\RUUDDENDAASKOANAL\Gambit_Closure_4.0.1\validation\full\cuda_build\Release\gambit_cuda.exe
+  gambit.vcxproj -> C:\RUUDDENDAASKOANAL\Gambit_Closure_4.0.1\validation\full\cuda_build\Release\gambit.exe
+  gambit_tests.vcxproj -> C:\RUUDDENDAASKOANAL\Gambit_Closure_4.0.1\validation\full\cuda_build\Release\gambit_tests.exe
+  Building Custom Rule C:/RUUDDENDAASKOANAL/Gambit_Closure_4.0.1/CMakeLists.txt

@@ -1,0 +1,104 @@
+{
+  "source_cache_path": "C:\\Users\\Tom\\AppData\\Local\\pip\\cache\\http-v2\\d\\d\\e\\a\\6\\ddea66c4b8d87085db74f9a5758eae049dfa863acec8b491dc2ea947.body",
+  "archive_sha256": "00e35b02632ed085ea8199fb230f6015e6fc40554a6680c097bd5f060e827431",
+  "archive_bytes": 16259597,
+  "package": "z3-solver",
+  "version": "4.15.4.0",
+  "platform": "py3-none-win_amd64",
+  "record_hashed_members_checked": 38,
+  "record_hash_failures": 0,
+  "created_utc": "2026-09-11T07:59:07.955616+00:00",
+  "authorization": "User explicitly approved installing Z3 for validation. Unpacked existing offline cache into revision-local tools; no downloads or global environment changes.",
+  "files": [
+    {
+      "wheel_member": "z3/lib/libz3.dll",
+      "relative_path": "bin/libz3.dll",
+      "bytes": 17546240,
+      "sha256": "88b20513993816cf71e29969c5232a8eb03dda05deefce71879ecc1e3519b2aa"
+    },
+    {
+      "wheel_member": "z3/lib/msvcp140.dll",
+      "relative_path": "bin/msvcp140.dll",
+      "bytes": 557728,
+      "sha256": "0f885b509a685d2bbfa652fed26b5fb31d88fbdab0a978c641d1c7b8aa460aa9"
+    },
+    {
+      "wheel_member": "z3/lib/msvcp140_1.dll",
+      "relative_path": "bin/msvcp140_1.dll",
+      "bytes": 35952,
+      "sha256": "bfad5aef4c63a669e3c140655cdfdf395b6c979b400a447bd5dcb65ed8826c3d"
+    },
+    {
+      "wheel_member": "z3/lib/msvcp140_2.dll",
+      "relative_path": "bin/msvcp140_2.dll",
+      "bytes": 280200,
+      "sha256": "3ea06f0ee098b4823cb79599df3780e7f23cce52c19aac31d2a0d47efe33a5e9"
+    },
+    {
+      "wheel_member": "z3/lib/msvcp140_atomic_wait.dll",
+      "relative_path": "bin/msvcp140_atomic_wait.dll",
+      "bytes": 50304,
+      "sha256": "640b2aefced484d0368eea5bdd06addd0658a3a70a49256e560d6923b404a479"
+    },
+    {
+      "wheel_member": "z3/lib/msvcp140_codecvt_ids.dll",
+      "relative_path": "bin/msvcp140_codecvt_ids.dll",
+      "bytes": 31872,
+      "sha256": "f2069a52880ec885ee7f0511186100eb7fada0411a2b4948fafea7735b878a18"
+    },
+    {
+      "wheel_member": "z3/lib/vcomp140.dll",
+      "relative_path": "bin/vcomp140.dll",
+      "bytes": 193152,
+      "sha256": "55aba23cdcd6484fbb06f4155b8ca75adfce7a881f10afd0c49457165e677164"
+    },
+    {
+      "wheel_member": "z3/lib/vcruntime140.dll",
+      "relative_path": "bin/vcruntime140.dll",
+      "bytes": 124544,
+      "sha256": "d5e4d9a3e835fa679450145d6a7d94e36573a509317111904d9b3712c30d9066"
+    },
+    {
+      "wheel_member": "z3/lib/vcruntime140_1.dll",
+      "relative_path": "bin/vcruntime140_1.dll",
+      "bytes": 49792,
+      "sha256": "1f2d41c4aa5db0bc33ebf7b66d72943a817d7ce6cbe880502a9403823633093f"
+    },
+    {
+      "wheel_member": "z3/lib/vcruntime140_threads.dll",
+      "relative_path": "bin/vcruntime140_threads.dll",
+      "bytes": 38528,
+      "sha256": "219915cf20822f34d5e7c1fdd4e21ae7f3396881096c51036225fb8f84b47afa"
+    },
+    {
+      "wheel_member": "z3_solver-4.15.4.0.data/data/bin/z3.exe",
+      "relative_path": "bin/z3.exe",
+      "bytes": 17872384,
+      "sha256": "7216cbdf7160d014a8f7032af033a17512448199cf4f464c09302d8869c2288d"
+    },
+    {
+      "wheel_member": "z3_solver-4.15.4.0.dist-info/METADATA",
+      "relative_path": "metadata/METADATA",
+      "bytes": 778,
+      "sha256": "88499dac1969c20384bece69984eb93d63f62a5c55b350ad3a278ca7de838cf8"
+    },
+    {
+      "wheel_member": "z3_solver-4.15.4.0.dist-info/WHEEL",
+      "relative_path": "metadata/WHEEL",
+      "bytes": 97,
+      "sha256": "6635d108d690f584b2a442b64c4d0b441d2ccb63955d2b336f84b1d578ccf7d9"
+    },
+    {
+      "wheel_member": "z3_solver-4.15.4.0.dist-info/top_level.txt",
+      "relative_path": "metadata/top_level.txt",
+      "bytes": 3,
+      "sha256": "5e1b3b203b8d9c1fe1424420b5d56a8244880e1a7539eb7e88b035ec0257fafe"
+    },
+    {
+      "wheel_member": "z3_solver-4.15.4.0.dist-info/RECORD",
+      "relative_path": "metadata/RECORD",
+      "bytes": 3050,
+      "sha256": "77cfeda857b2c42a161000313f31f468f1faefdcf9f2c6ca13b5f637db8c8f1c"
+    }
+  ]
+}

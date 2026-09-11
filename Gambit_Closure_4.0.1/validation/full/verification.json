@@ -1,0 +1,921 @@
+{
+  "schema": "gambit-closure-verification-4.0",
+  "status": "GPU_CPU_EXACT_PASS",
+  "scope": "full",
+  "cpu": "PASS",
+  "gpu": "PASS",
+  "formal": "PASS",
+  "sanitizers": "PASS",
+  "profile": "CAPTURED_FOR_REVIEW_NOT_A_SPEED_CLAIM",
+  "requested": {
+    "cpu": true,
+    "gpu": true,
+    "formal": true,
+    "sanitizers": true,
+    "profile": true
+  },
+  "cmake_cuda_toolset": "cuda=12.8",
+  "tools": {
+    "cmake": "C:\\Users\\Tom\\miniconda3\\Scripts\\cmake.exe",
+    "ctest": "C:\\Users\\Tom\\miniconda3\\Scripts\\ctest.exe",
+    "nvcc": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin\\nvcc.exe",
+    "nvidia-smi": "C:\\Windows\\System32\\nvidia-smi.exe",
+    "cuobjdump": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin\\cuobjdump.exe",
+    "compute-sanitizer": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\compute-sanitizer\\compute-sanitizer.exe",
+    "ncu": "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\target\\windows-desktop-win7-x64\\ncu.exe"
+  },
+  "goldens_modified": false,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.11",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Tom\\miniconda3\\Scripts\\cmake.exe",
+        "-S",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1",
+        "-B",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\build",
+        "-DGAMBIT_ENABLE_CUDA=OFF",
+        "-DCMAKE_BUILD_TYPE=Release"
+      ],
+      "returncode": 0,
+      "log": "configure.txt",
+      "gate": "cpu"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Tom\\miniconda3\\Scripts\\cmake.exe",
+        "--build",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\build",
+        "--config",
+        "Release",
+        "--parallel",
+        "2"
+      ],
+      "returncode": 0,
+      "log": "build.txt",
+      "gate": "cpu"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Tom\\miniconda3\\Scripts\\ctest.exe",
+        "--test-dir",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\build",
+        "-C",
+        "Release",
+        "-V",
+        "--output-on-failure"
+      ],
+      "returncode": 0,
+      "log": "native_tests.txt",
+      "gate": "cpu"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Tom\\miniconda3\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "log": "python_tests.txt",
+      "gate": "cpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\build\\Release\\gambit.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\micro_xx.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\native\\micro_xx",
+        "--steps",
+        "64"
+      ],
+      "returncode": 0,
+      "log": "native_micro_xx.txt",
+      "gate": "cpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\build\\Release\\gambit.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\micro_xx.gblut",
+        "--backend",
+        "gates",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\gates\\micro_xx",
+        "--steps",
+        "64"
+      ],
+      "returncode": 0,
+      "log": "gates_micro_xx.txt",
+      "gate": "cpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\build\\Release\\gambit.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\micro_xy.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\native\\micro_xy",
+        "--steps",
+        "64"
+      ],
+      "returncode": 0,
+      "log": "native_micro_xy.txt",
+      "gate": "cpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\build\\Release\\gambit.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\micro_xy.gblut",
+        "--backend",
+        "gates",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\gates\\micro_xy",
+        "--steps",
+        "64"
+      ],
+      "returncode": 0,
+      "log": "gates_micro_xy.txt",
+      "gate": "cpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\build\\Release\\gambit.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\verify_xx.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\native\\verify_xx",
+        "--steps",
+        "64"
+      ],
+      "returncode": 0,
+      "log": "native_verify_xx.txt",
+      "gate": "cpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\build\\Release\\gambit.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\verify_xx.gblut",
+        "--backend",
+        "gates",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\gates\\verify_xx",
+        "--steps",
+        "64"
+      ],
+      "returncode": 0,
+      "log": "gates_verify_xx.txt",
+      "gate": "cpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\build\\Release\\gambit.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\verify_xy.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\native\\verify_xy",
+        "--steps",
+        "64"
+      ],
+      "returncode": 0,
+      "log": "native_verify_xy.txt",
+      "gate": "cpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\build\\Release\\gambit.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\verify_xy.gblut",
+        "--backend",
+        "gates",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\gates\\verify_xy",
+        "--steps",
+        "64"
+      ],
+      "returncode": 0,
+      "log": "gates_verify_xy.txt",
+      "gate": "cpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\build\\Release\\gambit.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\laptop_xx.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\native\\laptop_xx",
+        "--steps",
+        "256"
+      ],
+      "returncode": 0,
+      "log": "native_laptop_xx.txt",
+      "gate": "cpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\build\\Release\\gambit.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\laptop_xy.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\native\\laptop_xy",
+        "--steps",
+        "256"
+      ],
+      "returncode": 0,
+      "log": "native_laptop_xy.txt",
+      "gate": "cpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\build\\Release\\gambit.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\micro_xy.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\split_first",
+        "--steps",
+        "17"
+      ],
+      "returncode": 0,
+      "log": "split_first.txt",
+      "gate": "cpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\build\\Release\\gambit.exe",
+        "--resume",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\split_first\\final.gbc",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\split_second",
+        "--steps",
+        "47"
+      ],
+      "returncode": 0,
+      "log": "split_second.txt",
+      "gate": "cpu"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Tom\\miniconda3\\python.exe",
+        "tools/check_formal.py",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\formal"
+      ],
+      "returncode": 0,
+      "log": "formal.txt",
+      "gate": "formal"
+    },
+    {
+      "argv": [
+        "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin\\nvcc.exe",
+        "--version"
+      ],
+      "returncode": 0,
+      "log": "nvcc_version.txt",
+      "gate": "gpu"
+    },
+    {
+      "argv": [
+        "C:\\Windows\\System32\\nvidia-smi.exe"
+      ],
+      "returncode": 0,
+      "log": "nvidia_smi.txt",
+      "gate": "gpu"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Tom\\miniconda3\\Scripts\\cmake.exe",
+        "-S",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1",
+        "-B",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build",
+        "-DGAMBIT_ENABLE_CUDA=ON",
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-T",
+        "cuda=12.8"
+      ],
+      "returncode": 0,
+      "log": "cuda_configure.txt",
+      "gate": "gpu"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Tom\\miniconda3\\Scripts\\cmake.exe",
+        "--build",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build",
+        "--config",
+        "Release",
+        "--parallel",
+        "2"
+      ],
+      "returncode": 0,
+      "log": "cuda_build.txt",
+      "gate": "gpu"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Tom\\miniconda3\\Scripts\\ctest.exe",
+        "--test-dir",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build",
+        "-C",
+        "Release",
+        "-V",
+        "--output-on-failure"
+      ],
+      "returncode": 0,
+      "log": "cuda_tests.txt",
+      "gate": "gpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--inspect"
+      ],
+      "returncode": 0,
+      "log": "device.txt",
+      "gate": "gpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\micro_xx.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda\\micro_xx_texture_256",
+        "--steps",
+        "64",
+        "--fetch",
+        "texture",
+        "--block",
+        "256"
+      ],
+      "returncode": 0,
+      "log": "cuda_micro_xx_texture_256.txt",
+      "gate": "gpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\micro_xy.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda\\micro_xy_texture_256",
+        "--steps",
+        "64",
+        "--fetch",
+        "texture",
+        "--block",
+        "256"
+      ],
+      "returncode": 0,
+      "log": "cuda_micro_xy_texture_256.txt",
+      "gate": "gpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\verify_xx.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda\\verify_xx_texture_256",
+        "--steps",
+        "64",
+        "--fetch",
+        "texture",
+        "--block",
+        "256"
+      ],
+      "returncode": 0,
+      "log": "cuda_verify_xx_texture_256.txt",
+      "gate": "gpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\verify_xy.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda\\verify_xy_texture_32",
+        "--steps",
+        "64",
+        "--fetch",
+        "texture",
+        "--block",
+        "32"
+      ],
+      "returncode": 0,
+      "log": "cuda_verify_xy_texture_32.txt",
+      "gate": "gpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\verify_xy.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda\\verify_xy_texture_128",
+        "--steps",
+        "64",
+        "--fetch",
+        "texture",
+        "--block",
+        "128"
+      ],
+      "returncode": 0,
+      "log": "cuda_verify_xy_texture_128.txt",
+      "gate": "gpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\verify_xy.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda\\verify_xy_texture_256",
+        "--steps",
+        "64",
+        "--fetch",
+        "texture",
+        "--block",
+        "256"
+      ],
+      "returncode": 0,
+      "log": "cuda_verify_xy_texture_256.txt",
+      "gate": "gpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\verify_xy.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda\\verify_xy_texture_512",
+        "--steps",
+        "64",
+        "--fetch",
+        "texture",
+        "--block",
+        "512"
+      ],
+      "returncode": 0,
+      "log": "cuda_verify_xy_texture_512.txt",
+      "gate": "gpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\verify_xy.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda\\verify_xy_global_256",
+        "--steps",
+        "64",
+        "--fetch",
+        "global",
+        "--block",
+        "256"
+      ],
+      "returncode": 0,
+      "log": "cuda_verify_xy_global_256.txt",
+      "gate": "gpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\laptop_xx.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda\\laptop_xx_texture_256",
+        "--steps",
+        "256",
+        "--fetch",
+        "texture",
+        "--block",
+        "256"
+      ],
+      "returncode": 0,
+      "log": "cuda_laptop_xx_texture_256.txt",
+      "gate": "gpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\laptop_xy.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda\\laptop_xy_texture_256",
+        "--steps",
+        "256",
+        "--fetch",
+        "texture",
+        "--block",
+        "256"
+      ],
+      "returncode": 0,
+      "log": "cuda_laptop_xy_texture_256.txt",
+      "gate": "gpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\micro_xy.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_repeat",
+        "--steps",
+        "64"
+      ],
+      "returncode": 0,
+      "log": "cuda_repeat.txt",
+      "gate": "gpu"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\micro_xy.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_forced_ptx",
+        "--steps",
+        "64"
+      ],
+      "returncode": 0,
+      "log": "cuda_forced_ptx.txt",
+      "gate": "gpu",
+      "environment_overrides": {
+        "CUDA_FORCE_PTX_JIT": "1"
+      }
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--resume",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\split_first\\final.gbc",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_resume",
+        "--steps",
+        "47"
+      ],
+      "returncode": 0,
+      "log": "cuda_resume.txt",
+      "gate": "gpu"
+    },
+    {
+      "argv": [
+        "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin\\cuobjdump.exe",
+        "--dump-ptx",
+        "--dump-sass",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe"
+      ],
+      "returncode": 0,
+      "log": "ptx_sass.txt",
+      "gate": "gpu"
+    },
+    {
+      "argv": [
+        "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\compute-sanitizer\\compute-sanitizer.exe",
+        "--tool",
+        "memcheck",
+        "--error-exitcode",
+        "1",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\verify_xy.gblut",
+        "--steps",
+        "8",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\sanitize_memcheck"
+      ],
+      "returncode": 0,
+      "log": "sanitize_memcheck.txt",
+      "gate": "sanitizers"
+    },
+    {
+      "argv": [
+        "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\compute-sanitizer\\compute-sanitizer.exe",
+        "--tool",
+        "racecheck",
+        "--error-exitcode",
+        "1",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\verify_xy.gblut",
+        "--steps",
+        "8",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\sanitize_racecheck"
+      ],
+      "returncode": 0,
+      "log": "sanitize_racecheck.txt",
+      "gate": "sanitizers"
+    },
+    {
+      "argv": [
+        "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\compute-sanitizer\\compute-sanitizer.exe",
+        "--tool",
+        "initcheck",
+        "--error-exitcode",
+        "1",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\verify_xy.gblut",
+        "--steps",
+        "8",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\sanitize_initcheck"
+      ],
+      "returncode": 0,
+      "log": "sanitize_initcheck.txt",
+      "gate": "sanitizers"
+    },
+    {
+      "argv": [
+        "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\compute-sanitizer\\compute-sanitizer.exe",
+        "--tool",
+        "synccheck",
+        "--error-exitcode",
+        "1",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\verify_xy.gblut",
+        "--steps",
+        "8",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\sanitize_synccheck"
+      ],
+      "returncode": 0,
+      "log": "sanitize_synccheck.txt",
+      "gate": "sanitizers"
+    },
+    {
+      "argv": [
+        "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\target\\windows-desktop-win7-x64\\ncu.exe",
+        "--set",
+        "basic",
+        "--export",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\ncu_texture",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\verify_xy.gblut",
+        "--fetch",
+        "texture",
+        "--steps",
+        "8",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\profile_texture"
+      ],
+      "returncode": 0,
+      "log": "profile_texture.txt",
+      "gate": "profile"
+    },
+    {
+      "argv": [
+        "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.0\\target\\windows-desktop-win7-x64\\ncu.exe",
+        "--set",
+        "basic",
+        "--export",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\ncu_global",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\verify_xy.gblut",
+        "--fetch",
+        "global",
+        "--steps",
+        "8",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\profile_global"
+      ],
+      "returncode": 0,
+      "log": "profile_global.txt",
+      "gate": "profile"
+    }
+  ],
+  "cases": {
+    "micro_xx": {
+      "status": "PASS",
+      "steps": 64,
+      "cells": 64,
+      "pulse_bits": 4096,
+      "ones": 1623,
+      "total_input": 108606494,
+      "mass": 2779,
+      "endpoint_count_certificate": true,
+      "parity_and_events": true,
+      "complete_historical_input_reconstructed": false,
+      "golden_match": true,
+      "independent_python": true,
+      "boolean_ALU": true
+    },
+    "micro_xy": {
+      "status": "PASS",
+      "steps": 64,
+      "cells": 64,
+      "pulse_bits": 4096,
+      "ones": 1603,
+      "total_input": 106923790,
+      "mass": 2766,
+      "endpoint_count_certificate": true,
+      "parity_and_events": true,
+      "complete_historical_input_reconstructed": false,
+      "golden_match": true,
+      "independent_python": true,
+      "boolean_ALU": true
+    },
+    "verify_xx": {
+      "status": "PASS",
+      "steps": 64,
+      "cells": 2112,
+      "pulse_bits": 135168,
+      "ones": 49025,
+      "total_input": 3291229405,
+      "mass": 86047,
+      "endpoint_count_certificate": true,
+      "parity_and_events": true,
+      "complete_historical_input_reconstructed": false,
+      "golden_match": true,
+      "independent_python": true,
+      "boolean_ALU": true
+    },
+    "verify_xy": {
+      "status": "PASS",
+      "steps": 64,
+      "cells": 2112,
+      "pulse_bits": 135168,
+      "ones": 49015,
+      "total_input": 3290315686,
+      "mass": 87128,
+      "endpoint_count_certificate": true,
+      "parity_and_events": true,
+      "complete_historical_input_reconstructed": false,
+      "golden_match": true,
+      "independent_python": true,
+      "boolean_ALU": true
+    },
+    "laptop_xx": {
+      "status": "PASS",
+      "steps": 256,
+      "cells": 131072,
+      "pulse_bits": 33554432,
+      "ones": 12169202,
+      "total_input": 802121495571,
+      "mass": 5208103,
+      "endpoint_count_certificate": true,
+      "parity_and_events": true,
+      "complete_historical_input_reconstructed": false,
+      "golden_match": true
+    },
+    "laptop_xy": {
+      "status": "PASS",
+      "steps": 256,
+      "cells": 131072,
+      "pulse_bits": 33554432,
+      "ones": 12180402,
+      "total_input": 802859545674,
+      "mass": 5217058,
+      "endpoint_count_certificate": true,
+      "parity_and_events": true,
+      "complete_historical_input_reconstructed": false,
+      "golden_match": true
+    },
+    "cuda_micro_xx_texture_256": {
+      "status": "PASS",
+      "steps": 64,
+      "cells": 64,
+      "pulse_bits": 4096,
+      "ones": 1623,
+      "total_input": 108606494,
+      "mass": 2779,
+      "endpoint_count_certificate": true,
+      "parity_and_events": true,
+      "complete_historical_input_reconstructed": false
+    },
+    "cuda_micro_xy_texture_256": {
+      "status": "PASS",
+      "steps": 64,
+      "cells": 64,
+      "pulse_bits": 4096,
+      "ones": 1603,
+      "total_input": 106923790,
+      "mass": 2766,
+      "endpoint_count_certificate": true,
+      "parity_and_events": true,
+      "complete_historical_input_reconstructed": false
+    },
+    "cuda_verify_xx_texture_256": {
+      "status": "PASS",
+      "steps": 64,
+      "cells": 2112,
+      "pulse_bits": 135168,
+      "ones": 49025,
+      "total_input": 3291229405,
+      "mass": 86047,
+      "endpoint_count_certificate": true,
+      "parity_and_events": true,
+      "complete_historical_input_reconstructed": false
+    },
+    "cuda_verify_xy_texture_32": {
+      "status": "PASS",
+      "steps": 64,
+      "cells": 2112,
+      "pulse_bits": 135168,
+      "ones": 49015,
+      "total_input": 3290315686,
+      "mass": 87128,
+      "endpoint_count_certificate": true,
+      "parity_and_events": true,
+      "complete_historical_input_reconstructed": false
+    },
+    "cuda_verify_xy_texture_128": {
+      "status": "PASS",
+      "steps": 64,
+      "cells": 2112,
+      "pulse_bits": 135168,
+      "ones": 49015,
+      "total_input": 3290315686,
+      "mass": 87128,
+      "endpoint_count_certificate": true,
+      "parity_and_events": true,
+      "complete_historical_input_reconstructed": false
+    },
+    "cuda_verify_xy_texture_256": {
+      "status": "PASS",
+      "steps": 64,
+      "cells": 2112,
+      "pulse_bits": 135168,
+      "ones": 49015,
+      "total_input": 3290315686,
+      "mass": 87128,
+      "endpoint_count_certificate": true,
+      "parity_and_events": true,
+      "complete_historical_input_reconstructed": false
+    },
+    "cuda_verify_xy_texture_512": {
+      "status": "PASS",
+      "steps": 64,
+      "cells": 2112,
+      "pulse_bits": 135168,
+      "ones": 49015,
+      "total_input": 3290315686,
+      "mass": 87128,
+      "endpoint_count_certificate": true,
+      "parity_and_events": true,
+      "complete_historical_input_reconstructed": false
+    },
+    "cuda_verify_xy_global_256": {
+      "status": "PASS",
+      "steps": 64,
+      "cells": 2112,
+      "pulse_bits": 135168,
+      "ones": 49015,
+      "total_input": 3290315686,
+      "mass": 87128,
+      "endpoint_count_certificate": true,
+      "parity_and_events": true,
+      "complete_historical_input_reconstructed": false
+    },
+    "cuda_laptop_xx_texture_256": {
+      "status": "PASS",
+      "steps": 256,
+      "cells": 131072,
+      "pulse_bits": 33554432,
+      "ones": 12169202,
+      "total_input": 802121495571,
+      "mass": 5208103,
+      "endpoint_count_certificate": true,
+      "parity_and_events": true,
+      "complete_historical_input_reconstructed": false
+    },
+    "cuda_laptop_xy_texture_256": {
+      "status": "PASS",
+      "steps": 256,
+      "cells": 131072,
+      "pulse_bits": 33554432,
+      "ones": 12180402,
+      "total_input": 802859545674,
+      "mass": 5217058,
+      "endpoint_count_certificate": true,
+      "parity_and_events": true,
+      "complete_historical_input_reconstructed": false
+    }
+  },
+  "integrity_files": 203,
+  "checkpoint_split_17_47": "PASS",
+  "negative_cli_cases": 4,
+  "device": {
+    "device": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+    "compute_major": 12,
+    "compute_minor": 0,
+    "driver": 13010,
+    "runtime": 12080,
+    "total_vram": 12820480000,
+    "free_vram": 11561598976
+  }
+}

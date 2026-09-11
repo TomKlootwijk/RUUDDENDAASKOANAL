@@ -1,0 +1,122 @@
+{
+  "scope": "Four cases; all five canonical files; native, Boolean ALU and independent Python",
+  "status": "PASS",
+  "cases": {
+    "micro_xx": {
+      "exact_files": {
+        "initial.gbc": {
+          "native": "1a0ef03aa45ba86841367c3cc440f354e14ebbcc4cad1a6c08166612da44bb0e",
+          "boolean": "1a0ef03aa45ba86841367c3cc440f354e14ebbcc4cad1a6c08166612da44bb0e",
+          "python": "1a0ef03aa45ba86841367c3cc440f354e14ebbcc4cad1a6c08166612da44bb0e"
+        },
+        "final.gbc": {
+          "native": "226acbab0e19153fd8645d03b250d1ccbfea6692c1bd2e18f8f3a45949515a5f",
+          "boolean": "226acbab0e19153fd8645d03b250d1ccbfea6692c1bd2e18f8f3a45949515a5f",
+          "python": "226acbab0e19153fd8645d03b250d1ccbfea6692c1bd2e18f8f3a45949515a5f"
+        },
+        "words.bin": {
+          "native": "bb17f48608e403fba0bb583ff279b3f234499bf05e2c7ec062f9b872306705af",
+          "boolean": "bb17f48608e403fba0bb583ff279b3f234499bf05e2c7ec062f9b872306705af",
+          "python": "bb17f48608e403fba0bb583ff279b3f234499bf05e2c7ec062f9b872306705af"
+        },
+        "summary.csv": {
+          "native": "22c263811044b07aa0338cf4238fa075a6ee353fa0584bf285184f2917bd2513",
+          "boolean": "22c263811044b07aa0338cf4238fa075a6ee353fa0584bf285184f2917bd2513",
+          "python": "22c263811044b07aa0338cf4238fa075a6ee353fa0584bf285184f2917bd2513"
+        },
+        "counts.bin": {
+          "native": "df3e47491e811b83a573751b855add75bf7da8f6e99ed2dc5457716ef60f2e4b",
+          "boolean": "df3e47491e811b83a573751b855add75bf7da8f6e99ed2dc5457716ef60f2e4b",
+          "python": "df3e47491e811b83a573751b855add75bf7da8f6e99ed2dc5457716ef60f2e4b"
+        }
+      }
+    },
+    "micro_xy": {
+      "exact_files": {
+        "initial.gbc": {
+          "native": "61a59c493be0d48e8dec4ede9db270fead6e0f819a150f4b74ebe50f7ba06194",
+          "boolean": "61a59c493be0d48e8dec4ede9db270fead6e0f819a150f4b74ebe50f7ba06194",
+          "python": "61a59c493be0d48e8dec4ede9db270fead6e0f819a150f4b74ebe50f7ba06194"
+        },
+        "final.gbc": {
+          "native": "9d3a8f1209f1f184c046df2387b4dffb305c766ba6dad0e021836f29e478ea4a",
+          "boolean": "9d3a8f1209f1f184c046df2387b4dffb305c766ba6dad0e021836f29e478ea4a",
+          "python": "9d3a8f1209f1f184c046df2387b4dffb305c766ba6dad0e021836f29e478ea4a"
+        },
+        "words.bin": {
+          "native": "fc121fd4056e3dd4125d8005b8d6d6d8ec95fbd3f03704e472622321540e9f5a",
+          "boolean": "fc121fd4056e3dd4125d8005b8d6d6d8ec95fbd3f03704e472622321540e9f5a",
+          "python": "fc121fd4056e3dd4125d8005b8d6d6d8ec95fbd3f03704e472622321540e9f5a"
+        },
+        "summary.csv": {
+          "native": "6af3522a5e63a5f933d7f1a9e376ec82906ce3e7886820fa139e5daafe596edf",
+          "boolean": "6af3522a5e63a5f933d7f1a9e376ec82906ce3e7886820fa139e5daafe596edf",
+          "python": "6af3522a5e63a5f933d7f1a9e376ec82906ce3e7886820fa139e5daafe596edf"
+        },
+        "counts.bin": {
+          "native": "81731b56cb294f5d28d32374b4690c50b2043f32e13d43fce3187c1a34f00543",
+          "boolean": "81731b56cb294f5d28d32374b4690c50b2043f32e13d43fce3187c1a34f00543",
+          "python": "81731b56cb294f5d28d32374b4690c50b2043f32e13d43fce3187c1a34f00543"
+        }
+      }
+    },
+    "verify_xx": {
+      "exact_files": {
+        "initial.gbc": {
+          "native": "14b5041476264094acc4ac11ea79b1e845c707405fc1e17f037f7f48c0403788",
+          "boolean": "14b5041476264094acc4ac11ea79b1e845c707405fc1e17f037f7f48c0403788",
+          "python": "14b5041476264094acc4ac11ea79b1e845c707405fc1e17f037f7f48c0403788"
+        },
+        "final.gbc": {
+          "native": "b01a266f41842ccdfdbe307df126cd5a7789380617c91339bac81c609e1f8207",
+          "boolean": "b01a266f41842ccdfdbe307df126cd5a7789380617c91339bac81c609e1f8207",
+          "python": "b01a266f41842ccdfdbe307df126cd5a7789380617c91339bac81c609e1f8207"
+        },
+        "words.bin": {
+          "native": "091159f9d0d9c146d75a00546b076362e3a6a7fd50c0c64dc42d2180618a551e",
+          "boolean": "091159f9d0d9c146d75a00546b076362e3a6a7fd50c0c64dc42d2180618a551e",
+          "python": "091159f9d0d9c146d75a00546b076362e3a6a7fd50c0c64dc42d2180618a551e"
+        },
+        "summary.csv": {
+          "native": "008ee94a781b66efd7cffeab1323e31feb190b1738a087263eeb7fa833c80ea0",
+          "boolean": "008ee94a781b66efd7cffeab1323e31feb190b1738a087263eeb7fa833c80ea0",
+          "python": "008ee94a781b66efd7cffeab1323e31feb190b1738a087263eeb7fa833c80ea0"
+        },
+        "counts.bin": {
+          "native": "16d0277d7eca2d88d24c2da5ebe9e62963089d6c9a552803ca8b1e6259c45e25",
+          "boolean": "16d0277d7eca2d88d24c2da5ebe9e62963089d6c9a552803ca8b1e6259c45e25",
+          "python": "16d0277d7eca2d88d24c2da5ebe9e62963089d6c9a552803ca8b1e6259c45e25"
+        }
+      }
+    },
+    "verify_xy": {
+      "exact_files": {
+        "initial.gbc": {
+          "native": "3b6065e214caf9b9340ec35b52ae84c372eb88aa1d7405d92fd936b33a9670ba",
+          "boolean": "3b6065e214caf9b9340ec35b52ae84c372eb88aa1d7405d92fd936b33a9670ba",
+          "python": "3b6065e214caf9b9340ec35b52ae84c372eb88aa1d7405d92fd936b33a9670ba"
+        },
+        "final.gbc": {
+          "native": "3037c8c5ce7b8bb2e035d1a957fa004e59cbf4374161e56687aceb35f3f5ba0d",
+          "boolean": "3037c8c5ce7b8bb2e035d1a957fa004e59cbf4374161e56687aceb35f3f5ba0d",
+          "python": "3037c8c5ce7b8bb2e035d1a957fa004e59cbf4374161e56687aceb35f3f5ba0d"
+        },
+        "words.bin": {
+          "native": "7572eed571baa89cd41f94b6472c5ee5a09d00ae9cdf29cccf5b8845af9509b9",
+          "boolean": "7572eed571baa89cd41f94b6472c5ee5a09d00ae9cdf29cccf5b8845af9509b9",
+          "python": "7572eed571baa89cd41f94b6472c5ee5a09d00ae9cdf29cccf5b8845af9509b9"
+        },
+        "summary.csv": {
+          "native": "2a52dda705691f2d8dae20098ef68772c73ce8b4d572c5763776f9318d56878f",
+          "boolean": "2a52dda705691f2d8dae20098ef68772c73ce8b4d572c5763776f9318d56878f",
+          "python": "2a52dda705691f2d8dae20098ef68772c73ce8b4d572c5763776f9318d56878f"
+        },
+        "counts.bin": {
+          "native": "9cd1c162a5d3c7ef14514d2ff570d32e3a3689a95c652194bab7d99bec6f2da0",
+          "boolean": "9cd1c162a5d3c7ef14514d2ff570d32e3a3689a95c652194bab7d99bec6f2da0",
+          "python": "9cd1c162a5d3c7ef14514d2ff570d32e3a3689a95c652194bab7d99bec6f2da0"
+        }
+      }
+    }
+  }
+}

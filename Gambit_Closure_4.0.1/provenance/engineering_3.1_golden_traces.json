@@ -1,0 +1,68 @@
+{
+  "schema": "gambit-goldens-3.1",
+  "origin": "CPU C++17; verify-sized cases independently reproduced in standard-library Python; laptop-sized cases replayed in C++",
+  "cases": {
+    "verify_xx": {
+      "asset": "verify_xx.gblut",
+      "options": [],
+      "files": {
+        "words.bin": "d3f6e4a487503a1c264e6c13f9d1f00a5fc341825a0e708656aaef361b2bb8c0",
+        "state.bin": "9d50df2ed5cba0ddf8218eaf17d3e5ac3e568742041a54234148d1822c2d867e",
+        "summary.csv": "b35656779a11e0772cc01788baf943714c968f8a8084ab86a4bb638e7885b47b"
+      }
+    },
+    "verify_xy": {
+      "asset": "verify_xy.gblut",
+      "options": [],
+      "files": {
+        "words.bin": "583ae771e67a20cc9845aaa28d888dc52b5c11901501628cd59cc4a9f075d39f",
+        "state.bin": "de91828832372819ac8e636bf50ad46cd5f3cb38bea041fe574ff8ab65a94557",
+        "summary.csv": "5426503ebc430e24479d7a42338683a2e31eff40875b5ca0356432312a5093c5"
+      }
+    },
+    "laptop_xx": {
+      "asset": "laptop_xx.gblut",
+      "options": [],
+      "files": {
+        "words.bin": "98bd7349d10043180634612b19fe661f2d798aad34459342bc7a02e252b9ea18",
+        "state.bin": "039a908f8472ad9b5628d248d7efee33be0f157f3cf2aa9efd7a4ba8b890a7c5",
+        "summary.csv": "3e72ca9a40b2eacda6575af73fc1323789803da1122f6a26ebc9549973787dd0"
+      }
+    },
+    "laptop_xy": {
+      "asset": "laptop_xy.gblut",
+      "options": [],
+      "files": {
+        "words.bin": "e407e213d23446af2c7d09a6371b78e7e816257729d830e2c43f3fd90b82bd8d",
+        "state.bin": "a61f0ad4e64f190b608b27dc6c9016da2441d18c300ec9db5ebb2156845c1e68",
+        "summary.csv": "0a51ceafe033a34b5b6231c2f7780620e065c047bf594f029fd8bc72c378a0b1"
+      }
+    },
+    "verify_xy_no_pulse_feedback": {
+      "asset": "verify_xy.gblut",
+      "options": [
+        "--feedback",
+        "0"
+      ],
+      "files": {
+        "words.bin": "22f297cff63af0605877d12693dcf04abd3a86335610f6ac4cc11351cde9b1cc",
+        "state.bin": "b8bee8d69f50f0cd2ea4ed156cc433857b719481d02e4d510288029239aa46cf",
+        "summary.csv": "1ca77ae0458ab25170095b34a6a030870ebbfa006a8e60b80cc87e2f038cb9e1"
+      }
+    },
+    "verify_xy_one_bit_intervention": {
+      "asset": "verify_xy.gblut",
+      "options": [
+        "--inject-step",
+        "3",
+        "--inject-cell",
+        "7"
+      ],
+      "files": {
+        "words.bin": "452461cfbeb9ff634fbecf968bf16ce67e01cddb853f22543ab6d518244f2c5b",
+        "state.bin": "6c2822f345933469b231ffcf9bd6a606e223706bfceb0a90a44884ee9e695bd5",
+        "summary.csv": "fdd1ecf8dc14c37812b4e31e95ac8d46a2cd422d4758bab06dc11cd9b7293af1"
+      }
+    }
+  }
+}

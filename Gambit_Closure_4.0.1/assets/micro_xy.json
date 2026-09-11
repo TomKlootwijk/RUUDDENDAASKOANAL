@@ -1,0 +1,32 @@
+{
+  "schema": "gambit-closure-micro-4.0",
+  "sha256": "70dd571a181be781693206a74fffa876c622044f5f4bbaa99a4e97f436c184c6",
+  "params": {
+    "width": 32,
+    "height": 2,
+    "levels": 5,
+    "start_level": 1,
+    "steps": 64,
+    "threshold": 49,
+    "feedback_gain": 8192,
+    "memory_divisor": 256,
+    "phase_stride": 1,
+    "feedback_angle": 3,
+    "open_shift": 3,
+    "closed_shift": 5,
+    "reaction_uv_shift": 6,
+    "reaction_vu_shift": 7,
+    "growth_dwell": 16,
+    "growth_divisor": 4,
+    "seed": 20260911,
+    "pair": 1,
+    "device_budget_mib": 2048
+  },
+  "source_asset": "verify_xy.gblut",
+  "source_rows": [
+    12,
+    20
+  ],
+  "source_columns": "0,2,...,62",
+  "purpose": "Exact subsampling of frozen 3.1 LUT, not a new continuous-space bake. Finite testing fixture."
+}

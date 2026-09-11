@@ -1,0 +1,10 @@
+^C:\RUUDDENDAASKOANAL\GAMBIT_CLOSURE_4.0.1\CMAKELISTS.TXT
+setlocal
+C:\Users\Tom\miniconda3\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/RUUDDENDAASKOANAL/Gambit_Closure_4.0.1 -BC:/RUUDDENDAASKOANAL/Gambit_Closure_4.0.1/validation/full/cuda_build --check-stamp-file C:/RUUDDENDAASKOANAL/Gambit_Closure_4.0.1/validation/full/cuda_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

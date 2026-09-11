@@ -1,0 +1,10 @@
+; Tom Klootwijk Gambit 4.0 -- codec_local_and_bounds
+(set-option :produce-proofs true)
+(set-option :timeout 15000)
+(declare-const r Int)(declare-const k Int)
+(assert (and (<= 0 r) (< r 65536) (<= 0 k) (<= k 65536)))
+(define-fun q () Int (ite (>= (+ r k) 65536) 1 0))
+(define-fun rn () Int (- (+ r k) (* 65536 q)))
+(assert (not (and (<= 0 rn) (< rn 65536) (= (+ (* 65536 q) rn) (+ r k)))))
+(check-sat)
+(get-proof)

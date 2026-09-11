@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "objective": "Fix the kernel, demonstrate the fix on the target GPU, and deliver a final verification PDF",
+  "completed_utc": "2026-09-11T08:14:32.315868+00:00",
+  "requirements": [
+    {
+      "requirement": "Separate disclosed fix preserving original release and numeric expectations",
+      "status": "PASS",
+      "evidence": "REVISION.json; REVISION.patch; validation/patch_replay_verification.json"
+    },
+    {
+      "requirement": "Build and validate CPU, Boolean and independent Python numerical behavior",
+      "status": "PASS",
+      "evidence": "validation/cpu/verification.json; validation/full/verification.json"
+    },
+    {
+      "requirement": "Execute target GPU, exact conformance, checkpoint, PTX, sanitizer and profiling checks",
+      "status": "PASS",
+      "evidence": "validation/full/verification.json"
+    },
+    {
+      "requirement": "Fresh execution of all 24 unchanged formal obligations",
+      "status": "PASS",
+      "evidence": "validation/full/formal/report.json"
+    },
+    {
+      "requirement": "Regression evidence for repaired errors and step diagnostics",
+      "status": "PASS",
+      "evidence": "validation/gpu_edges/verification.json; validation/full/logs/cuda_tests.txt"
+    },
+    {
+      "requirement": "Final PDF with verified content and all pages visually reviewed",
+      "status": "PASS",
+      "evidence": "validation/pdf_qa.json; validation/pdf_visual_review_root.json"
+    }
+  ],
+  "code_audit_checks": 29,
+  "pdf": {
+    "path": "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\output\\pdf\\Gambit_Closure_4.0.1_Verification.pdf",
+    "sha256": "5e148cc5acca6a2eb63cd0709fa34a12302ce570f14fd2fbad564f8d30845de6",
+    "pages": 6
+  },
+  "source_manifest_sha256": "5d6a1d2f1e17f6ad0c63f2768d07689ed10c6a3aa905e292cdf4e839b14b7e3b",
+  "evidence_index": "validation/DELIVERY_SHA256SUMS.txt",
+  "scope": "Finite software validation and submitted SMT obligations; no whole-program formal proof claim"
+}

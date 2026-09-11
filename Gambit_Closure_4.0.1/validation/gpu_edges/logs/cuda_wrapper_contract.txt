@@ -1,0 +1,1 @@
+PASS CUDA wrapper: local e preserved; success/failure evaluated once; exact error text; if/else statement

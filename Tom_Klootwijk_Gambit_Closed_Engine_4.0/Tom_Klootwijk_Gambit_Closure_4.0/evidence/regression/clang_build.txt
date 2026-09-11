@@ -1,0 +1,13 @@
+[ 20%] Building CXX object CMakeFiles/closure_core.dir/src/engine.cpp.o
+[ 20%] Building CXX object CMakeFiles/closure_core.dir/src/legacy_host.cpp.o
+[ 30%] Building CXX object CMakeFiles/closure_core.dir/src/boolean.cpp.o
+[ 40%] Building CXX object CMakeFiles/closure_core.dir/src/capsule.cpp.o
+[ 50%] Building CXX object CMakeFiles/closure_core.dir/src/run.cpp.o
+[ 60%] Linking CXX static library libclosure_core.a
+[ 60%] Built target closure_core
+[ 70%] Building CXX object CMakeFiles/gambit_tests.dir/tests/native_test.cpp.o
+[ 80%] Building CXX object CMakeFiles/gambit.dir/src/main.cpp.o
+[ 90%] Linking CXX executable gambit
+[ 90%] Built target gambit
+[100%] Linking CXX executable gambit_tests
+[100%] Built target gambit_tests

@@ -1,0 +1,4 @@
+clock.cu
+tmpxft_00020ebc_00000000-10_clock.cudafe1.cpp
+closure_core.lib
+   Creating library C:\RUUDDENDAASKOANAL\Gambit_Closure_4.0.1\validation\gpu_edges\isolated_diagnostic_faults\clock.lib and object C:\RUUDDENDAASKOANAL\Gambit_Closure_4.0.1\validation\gpu_edges\isolated_diagnostic_faults\clock.exp

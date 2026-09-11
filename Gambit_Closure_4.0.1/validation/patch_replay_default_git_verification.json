@@ -1,0 +1,96 @@
+{
+  "status": "FAIL",
+  "scope": "Actual isolated replay of revision text patch; no kernel execution",
+  "checked_utc": "2026-09-11T08:11:28.039717+00:00",
+  "command": [
+    "git",
+    "apply",
+    "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\REVISION.patch"
+  ],
+  "cwd": "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\patch_replay",
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "",
+  "patch_sha256": "aa50e1825da93a81a45accf4d5c2a4ddaee5aca678d65b05b840eb048af6328a",
+  "delivered_manifest_sha256": "5d6a1d2f1e17f6ad0c63f2768d07689ed10c6a3aa905e292cdf4e839b14b7e3b",
+  "copied_original_files": [
+    {
+      "path": "CMakeLists.txt",
+      "sha256": "0fbee35332aad1cef148d4999d4125fcf9e5aa38b1b059d6731b458ec40614b7"
+    },
+    {
+      "path": "README.md",
+      "sha256": "dad1b90e7c36122e2df1689236ba270b553fff51bcf73c37b2876fb38ee017ce"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "sha256": "c5f3967cc226e201749670d4296bf9b0cd5069e91f3436139c33c3898a830a4e"
+    },
+    {
+      "path": "src/cuda.cu",
+      "sha256": "2f93a7e6a0ad498235aae7f2502096888b064dee4b69562a47df71e5fa4fa0ca"
+    },
+    {
+      "path": "tools/verify.py",
+      "sha256": "6195497dbcf3fab5e6f52fe3efb07684a61b24ad940c3386f41e06b0033d735f"
+    }
+  ],
+  "replayed_files": [
+    {
+      "path": "CMakeLists.txt",
+      "replayed_sha256": "ca44e76405a6533feb69aac65ec4b3eb86083e6ed1817ae58215b2f4b3ed2933",
+      "delivered_sha256": "024d8b7d14d28e60cfca53d3036f161436943b072e3202cb1d57f4fb2b8c7b83",
+      "exact_match": false
+    },
+    {
+      "path": "README.md",
+      "replayed_sha256": "999fed852d94bdc09801c231b6cd37b0a0ab8f301260203edbcb860e297d9172",
+      "delivered_sha256": "db72917b0e02b30189829f31bcfbab349bbaae4ce37ce514e6c250a6227a5b06",
+      "exact_match": false
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "replayed_sha256": "3f8908bcb5eb278f658c88f5135964b0809a955daced7ba39061665a2c91f693",
+      "delivered_sha256": "a1e4312ee3172c9f3229e2928c2747cf7ceafb0989c60b4d6e8a75de2dcd5566",
+      "exact_match": false
+    },
+    {
+      "path": "src/cuda.cu",
+      "replayed_sha256": "3eae31517f456848cd566441f008e5ae775f92568dfb3b7dc3db856160ee2179",
+      "delivered_sha256": "78525113c0a0b728690b9b13ed9864b04624e68fb2643409cc46e40415720e98",
+      "exact_match": false
+    },
+    {
+      "path": "tools/verify.py",
+      "replayed_sha256": "6a6788e729080f8f04dec76edb2294bc22803b420edb41b4633acc9c1e5f9d22",
+      "delivered_sha256": "55bdabf5133fa0872571dd2f9b526323574f1f2f515534bf8ff4e7864ef13aae",
+      "exact_match": false
+    },
+    {
+      "path": "tests/test_verify.py",
+      "replayed_sha256": "3a5a4709abfc9e8fb2987b17883415e96c81da04fa1df3f361dc02c1e3a7fa8a",
+      "delivered_sha256": "66f1e0daa78598d980ab9877de0881bb7dde930f5dc5e69b41f447b73cc5c4d8",
+      "exact_match": false
+    },
+    {
+      "path": "tests/cuda_contract.cu",
+      "replayed_sha256": "3beca63cd6fb5dfc5d7250c05d4627b80836d252b97a5383d06733cd5cbf2263",
+      "delivered_sha256": "2c0d95e94024beaca7b4c61ab6c83f430fb4458bfcbdf58b908898a0dbc8f56b",
+      "exact_match": false
+    },
+    {
+      "path": "tools/verify_gpu_edges.py",
+      "replayed_sha256": "d0ef335d755934ccd8b00c9d2be0625abe93fc62a9db37fed3bb64130cacf691",
+      "delivered_sha256": "68843f07f28f607bcde7d0c098b5927e5c3d3684c0fce442e17b9d62fa0527d6",
+      "exact_match": false
+    },
+    {
+      "path": "REVISION.md",
+      "replayed_sha256": "e9dd883179a074f195c591de78f2781786f995e39e39365b088ae90bb96d6fdf",
+      "delivered_sha256": "0f317f6a65bb453e92e6f8c35dcc53eabf6819b22c679964a45a6a49b3544683",
+      "exact_match": false
+    }
+  ],
+  "original_integrity_files_rechecked": 196,
+  "original_unchanged": true
+}

@@ -1,0 +1,17 @@
+{
+  "edition": "4.0",
+  "scope": "Frozen numerical closure release",
+  "native_checks": 338184,
+  "python_test_methods": 24,
+  "formal_unsat": 22,
+  "formal_intentional_sat": 2,
+  "cross_backend_cases": 4,
+  "laptop_native_cases": 2,
+  "full_cpu_coordinator": "CPU_PASS_GPU_NOT_RUN",
+  "hardware_attempt": "BLOCKED: nvcc absent",
+  "cuda_compiled": false,
+  "cuda_executed": false,
+  "subjective_consciousness_established": false,
+  "originals_preserved": true,
+  "pdf_pages": 20
+}

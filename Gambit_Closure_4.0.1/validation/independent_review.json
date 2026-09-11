@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "scope": "Independent agent review of source preservation, repaired patch, and saved post-fix execution evidence; not external certification or whole-program proof. No kernel tests were rerun by this review.",
+  "checked_utc": "2026-09-11T08:13:02.500479+00:00",
+  "findings": [],
+  "source_manifest_sha256": "5d6a1d2f1e17f6ad0c63f2768d07689ed10c6a3aa905e292cdf4e839b14b7e3b",
+  "tested_source_manifest_sha256": "1e190e3fed02812c7f054d3991d1935c15380461c47d97a47f33fa4152abf09c",
+  "original_integrity_files_rehashed": 196,
+  "revision_integrity_files_rehashed": 203,
+  "changed_original_files": 5,
+  "unchanged_original_files": 191,
+  "protected_model_assets_goldens_formal_unchanged": true,
+  "post_run_changes": [
+    "README.md",
+    "REVISION.json",
+    "REVISION.patch"
+  ],
+  "post_run_compiled_sources_tests_verifiers_and_inputs_unchanged": true,
+  "completion_audit_checks_reviewed": 29,
+  "recorded_command_statuses_and_logs_reviewed": 78,
+  "evidence_review": {
+    "native_golden_profiles": 6,
+    "native_coordinators_rehashed": 2,
+    "independent_python_and_boolean_profiles": 4,
+    "independent_coordinators_rehashed": 2,
+    "cuda_frozen_golden_runs_rehashed": 10,
+    "consensus_files_per_run": 5,
+    "resume_repeat_forced_ptx_outputs_rehashed": true,
+    "split_17_plus_47_words_rechecked": true,
+    "edge_block64_and_feedback0_outputs_rehashed": true,
+    "formal_targets_per_run": 24,
+    "formal_runs_inspected": 2,
+    "expected_unsat_per_run": 22,
+    "intentional_expected_sat_per_run": 2,
+    "native_checks": 338184,
+    "python_numerical_methods": 24,
+    "python_coordinator_methods": 4,
+    "cuda_contract_test_uses_production_source": true,
+    "sanitizer_modes_with_zero_errors_or_hazards": [
+      "memcheck",
+      "racecheck",
+      "initcheck",
+      "synccheck"
+    ],
+    "sanitizer_scope": {
+      "profile": "verify_xy",
+      "updates": 8,
+      "cells": 2112
+    },
+    "nsight_reports_captured": [
+      "texture",
+      "global"
+    ],
+    "throughput_or_cache_advantage_claimed": false,
+    "test_only_cell_and_clock_diagnostics_checked": true,
+    "successful_updates_before_injected_failure": 3,
+    "saved_binary_hashes_rechecked": true
+  },
+  "patch_replay": {
+    "status": "PASS",
+    "exact_replayed_files": 9,
+    "returncode": 0,
+    "command": [
+      "git",
+      "-c",
+      "core.autocrlf=false",
+      "-c",
+      "core.eol=lf",
+      "apply",
+      "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\REVISION.patch"
+    ],
+    "report": "validation/patch_replay_verification.json",
+    "report_sha256": "6e32a4af52842cbee6bde550294f47fabf409f286aa83e93654b96e91a2d6a34",
+    "note": "Process-local Git LF settings avoid the host autocrlf conversion. Prior default-Git attempt is preserved separately; original release was not modified."
+  },
+  "boundaries": [
+    "Runtime checks cover the disclosed finite executions.",
+    "SMT evidence applies to the submitted algebraic targets and trusts Z3; no independent proof checker is claimed.",
+    "PDF rendering and final delivery are audited separately and were not inspected in this agent review."
+  ]
+}

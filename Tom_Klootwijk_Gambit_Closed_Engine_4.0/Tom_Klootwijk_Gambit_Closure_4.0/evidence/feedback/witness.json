@@ -1,0 +1,10 @@
+{
+  "asset": "verify_xy.gblut",
+  "intervention": "One prior-pulse read XOR 1 at cell 7, zero-based tick 3; not ordinary autonomous operation",
+  "identical_before_tick": 3,
+  "first_state_difference_tick": 3,
+  "first_pulse_difference_tick": 7,
+  "baseline_q7": "0010101101010101101010101010101010101010",
+  "intervention_q7": "0010101010110101010101011010101010010101",
+  "claim": "Causal self-feedback in this finite machine, not subjective experience"
+}

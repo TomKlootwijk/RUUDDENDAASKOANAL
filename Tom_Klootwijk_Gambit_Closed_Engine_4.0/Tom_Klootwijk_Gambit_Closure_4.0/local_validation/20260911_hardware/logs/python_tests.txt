@@ -1,0 +1,29 @@
+test_arbitrary_residual_prefix (test_reference.ClosureTests.test_arbitrary_residual_prefix) ... ok
+test_asset_hashes (test_reference.ClosureTests.test_asset_hashes) ... ok
+test_bounded_growth_not_infinite_geometry (test_reference.ClosureTests.test_bounded_growth_not_infinite_geometry) ... ok
+test_capsule_roundtrip (test_reference.ClosureTests.test_capsule_roundtrip) ... ok
+test_event_telescope (test_reference.ClosureTests.test_event_telescope) ... ok
+test_feedback_disabled_is_distinct (test_reference.ClosureTests.test_feedback_disabled_is_distinct) ... ok
+test_feedback_witness (test_reference.ClosureTests.test_feedback_witness) ... ok
+test_invalid_phase_rejected_even_with_digest (test_reference.ClosureTests.test_invalid_phase_rejected_even_with_digest) ... ok
+test_legacy_projection_xx (test_reference.ClosureTests.test_legacy_projection_xx) ... ok
+test_legacy_projection_xy (test_reference.ClosureTests.test_legacy_projection_xy) ... ok
+test_mass_is_conserved (test_reference.ClosureTests.test_mass_is_conserved) ... ok
+test_noncanonical_padding_rejected (test_reference.ClosureTests.test_noncanonical_padding_rejected) ... ok
+test_output_is_not_complete_state (test_reference.ClosureTests.test_output_is_not_complete_state) ... ok
+test_parity_exact (test_reference.ClosureTests.test_parity_exact) ... ok
+test_phase_stride_wrap (test_reference.ClosureTests.test_phase_stride_wrap) ... ok
+test_pulse_prefix_certificate (test_reference.ClosureTests.test_pulse_prefix_certificate) ... ok
+test_raw_corruption_rejected (test_reference.ClosureTests.test_raw_corruption_rejected) ... ok
+test_read_intervention_bounds (test_reference.ClosureTests.test_read_intervention_bounds) ... ok
+test_resume_equality (test_reference.ClosureTests.test_resume_equality) ... ok
+test_schema_bit_count (test_reference.ClosureTests.test_schema_bit_count) ... ok
+test_sdf_representation_all_8bit_words (test_reference.ClosureTests.test_sdf_representation_all_8bit_words) ... ok
+test_sdf_representation_all_zero (test_reference.ClosureTests.test_sdf_representation_all_zero) ... ok
+test_seed_validation (test_reference.ClosureTests.test_seed_validation) ... ok
+test_truncation_rejected (test_reference.ClosureTests.test_truncation_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.383s
+
+OK

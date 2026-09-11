@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "pdf": "output\\pdf\\Gambit_Closure_4.0.1_Verification.pdf",
+  "pdf_sha256": "5e148cc5acca6a2eb63cd0709fa34a12302ce570f14fd2fbad564f8d30845de6",
+  "page_count": 6,
+  "reviewed_utc": "2026-09-11T08:12:11.821854+00:00",
+  "renderer": "Bundled Poppler pdftoppm.exe, 120 DPI PNG",
+  "renderer_warnings": [
+    "No display font for Symbol",
+    "No display font for ArialUnicode"
+  ],
+  "renderer_warning_assessment": "The document uses Helvetica/Courier and ASCII text. All six rendered pages were directly inspected; no missing glyph or rendering defects observed.",
+  "checks": [
+    "Six A4 pages",
+    "All final page PNGs visually inspected",
+    "Page numbering 1-6",
+    "Text extraction and out-of-page glyph check",
+    "Python 24 numerical / 4 coordinator counts parsed from actual log",
+    "Current evidence source and binary hashes verified by builder",
+    "Post-run documentation-only manifest changes disclosed",
+    "Exact command pointers for edge diagnostics included"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "image": "tmp\\pdfs\\verification_pages\\page-1.png",
+      "image_sha256": "58d7c94fe48180d3f006627805249c3ad9557573c21839b00482b98fcceb66c8",
+      "text_characters": 1627,
+      "out_of_page_characters": 0,
+      "visual_review": "PASS: readable text; aligned tables; no clipping, overlap, missing glyphs or broken page flow"
+    },
+    {
+      "page": 2,
+      "image": "tmp\\pdfs\\verification_pages\\page-2.png",
+      "image_sha256": "6bf794a45172d03d3a7da03db91bb97288121b8fa94bc77a4b0f6e884d07df4d",
+      "text_characters": 1812,
+      "out_of_page_characters": 0,
+      "visual_review": "PASS: readable text; aligned tables; no clipping, overlap, missing glyphs or broken page flow"
+    },
+    {
+      "page": 3,
+      "image": "tmp\\pdfs\\verification_pages\\page-3.png",
+      "image_sha256": "6560332886f65f0c9b04e624af9f53506d009220f60dfa347f031273379a576e",
+      "text_characters": 1927,
+      "out_of_page_characters": 0,
+      "visual_review": "PASS: readable text; aligned tables; no clipping, overlap, missing glyphs or broken page flow"
+    },
+    {
+      "page": 4,
+      "image": "tmp\\pdfs\\verification_pages\\page-4.png",
+      "image_sha256": "e6655d6fc693f6c1e5f36892356d65486f6f74129a54df25028d6376e2774d3e",
+      "text_characters": 1737,
+      "out_of_page_characters": 0,
+      "visual_review": "PASS: readable text; aligned tables; no clipping, overlap, missing glyphs or broken page flow"
+    },
+    {
+      "page": 5,
+      "image": "tmp\\pdfs\\verification_pages\\page-5.png",
+      "image_sha256": "e93cf0b2612bf5019a21e401ab1a17c759c2155f052c2744409999e4a4e7cb22",
+      "text_characters": 1947,
+      "out_of_page_characters": 0,
+      "visual_review": "PASS: readable text; aligned tables; no clipping, overlap, missing glyphs or broken page flow"
+    },
+    {
+      "page": 6,
+      "image": "tmp\\pdfs\\verification_pages\\page-6.png",
+      "image_sha256": "68b78250b40ab24a7770ff3410a44dd191b35782330faefb9b549cdfbe06676f",
+      "text_characters": 2731,
+      "out_of_page_characters": 0,
+      "visual_review": "PASS: readable text; aligned tables; no clipping, overlap, missing glyphs or broken page flow"
+    }
+  ]
+}

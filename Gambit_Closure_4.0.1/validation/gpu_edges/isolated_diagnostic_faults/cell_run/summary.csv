@@ -1,0 +1,4 @@
+tick,phase,level,cooldown,pulses,latches,mass_u,mass_v,input_sum,pulse_sum
+0,1,1,1,0,15,1770,996,1916395,0
+1,2,1,2,2,17,1752,1014,3699902,2
+2,3,1,3,62,17,1736,1030,5393360,64

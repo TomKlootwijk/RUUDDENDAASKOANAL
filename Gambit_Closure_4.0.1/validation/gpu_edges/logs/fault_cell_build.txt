@@ -1,0 +1,4 @@
+cell.cu
+tmpxft_000205c0_00000000-10_cell.cudafe1.cpp
+closure_core.lib
+   Creating library C:\RUUDDENDAASKOANAL\Gambit_Closure_4.0.1\validation\gpu_edges\isolated_diagnostic_faults\cell.lib and object C:\RUUDDENDAASKOANAL\Gambit_Closure_4.0.1\validation\gpu_edges\isolated_diagnostic_faults\cell.exp

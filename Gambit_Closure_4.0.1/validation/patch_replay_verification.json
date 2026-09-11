@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "scope": "Actual isolated replay of revision text patch; no kernel execution",
+  "checked_utc": "2026-09-11T08:12:20.344499+00:00",
+  "command": [
+    "git",
+    "-c",
+    "core.autocrlf=false",
+    "-c",
+    "core.eol=lf",
+    "apply",
+    "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\REVISION.patch"
+  ],
+  "cwd": "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\patch_replay_lf",
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "",
+  "patch_sha256": "aa50e1825da93a81a45accf4d5c2a4ddaee5aca678d65b05b840eb048af6328a",
+  "delivered_manifest_sha256": "5d6a1d2f1e17f6ad0c63f2768d07689ed10c6a3aa905e292cdf4e839b14b7e3b",
+  "copied_original_files": [
+    {
+      "path": "CMakeLists.txt",
+      "sha256": "0fbee35332aad1cef148d4999d4125fcf9e5aa38b1b059d6731b458ec40614b7"
+    },
+    {
+      "path": "README.md",
+      "sha256": "dad1b90e7c36122e2df1689236ba270b553fff51bcf73c37b2876fb38ee017ce"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "sha256": "c5f3967cc226e201749670d4296bf9b0cd5069e91f3436139c33c3898a830a4e"
+    },
+    {
+      "path": "src/cuda.cu",
+      "sha256": "2f93a7e6a0ad498235aae7f2502096888b064dee4b69562a47df71e5fa4fa0ca"
+    },
+    {
+      "path": "tools/verify.py",
+      "sha256": "6195497dbcf3fab5e6f52fe3efb07684a61b24ad940c3386f41e06b0033d735f"
+    }
+  ],
+  "replayed_files": [
+    {
+      "path": "CMakeLists.txt",
+      "replayed_sha256": "024d8b7d14d28e60cfca53d3036f161436943b072e3202cb1d57f4fb2b8c7b83",
+      "delivered_sha256": "024d8b7d14d28e60cfca53d3036f161436943b072e3202cb1d57f4fb2b8c7b83",
+      "exact_match": true
+    },
+    {
+      "path": "README.md",
+      "replayed_sha256": "db72917b0e02b30189829f31bcfbab349bbaae4ce37ce514e6c250a6227a5b06",
+      "delivered_sha256": "db72917b0e02b30189829f31bcfbab349bbaae4ce37ce514e6c250a6227a5b06",
+      "exact_match": true
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "replayed_sha256": "a1e4312ee3172c9f3229e2928c2747cf7ceafb0989c60b4d6e8a75de2dcd5566",
+      "delivered_sha256": "a1e4312ee3172c9f3229e2928c2747cf7ceafb0989c60b4d6e8a75de2dcd5566",
+      "exact_match": true
+    },
+    {
+      "path": "src/cuda.cu",
+      "replayed_sha256": "78525113c0a0b728690b9b13ed9864b04624e68fb2643409cc46e40415720e98",
+      "delivered_sha256": "78525113c0a0b728690b9b13ed9864b04624e68fb2643409cc46e40415720e98",
+      "exact_match": true
+    },
+    {
+      "path": "tools/verify.py",
+      "replayed_sha256": "55bdabf5133fa0872571dd2f9b526323574f1f2f515534bf8ff4e7864ef13aae",
+      "delivered_sha256": "55bdabf5133fa0872571dd2f9b526323574f1f2f515534bf8ff4e7864ef13aae",
+      "exact_match": true
+    },
+    {
+      "path": "tests/test_verify.py",
+      "replayed_sha256": "66f1e0daa78598d980ab9877de0881bb7dde930f5dc5e69b41f447b73cc5c4d8",
+      "delivered_sha256": "66f1e0daa78598d980ab9877de0881bb7dde930f5dc5e69b41f447b73cc5c4d8",
+      "exact_match": true
+    },
+    {
+      "path": "tests/cuda_contract.cu",
+      "replayed_sha256": "2c0d95e94024beaca7b4c61ab6c83f430fb4458bfcbdf58b908898a0dbc8f56b",
+      "delivered_sha256": "2c0d95e94024beaca7b4c61ab6c83f430fb4458bfcbdf58b908898a0dbc8f56b",
+      "exact_match": true
+    },
+    {
+      "path": "tools/verify_gpu_edges.py",
+      "replayed_sha256": "68843f07f28f607bcde7d0c098b5927e5c3d3684c0fce442e17b9d62fa0527d6",
+      "delivered_sha256": "68843f07f28f607bcde7d0c098b5927e5c3d3684c0fce442e17b9d62fa0527d6",
+      "exact_match": true
+    },
+    {
+      "path": "REVISION.md",
+      "replayed_sha256": "0f317f6a65bb453e92e6f8c35dcc53eabf6819b22c679964a45a6a49b3544683",
+      "delivered_sha256": "0f317f6a65bb453e92e6f8c35dcc53eabf6819b22c679964a45a6a49b3544683",
+      "exact_match": true
+    }
+  ],
+  "original_integrity_files_rechecked": 196,
+  "original_unchanged": true,
+  "prior_attempt": {
+    "report": "validation/patch_replay_default_git_verification.json",
+    "result": "Git applied successfully but host autocrlf converted LF to CRLF; normalized text matched. Process-local Git settings preserve exact delivered bytes."
+  }
+}

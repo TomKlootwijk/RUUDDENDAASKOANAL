@@ -1,0 +1,451 @@
+{
+  "schema": "gambit-cuda-edge-verification-4.0.1",
+  "status": "PASS_REQUESTED_SCOPE",
+  "started_utc": "2026-09-11T08:07:30.566253+00:00",
+  "scope": "Bounded additional regressions, not whole-program proof",
+  "production_source_sha256": "78525113c0a0b728690b9b13ed9864b04624e68fb2643409cc46e40415720e98",
+  "cpu_executable": {
+    "path": "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\build\\Release\\gambit.exe",
+    "sha256": "a9c7427d0583402815213249b8d2eb58a911467914bd57a0ad1fe481060ff9c8"
+  },
+  "gpu_executable": {
+    "path": "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+    "sha256": "192627c30b47a0f0b2f60b2454b75c36a55846e7452422e1bcefdb1718843cc9"
+  },
+  "commands": [
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--inspect"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "log": "logs/device.txt"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda_contract.exe"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "log": "logs/cuda_wrapper_contract.txt",
+      "expected_text": "PASS CUDA wrapper:"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\build\\Release\\gambit.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\verify_xy.gblut",
+        "--steps",
+        "64",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\gpu_edges\\block64_native"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "log": "logs/block64_native.txt"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\verify_xy.gblut",
+        "--steps",
+        "64",
+        "--block",
+        "64",
+        "--fetch",
+        "texture",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\gpu_edges\\block64_cuda"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "log": "logs/block64_cuda.txt"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\build\\Release\\gambit.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\micro_xy.gblut",
+        "--steps",
+        "64",
+        "--feedback",
+        "0",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\gpu_edges\\feedback0_native"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "log": "logs/feedback0_native.txt"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\micro_xy.gblut",
+        "--steps",
+        "64",
+        "--feedback",
+        "0",
+        "--fetch",
+        "texture",
+        "--block",
+        "256",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\gpu_edges\\feedback0_texture"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "log": "logs/feedback0_texture.txt"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\micro_xy.gblut",
+        "--steps",
+        "64",
+        "--feedback",
+        "0",
+        "--fetch",
+        "global",
+        "--block",
+        "256",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\gpu_edges\\feedback0_global"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "log": "logs/feedback0_global.txt"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\micro_xy.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\gpu_edges\\invalid_block31",
+        "--block",
+        "31"
+      ],
+      "returncode": 1,
+      "expected_returncode": 1,
+      "log": "logs/invalid_block31.txt",
+      "expected_text": "Invalid run arguments"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\micro_xy.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\gpu_edges\\invalid_steps0",
+        "--steps",
+        "0"
+      ],
+      "returncode": 1,
+      "expected_returncode": 1,
+      "log": "logs/invalid_steps0.txt",
+      "expected_text": "Invalid run arguments"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\micro_xy.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\gpu_edges\\invalid_fetch",
+        "--fetch",
+        "nonsense"
+      ],
+      "returncode": 1,
+      "expected_returncode": 1,
+      "log": "logs/invalid_fetch.txt",
+      "expected_text": "Invalid run arguments"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\micro_xy.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\gpu_edges\\invalid_feedback2",
+        "--feedback",
+        "2"
+      ],
+      "returncode": 1,
+      "expected_returncode": 1,
+      "log": "logs/invalid_feedback2.txt",
+      "expected_text": "Invalid run arguments"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\micro_xy.gblut",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\gpu_edges\\unsupported_gates",
+        "--backend",
+        "gates"
+      ],
+      "returncode": 1,
+      "expected_returncode": 1,
+      "log": "logs/unsupported_gates.txt",
+      "expected_text": "Boolean ALU backend is a CPU conformance oracle, not a CUDA option"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--resume",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\gpu_edges\\feedback0_native\\final.gbc",
+        "--feedback",
+        "0",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\gpu_edges\\invalid_resume_feedback"
+      ],
+      "returncode": 1,
+      "expected_returncode": 1,
+      "log": "logs/invalid_resume_feedback.txt",
+      "expected_text": "Invalid run arguments"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\gambit_cuda.exe",
+        "--inspect"
+      ],
+      "returncode": 1,
+      "expected_returncode": 1,
+      "log": "logs/no_visible_device.txt",
+      "expected_text": "FAIL: cudaGetDeviceProperties(&d,0): ",
+      "environment_overrides": {
+        "CUDA_VISIBLE_DEVICES": "-1"
+      }
+    },
+    {
+      "argv": [
+        "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin\\nvcc.exe",
+        "-std=c++17",
+        "-gencode=arch=compute_120,code=sm_120",
+        "--fmad=false",
+        "-I",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\include",
+        "-Xcompiler=/MT,/EHsc",
+        "-ccbin",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\gpu_edges\\isolated_diagnostic_faults\\cell.cu",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\closure_core.lib",
+        "-o",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\gpu_edges\\isolated_diagnostic_faults\\cell.exe"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "log": "logs/fault_cell_build.txt"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\gpu_edges\\isolated_diagnostic_faults\\cell.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\micro_xy.gblut",
+        "--steps",
+        "8",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\gpu_edges\\isolated_diagnostic_faults\\cell_run"
+      ],
+      "returncode": 1,
+      "expected_returncode": 1,
+      "log": "logs/fault_cell_run.txt",
+      "expected_text": "FAIL: CPU/GPU state mismatch at step 3, cell 0"
+    },
+    {
+      "argv": [
+        "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\bin\\nvcc.exe",
+        "-std=c++17",
+        "-gencode=arch=compute_120,code=sm_120",
+        "--fmad=false",
+        "-I",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\include",
+        "-Xcompiler=/MT,/EHsc",
+        "-ccbin",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\gpu_edges\\isolated_diagnostic_faults\\clock.cu",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\full\\cuda_build\\Release\\closure_core.lib",
+        "-o",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\gpu_edges\\isolated_diagnostic_faults\\clock.exe"
+      ],
+      "returncode": 0,
+      "expected_returncode": 0,
+      "log": "logs/fault_clock_build.txt"
+    },
+    {
+      "argv": [
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\gpu_edges\\isolated_diagnostic_faults\\clock.exe",
+        "--asset",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\micro_xy.gblut",
+        "--steps",
+        "8",
+        "--out",
+        "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\validation\\gpu_edges\\isolated_diagnostic_faults\\clock_run"
+      ],
+      "returncode": 1,
+      "expected_returncode": 1,
+      "log": "logs/fault_clock_run.txt",
+      "expected_text": "FAIL: GPU/native closed-transition mismatch at step 3"
+    }
+  ],
+  "cases": {
+    "texture_block64_frozen_golden": {
+      "status": "PASS",
+      "five_file_sha256": {
+        "initial.gbc": "3b6065e214caf9b9340ec35b52ae84c372eb88aa1d7405d92fd936b33a9670ba",
+        "final.gbc": "3037c8c5ce7b8bb2e035d1a957fa004e59cbf4374161e56687aceb35f3f5ba0d",
+        "words.bin": "7572eed571baa89cd41f94b6472c5ee5a09d00ae9cdf29cccf5b8845af9509b9",
+        "summary.csv": "2a52dda705691f2d8dae20098ef68772c73ce8b4d572c5763776f9318d56878f",
+        "counts.bin": "9cd1c162a5d3c7ef14514d2ff570d32e3a3689a95c652194bab7d99bec6f2da0"
+      },
+      "audit": {
+        "status": "PASS",
+        "steps": 64,
+        "cells": 2112,
+        "pulse_bits": 135168,
+        "ones": 49015,
+        "total_input": 3290315686,
+        "mass": 87128,
+        "endpoint_count_certificate": true,
+        "parity_and_events": true,
+        "complete_historical_input_reconstructed": false
+      }
+    },
+    "feedback0_native_python": {
+      "status": "PASS",
+      "five_file_sha256": {
+        "initial.gbc": "4aa050769196b56bdede7f231a3d760670c755265b573ced78af61bbb5ce2e09",
+        "final.gbc": "8e2b021bc3eb03c6b6831921d9193c543c395e6a38fde6ff20ee0bdf143207be",
+        "words.bin": "7c9320fd89b3aa231e68773ded6418fe6e8ba9cdeba5929aec901a2d2cf5aca7",
+        "summary.csv": "460e65af2a777fd73f4054a1f5a8df9cd593df5014de35da91b26fc18af8c16d",
+        "counts.bin": "6d41ec09a8d7a6391e2cd1048375e14dd4cd3f3c3df301cf20cb2ec42cb21508"
+      },
+      "audit": {
+        "status": "PASS",
+        "steps": 64,
+        "cells": 64,
+        "pulse_bits": 4096,
+        "ones": 1679,
+        "total_input": 112134250,
+        "mass": 2766,
+        "endpoint_count_certificate": true,
+        "parity_and_events": true,
+        "complete_historical_input_reconstructed": false
+      }
+    },
+    "feedback0_cuda_texture": {
+      "status": "PASS",
+      "five_file_sha256": {
+        "initial.gbc": "4aa050769196b56bdede7f231a3d760670c755265b573ced78af61bbb5ce2e09",
+        "final.gbc": "8e2b021bc3eb03c6b6831921d9193c543c395e6a38fde6ff20ee0bdf143207be",
+        "words.bin": "7c9320fd89b3aa231e68773ded6418fe6e8ba9cdeba5929aec901a2d2cf5aca7",
+        "summary.csv": "460e65af2a777fd73f4054a1f5a8df9cd593df5014de35da91b26fc18af8c16d",
+        "counts.bin": "6d41ec09a8d7a6391e2cd1048375e14dd4cd3f3c3df301cf20cb2ec42cb21508"
+      },
+      "audit": {
+        "status": "PASS",
+        "steps": 64,
+        "cells": 64,
+        "pulse_bits": 4096,
+        "ones": 1679,
+        "total_input": 112134250,
+        "mass": 2766,
+        "endpoint_count_certificate": true,
+        "parity_and_events": true,
+        "complete_historical_input_reconstructed": false
+      }
+    },
+    "feedback0_cuda_global": {
+      "status": "PASS",
+      "five_file_sha256": {
+        "initial.gbc": "4aa050769196b56bdede7f231a3d760670c755265b573ced78af61bbb5ce2e09",
+        "final.gbc": "8e2b021bc3eb03c6b6831921d9193c543c395e6a38fde6ff20ee0bdf143207be",
+        "words.bin": "7c9320fd89b3aa231e68773ded6418fe6e8ba9cdeba5929aec901a2d2cf5aca7",
+        "summary.csv": "460e65af2a777fd73f4054a1f5a8df9cd593df5014de35da91b26fc18af8c16d",
+        "counts.bin": "6d41ec09a8d7a6391e2cd1048375e14dd4cd3f3c3df301cf20cb2ec42cb21508"
+      },
+      "audit": {
+        "status": "PASS",
+        "steps": 64,
+        "cells": 64,
+        "pulse_bits": 4096,
+        "ones": 1679,
+        "total_input": 112134250,
+        "mass": 2766,
+        "endpoint_count_certificate": true,
+        "parity_and_events": true,
+        "complete_historical_input_reconstructed": false
+      }
+    },
+    "invalid_block31": {
+      "status": "PASS",
+      "rejected_without_output": true
+    },
+    "invalid_steps0": {
+      "status": "PASS",
+      "rejected_without_output": true
+    },
+    "invalid_fetch": {
+      "status": "PASS",
+      "rejected_without_output": true
+    },
+    "invalid_feedback2": {
+      "status": "PASS",
+      "rejected_without_output": true
+    },
+    "unsupported_gates": {
+      "status": "PASS",
+      "rejected_without_output": true
+    },
+    "invalid_resume_feedback": {
+      "status": "PASS",
+      "rejected_without_output": true
+    },
+    "no_visible_device": {
+      "status": "PASS",
+      "scope": "Process-local CUDA visibility only"
+    }
+  },
+  "diagnostics": {
+    "cell": {
+      "status": "PASS",
+      "injected_zero_based_tick": 3,
+      "successful_updates_before_failure": 3,
+      "source_sha256": "d74fe185fef6c1c913c7ec83c900a4ad007888204ea4026e3f9620c56cc569d2",
+      "binary_sha256": "a74dba06e495c8238dad3d4416d0d0917dffd19826bbedaf46c264734deeb999",
+      "diagnostic": "FAIL: CPU/GPU state mismatch at step 3, cell 0"
+    },
+    "clock": {
+      "status": "PASS",
+      "injected_zero_based_tick": 3,
+      "successful_updates_before_failure": 3,
+      "source_sha256": "06d2fe731744885a89b7f7f3990169ac5f5ccc297b66577b7e10ce4edff9e217",
+      "binary_sha256": "d5bb4abc80d9105e4411a6431bb2ae8cb3712756e14944939cf92c1872ef565e",
+      "diagnostic": "FAIL: GPU/native closed-transition mismatch at step 3"
+    }
+  },
+  "device": {
+    "device": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+    "compute_major": 12,
+    "compute_minor": 0,
+    "driver": 13010,
+    "runtime": 12080,
+    "total_vram": 12820480000,
+    "free_vram": 11561598976
+  },
+  "wrapper_contract": {
+    "status": "PASS",
+    "sha256": "dd50fc26acb189865d860d281bb1337f5157d627818e65813b806cb29104625c"
+  },
+  "protected_files_unchanged": {
+    "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\src\\cuda.cu": "78525113c0a0b728690b9b13ed9864b04624e68fb2643409cc46e40415720e98",
+    "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\assets\\closure_goldens.json": "1c3e4e7fc27f0f5d0a9c2760fb5b1fe3063dcbf3329e3453e4743d1c8713e4c3",
+    "C:\\RUUDDENDAASKOANAL\\Gambit_Closure_4.0.1\\SHA256SUMS.txt": "5d6a1d2f1e17f6ad0c63f2768d07689ed10c6a3aa905e292cdf4e839b14b7e3b"
+  },
+  "finished_utc": "2026-09-11T08:07:45.691885+00:00"
+}

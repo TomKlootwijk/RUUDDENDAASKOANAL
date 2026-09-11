@@ -1,0 +1,11 @@
+; Tom Klootwijk Gambit 4.0 -- memory_bounds
+(set-option :produce-proofs true)
+(set-option :timeout 15000)
+(declare-const z Int)(declare-const m Int)(declare-const a Int)(declare-const b Int)
+(assert (and (<= 0 z 65536) (<= 0 m 65536) (<= 0 a 65536) (<= 0 b 65536)))
+(define-fun v () Int (div (+ (* 3 a) b) 4))
+(define-fun zn () Int (div (+ (* 3 z) v) 4))
+(define-fun mn () Int (div (+ (* 15 m) zn) 16))
+(assert (not (and (<= 0 zn 65536) (<= 0 mn 65536))))
+(check-sat)
+(get-proof)
