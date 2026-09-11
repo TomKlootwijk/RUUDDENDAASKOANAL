@@ -1,0 +1,80 @@
+{
+  "schema": "ksfe-gambit-seed-3.0",
+  "alphabet": [
+    "+",
+    "-",
+    "X",
+    "Y",
+    "[",
+    "]"
+  ],
+  "grammar": {
+    "X": "X[+X]Y",
+    "Y": "Y[-Y]X",
+    "[": "[",
+    "]": "]",
+    "+": "+",
+    "-": "-"
+  },
+  "model": {
+    "version": "3.0.0",
+    "pair": "XX",
+    "random_seed": 20260911,
+    "initial_generation": 1,
+    "max_generation": 4,
+    "growth_threshold": 0.55,
+    "growth_dwell": 30,
+    "steps": 120,
+    "max_symbols": 200000,
+    "max_nodes": 20000,
+    "max_substeps": 10000,
+    "turtle_step": 0.12,
+    "turtle_angle": 0.4487989505128276,
+    "turtle_shrink": 0.72,
+    "embedding_scale": 1.0,
+    "embedding_y": 0.1,
+    "capsule_thickness": 0.045,
+    "arc_radius": 1.0,
+    "arc_spacing": 1.0,
+    "arc_thickness": 0.105,
+    "memory_geometry_gain": 0.025,
+    "xmin": -2.4,
+    "xmax": 2.4,
+    "ymin": -0.16,
+    "ymax": 2.24,
+    "grid_h": 0.08,
+    "dt": 0.04,
+    "diffusion_u": 0.05,
+    "diffusion_v": 0.025,
+    "omega": 0.06,
+    "gate_base": 0.65,
+    "gate_gain": 0.15,
+    "gate_x": 0.0,
+    "reaction_a": 0.24,
+    "reaction_b": 0.12,
+    "alpha": 0.4,
+    "eta": 0.08,
+    "codec_bits": 16
+  },
+  "hinge": {
+    "threshold": 0.012,
+    "initial_bits": [
+      0,
+      0,
+      0
+    ],
+    "feedback": true,
+    "gate_probe": 0,
+    "leakage": 0.2,
+    "probe_amplitude": 0.18,
+    "probe_frequency": 1.8
+  },
+  "engine": "Tom Klootwijk Gambit",
+  "author": {
+    "name": "Tom Klootwijk",
+    "identifier": "NL200678942",
+    "date_as_supplied": "10-07-1990"
+  },
+  "interpretation": "Christian interpretation is documentary, not a physical parameter.",
+  "scope": "Symbolic XX/XY seeds; simulation only, not a biological or consciousness detector."
+}

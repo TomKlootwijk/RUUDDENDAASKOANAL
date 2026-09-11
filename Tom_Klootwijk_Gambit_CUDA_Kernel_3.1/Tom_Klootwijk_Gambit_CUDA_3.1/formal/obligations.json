@@ -1,0 +1,67 @@
+{
+  "theorem": "U3-D",
+  "model": "gambit-u3d-3.1",
+  "source": "docs/MODEL_AND_PROOFS.md",
+  "proof_status": "Written mathematical arguments; not proof-assistant-checked C++/CUDA",
+  "claims": [
+    {
+      "id": "D1",
+      "target": "Finite address and arithmetic closure",
+      "basis": "parameter validation and bounded arithmetic"
+    },
+    {
+      "id": "D2",
+      "target": "Nonnegative, conserved transport",
+      "basis": "degree <= 4; directed donor divisor >= 8"
+    },
+    {
+      "id": "D3",
+      "target": "Nonnegative, conserved reaction",
+      "basis": "bounded nonnegative integer transfers"
+    },
+    {
+      "id": "D4",
+      "target": "Bounded sensing and memory",
+      "basis": "integer convex averaging"
+    },
+    {
+      "id": "D5",
+      "target": "Exact one-bit prefix certificate",
+      "basis": "Euclidean quotient/remainder recurrence"
+    },
+    {
+      "id": "D6",
+      "target": "Binary latch and XOR event identity",
+      "basis": "hysteresis cases and telescoping XOR"
+    },
+    {
+      "id": "D7",
+      "target": "Exact bit packing and parity",
+      "basis": "disjoint powers of two and GF(2) parity"
+    },
+    {
+      "id": "D8",
+      "target": "Conditional CPU/CUDA transition equality",
+      "basis": "ordered kernels, nonaliasing buffers, point reads"
+    },
+    {
+      "id": "D9",
+      "target": "Causal self-feedback witness",
+      "basis": "one-bit read intervention in released XY trace"
+    },
+    {
+      "id": "D10",
+      "target": "One bit is not a full-state quotient",
+      "basis": "two-residual accumulator counterexample"
+    }
+  ],
+  "cuda_obligations": {
+    "native_compilation": "NOT_RUN",
+    "target_gpu_execution": "NOT_RUN",
+    "full_lut_readback": "NOT_RUN",
+    "cpu_gpu_state_equality": "NOT_RUN",
+    "compute_sanitizer": "NOT_RUN",
+    "sass_and_profile": "NOT_RUN"
+  },
+  "empirical_consciousness": "NOT_ESTABLISHED_BY_THIS_MODEL"
+}

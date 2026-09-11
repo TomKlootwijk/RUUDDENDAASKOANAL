@@ -1,0 +1,32 @@
+{
+  "verify_xx": {
+    "words.bin": true,
+    "state.bin": true,
+    "summary.csv": true
+  },
+  "verify_xy": {
+    "words.bin": true,
+    "state.bin": true,
+    "summary.csv": true
+  },
+  "laptop_xx": {
+    "words.bin": true,
+    "state.bin": true,
+    "summary.csv": true
+  },
+  "laptop_xy": {
+    "words.bin": true,
+    "state.bin": true,
+    "summary.csv": true
+  },
+  "verify_xy_no_pulse_feedback": {
+    "words.bin": true,
+    "state.bin": true,
+    "summary.csv": true
+  },
+  "verify_xy_one_bit_intervention": {
+    "words.bin": true,
+    "state.bin": true,
+    "summary.csv": true
+  }
+}

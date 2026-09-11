@@ -1,0 +1,95 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[a4paper,top=22mm,bottom=22mm,left=22mm,right=22mm]{geometry}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs,longtable,array}
+\usepackage{etoolbox}
+\usepackage{fvextra}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{xurl}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{needspace}
+\usepackage{placeins}
+\definecolor{ink}{HTML}{143247}
+\definecolor{accent}{HTML}{147D92}
+\definecolor{muted}{HTML}{53616B}
+\hypersetup{colorlinks=true,linkcolor=ink,urlcolor=accent,
+ pdftitle={Tom Klootwijk Gambit - Native CUDA Kernel 3.1},
+ pdfauthor={Tom Klootwijk - NL200678942 - 10-07-1990},
+ pdfsubject={RTX 5070 Ti Laptop engineering companion to Theory Edition 3.0; CUDA verification pending},
+ pdfkeywords={Gambit, CUDA, deterministic, one-bit, log-polar, seed-field, formal kernel}}
+\urlstyle{same}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\sffamily\color{ink}TOM KLOOTWIJK GAMBIT}
+\fancyhead[R]{\small\sffamily\color{muted}NATIVE CUDA 3.1}
+\fancyfoot[L]{\small\color{muted}Theory Edition 3.0 / Engineering companion}
+\fancyfoot[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\headheight}{15pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45em}
+\setlength{\emergencystretch}{3em}
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+\titleformat{\section}{\Large\sffamily\bfseries\color{ink}}{\thesection}{0.7em}{}
+\titleformat{\subsection}{\large\sffamily\bfseries\color{ink}}{\thesubsection}{0.7em}{}
+\titleformat{\subsubsection}{\normalsize\sffamily\bfseries\color{ink}}{}{0pt}{}
+\titlespacing*{\section}{0pt}{0.5em}{1em}
+\titlespacing*{\subsection}{0pt}{1.2em}{0.5em}
+\setlist{itemsep=0.25em,topsep=0.35em,leftmargin=1.6em}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\DefineVerbatimEnvironment{verbatim}{Verbatim}{breaklines=true,breakanywhere=true,fontsize=\small}
+\AtBeginEnvironment{longtable}{\footnotesize\setlength{\tabcolsep}{5pt}\renewcommand{\arraystretch}{1.22}}
+\AtBeginEnvironment{figure}{\centering}
+\providecommand{\pandocbounded}[1]{#1}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>0.55\textheight0.55\textheight\else\Gin@nat@height\fi}
+\makeatother
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\topfraction}{0.90}
+\setcounter{topnumber}{2}
+\widowpenalty=10000
+\clubpenalty=10000
+\begin{document}
+\begin{titlepage}
+\thispagestyle{empty}
+{\sffamily\color{accent}\large NATIVE SOURCE / VERIFIABLE BINARY EXECUTION\par}
+\vspace{18mm}
+{\sffamily\bfseries\color{ink}\fontsize{32}{37}\selectfont Tom Klootwijk\par Gambit\par}
+\vspace{8mm}
+{\sffamily\color{ink}\fontsize{24}{29}\selectfont Native CUDA Kernel\par}
+\vspace{3mm}
+{\sffamily\color{muted}\Large RTX 5070 Ti Laptop / 12 GB edition\par}
+\vspace{9mm}
+{\color{accent}\rule{\linewidth}{1.2pt}\par}
+\vspace{6mm}
+{\large Unified Seed--Field Theorem\par and Theory of Consciousness\par}
+\vspace{2mm}
+{\color{muted}Theory foundation: Edition 3.0\par Engineering release: 3.1.0\par}
+\vspace{12mm}
+{\large\bfseries Tom Klootwijk\par}
+{NL200678942\quad /\quad 10-07-1990\par}
+\vfill
+\begingroup\setlength{\fboxsep}{11pt}\color{ink}
+\fbox{\parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}{
+\sffamily\bfseries CPU verification executed. CUDA device verification pending.\par
+\vspace{3pt}\normalfont\small
+Native CUDA source, packed log-polar LUTs, bit-exact references, proof obligations and a local Codex verification workflow. No GPU compilation, cache measurement or consciousness certificate is claimed.}}
+\endgroup\par
+\vspace{6mm}
+{\small\color{muted}11 September 2026\hfill Private-attribution edition\par}
+\end{titlepage}
+\pagenumbering{roman}
+{\small\setlength{\parskip}{0pt}\tableofcontents}
+\clearpage
+\pagenumbering{arabic}

@@ -1,0 +1,27 @@
+{
+  "release": "3.1.0",
+  "theory_foundation": "Gambit Edition 3.0",
+  "author": {
+    "name": "Tom Klootwijk",
+    "identifier": "NL200678942",
+    "date_as_supplied": "10-07-1990"
+  },
+  "cpu_build_and_tests": "PASS",
+  "cpp_evaluated_assertions": 325550,
+  "python_test_methods": 19,
+  "negative_path_checks": 16,
+  "cpu_coordinator": "CPU_PASS_GPU_NOT_RUN",
+  "cuda_compilation": "NOT_RUN",
+  "target_gpu_execution": "NOT_RUN",
+  "gpu_workflow_check": "BLOCKED: nvcc absent",
+  "gpu_binary_included": false,
+  "gpu_cache_and_performance": "NOT_MEASURED",
+  "feedback_witness": {
+    "first_state_divergence_update": 3,
+    "first_pulse_divergence_update": 7,
+    "flipped_read_cell": 7
+  },
+  "kernel_contract": "finite integer specialization; not a numerical-equivalence port of Edition 3.0 floating dynamics",
+  "proof_scope": "mathematical finite transition and conditional device equivalence; not empirical consciousness",
+  "original_archive_sha256": "8f8decbc5b2040f9c722c21debf7a3d59320cde37e762fe758584429b34e0fa2"
+}

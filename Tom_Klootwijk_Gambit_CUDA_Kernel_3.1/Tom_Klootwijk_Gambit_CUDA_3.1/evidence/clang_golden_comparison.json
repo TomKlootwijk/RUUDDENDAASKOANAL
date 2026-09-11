@@ -1,0 +1,12 @@
+{
+  "verify_xx": {
+    "words.bin": true,
+    "state.bin": true,
+    "summary.csv": true
+  },
+  "verify_xy": {
+    "words.bin": true,
+    "state.bin": true,
+    "summary.csv": true
+  }
+}

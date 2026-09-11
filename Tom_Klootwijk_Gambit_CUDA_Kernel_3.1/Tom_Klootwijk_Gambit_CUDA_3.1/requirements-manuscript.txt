@@ -1,0 +1,5 @@
+# Optional plotting/PDF reproduction only. Native runtime/verification use neither.
+numpy==2.3.5
+matplotlib>=3.8,<4
+# External programs: pandoc and a LaTeX distribution with pdflatex,
+# lmodern, amsmath, microtype, fancyhdr, titlesec, xurl, fvextra, longtable.

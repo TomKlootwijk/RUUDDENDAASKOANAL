@@ -1,0 +1,188 @@
+{
+  "schema": "gambit-local-verification-3.1",
+  "status": "BLOCKED",
+  "gpu_status": "NOT_RUN",
+  "scope": "quick",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "commands": [
+    {
+      "argv": [
+        "cmake",
+        "-S",
+        "/mnt/data/Tom_Klootwijk_Gambit_CUDA_3.1",
+        "-B",
+        "/mnt/data/_gpu_work/coordinator_hardware_blocked/build_cpu",
+        "-DGAMBIT_ENABLE_CUDA=OFF",
+        "-DCMAKE_BUILD_TYPE=Release"
+      ],
+      "returncode": 0,
+      "log": "logs/configure_cpu.txt"
+    },
+    {
+      "argv": [
+        "cmake",
+        "--build",
+        "/mnt/data/_gpu_work/coordinator_hardware_blocked/build_cpu",
+        "--config",
+        "Release",
+        "--parallel",
+        "2"
+      ],
+      "returncode": 0,
+      "log": "logs/build_cpu.txt"
+    },
+    {
+      "argv": [
+        "ctest",
+        "--test-dir",
+        "/mnt/data/_gpu_work/coordinator_hardware_blocked/build_cpu",
+        "-C",
+        "Release",
+        "--output-on-failure",
+        "-V"
+      ],
+      "returncode": 0,
+      "log": "logs/ctest.txt"
+    },
+    {
+      "argv": [
+        "/opt/pyvenv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "log": "logs/python_tests.txt"
+    },
+    {
+      "argv": [
+        "/opt/pyvenv/bin/python",
+        "tools/test_cli.py",
+        "--exe",
+        "/mnt/data/_gpu_work/coordinator_hardware_blocked/build_cpu/gambit_cpu"
+      ],
+      "returncode": 0,
+      "log": "logs/negative_paths.txt"
+    },
+    {
+      "argv": [
+        "/mnt/data/_gpu_work/coordinator_hardware_blocked/build_cpu/gambit_cpu",
+        "--asset",
+        "/mnt/data/Tom_Klootwijk_Gambit_CUDA_3.1/assets/verify_xx.gblut",
+        "--out",
+        "/mnt/data/_gpu_work/coordinator_hardware_blocked/cpu/verify_xx"
+      ],
+      "returncode": 0,
+      "log": "logs/cpu_verify_xx.txt"
+    },
+    {
+      "argv": [
+        "/mnt/data/_gpu_work/coordinator_hardware_blocked/build_cpu/gambit_cpu",
+        "--asset",
+        "/mnt/data/Tom_Klootwijk_Gambit_CUDA_3.1/assets/verify_xy.gblut",
+        "--out",
+        "/mnt/data/_gpu_work/coordinator_hardware_blocked/cpu/verify_xy"
+      ],
+      "returncode": 0,
+      "log": "logs/cpu_verify_xy.txt"
+    },
+    {
+      "argv": [
+        "/mnt/data/_gpu_work/coordinator_hardware_blocked/build_cpu/gambit_cpu",
+        "--asset",
+        "/mnt/data/Tom_Klootwijk_Gambit_CUDA_3.1/assets/verify_xy.gblut",
+        "--out",
+        "/mnt/data/_gpu_work/coordinator_hardware_blocked/cpu/verify_xy_no_pulse_feedback",
+        "--feedback",
+        "0"
+      ],
+      "returncode": 0,
+      "log": "logs/cpu_verify_xy_no_pulse_feedback.txt"
+    },
+    {
+      "argv": [
+        "/mnt/data/_gpu_work/coordinator_hardware_blocked/build_cpu/gambit_cpu",
+        "--asset",
+        "/mnt/data/Tom_Klootwijk_Gambit_CUDA_3.1/assets/verify_xy.gblut",
+        "--out",
+        "/mnt/data/_gpu_work/coordinator_hardware_blocked/cpu/verify_xy_one_bit_intervention",
+        "--inject-step",
+        "3",
+        "--inject-cell",
+        "7"
+      ],
+      "returncode": 0,
+      "log": "logs/cpu_verify_xy_one_bit_intervention.txt"
+    }
+  ],
+  "cases": {
+    "verify_xx": {
+      "status": "TRACE_AUDIT_PASS",
+      "cells": 2112,
+      "steps": 64,
+      "pulse_bits": 135168,
+      "ones": 49025,
+      "total_mass": 86047,
+      "final_level": 4,
+      "last_growth_step": 48,
+      "per_cell_final_certificates": 2112,
+      "scope": "Checks delivered discrete trace; not an independent reconstruction of every prior drive or a GPU claim.",
+      "golden_match": true,
+      "independent_python_exact": true
+    },
+    "verify_xy": {
+      "status": "TRACE_AUDIT_PASS",
+      "cells": 2112,
+      "steps": 64,
+      "pulse_bits": 135168,
+      "ones": 49015,
+      "total_mass": 87128,
+      "final_level": 4,
+      "last_growth_step": 48,
+      "per_cell_final_certificates": 2112,
+      "scope": "Checks delivered discrete trace; not an independent reconstruction of every prior drive or a GPU claim.",
+      "golden_match": true,
+      "independent_python_exact": true
+    },
+    "verify_xy_no_pulse_feedback": {
+      "status": "TRACE_AUDIT_PASS",
+      "cells": 2112,
+      "steps": 64,
+      "pulse_bits": 135168,
+      "ones": 50864,
+      "total_mass": 87128,
+      "final_level": 4,
+      "last_growth_step": 48,
+      "per_cell_final_certificates": 2112,
+      "scope": "Checks delivered discrete trace; not an independent reconstruction of every prior drive or a GPU claim.",
+      "golden_match": true,
+      "independent_python_exact": true
+    },
+    "verify_xy_one_bit_intervention": {
+      "status": "TRACE_AUDIT_PASS",
+      "cells": 2112,
+      "steps": 64,
+      "pulse_bits": 135168,
+      "ones": 49015,
+      "total_mass": 87128,
+      "final_level": 4,
+      "last_growth_step": 48,
+      "per_cell_final_certificates": 2112,
+      "scope": "Checks delivered discrete trace; not an independent reconstruction of every prior drive or a GPU claim.",
+      "golden_match": true,
+      "independent_python_exact": true
+    }
+  },
+  "goldens_modified": false,
+  "sanitizers": "NOT_RUN",
+  "profiling": "NOT_RUN",
+  "integrity_files": 102,
+  "cpu_status": "CPU_PASS",
+  "reason": "nvcc absent; GPU verification cannot be substituted by CPU success"
+}

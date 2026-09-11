@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+build*/
+local_verification/
+run*/
+*.o
+*.obj
+*.exe
+manuscript/build/
+manuscript/body.tex

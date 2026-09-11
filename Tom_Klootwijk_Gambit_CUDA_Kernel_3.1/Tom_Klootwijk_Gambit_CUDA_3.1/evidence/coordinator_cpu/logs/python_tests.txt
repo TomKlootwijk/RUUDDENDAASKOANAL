@@ -1,0 +1,24 @@
+test_cover_packing (test_reference.ContractTests.test_cover_packing) ... ok
+test_growth_causal_schedule (test_reference.ContractTests.test_growth_causal_schedule) ... ok
+test_growth_word_counts (test_reference.ContractTests.test_growth_word_counts) ... ok
+test_header (test_reference.ContractTests.test_header) ... ok
+test_intervention_causality (test_reference.ContractTests.test_intervention_causality) ... ok
+test_latch_events (test_reference.ContractTests.test_latch_events) ... ok
+test_manifest_hashes (test_reference.ContractTests.test_manifest_hashes) ... ok
+test_mass_and_prefix (test_reference.ContractTests.test_mass_and_prefix) ... ok
+test_material_to_memory_coupling (test_reference.ContractTests.test_material_to_memory_coupling) ... ok
+test_memory_bounds (test_reference.ContractTests.test_memory_bounds) ... ok
+test_mixer_range (test_reference.ContractTests.test_mixer_range) ... ok
+test_nonzero_initial_mass (test_reference.ContractTests.test_nonzero_initial_mass) ... ok
+test_output_parity (test_reference.ContractTests.test_output_parity) ... ok
+test_pair_assets_differ (test_reference.ContractTests.test_pair_assets_differ) ... ok
+test_parity_replay (test_reference.ContractTests.test_parity_replay) ... ok
+test_pulse_feedback_effect (test_reference.ContractTests.test_pulse_feedback_effect) ... ok
+test_reduced_word_not_full_state (test_reference.ContractTests.test_reduced_word_not_full_state) ... ok
+test_serialization (test_reference.ContractTests.test_serialization) ... ok
+test_signed_division (test_reference.ContractTests.test_signed_division) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 1.168s
+
+OK

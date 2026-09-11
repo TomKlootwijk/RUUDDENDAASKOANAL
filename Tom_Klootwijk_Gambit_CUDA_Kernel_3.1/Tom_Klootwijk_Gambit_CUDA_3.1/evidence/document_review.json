@@ -1,0 +1,10 @@
+{
+  "pdf": "Tom_Klootwijk_Gambit_CUDA_Kernel_3.1.pdf",
+  "pages": 23,
+  "renderer": "pdftoppm (Poppler), 85 dpi full document review",
+  "latex_overfull_boxes": 0,
+  "review": "Cover, contents, equations, tables, code blocks, figures and references rendered and inspected",
+  "font_files_distributed": false,
+  "cuda_compilation": "NOT_RUN",
+  "gpu_execution": "NOT_RUN"
+}

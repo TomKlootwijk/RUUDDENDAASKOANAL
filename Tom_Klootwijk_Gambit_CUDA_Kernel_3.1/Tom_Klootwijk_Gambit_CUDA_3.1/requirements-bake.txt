@@ -1,0 +1,3 @@
+# Optional offline geometry regeneration only; native runtime and verifier do not require NumPy.
+# Recorded delivery bake: NumPy 2.3.5 on Python 3.13.5.
+numpy==2.3.5

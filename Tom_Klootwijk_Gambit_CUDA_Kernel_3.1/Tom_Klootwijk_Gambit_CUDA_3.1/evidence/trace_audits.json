@@ -1,0 +1,74 @@
+{
+  "verify_xx": {
+    "status": "TRACE_AUDIT_PASS",
+    "cells": 2112,
+    "steps": 64,
+    "pulse_bits": 135168,
+    "ones": 49025,
+    "total_mass": 86047,
+    "final_level": 4,
+    "last_growth_step": 48,
+    "per_cell_final_certificates": 2112,
+    "scope": "Checks delivered discrete trace; not an independent reconstruction of every prior drive or a GPU claim."
+  },
+  "verify_xy": {
+    "status": "TRACE_AUDIT_PASS",
+    "cells": 2112,
+    "steps": 64,
+    "pulse_bits": 135168,
+    "ones": 49015,
+    "total_mass": 87128,
+    "final_level": 4,
+    "last_growth_step": 48,
+    "per_cell_final_certificates": 2112,
+    "scope": "Checks delivered discrete trace; not an independent reconstruction of every prior drive or a GPU claim."
+  },
+  "laptop_xx": {
+    "status": "TRACE_AUDIT_PASS",
+    "cells": 131072,
+    "steps": 256,
+    "pulse_bits": 33554432,
+    "ones": 12169202,
+    "total_mass": 5208103,
+    "final_level": 4,
+    "last_growth_step": 48,
+    "per_cell_final_certificates": 131072,
+    "scope": "Checks delivered discrete trace; not an independent reconstruction of every prior drive or a GPU claim."
+  },
+  "laptop_xy": {
+    "status": "TRACE_AUDIT_PASS",
+    "cells": 131072,
+    "steps": 256,
+    "pulse_bits": 33554432,
+    "ones": 12180402,
+    "total_mass": 5217058,
+    "final_level": 4,
+    "last_growth_step": 48,
+    "per_cell_final_certificates": 131072,
+    "scope": "Checks delivered discrete trace; not an independent reconstruction of every prior drive or a GPU claim."
+  },
+  "verify_xy_no_pulse_feedback": {
+    "status": "TRACE_AUDIT_PASS",
+    "cells": 2112,
+    "steps": 64,
+    "pulse_bits": 135168,
+    "ones": 50864,
+    "total_mass": 87128,
+    "final_level": 4,
+    "last_growth_step": 48,
+    "per_cell_final_certificates": 2112,
+    "scope": "Checks delivered discrete trace; not an independent reconstruction of every prior drive or a GPU claim."
+  },
+  "verify_xy_one_bit_intervention": {
+    "status": "TRACE_AUDIT_PASS",
+    "cells": 2112,
+    "steps": 64,
+    "pulse_bits": 135168,
+    "ones": 49015,
+    "total_mass": 87128,
+    "final_level": 4,
+    "last_growth_step": 48,
+    "per_cell_final_certificates": 2112,
+    "scope": "Checks delivered discrete trace; not an independent reconstruction of every prior drive or a GPU claim."
+  }
+}

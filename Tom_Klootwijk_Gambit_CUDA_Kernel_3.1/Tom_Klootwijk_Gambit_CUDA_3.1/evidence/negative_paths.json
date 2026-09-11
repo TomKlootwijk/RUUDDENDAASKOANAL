@@ -1,0 +1,86 @@
+{
+  "status": "NEGATIVE_PATH_PASS",
+  "tests": 16,
+  "results": [
+    {
+      "test": "--steps=0",
+      "returncode": 1,
+      "diagnostic": "FAIL: steps must be positive"
+    },
+    {
+      "test": "--steps=4097",
+      "returncode": 1,
+      "diagnostic": "FAIL: Invalid execution option"
+    },
+    {
+      "test": "--steps=-1",
+      "returncode": 1,
+      "diagnostic": "FAIL: Expected unsigned decimal: -1"
+    },
+    {
+      "test": "--block=48",
+      "returncode": 1,
+      "diagnostic": "FAIL: Invalid execution option"
+    },
+    {
+      "test": "--feedback=2",
+      "returncode": 1,
+      "diagnostic": "FAIL: Invalid execution option"
+    },
+    {
+      "test": "--fetch=bogus",
+      "returncode": 1,
+      "diagnostic": "FAIL: Invalid execution option"
+    },
+    {
+      "test": "--inject-cell=99999999",
+      "returncode": 1,
+      "diagnostic": "FAIL: Injection cell too large"
+    },
+    {
+      "test": "unpaired injection",
+      "returncode": 1,
+      "diagnostic": "FAIL: Invalid execution option"
+    },
+    {
+      "test": "unknown flag",
+      "returncode": 1,
+      "diagnostic": "FAIL: Unknown option: --alien"
+    },
+    {
+      "test": "bad_magic",
+      "returncode": 1,
+      "diagnostic": "FAIL: Bad LUT magic"
+    },
+    {
+      "test": "truncated",
+      "returncode": 1,
+      "diagnostic": "FAIL: LUT length does not match validated dimensions"
+    },
+    {
+      "test": "extra",
+      "returncode": 1,
+      "diagnostic": "FAIL: LUT length does not match validated dimensions"
+    },
+    {
+      "test": "invalid_width",
+      "returncode": 1,
+      "diagnostic": "FAIL: Asset parameters violate finite-kernel contract"
+    },
+    {
+      "test": "unsafe_outflow",
+      "returncode": 1,
+      "diagnostic": "FAIL: Asset parameters violate finite-kernel contract"
+    },
+    {
+      "test": "division_zero",
+      "returncode": 1,
+      "diagnostic": "FAIL: Asset parameters violate finite-kernel contract"
+    },
+    {
+      "test": "stale output refusal",
+      "returncode": 1,
+      "diagnostic": "FAIL: Output directory contains prior artifacts; select a new --out directory"
+    }
+  ]
+}

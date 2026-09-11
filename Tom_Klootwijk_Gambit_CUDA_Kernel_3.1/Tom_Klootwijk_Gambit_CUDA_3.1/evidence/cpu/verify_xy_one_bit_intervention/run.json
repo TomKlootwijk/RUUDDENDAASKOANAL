@@ -1,0 +1,1 @@
+{"backend":"cpu","model":"gambit-u3d-3.1","gpu_verified":false,"status":"CPU_PASS","steps":64,"feedback":1,"inject_step":3,"inject_cell":7,"wall_ms":3.915934}

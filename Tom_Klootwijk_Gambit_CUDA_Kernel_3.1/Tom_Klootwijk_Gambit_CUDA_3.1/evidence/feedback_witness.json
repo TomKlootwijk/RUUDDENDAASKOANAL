@@ -1,0 +1,2194 @@
+{
+  "model": "gambit-u3d-3.1",
+  "backend": "independent_python_cpu",
+  "asset": "verify_xy.gblut",
+  "intervention": {
+    "step": 3,
+    "cell": 7,
+    "operation": "flip only the next read of prior packed q"
+  },
+  "states_and_words_before_step3_identical": true,
+  "first_state_divergence_step": 3,
+  "first_pulse_divergence_step": 7,
+  "total_baseline_ones": 49015,
+  "total_intervention_ones": 49015,
+  "scope": "Causal feedback witness for this finite machine, not consciousness or universal sensitivity",
+  "records": [
+    {
+      "step": 0,
+      "pulse_bits_different": 0,
+      "changed_cells": 0,
+      "baseline_cell7": {
+        "u": 77,
+        "v": 52,
+        "z": 31871,
+        "m": 32711,
+        "r": 31871,
+        "flags": 13,
+        "ki": 31871,
+        "qo": 0
+      },
+      "intervention_cell7": {
+        "u": 77,
+        "v": 52,
+        "z": 31871,
+        "m": 32711,
+        "r": 31871,
+        "flags": 13,
+        "ki": 31871,
+        "qo": 0
+      },
+      "baseline_sample7": [
+        -81,
+        25872
+      ],
+      "intervention_sample7": [
+        -81,
+        25872
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 1,
+      "pulse_bits_different": 0,
+      "changed_cells": 0,
+      "baseline_cell7": {
+        "u": 80,
+        "v": 49,
+        "z": 31324,
+        "m": 32624,
+        "r": 63195,
+        "flags": 5,
+        "ki": 63195,
+        "qo": 0
+      },
+      "intervention_cell7": {
+        "u": 80,
+        "v": 49,
+        "z": 31324,
+        "m": 32624,
+        "r": 63195,
+        "flags": 5,
+        "ki": 63195,
+        "qo": 0
+      },
+      "baseline_sample7": [
+        -91,
+        26032
+      ],
+      "intervention_sample7": [
+        -91,
+        26032
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 2,
+      "pulse_bits_different": 0,
+      "changed_cells": 0,
+      "baseline_cell7": {
+        "u": 81,
+        "v": 47,
+        "z": 30990,
+        "m": 32521,
+        "r": 28649,
+        "flags": 7,
+        "ki": 94185,
+        "qo": 1
+      },
+      "intervention_cell7": {
+        "u": 81,
+        "v": 47,
+        "z": 30990,
+        "m": 32521,
+        "r": 28649,
+        "flags": 7,
+        "ki": 94185,
+        "qo": 1
+      },
+      "baseline_sample7": [
+        -99,
+        26160
+      ],
+      "intervention_sample7": [
+        -99,
+        26160
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 3,
+      "pulse_bits_different": 0,
+      "changed_cells": 1,
+      "baseline_cell7": {
+        "u": 82,
+        "v": 51,
+        "z": 33813,
+        "m": 32601,
+        "r": 62462,
+        "flags": 5,
+        "ki": 127998,
+        "qo": 1
+      },
+      "intervention_cell7": {
+        "u": 82,
+        "v": 51,
+        "z": 30693,
+        "m": 32406,
+        "r": 59342,
+        "flags": 5,
+        "ki": 124878,
+        "qo": 1
+      },
+      "baseline_sample7": [
+        -122,
+        42912
+      ],
+      "intervention_sample7": [
+        -106,
+        26272
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 4,
+      "pulse_bits_different": 0,
+      "changed_cells": 1,
+      "baseline_cell7": {
+        "u": 82,
+        "v": 51,
+        "z": 32832,
+        "m": 32615,
+        "r": 29758,
+        "flags": 7,
+        "ki": 160830,
+        "qo": 2
+      },
+      "intervention_cell7": {
+        "u": 82,
+        "v": 51,
+        "z": 30489,
+        "m": 32286,
+        "r": 24295,
+        "flags": 7,
+        "ki": 155367,
+        "qo": 2
+      },
+      "baseline_sample7": [
+        -113,
+        26384
+      ],
+      "intervention_sample7": [
+        -112,
+        26368
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 5,
+      "pulse_bits_different": 0,
+      "changed_cells": 1,
+      "baseline_cell7": {
+        "u": 83,
+        "v": 51,
+        "z": 35222,
+        "m": 32777,
+        "r": 64980,
+        "flags": 5,
+        "ki": 196052,
+        "qo": 2
+      },
+      "intervention_cell7": {
+        "u": 83,
+        "v": 51,
+        "z": 33461,
+        "m": 32359,
+        "r": 57756,
+        "flags": 5,
+        "ki": 188828,
+        "qo": 2
+      },
+      "baseline_sample7": [
+        -127,
+        42992
+      ],
+      "intervention_sample7": [
+        -126,
+        42976
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 6,
+      "pulse_bits_different": 0,
+      "changed_cells": 1,
+      "baseline_cell7": {
+        "u": 82,
+        "v": 53,
+        "z": 33878,
+        "m": 32845,
+        "r": 33322,
+        "flags": 7,
+        "ki": 229930,
+        "qo": 3
+      },
+      "intervention_cell7": {
+        "u": 82,
+        "v": 53,
+        "z": 32554,
+        "m": 32371,
+        "r": 24774,
+        "flags": 7,
+        "ki": 221382,
+        "qo": 3
+      },
+      "baseline_sample7": [
+        -122,
+        26528
+      ],
+      "intervention_sample7": [
+        -121,
+        26512
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 7,
+      "pulse_bits_different": 1,
+      "changed_cells": 1,
+      "baseline_cell7": {
+        "u": 83,
+        "v": 54,
+        "z": 35951,
+        "m": 33039,
+        "r": 3737,
+        "flags": 7,
+        "ki": 265881,
+        "qo": 4
+      },
+      "intervention_cell7": {
+        "u": 83,
+        "v": 54,
+        "z": 34955,
+        "m": 32532,
+        "r": 59729,
+        "flags": 5,
+        "ki": 256337,
+        "qo": 3
+      },
+      "baseline_sample7": [
+        -127,
+        42992
+      ],
+      "intervention_sample7": [
+        -126,
+        42976
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 8,
+      "pulse_bits_different": 1,
+      "changed_cells": 1,
+      "baseline_cell7": {
+        "u": 83,
+        "v": 57,
+        "z": 37452,
+        "m": 33314,
+        "r": 41189,
+        "flags": 5,
+        "ki": 303333,
+        "qo": 4
+      },
+      "intervention_cell7": {
+        "u": 83,
+        "v": 57,
+        "z": 33633,
+        "m": 32600,
+        "r": 27826,
+        "flags": 7,
+        "ki": 289970,
+        "qo": 4
+      },
+      "baseline_sample7": [
+        -127,
+        42992
+      ],
+      "intervention_sample7": [
+        -127,
+        26608
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 9,
+      "pulse_bits_different": 1,
+      "changed_cells": 1,
+      "baseline_cell7": {
+        "u": 82,
+        "v": 56,
+        "z": 35520,
+        "m": 33451,
+        "r": 11173,
+        "flags": 7,
+        "ki": 338853,
+        "qo": 5
+      },
+      "intervention_cell7": {
+        "u": 82,
+        "v": 56,
+        "z": 35704,
+        "m": 32794,
+        "r": 63530,
+        "flags": 5,
+        "ki": 325674,
+        "qo": 4
+      },
+      "baseline_sample7": [
+        -130,
+        26656
+      ],
+      "intervention_sample7": [
+        -122,
+        42912
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 10,
+      "pulse_bits_different": 1,
+      "changed_cells": 1,
+      "baseline_cell7": {
+        "u": 82,
+        "v": 56,
+        "z": 37113,
+        "m": 33679,
+        "r": 48286,
+        "flags": 5,
+        "ki": 375966,
+        "qo": 5
+      },
+      "intervention_cell7": {
+        "u": 82,
+        "v": 56,
+        "z": 34200,
+        "m": 32881,
+        "r": 32194,
+        "flags": 7,
+        "ki": 359874,
+        "qo": 5
+      },
+      "baseline_sample7": [
+        -120,
+        42880
+      ],
+      "intervention_sample7": [
+        -127,
+        26608
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 11,
+      "pulse_bits_different": 0,
+      "changed_cells": 1,
+      "baseline_cell7": {
+        "u": 80,
+        "v": 57,
+        "z": 35221,
+        "m": 33775,
+        "r": 17971,
+        "flags": 7,
+        "ki": 411187,
+        "qo": 6
+      },
+      "intervention_cell7": {
+        "u": 80,
+        "v": 57,
+        "z": 36060,
+        "m": 33079,
+        "r": 2718,
+        "flags": 7,
+        "ki": 395934,
+        "qo": 6
+      },
+      "baseline_sample7": [
+        -129,
+        26640
+      ],
+      "intervention_sample7": [
+        -113,
+        42768
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 12,
+      "pulse_bits_different": 0,
+      "changed_cells": 1,
+      "baseline_cell7": {
+        "u": 78,
+        "v": 58,
+        "z": 36771,
+        "m": 33962,
+        "r": 54742,
+        "flags": 5,
+        "ki": 447958,
+        "qo": 6
+      },
+      "intervention_cell7": {
+        "u": 78,
+        "v": 58,
+        "z": 37395,
+        "m": 33348,
+        "r": 40113,
+        "flags": 5,
+        "ki": 433329,
+        "qo": 6
+      },
+      "baseline_sample7": [
+        -109,
+        42704
+      ],
+      "intervention_sample7": [
+        -107,
+        42672
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 13,
+      "pulse_bits_different": 0,
+      "changed_cells": 1,
+      "baseline_cell7": {
+        "u": 80,
+        "v": 59,
+        "z": 34909,
+        "m": 34021,
+        "r": 24115,
+        "flags": 7,
+        "ki": 482867,
+        "qo": 7
+      },
+      "intervention_cell7": {
+        "u": 80,
+        "v": 59,
+        "z": 35371,
+        "m": 33474,
+        "r": 9948,
+        "flags": 7,
+        "ki": 468700,
+        "qo": 7
+      },
+      "baseline_sample7": [
+        -122,
+        26528
+      ],
+      "intervention_sample7": [
+        -120,
+        26496
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 14,
+      "pulse_bits_different": 0,
+      "changed_cells": 1,
+      "baseline_cell7": {
+        "u": 78,
+        "v": 60,
+        "z": 36461,
+        "m": 34173,
+        "r": 60576,
+        "flags": 5,
+        "ki": 519328,
+        "qo": 7
+      },
+      "intervention_cell7": {
+        "u": 78,
+        "v": 60,
+        "z": 36802,
+        "m": 33682,
+        "r": 46750,
+        "flags": 5,
+        "ki": 505502,
+        "qo": 7
+      },
+      "baseline_sample7": [
+        -95,
+        42480
+      ],
+      "intervention_sample7": [
+        -93,
+        42448
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 15,
+      "pulse_bits_different": 0,
+      "changed_cells": 1,
+      "baseline_cell7": {
+        "u": 79,
+        "v": 61,
+        "z": 34598,
+        "m": 34199,
+        "r": 29638,
+        "flags": 7,
+        "ki": 553926,
+        "qo": 8
+      },
+      "intervention_cell7": {
+        "u": 79,
+        "v": 61,
+        "z": 34847,
+        "m": 33754,
+        "r": 16061,
+        "flags": 7,
+        "ki": 540349,
+        "qo": 8
+      },
+      "baseline_sample7": [
+        -111,
+        26352
+      ],
+      "intervention_sample7": [
+        -109,
+        26320
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 16,
+      "pulse_bits_different": 1,
+      "changed_cells": 1,
+      "baseline_cell7": {
+        "u": 79,
+        "v": 63,
+        "z": 36135,
+        "m": 34320,
+        "r": 237,
+        "flags": 7,
+        "ki": 590061,
+        "qo": 9
+      },
+      "intervention_cell7": {
+        "u": 79,
+        "v": 63,
+        "z": 36316,
+        "m": 33914,
+        "r": 52377,
+        "flags": 5,
+        "ki": 576665,
+        "qo": 8
+      },
+      "baseline_sample7": [
+        -76,
+        42176
+      ],
+      "intervention_sample7": [
+        -74,
+        42144
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 17,
+      "pulse_bits_different": 1,
+      "changed_cells": 1,
+      "baseline_cell7": {
+        "u": 79,
+        "v": 64,
+        "z": 37242,
+        "m": 34502,
+        "r": 37479,
+        "flags": 5,
+        "ki": 627303,
+        "qo": 9
+      },
+      "intervention_cell7": {
+        "u": 79,
+        "v": 64,
+        "z": 34392,
+        "m": 33943,
+        "r": 21233,
+        "flags": 7,
+        "ki": 611057,
+        "qo": 9
+      },
+      "baseline_sample7": [
+        -66,
+        42016
+      ],
+      "intervention_sample7": [
+        -95,
+        26096
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 18,
+      "pulse_bits_different": 1,
+      "changed_cells": 1,
+      "baseline_cell7": {
+        "u": 78,
+        "v": 65,
+        "z": 35034,
+        "m": 34535,
+        "r": 6977,
+        "flags": 7,
+        "ki": 662337,
+        "qo": 10
+      },
+      "intervention_cell7": {
+        "u": 78,
+        "v": 65,
+        "z": 35867,
+        "m": 34063,
+        "r": 57100,
+        "flags": 5,
+        "ki": 646924,
+        "qo": 9
+      },
+      "baseline_sample7": [
+        -87,
+        25968
+      ],
+      "intervention_sample7": [
+        -53,
+        41808
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 19,
+      "pulse_bits_different": 1,
+      "changed_cells": 1,
+      "baseline_cell7": {
+        "u": 77,
+        "v": 65,
+        "z": 36305,
+        "m": 34645,
+        "r": 43282,
+        "flags": 5,
+        "ki": 698642,
+        "qo": 10
+      },
+      "intervention_cell7": {
+        "u": 77,
+        "v": 65,
+        "z": 33957,
+        "m": 34056,
+        "r": 25521,
+        "flags": 7,
+        "ki": 680881,
+        "qo": 10
+      },
+      "baseline_sample7": [
+        -43,
+        41648
+      ],
+      "intervention_sample7": [
+        -76,
+        25792
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 20,
+      "pulse_bits_different": 1,
+      "changed_cells": 1,
+      "baseline_cell7": {
+        "u": 76,
+        "v": 66,
+        "z": 34229,
+        "m": 34619,
+        "r": 11975,
+        "flags": 7,
+        "ki": 732871,
+        "qo": 11
+      },
+      "intervention_cell7": {
+        "u": 76,
+        "v": 66,
+        "z": 35429,
+        "m": 34141,
+        "r": 60950,
+        "flags": 5,
+        "ki": 716310,
+        "qo": 10
+      },
+      "baseline_sample7": [
+        -67,
+        25648
+      ],
+      "intervention_sample7": [
+        -30,
+        41440
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 21,
+      "pulse_bits_different": 1,
+      "changed_cells": 1,
+      "baseline_cell7": {
+        "u": 75,
+        "v": 67,
+        "z": 35575,
+        "m": 34678,
+        "r": 47550,
+        "flags": 5,
+        "ki": 768446,
+        "qo": 11
+      },
+      "intervention_cell7": {
+        "u": 75,
+        "v": 67,
+        "z": 33505,
+        "m": 34101,
+        "r": 28919,
+        "flags": 7,
+        "ki": 749815,
+        "qo": 11
+      },
+      "baseline_sample7": [
+        -20,
+        41280
+      ],
+      "intervention_sample7": [
+        -54,
+        25440
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 22,
+      "pulse_bits_different": 1,
+      "changed_cells": 1,
+      "baseline_cell7": {
+        "u": 74,
+        "v": 68,
+        "z": 33555,
+        "m": 34607,
+        "r": 15569,
+        "flags": 7,
+        "ki": 802001,
+        "qo": 12
+      },
+      "intervention_cell7": {
+        "u": 74,
+        "v": 68,
+        "z": 34958,
+        "m": 34154,
+        "r": 63877,
+        "flags": 5,
+        "ki": 784773,
+        "qo": 11
+      },
+      "baseline_sample7": [
+        -44,
+        25280
+      ],
+      "intervention_sample7": [
+        -5,
+        41040
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 23,
+      "pulse_bits_different": 1,
+      "changed_cells": 2,
+      "baseline_cell7": {
+        "u": 73,
+        "v": 69,
+        "z": 34933,
+        "m": 34627,
+        "r": 50502,
+        "flags": 1,
+        "ki": 836934,
+        "qo": 12
+      },
+      "intervention_cell7": {
+        "u": 72,
+        "v": 69,
+        "z": 33008,
+        "m": 34082,
+        "r": 31349,
+        "flags": 7,
+        "ki": 817781,
+        "qo": 12
+      },
+      "baseline_sample7": [
+        6,
+        40864
+      ],
+      "intervention_sample7": [
+        -30,
+        25056
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 24,
+      "pulse_bits_different": 0,
+      "changed_cells": 4,
+      "baseline_cell7": {
+        "u": 71,
+        "v": 70,
+        "z": 32930,
+        "m": 34520,
+        "r": 17896,
+        "flags": 7,
+        "ki": 869864,
+        "qo": 13
+      },
+      "intervention_cell7": {
+        "u": 71,
+        "v": 70,
+        "z": 34438,
+        "m": 34104,
+        "r": 251,
+        "flags": 3,
+        "ki": 852219,
+        "qo": 13
+      },
+      "baseline_sample7": [
+        -20,
+        24896
+      ],
+      "intervention_sample7": [
+        20,
+        40640
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 25,
+      "pulse_bits_different": 0,
+      "changed_cells": 4,
+      "baseline_cell7": {
+        "u": 70,
+        "v": 71,
+        "z": 34317,
+        "m": 34507,
+        "r": 52213,
+        "flags": 1,
+        "ki": 904181,
+        "qo": 13
+      },
+      "intervention_cell7": {
+        "u": 70,
+        "v": 71,
+        "z": 35445,
+        "m": 34187,
+        "r": 35696,
+        "flags": 1,
+        "ki": 887664,
+        "qo": 13
+      },
+      "baseline_sample7": [
+        31,
+        40464
+      ],
+      "intervention_sample7": [
+        32,
+        40448
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 26,
+      "pulse_bits_different": 0,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 69,
+        "v": 72,
+        "z": 32329,
+        "m": 34370,
+        "r": 19006,
+        "flags": 3,
+        "ki": 936510,
+        "qo": 14
+      },
+      "intervention_cell7": {
+        "u": 69,
+        "v": 72,
+        "z": 33172,
+        "m": 34123,
+        "r": 3332,
+        "flags": 3,
+        "ki": 920836,
+        "qo": 14
+      },
+      "baseline_sample7": [
+        7,
+        24464
+      ],
+      "intervention_sample7": [
+        8,
+        24448
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 27,
+      "pulse_bits_different": 0,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 68,
+        "v": 73,
+        "z": 33740,
+        "m": 34330,
+        "r": 52746,
+        "flags": 8,
+        "ki": 970250,
+        "qo": 14
+      },
+      "intervention_cell7": {
+        "u": 68,
+        "v": 73,
+        "z": 34369,
+        "m": 34138,
+        "r": 37701,
+        "flags": 8,
+        "ki": 955205,
+        "qo": 14
+      },
+      "baseline_sample7": [
+        54,
+        40096
+      ],
+      "intervention_sample7": [
+        55,
+        40080
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 28,
+      "pulse_bits_different": 0,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 67,
+        "v": 74,
+        "z": 31766,
+        "m": 34169,
+        "r": 18976,
+        "flags": 2,
+        "ki": 1002016,
+        "qo": 15
+      },
+      "intervention_cell7": {
+        "u": 67,
+        "v": 74,
+        "z": 32235,
+        "m": 34019,
+        "r": 4400,
+        "flags": 2,
+        "ki": 987440,
+        "qo": 15
+      },
+      "baseline_sample7": [
+        31,
+        24080
+      ],
+      "intervention_sample7": [
+        32,
+        24064
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 29,
+      "pulse_bits_different": 0,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 66,
+        "v": 75,
+        "z": 33193,
+        "m": 34108,
+        "r": 52169,
+        "flags": 0,
+        "ki": 1035209,
+        "qo": 15
+      },
+      "intervention_cell7": {
+        "u": 66,
+        "v": 75,
+        "z": 33542,
+        "m": 33989,
+        "r": 37942,
+        "flags": 0,
+        "ki": 1020982,
+        "qo": 15
+      },
+      "baseline_sample7": [
+        76,
+        39744
+      ],
+      "intervention_sample7": [
+        77,
+        39728
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 30,
+      "pulse_bits_different": 0,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 65,
+        "v": 76,
+        "z": 31225,
+        "m": 33927,
+        "r": 17858,
+        "flags": 2,
+        "ki": 1066434,
+        "qo": 16
+      },
+      "intervention_cell7": {
+        "u": 65,
+        "v": 76,
+        "z": 31484,
+        "m": 33832,
+        "r": 3890,
+        "flags": 2,
+        "ki": 1052466,
+        "qo": 16
+      },
+      "baseline_sample7": [
+        55,
+        23696
+      ],
+      "intervention_sample7": [
+        56,
+        23680
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 31,
+      "pulse_bits_different": 0,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 64,
+        "v": 77,
+        "z": 32672,
+        "m": 33848,
+        "r": 50530,
+        "flags": 0,
+        "ki": 1099106,
+        "qo": 16
+      },
+      "intervention_cell7": {
+        "u": 64,
+        "v": 77,
+        "z": 32867,
+        "m": 33771,
+        "r": 36757,
+        "flags": 0,
+        "ki": 1085333,
+        "qo": 16
+      },
+      "baseline_sample7": [
+        95,
+        39440
+      ],
+      "intervention_sample7": [
+        95,
+        39440
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 32,
+      "pulse_bits_different": 0,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 30711,
+        "m": 33651,
+        "r": 15705,
+        "flags": 2,
+        "ki": 1129817,
+        "qo": 17
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 30854,
+        "m": 33588,
+        "r": 2075,
+        "flags": 2,
+        "ki": 1116187,
+        "qo": 17
+      },
+      "baseline_sample7": [
+        77,
+        23344
+      ],
+      "intervention_sample7": [
+        78,
+        23328
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 33,
+      "pulse_bits_different": 0,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 32213,
+        "m": 33561,
+        "r": 47918,
+        "flags": 0,
+        "ki": 1162030,
+        "qo": 17
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 32320,
+        "m": 33508,
+        "r": 34395,
+        "flags": 0,
+        "ki": 1148507,
+        "qo": 17
+      },
+      "baseline_sample7": [
+        110,
+        39200
+      ],
+      "intervention_sample7": [
+        110,
+        39200
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 34,
+      "pulse_bits_different": 1,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 30309,
+        "m": 33357,
+        "r": 12691,
+        "flags": 2,
+        "ki": 1192339,
+        "qo": 18
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 30387,
+        "m": 33312,
+        "r": 64782,
+        "flags": 0,
+        "ki": 1178894,
+        "qo": 17
+      },
+      "baseline_sample7": [
+        96,
+        23040
+      ],
+      "intervention_sample7": [
+        97,
+        23024
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 35,
+      "pulse_bits_different": 1,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 31881,
+        "m": 33264,
+        "r": 44572,
+        "flags": 0,
+        "ki": 1224220,
+        "qo": 18
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 28916,
+        "m": 33037,
+        "r": 28162,
+        "flags": 2,
+        "ki": 1207810,
+        "qo": 18
+      },
+      "baseline_sample7": [
+        120,
+        39040
+      ],
+      "intervention_sample7": [
+        104,
+        22912
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 36,
+      "pulse_bits_different": 1,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 30012,
+        "m": 33060,
+        "r": 9048,
+        "flags": 2,
+        "ki": 1254232,
+        "qo": 19
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 30822,
+        "m": 32898,
+        "r": 58984,
+        "flags": 0,
+        "ki": 1238632,
+        "qo": 18
+      },
+      "baseline_sample7": [
+        112,
+        22784
+      ],
+      "intervention_sample7": [
+        125,
+        38960
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 37,
+      "pulse_bits_different": 1,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 31641,
+        "m": 32971,
+        "r": 40689,
+        "flags": 0,
+        "ki": 1285873,
+        "qo": 19
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 29200,
+        "m": 32666,
+        "r": 22648,
+        "flags": 2,
+        "ki": 1267832,
+        "qo": 19
+      },
+      "baseline_sample7": [
+        126,
+        38944
+      ],
+      "intervention_sample7": [
+        118,
+        22688
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 38,
+      "pulse_bits_different": 1,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 29802,
+        "m": 32772,
+        "r": 4955,
+        "flags": 2,
+        "ki": 1315675,
+        "qo": 20
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 31026,
+        "m": 32563,
+        "r": 53674,
+        "flags": 0,
+        "ki": 1298858,
+        "qo": 19
+      },
+      "baseline_sample7": [
+        122,
+        22624
+      ],
+      "intervention_sample7": [
+        128,
+        38912
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 39,
+      "pulse_bits_different": 1,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 31480,
+        "m": 32691,
+        "r": 36435,
+        "flags": 0,
+        "ki": 1347155,
+        "qo": 20
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 29329,
+        "m": 32360,
+        "r": 17467,
+        "flags": 2,
+        "ki": 1328187,
+        "qo": 20
+      },
+      "baseline_sample7": [
+        127,
+        38928
+      ],
+      "intervention_sample7": [
+        126,
+        22560
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 40,
+      "pulse_bits_different": 1,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 29667,
+        "m": 32502,
+        "r": 566,
+        "flags": 2,
+        "ki": 1376822,
+        "qo": 21
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 31125,
+        "m": 32282,
+        "r": 48592,
+        "flags": 0,
+        "ki": 1359312,
+        "qo": 20
+      },
+      "baseline_sample7": [
+        127,
+        22544
+      ],
+      "intervention_sample7": [
+        127,
+        38928
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 41,
+      "pulse_bits_different": 1,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 31391,
+        "m": 32432,
+        "r": 31957,
+        "flags": 0,
+        "ki": 1408213,
+        "qo": 21
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 29394,
+        "m": 32101,
+        "r": 12450,
+        "flags": 2,
+        "ki": 1388706,
+        "qo": 21
+      },
+      "baseline_sample7": [
+        123,
+        38992
+      ],
+      "intervention_sample7": [
+        129,
+        22512
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 42,
+      "pulse_bits_different": 0,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 29597,
+        "m": 32254,
+        "r": 61554,
+        "flags": 0,
+        "ki": 1437810,
+        "qo": 21
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 31195,
+        "m": 32044,
+        "r": 43645,
+        "flags": 0,
+        "ki": 1419901,
+        "qo": 21
+      },
+      "baseline_sample7": [
+        128,
+        22528
+      ],
+      "intervention_sample7": [
+        120,
+        39040
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 43,
+      "pulse_bits_different": 0,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 28251,
+        "m": 32003,
+        "r": 24269,
+        "flags": 2,
+        "ki": 1466061,
+        "qo": 22
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 29450,
+        "m": 31881,
+        "r": 7559,
+        "flags": 2,
+        "ki": 1449351,
+        "qo": 22
+      },
+      "baseline_sample7": [
+        128,
+        22528
+      ],
+      "intervention_sample7": [
+        128,
+        22528
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 44,
+      "pulse_bits_different": 0,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 30374,
+        "m": 31901,
+        "r": 54643,
+        "flags": 0,
+        "ki": 1496435,
+        "qo": 22
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 31270,
+        "m": 31842,
+        "r": 38829,
+        "flags": 0,
+        "ki": 1480621,
+        "qo": 22
+      },
+      "baseline_sample7": [
+        108,
+        39232
+      ],
+      "intervention_sample7": [
+        109,
+        39216
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 45,
+      "pulse_bits_different": 0,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 28855,
+        "m": 31710,
+        "r": 17962,
+        "flags": 2,
+        "ki": 1525290,
+        "qo": 23
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 29527,
+        "m": 31697,
+        "r": 2820,
+        "flags": 2,
+        "ki": 1510148,
+        "qo": 23
+      },
+      "baseline_sample7": [
+        121,
+        22640
+      ],
+      "intervention_sample7": [
+        121,
+        22640
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 46,
+      "pulse_bits_different": 0,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 30866,
+        "m": 31657,
+        "r": 48828,
+        "flags": 0,
+        "ki": 1556156,
+        "qo": 23
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 31370,
+        "m": 31676,
+        "r": 34190,
+        "flags": 0,
+        "ki": 1541518,
+        "qo": 23
+      },
+      "baseline_sample7": [
+        95,
+        39440
+      ],
+      "intervention_sample7": [
+        95,
+        39440
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 47,
+      "pulse_bits_different": 1,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 29257,
+        "m": 31507,
+        "r": 12549,
+        "flags": 2,
+        "ki": 1585413,
+        "qo": 24
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 29635,
+        "m": 31548,
+        "r": 63825,
+        "flags": 0,
+        "ki": 1571153,
+        "qo": 23
+      },
+      "baseline_sample7": [
+        110,
+        22816
+      ],
+      "intervention_sample7": [
+        110,
+        22816
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 48,
+      "pulse_bits_different": 1,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 31227,
+        "m": 31489,
+        "r": 43776,
+        "flags": 0,
+        "ki": 1616640,
+        "qo": 24
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 28355,
+        "m": 31348,
+        "r": 26644,
+        "flags": 2,
+        "ki": 1599508,
+        "qo": 24
+      },
+      "baseline_sample7": [
+        75,
+        39760
+      ],
+      "intervention_sample7": [
+        103,
+        22928
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 49,
+      "pulse_bits_different": 1,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 29573,
+        "m": 31369,
+        "r": 7813,
+        "flags": 2,
+        "ki": 1646213,
+        "qo": 25
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 30581,
+        "m": 31300,
+        "r": 57225,
+        "flags": 0,
+        "ki": 1630089,
+        "qo": 24
+      },
+      "baseline_sample7": [
+        95,
+        23056
+      ],
+      "intervention_sample7": [
+        65,
+        39920
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 50,
+      "pulse_bits_different": 1,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 31527,
+        "m": 31378,
+        "r": 39340,
+        "flags": 0,
+        "ki": 1677740,
+        "qo": 25
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 29115,
+        "m": 31163,
+        "r": 20804,
+        "flags": 2,
+        "ki": 1659204,
+        "qo": 25
+      },
+      "baseline_sample7": [
+        54,
+        40096
+      ],
+      "intervention_sample7": [
+        86,
+        23200
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 51,
+      "pulse_bits_different": 2,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 29855,
+        "m": 31282,
+        "r": 3659,
+        "flags": 2,
+        "ki": 1707595,
+        "qo": 26
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 31217,
+        "m": 31166,
+        "r": 52021,
+        "flags": 0,
+        "ki": 1690421,
+        "qo": 25
+      },
+      "baseline_sample7": [
+        76,
+        23360
+      ],
+      "intervention_sample7": [
+        43,
+        40272
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 52,
+      "pulse_bits_different": 2,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 31811,
+        "m": 31315,
+        "r": 35470,
+        "flags": 0,
+        "ki": 1739406,
+        "qo": 26
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 29652,
+        "m": 31071,
+        "r": 16137,
+        "flags": 2,
+        "ki": 1720073,
+        "qo": 26
+      },
+      "baseline_sample7": [
+        30,
+        40480
+      ],
+      "intervention_sample7": [
+        66,
+        23520
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 53,
+      "pulse_bits_different": 1,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 30134,
+        "m": 31241,
+        "r": 68,
+        "flags": 2,
+        "ki": 1769540,
+        "qo": 27
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 31692,
+        "m": 31109,
+        "r": 47829,
+        "flags": 0,
+        "ki": 1751765,
+        "qo": 26
+      },
+      "baseline_sample7": [
+        54,
+        23712
+      ],
+      "intervention_sample7": [
+        19,
+        40656
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 54,
+      "pulse_bits_different": 1,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 32095,
+        "m": 31294,
+        "r": 32163,
+        "flags": 0,
+        "ki": 1801635,
+        "qo": 27
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 30078,
+        "m": 31044,
+        "r": 12371,
+        "flags": 2,
+        "ki": 1781843,
+        "qo": 27
+      },
+      "baseline_sample7": [
+        5,
+        40880
+      ],
+      "intervention_sample7": [
+        43,
+        23888
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 55,
+      "pulse_bits_different": 0,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 30419,
+        "m": 31239,
+        "r": 62582,
+        "flags": 0,
+        "ki": 1832054,
+        "qo": 27
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 32089,
+        "m": 31109,
+        "r": 44460,
+        "flags": 4,
+        "ki": 1813932,
+        "qo": 27
+      },
+      "baseline_sample7": [
+        30,
+        24096
+      ],
+      "intervention_sample7": [
+        -7,
+        41072
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 56,
+      "pulse_bits_different": 0,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 29198,
+        "m": 31111,
+        "r": 26244,
+        "flags": 2,
+        "ki": 1861252,
+        "qo": 28
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 30447,
+        "m": 31067,
+        "r": 9371,
+        "flags": 2,
+        "ki": 1844379,
+        "qo": 28
+      },
+      "baseline_sample7": [
+        18,
+        24288
+      ],
+      "intervention_sample7": [
+        19,
+        24272
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 57,
+      "pulse_bits_different": 0,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 31501,
+        "m": 31135,
+        "r": 57745,
+        "flags": 4,
+        "ki": 1892753,
+        "qo": 28
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 32438,
+        "m": 31152,
+        "r": 41809,
+        "flags": 4,
+        "ki": 1876817,
+        "qo": 28
+      },
+      "baseline_sample7": [
+        -31,
+        41456
+      ],
+      "intervention_sample7": [
+        -31,
+        41456
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 58,
+      "pulse_bits_different": 0,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 30084,
+        "m": 31069,
+        "r": 22293,
+        "flags": 6,
+        "ki": 1922837,
+        "qo": 29
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 78,
+        "z": 30787,
+        "m": 31129,
+        "r": 7060,
+        "flags": 6,
+        "ki": 1907604,
+        "qo": 29
+      },
+      "baseline_sample7": [
+        -7,
+        24688
+      ],
+      "intervention_sample7": [
+        -7,
+        24688
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 59,
+      "pulse_bits_different": 0,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 79,
+        "z": 32222,
+        "m": 31141,
+        "r": 54515,
+        "flags": 13,
+        "ki": 1955059,
+        "qo": 29
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 79,
+        "z": 32749,
+        "m": 31230,
+        "r": 39809,
+        "flags": 13,
+        "ki": 1940353,
+        "qo": 29
+      },
+      "baseline_sample7": [
+        -54,
+        41824
+      ],
+      "intervention_sample7": [
+        -54,
+        41824
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 60,
+      "pulse_bits_different": 0,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 82,
+        "z": 30647,
+        "m": 31110,
+        "r": 19626,
+        "flags": 7,
+        "ki": 1985706,
+        "qo": 30
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 81,
+        "z": 31054,
+        "m": 31219,
+        "r": 5327,
+        "flags": 7,
+        "ki": 1971407,
+        "qo": 30
+      },
+      "baseline_sample7": [
+        -31,
+        25072
+      ],
+      "intervention_sample7": [
+        -31,
+        25072
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 61,
+      "pulse_bits_different": 0,
+      "changed_cells": 5,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 80,
+        "z": 32694,
+        "m": 31209,
+        "r": 52320,
+        "flags": 5,
+        "ki": 2018400,
+        "qo": 30
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 79,
+        "z": 33012,
+        "m": 31331,
+        "r": 38339,
+        "flags": 5,
+        "ki": 2004419,
+        "qo": 30
+      },
+      "baseline_sample7": [
+        -75,
+        42160
+      ],
+      "intervention_sample7": [
+        -75,
+        42160
+      ],
+      "baseline_previous_q7": 1
+    },
+    {
+      "step": 62,
+      "pulse_bits_different": 0,
+      "changed_cells": 9,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 79,
+        "z": 31107,
+        "m": 31202,
+        "r": 17891,
+        "flags": 7,
+        "ki": 2049507,
+        "qo": 31
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 81,
+        "z": 31324,
+        "m": 31330,
+        "r": 4127,
+        "flags": 7,
+        "ki": 2035743,
+        "qo": 31
+      },
+      "baseline_sample7": [
+        -54,
+        25440
+      ],
+      "intervention_sample7": [
+        -55,
+        25456
+      ],
+      "baseline_previous_q7": 0
+    },
+    {
+      "step": 63,
+      "pulse_bits_different": 0,
+      "changed_cells": 9,
+      "baseline_cell7": {
+        "u": 63,
+        "v": 80,
+        "z": 33093,
+        "m": 31320,
+        "r": 50984,
+        "flags": 5,
+        "ki": 2082600,
+        "qo": 31
+      },
+      "intervention_cell7": {
+        "u": 63,
+        "v": 79,
+        "z": 33272,
+        "m": 31451,
+        "r": 37399,
+        "flags": 5,
+        "ki": 2069015,
+        "qo": 31
+      },
+      "baseline_sample7": [
+        -93,
+        42448
+      ],
+      "intervention_sample7": [
+        -94,
+        42464
+      ],
+      "baseline_previous_q7": 1
+    }
+  ]
+}

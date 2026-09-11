@@ -1,0 +1,9 @@
+[ 16%] Building CXX object CMakeFiles/gambit_host.dir/src/host.cpp.o
+[ 33%] Linking CXX static library libgambit_host.a
+[ 33%] Built target gambit_host
+[ 50%] Building CXX object CMakeFiles/gambit_unit.dir/tests/test_model.cpp.o
+[ 66%] Building CXX object CMakeFiles/gambit_cpu.dir/src/cpu_main.cpp.o
+[ 83%] Linking CXX executable gambit_unit
+[100%] Linking CXX executable gambit_cpu
+[100%] Built target gambit_unit
+[100%] Built target gambit_cpu
