@@ -1,0 +1,114 @@
+[
+  {
+    "id": "UU2-01",
+    "mechanism": "Open threshold relation",
+    "contract": "d compared with T gives <, = or >",
+    "source_location": "S3 pp.1–2",
+    "origin": "source-definition"
+  },
+  {
+    "id": "UU2-02",
+    "mechanism": "Agnostic Boundary Horizon",
+    "contract": "delta(x)=abs(d(x)-T)",
+    "source_location": "S3 pp.9–12",
+    "origin": "source-definition"
+  },
+  {
+    "id": "UU2-03",
+    "mechanism": "UU ID Double Set Operator",
+    "contract": "min(abs(d1-T1),abs(d2-T2))",
+    "source_location": "S3 pp.2–3,9",
+    "origin": "source-definition"
+  },
+  {
+    "id": "UU2-04",
+    "mechanism": "Tagged identity disjunction",
+    "contract": "Retain component records, minimum value and all exact minimizer IDs",
+    "source_location": "S3 pp.3,9; V2 construction",
+    "origin": "v2-construction"
+  },
+  {
+    "id": "UU2-05",
+    "mechanism": "Point-Source / Genesis Horizon",
+    "contract": "abs(norm(P-P_source)-T_source)",
+    "source_location": "S3 pp.10–12",
+    "origin": "source-definition"
+  },
+  {
+    "id": "UU2-06",
+    "mechanism": "Source-centred one-bit convention",
+    "contract": "0 at source, 1 away from source",
+    "source_location": "S3 pp.10–11",
+    "origin": "source-convention"
+  },
+  {
+    "id": "UU2-07",
+    "mechanism": "Horizon-centred one-bit convention",
+    "contract": "0 on threshold horizon, 1 away from horizon",
+    "source_location": "S3 p.12",
+    "origin": "source-convention"
+  },
+  {
+    "id": "UU2-08",
+    "mechanism": "Chronotemporal absorbing field",
+    "contract": "Integral of D(P,E(tau)) times exp(-lambda*(t-tau))",
+    "source_location": "S3 pp.4–5",
+    "origin": "source-definition"
+  },
+  {
+    "id": "UU2-09",
+    "mechanism": "Historical UU ID envelope",
+    "contract": "Minimum of historical absolute threshold deviations",
+    "source_location": "S3 pp.5–6",
+    "origin": "source-definition"
+  },
+  {
+    "id": "UU2-10",
+    "mechanism": "Content-addressed experience lineage",
+    "contract": "Append records with prior parents and their content addresses",
+    "source_location": "S3 pp.7–10; V2 construction",
+    "origin": "v2-construction"
+  },
+  {
+    "id": "UU2-11",
+    "mechanism": "Successive-state continuity path",
+    "contract": "Every declared successive-state distance is at most epsilon",
+    "source_location": "S3 p.5; V2 path formalization",
+    "origin": "v2-construction"
+  },
+  {
+    "id": "UU2-12",
+    "mechanism": "Unsigned complete-state horizon",
+    "contract": "UU ID over the permanent anchor and active C13 interval boundaries",
+    "source_location": "S2 p.13; S3 pp.13–18; V2 construction",
+    "origin": "v2-construction"
+  },
+  {
+    "id": "UU2-13",
+    "mechanism": "Unsigned state decoder",
+    "contract": "Read each bit at x=3j with a threshold in [1/4,11/4)",
+    "source_location": "S3 p.18; V2 explicit decoder",
+    "origin": "v2-construction"
+  },
+  {
+    "id": "UU2-14",
+    "mechanism": "Relational engine hinge",
+    "contract": "Use F+65536 relative to 65536 and the unchanged hysteresis margins",
+    "source_location": "S2 pp.6–7; V2 construction",
+    "origin": "v2-construction"
+  },
+  {
+    "id": "UU2-15",
+    "mechanism": "Layered log-polar address lift",
+    "contract": "Keep control addresses and all 118 bit layers in a separate 3D sphere-horizon map",
+    "source_location": "S3 pp.16–18; V2 construction",
+    "origin": "v2-construction"
+  },
+  {
+    "id": "UU2-16",
+    "mechanism": "UU ID conjugate transition",
+    "contract": "Encode, decode and evolve the complete current-state horizon",
+    "source_location": "S2 U4; S3 pp.13–18; V2 theorem UF2",
+    "origin": "v2-construction"
+  }
+]

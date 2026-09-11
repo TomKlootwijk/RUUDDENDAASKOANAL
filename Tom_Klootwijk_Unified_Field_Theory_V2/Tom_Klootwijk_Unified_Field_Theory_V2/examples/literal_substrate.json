@@ -1,0 +1,771 @@
+{
+  "schema_version": "2.0.0",
+  "title": "Tom Klootwijk — Unified Field Theory V2",
+  "author": {
+    "name": "Tom Klootwijk",
+    "identifier": "NL200678942",
+    "date_of_birth": "10-07-1990"
+  },
+  "substrate_id": "tkuft:uu-id:v2",
+  "definitions": [
+    {
+      "id": "base:author",
+      "kind": "literal_author",
+      "domain": "literal",
+      "codomain": "author_record",
+      "evaluation_phase": 0,
+      "dependencies": [],
+      "parameters": {
+        "name": "Tom Klootwijk",
+        "identifier": "NL200678942",
+        "date_of_birth": "10-07-1990"
+      },
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-binding",
+        "source": "user",
+        "location": "V2 request"
+      },
+      "content_hash": "sha256:b3b94d9af46a2b8ec1be0165e553477b06f87004fd46de024a39538579d9766b"
+    },
+    {
+      "id": "base:number",
+      "kind": "literal_integer",
+      "domain": "literal",
+      "codomain": "integer[0,99]",
+      "evaluation_phase": 0,
+      "dependencies": [],
+      "parameters": {},
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-binding",
+        "source": "S1",
+        "location": "§3.2"
+      },
+      "content_hash": "sha256:d3e05d4c722eaeb35cba5389f3130e43d46cb448521d5d46858883635ef1bfa6"
+    },
+    {
+      "id": "base:radix",
+      "kind": "radix_encode",
+      "domain": "nonnegative_integer",
+      "codomain": "radix_word",
+      "evaluation_phase": 1,
+      "dependencies": [
+        "base:number"
+      ],
+      "parameters": {
+        "base": 2
+      },
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-binding",
+        "source": "S1",
+        "location": "§4.2"
+      },
+      "content_hash": "sha256:d5a5634aa82811a7d1a048290e3c1d4f5c87d2cb7437165b7e1179290dd106e7"
+    },
+    {
+      "id": "base:active",
+      "kind": "active_bit_filter",
+      "domain": "nonnegative_integer",
+      "codomain": "active_bit_set",
+      "evaluation_phase": 3,
+      "dependencies": [
+        "base:radix"
+      ],
+      "parameters": {},
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-binding",
+        "source": "S1",
+        "location": "§6.3"
+      },
+      "content_hash": "sha256:d89a9c610e31b2e3879f33cc62b9ef3894f5b89e1645fa6116ebf4db3abab619"
+    },
+    {
+      "id": "base:dutch",
+      "kind": "language_profile",
+      "domain": "integer[0,99]",
+      "codomain": "lexeme_record",
+      "evaluation_phase": 3,
+      "dependencies": [
+        "base:number"
+      ],
+      "parameters": {
+        "data": "data/dutch_profile_0_99.json"
+      },
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-binding",
+        "source": "S1",
+        "location": "§6"
+      },
+      "content_hash": "sha256:99cb9e2fc22f587ece552fb3947b475ba65583c6ff8b178ce78da63886f78053"
+    },
+    {
+      "id": "base:pulses",
+      "kind": "pulse_projection",
+      "domain": "lexeme_record",
+      "codomain": "pulse_sequence",
+      "evaluation_phase": 3,
+      "dependencies": [
+        "base:dutch"
+      ],
+      "parameters": {},
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-binding",
+        "source": "S1",
+        "location": "§6.3"
+      },
+      "content_hash": "sha256:7319541f6f9d6906144e45101d9f82caa168f9f6406016d1f74794df9af81365"
+    },
+    {
+      "id": "base:polygon",
+      "kind": "pulse_polygon",
+      "domain": "positive_count",
+      "codomain": "ordered_vertices",
+      "evaluation_phase": 3,
+      "dependencies": [
+        "base:pulses"
+      ],
+      "parameters": {
+        "radius": 1,
+        "phase": 0
+      },
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-binding",
+        "source": "S1",
+        "location": "§4.3"
+      },
+      "content_hash": "sha256:5d56183fad8eade401c75a3002278c5b0d552d59eb8938f26030c2965d0e04e7"
+    },
+    {
+      "id": "base:count",
+      "kind": "count_comparison",
+      "domain": "feature_pair",
+      "codomain": "boolean",
+      "evaluation_phase": 4,
+      "dependencies": [
+        "base:active",
+        "base:pulses"
+      ],
+      "parameters": {},
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-binding",
+        "source": "S1",
+        "location": "§6.3"
+      },
+      "content_hash": "sha256:f04261da558ddce6fdf7ca95e080ae984991e8e51597548bbd86b41ff13e8a4a"
+    },
+    {
+      "id": "base:hinge",
+      "kind": "connector_hinge",
+      "domain": "place_chart",
+      "codomain": "spoken_chart",
+      "evaluation_phase": 4,
+      "dependencies": [
+        "base:dutch"
+      ],
+      "parameters": {
+        "connector": "en",
+        "value": 0
+      },
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-binding",
+        "source": "S1",
+        "location": "§6.2"
+      },
+      "content_hash": "sha256:0f768ee4722aced341a29f6ac49d7627219353db3fba3caec7757445e8a983c6"
+    },
+    {
+      "id": "base:wrap",
+      "kind": "orientation_wrap",
+      "domain": "boundary_port",
+      "codomain": "boundary_port",
+      "evaluation_phase": 4,
+      "dependencies": [],
+      "parameters": {
+        "orientation_multiplier": -1
+      },
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-binding",
+        "source": "S1",
+        "location": "§5.1"
+      },
+      "content_hash": "sha256:dab869cb5bd306e3bf51d2c2e9f1951cca5c2c5f7e79981fb86ceb44dd7b7a6c"
+    },
+    {
+      "id": "base:guard",
+      "kind": "root_relation",
+      "domain": "field_trajectory",
+      "codomain": "event_candidates",
+      "evaluation_phase": 7,
+      "dependencies": [],
+      "parameters": {},
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-binding",
+        "source": "S1",
+        "location": "§7.2"
+      },
+      "content_hash": "sha256:c0624eac28af0081b8a1cbc55dd8486771c0072c27cf2af7f0ccca0061b7fe1b"
+    },
+    {
+      "id": "base:schedule",
+      "kind": "phase_schedule",
+      "domain": "definitions",
+      "codomain": "ordered_stages",
+      "evaluation_phase": 2,
+      "dependencies": [],
+      "parameters": {
+        "phases": [
+          "parse",
+          "normalize",
+          "resolve",
+          "construct",
+          "transform",
+          "support",
+          "compatibility",
+          "guard",
+          "transition",
+          "lineage"
+        ]
+      },
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-binding",
+        "source": "S1",
+        "location": "§7.3"
+      },
+      "content_hash": "sha256:8b095fa5f3304300933f14bb48caffa930e78a8d461b8cd56aed829f40573f27"
+    },
+    {
+      "id": "base:seed",
+      "kind": "frozen_seed",
+      "domain": "fixture_parameters",
+      "codomain": "seed",
+      "evaluation_phase": 3,
+      "dependencies": [],
+      "parameters": {
+        "A": 32,
+        "R": 2,
+        "G": 2,
+        "fixture": "TKUFT-integer-chart-v2"
+      },
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-binding",
+        "source": "V2",
+        "location": "explicit demonstration"
+      },
+      "content_hash": "sha256:9a2f27f8adbeb425e4efb75694aceb9eacb0889320bae7cfe92b9211454eb1e6"
+    },
+    {
+      "id": "base:sample",
+      "kind": "field_sample",
+      "domain": "seed_and_state",
+      "codomain": "sample_array",
+      "evaluation_phase": 3,
+      "dependencies": [
+        "base:seed"
+      ],
+      "parameters": {},
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-binding",
+        "source": "S2",
+        "location": "§3.1"
+      },
+      "content_hash": "sha256:057b16ada4391dc5781fe553c5d5e1cd32d4ce6266bdb96d325ebea04e3b1320"
+    },
+    {
+      "id": "base:support",
+      "kind": "edge_support",
+      "domain": "sample_array",
+      "codomain": "active_edges",
+      "evaluation_phase": 5,
+      "dependencies": [
+        "base:sample"
+      ],
+      "parameters": {},
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-binding",
+        "source": "S2",
+        "location": "§3.2"
+      },
+      "content_hash": "sha256:40b509656f441d41947ba26c29729e919c8072937cef3f2c10484c85280ee936"
+    },
+    {
+      "id": "base:transition",
+      "kind": "atomic_transition",
+      "domain": "admitted_state",
+      "codomain": "admitted_state",
+      "evaluation_phase": 8,
+      "dependencies": [
+        "base:support"
+      ],
+      "parameters": {},
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-binding",
+        "source": "S2",
+        "location": "§3"
+      },
+      "content_hash": "sha256:297e6070971332df92099acf2a9905e2f8e0fe35b620e14248b6c0932ef7f9ac"
+    },
+    {
+      "id": "base:word",
+      "kind": "binary_encoding",
+      "domain": "admitted_state",
+      "codomain": "binary_word",
+      "evaluation_phase": 9,
+      "dependencies": [
+        "base:transition"
+      ],
+      "parameters": {
+        "cell_widths": [
+          32,
+          32,
+          17,
+          17,
+          16,
+          4
+        ],
+        "control_widths": [
+          11,
+          3,
+          13
+        ]
+      },
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-binding",
+        "source": "S2",
+        "location": "C11"
+      },
+      "content_hash": "sha256:8395b8d77ffdbd53dacca7352e90470c7367ef35f28484c5ec5a35ebf9331118"
+    },
+    {
+      "id": "base:signed-state",
+      "kind": "signed_state_field",
+      "domain": "binary_word",
+      "codomain": "signed_distance_R1",
+      "evaluation_phase": 9,
+      "dependencies": [
+        "base:word"
+      ],
+      "parameters": {
+        "spacing": 3,
+        "radius": 0.25,
+        "anchor": 0
+      },
+      "capabilities": [
+        "EXACT_SIGNED_DISTANCE"
+      ],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-binding",
+        "source": "S2",
+        "location": "C13"
+      },
+      "content_hash": "sha256:838e70d1321882d22085b916c9f3d769591b2adeb66a2765997ecd5a3c157b1e"
+    },
+    {
+      "id": "uu2:relation",
+      "kind": "threshold_relation",
+      "domain": "raw_and_threshold",
+      "codomain": "relation_symbol",
+      "evaluation_phase": 4,
+      "dependencies": [],
+      "parameters": {},
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "source-definition",
+        "source": "S3",
+        "location": "S3 pp.1–2"
+      },
+      "content_hash": "sha256:45c1244375984b6278c83e85ff77b43b9912c317745d94e7a92034216c524932"
+    },
+    {
+      "id": "uu2:delta",
+      "kind": "boundary_delta",
+      "domain": "raw_and_threshold",
+      "codomain": "nonnegative_residual",
+      "evaluation_phase": 4,
+      "dependencies": [
+        "uu2:relation"
+      ],
+      "parameters": {
+        "formula": "abs(d-T)"
+      },
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "source-definition",
+        "source": "S3",
+        "location": "S3 pp.9–12"
+      },
+      "content_hash": "sha256:51a661d592bb2a3ef48c9b90126f09974cfb102826ade2e822deed310cc4f01a"
+    },
+    {
+      "id": "uu2:compose",
+      "kind": "uu_id",
+      "domain": "horizon_family",
+      "codomain": "nonnegative_residual",
+      "evaluation_phase": 4,
+      "dependencies": [
+        "uu2:delta"
+      ],
+      "parameters": {
+        "formula": "min(abs(d1-T1),abs(d2-T2))"
+      },
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "source-definition",
+        "source": "S3",
+        "location": "S3 pp.2–3,9"
+      },
+      "content_hash": "sha256:c847cee775f9a4d1d84c1226d2c6ceb7f27581ccf865b73817845e4542b07b23"
+    },
+    {
+      "id": "uu2:tagged",
+      "kind": "tagged_uu_id",
+      "domain": "labelled_horizon_family",
+      "codomain": "tagged_evaluation",
+      "evaluation_phase": 4,
+      "dependencies": [
+        "uu2:compose"
+      ],
+      "parameters": {
+        "preserve": "all component records and exact minimizing IDs"
+      },
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-construction",
+        "source": "S3",
+        "location": "S3 pp.3,9; V2 construction"
+      },
+      "content_hash": "sha256:8227081f8a3b53ded79286b3c772e8ca15491c437f48434d99fe2b0c2fec089f"
+    },
+    {
+      "id": "uu2:genesis",
+      "kind": "agnostic_boundary_horizon",
+      "domain": "point",
+      "codomain": "nonnegative_residual",
+      "evaluation_phase": 4,
+      "dependencies": [
+        "uu2:delta"
+      ],
+      "parameters": {
+        "source": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "threshold": 1
+      },
+      "capabilities": [
+        "EXACT_UNSIGNED_BOUNDARY_DISTANCE"
+      ],
+      "invariants": [],
+      "provenance": {
+        "origin": "source-definition",
+        "source": "S3",
+        "location": "S3 pp.10–12"
+      },
+      "content_hash": "sha256:b32c099e7c53a241ca707d74bc91d7e10d38cbc3e39c0732eebed8a1fffb351f"
+    },
+    {
+      "id": "uu2:source-bit",
+      "kind": "source_bit",
+      "domain": "raw_distance",
+      "codomain": "boolean",
+      "evaluation_phase": 4,
+      "dependencies": [],
+      "parameters": {
+        "zero_locus": "source"
+      },
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "source-convention",
+        "source": "S3",
+        "location": "S3 pp.10–11"
+      },
+      "content_hash": "sha256:9622ead2a41036704af13fb8e7a1e444db5410c48051fe396caafe435cadd920"
+    },
+    {
+      "id": "uu2:horizon-bit",
+      "kind": "horizon_bit",
+      "domain": "raw_and_threshold",
+      "codomain": "boolean",
+      "evaluation_phase": 4,
+      "dependencies": [
+        "uu2:delta"
+      ],
+      "parameters": {
+        "zero_locus": "horizon",
+        "tolerance": 0
+      },
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "source-convention",
+        "source": "S3",
+        "location": "S3 p.12"
+      },
+      "content_hash": "sha256:858eb863be9bc3fcfd5b403b68b546fb2d016ee04ab406f77b67516db42f4575"
+    },
+    {
+      "id": "uu2:integral",
+      "kind": "chronotemporal_absorption",
+      "domain": "history_and_query",
+      "codomain": "retained_integral",
+      "evaluation_phase": 4,
+      "dependencies": [],
+      "parameters": {
+        "kernel": "exp(-lambda*(t-tau))",
+        "lambda_domain": "nonnegative"
+      },
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "source-definition",
+        "source": "S3",
+        "location": "S3 pp.4–5"
+      },
+      "content_hash": "sha256:ca28568d5deb43e80364617e7092482410d5b31a91db51a04d9329afdc63da9e"
+    },
+    {
+      "id": "uu2:history",
+      "kind": "historical_envelope",
+      "domain": "history_and_query",
+      "codomain": "nonnegative_residual",
+      "evaluation_phase": 4,
+      "dependencies": [
+        "uu2:compose"
+      ],
+      "parameters": {
+        "selection": "experience time <= query time"
+      },
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "source-definition",
+        "source": "S3",
+        "location": "S3 pp.5–6"
+      },
+      "content_hash": "sha256:91cda0594779aa8f5e9c0faf4410c5ab28b09bfb3534ed015a35cb085c021983"
+    },
+    {
+      "id": "uu2:lineage",
+      "kind": "experience_lineage",
+      "domain": "history_and_event",
+      "codomain": "extended_history",
+      "evaluation_phase": 9,
+      "dependencies": [],
+      "parameters": {
+        "parents": "already committed record IDs",
+        "hash": "SHA-256"
+      },
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-construction",
+        "source": "S3",
+        "location": "S3 pp.7–10; V2 construction"
+      },
+      "content_hash": "sha256:211f1b99e462c1195a5837ab0c2f3c8c2a22a3782368d047e28179562c02f070"
+    },
+    {
+      "id": "uu2:continuity",
+      "kind": "continuity_path",
+      "domain": "ordered_states_and_epsilon",
+      "codomain": "path_record",
+      "evaluation_phase": 4,
+      "dependencies": [
+        "uu2:lineage"
+      ],
+      "parameters": {
+        "condition": "each successive metric distance <= epsilon"
+      },
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-construction",
+        "source": "S3",
+        "location": "S3 p.5; V2 path formalization"
+      },
+      "content_hash": "sha256:e5ed151d5590c17940d336aff06b8add8e20d25da4485cefa0d1423aebe7c87f"
+    },
+    {
+      "id": "uu2:state",
+      "kind": "unsigned_state_horizon",
+      "domain": "complete_binary_word",
+      "codomain": "unsigned_boundary_distance_R1",
+      "evaluation_phase": 9,
+      "dependencies": [
+        "base:word",
+        "uu2:compose"
+      ],
+      "parameters": {
+        "spacing": 3,
+        "radius": 0.25,
+        "anchor": 0
+      },
+      "capabilities": [
+        "EXACT_UNSIGNED_BOUNDARY_DISTANCE"
+      ],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-construction",
+        "source": "S3",
+        "location": "S2 p.13; S3 pp.13–18; V2 construction"
+      },
+      "content_hash": "sha256:9014cc94b63776a5975cc59f7e97b8c6bd58410e217f8caafb97d9caa0380624"
+    },
+    {
+      "id": "uu2:decode",
+      "kind": "unsigned_state_decoder",
+      "domain": "state_horizon",
+      "codomain": "complete_binary_word",
+      "evaluation_phase": 9,
+      "dependencies": [
+        "uu2:state"
+      ],
+      "parameters": {
+        "query": "x=3*j",
+        "threshold": 0.25,
+        "admissible_threshold": "[0.25,2.75)"
+      },
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-construction",
+        "source": "S3",
+        "location": "S3 p.18; V2 explicit decoder"
+      },
+      "content_hash": "sha256:75aa0325d42c377508aea20fff8338c992298e83e85cd3134220ac77742fcef7"
+    },
+    {
+      "id": "uu2:open-hinge",
+      "kind": "relational_hinge",
+      "domain": "open_sample_and_old_latch",
+      "codomain": "flag_triplet",
+      "evaluation_phase": 4,
+      "dependencies": [
+        "base:sample",
+        "uu2:relation"
+      ],
+      "parameters": {
+        "offset": 65536,
+        "threshold": 65536
+      },
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-construction",
+        "source": "S3",
+        "location": "S2 pp.6–7; V2 construction"
+      },
+      "content_hash": "sha256:c36b7d5e342b03e9ccccfdda12febdaf58977f32874dea4fef186226cc798b02"
+    },
+    {
+      "id": "uu2:spatial",
+      "kind": "layered_logpolar_lift",
+      "domain": "complete_bit_address",
+      "codomain": "point_R3",
+      "evaluation_phase": 9,
+      "dependencies": [
+        "base:word"
+      ],
+      "parameters": {
+        "radial_min": 0.03125,
+        "radial_max": 4,
+        "layer_spacing": 0.015625,
+        "control_axis": "x=y=0"
+      },
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-construction",
+        "source": "S3",
+        "location": "S3 pp.16–18; V2 construction"
+      },
+      "content_hash": "sha256:b2a99fefde3738e59d8c8b202c9f23e9b4d658e8799389d0317625ea562734c8"
+    },
+    {
+      "id": "uu2:transition",
+      "kind": "unsigned_conjugate_transition",
+      "domain": "current_state_horizon",
+      "codomain": "current_state_horizon",
+      "evaluation_phase": 8,
+      "dependencies": [
+        "base:transition",
+        "uu2:decode"
+      ],
+      "parameters": {
+        "formula": "J_U E T (J_U E)^-1"
+      },
+      "capabilities": [],
+      "invariants": [],
+      "provenance": {
+        "origin": "v2-construction",
+        "source": "S3",
+        "location": "S2 U4; S3 pp.13–18; V2 theorem UF2"
+      },
+      "content_hash": "sha256:cc2d4db6c81ee05a5e3e00c0c61ec4bf52100563c7249e9abb77f3e38d1f9ab7"
+    }
+  ],
+  "instances": [
+    {
+      "id": "author:tom-klootwijk",
+      "definition_ref": "base:author",
+      "literal": {
+        "name": "Tom Klootwijk",
+        "identifier": "NL200678942",
+        "date_of_birth": "10-07-1990"
+      },
+      "state": {}
+    },
+    {
+      "id": "number:19",
+      "definition_ref": "base:number",
+      "literal": 19,
+      "state": {}
+    },
+    {
+      "id": "number:23",
+      "definition_ref": "base:number",
+      "literal": 23,
+      "state": {}
+    }
+  ]
+}

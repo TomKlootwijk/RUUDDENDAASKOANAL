@@ -1,0 +1,3369 @@
+[
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 0,
+    "orthography": "nul",
+    "segments": [
+      "nul"
+    ],
+    "morphemes": [
+      "nul"
+    ],
+    "place_order": [
+      0
+    ],
+    "spoken_order": [
+      0
+    ],
+    "hinge_kind": "atomic",
+    "pulse_count": 1,
+    "binary": "0",
+    "active_bit_positions": [],
+    "popcount": 0,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 1,
+    "orthography": "een",
+    "segments": [
+      "een"
+    ],
+    "morphemes": [
+      "een"
+    ],
+    "place_order": [
+      1
+    ],
+    "spoken_order": [
+      1
+    ],
+    "hinge_kind": "atomic",
+    "pulse_count": 1,
+    "binary": "1",
+    "active_bit_positions": [
+      0
+    ],
+    "popcount": 1,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 2,
+    "orthography": "twee",
+    "segments": [
+      "twee"
+    ],
+    "morphemes": [
+      "twee"
+    ],
+    "place_order": [
+      2
+    ],
+    "spoken_order": [
+      2
+    ],
+    "hinge_kind": "atomic",
+    "pulse_count": 1,
+    "binary": "10",
+    "active_bit_positions": [
+      1
+    ],
+    "popcount": 1,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 3,
+    "orthography": "drie",
+    "segments": [
+      "drie"
+    ],
+    "morphemes": [
+      "drie"
+    ],
+    "place_order": [
+      3
+    ],
+    "spoken_order": [
+      3
+    ],
+    "hinge_kind": "atomic",
+    "pulse_count": 1,
+    "binary": "11",
+    "active_bit_positions": [
+      0,
+      1
+    ],
+    "popcount": 2,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 4,
+    "orthography": "vier",
+    "segments": [
+      "vier"
+    ],
+    "morphemes": [
+      "vier"
+    ],
+    "place_order": [
+      4
+    ],
+    "spoken_order": [
+      4
+    ],
+    "hinge_kind": "atomic",
+    "pulse_count": 1,
+    "binary": "100",
+    "active_bit_positions": [
+      2
+    ],
+    "popcount": 1,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 5,
+    "orthography": "vijf",
+    "segments": [
+      "vijf"
+    ],
+    "morphemes": [
+      "vijf"
+    ],
+    "place_order": [
+      5
+    ],
+    "spoken_order": [
+      5
+    ],
+    "hinge_kind": "atomic",
+    "pulse_count": 1,
+    "binary": "101",
+    "active_bit_positions": [
+      0,
+      2
+    ],
+    "popcount": 2,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 6,
+    "orthography": "zes",
+    "segments": [
+      "zes"
+    ],
+    "morphemes": [
+      "zes"
+    ],
+    "place_order": [
+      6
+    ],
+    "spoken_order": [
+      6
+    ],
+    "hinge_kind": "atomic",
+    "pulse_count": 1,
+    "binary": "110",
+    "active_bit_positions": [
+      1,
+      2
+    ],
+    "popcount": 2,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 7,
+    "orthography": "zeven",
+    "segments": [
+      "ze",
+      "ven"
+    ],
+    "morphemes": [
+      "zeven"
+    ],
+    "place_order": [
+      7
+    ],
+    "spoken_order": [
+      7
+    ],
+    "hinge_kind": "atomic",
+    "pulse_count": 2,
+    "binary": "111",
+    "active_bit_positions": [
+      0,
+      1,
+      2
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 8,
+    "orthography": "acht",
+    "segments": [
+      "acht"
+    ],
+    "morphemes": [
+      "acht"
+    ],
+    "place_order": [
+      8
+    ],
+    "spoken_order": [
+      8
+    ],
+    "hinge_kind": "atomic",
+    "pulse_count": 1,
+    "binary": "1000",
+    "active_bit_positions": [
+      3
+    ],
+    "popcount": 1,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 9,
+    "orthography": "negen",
+    "segments": [
+      "ne",
+      "gen"
+    ],
+    "morphemes": [
+      "negen"
+    ],
+    "place_order": [
+      9
+    ],
+    "spoken_order": [
+      9
+    ],
+    "hinge_kind": "atomic",
+    "pulse_count": 2,
+    "binary": "1001",
+    "active_bit_positions": [
+      0,
+      3
+    ],
+    "popcount": 2,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 10,
+    "orthography": "tien",
+    "segments": [
+      "tien"
+    ],
+    "morphemes": [
+      "tien"
+    ],
+    "place_order": [
+      10
+    ],
+    "spoken_order": [
+      10
+    ],
+    "hinge_kind": "atomic",
+    "pulse_count": 1,
+    "binary": "1010",
+    "active_bit_positions": [
+      1,
+      3
+    ],
+    "popcount": 2,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 11,
+    "orthography": "elf",
+    "segments": [
+      "elf"
+    ],
+    "morphemes": [
+      "elf"
+    ],
+    "place_order": [
+      11
+    ],
+    "spoken_order": [
+      11
+    ],
+    "hinge_kind": "irregular",
+    "pulse_count": 1,
+    "binary": "1011",
+    "active_bit_positions": [
+      0,
+      1,
+      3
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 12,
+    "orthography": "twaalf",
+    "segments": [
+      "twaalf"
+    ],
+    "morphemes": [
+      "twaalf"
+    ],
+    "place_order": [
+      12
+    ],
+    "spoken_order": [
+      12
+    ],
+    "hinge_kind": "irregular",
+    "pulse_count": 1,
+    "binary": "1100",
+    "active_bit_positions": [
+      2,
+      3
+    ],
+    "popcount": 2,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 13,
+    "orthography": "dertien",
+    "segments": [
+      "der",
+      "tien"
+    ],
+    "morphemes": [
+      "der",
+      "tien"
+    ],
+    "place_order": [
+      10,
+      3
+    ],
+    "spoken_order": [
+      3,
+      "tien"
+    ],
+    "hinge_kind": "teen_suffix",
+    "pulse_count": 2,
+    "binary": "1101",
+    "active_bit_positions": [
+      0,
+      2,
+      3
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 14,
+    "orthography": "veertien",
+    "segments": [
+      "veer",
+      "tien"
+    ],
+    "morphemes": [
+      "veer",
+      "tien"
+    ],
+    "place_order": [
+      10,
+      4
+    ],
+    "spoken_order": [
+      4,
+      "tien"
+    ],
+    "hinge_kind": "teen_suffix",
+    "pulse_count": 2,
+    "binary": "1110",
+    "active_bit_positions": [
+      1,
+      2,
+      3
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 15,
+    "orthography": "vijftien",
+    "segments": [
+      "vijf",
+      "tien"
+    ],
+    "morphemes": [
+      "vijf",
+      "tien"
+    ],
+    "place_order": [
+      10,
+      5
+    ],
+    "spoken_order": [
+      5,
+      "tien"
+    ],
+    "hinge_kind": "teen_suffix",
+    "pulse_count": 2,
+    "binary": "1111",
+    "active_bit_positions": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "popcount": 4,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 16,
+    "orthography": "zestien",
+    "segments": [
+      "zes",
+      "tien"
+    ],
+    "morphemes": [
+      "zes",
+      "tien"
+    ],
+    "place_order": [
+      10,
+      6
+    ],
+    "spoken_order": [
+      6,
+      "tien"
+    ],
+    "hinge_kind": "teen_suffix",
+    "pulse_count": 2,
+    "binary": "10000",
+    "active_bit_positions": [
+      4
+    ],
+    "popcount": 1,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 17,
+    "orthography": "zeventien",
+    "segments": [
+      "ze",
+      "ven",
+      "tien"
+    ],
+    "morphemes": [
+      "zeven",
+      "tien"
+    ],
+    "place_order": [
+      10,
+      7
+    ],
+    "spoken_order": [
+      7,
+      "tien"
+    ],
+    "hinge_kind": "teen_suffix",
+    "pulse_count": 3,
+    "binary": "10001",
+    "active_bit_positions": [
+      0,
+      4
+    ],
+    "popcount": 2,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 18,
+    "orthography": "achttien",
+    "segments": [
+      "acht",
+      "tien"
+    ],
+    "morphemes": [
+      "acht",
+      "tien"
+    ],
+    "place_order": [
+      10,
+      8
+    ],
+    "spoken_order": [
+      8,
+      "tien"
+    ],
+    "hinge_kind": "teen_suffix",
+    "pulse_count": 2,
+    "binary": "10010",
+    "active_bit_positions": [
+      1,
+      4
+    ],
+    "popcount": 2,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 19,
+    "orthography": "negentien",
+    "segments": [
+      "ne",
+      "gen",
+      "tien"
+    ],
+    "morphemes": [
+      "negen",
+      "tien"
+    ],
+    "place_order": [
+      10,
+      9
+    ],
+    "spoken_order": [
+      9,
+      "tien"
+    ],
+    "hinge_kind": "teen_suffix",
+    "pulse_count": 3,
+    "binary": "10011",
+    "active_bit_positions": [
+      0,
+      1,
+      4
+    ],
+    "popcount": 3,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 20,
+    "orthography": "twintig",
+    "segments": [
+      "twin",
+      "tig"
+    ],
+    "morphemes": [
+      "twintig"
+    ],
+    "place_order": [
+      20
+    ],
+    "spoken_order": [
+      20
+    ],
+    "hinge_kind": "atomic",
+    "pulse_count": 2,
+    "binary": "10100",
+    "active_bit_positions": [
+      2,
+      4
+    ],
+    "popcount": 2,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 21,
+    "orthography": "eenentwintig",
+    "segments": [
+      "een",
+      "en",
+      "twin",
+      "tig"
+    ],
+    "morphemes": [
+      "een",
+      "en",
+      "twintig"
+    ],
+    "place_order": [
+      20,
+      1
+    ],
+    "spoken_order": [
+      1,
+      "en",
+      20
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "10101",
+    "active_bit_positions": [
+      0,
+      2,
+      4
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 22,
+    "orthography": "tweeëntwintig",
+    "segments": [
+      "twee",
+      "en",
+      "twin",
+      "tig"
+    ],
+    "morphemes": [
+      "twee",
+      "en",
+      "twintig"
+    ],
+    "place_order": [
+      20,
+      2
+    ],
+    "spoken_order": [
+      2,
+      "en",
+      20
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "10110",
+    "active_bit_positions": [
+      1,
+      2,
+      4
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 23,
+    "orthography": "drieëntwintig",
+    "segments": [
+      "drie",
+      "en",
+      "twin",
+      "tig"
+    ],
+    "morphemes": [
+      "drie",
+      "en",
+      "twintig"
+    ],
+    "place_order": [
+      20,
+      3
+    ],
+    "spoken_order": [
+      3,
+      "en",
+      20
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "10111",
+    "active_bit_positions": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "popcount": 4,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 24,
+    "orthography": "vierentwintig",
+    "segments": [
+      "vier",
+      "en",
+      "twin",
+      "tig"
+    ],
+    "morphemes": [
+      "vier",
+      "en",
+      "twintig"
+    ],
+    "place_order": [
+      20,
+      4
+    ],
+    "spoken_order": [
+      4,
+      "en",
+      20
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "11000",
+    "active_bit_positions": [
+      3,
+      4
+    ],
+    "popcount": 2,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 25,
+    "orthography": "vijfentwintig",
+    "segments": [
+      "vijf",
+      "en",
+      "twin",
+      "tig"
+    ],
+    "morphemes": [
+      "vijf",
+      "en",
+      "twintig"
+    ],
+    "place_order": [
+      20,
+      5
+    ],
+    "spoken_order": [
+      5,
+      "en",
+      20
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "11001",
+    "active_bit_positions": [
+      0,
+      3,
+      4
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 26,
+    "orthography": "zesentwintig",
+    "segments": [
+      "zes",
+      "en",
+      "twin",
+      "tig"
+    ],
+    "morphemes": [
+      "zes",
+      "en",
+      "twintig"
+    ],
+    "place_order": [
+      20,
+      6
+    ],
+    "spoken_order": [
+      6,
+      "en",
+      20
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "11010",
+    "active_bit_positions": [
+      1,
+      3,
+      4
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 27,
+    "orthography": "zevenentwintig",
+    "segments": [
+      "ze",
+      "ven",
+      "en",
+      "twin",
+      "tig"
+    ],
+    "morphemes": [
+      "zeven",
+      "en",
+      "twintig"
+    ],
+    "place_order": [
+      20,
+      7
+    ],
+    "spoken_order": [
+      7,
+      "en",
+      20
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "11011",
+    "active_bit_positions": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "popcount": 4,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 28,
+    "orthography": "achtentwintig",
+    "segments": [
+      "acht",
+      "en",
+      "twin",
+      "tig"
+    ],
+    "morphemes": [
+      "acht",
+      "en",
+      "twintig"
+    ],
+    "place_order": [
+      20,
+      8
+    ],
+    "spoken_order": [
+      8,
+      "en",
+      20
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "11100",
+    "active_bit_positions": [
+      2,
+      3,
+      4
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 29,
+    "orthography": "negenentwintig",
+    "segments": [
+      "ne",
+      "gen",
+      "en",
+      "twin",
+      "tig"
+    ],
+    "morphemes": [
+      "negen",
+      "en",
+      "twintig"
+    ],
+    "place_order": [
+      20,
+      9
+    ],
+    "spoken_order": [
+      9,
+      "en",
+      20
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "11101",
+    "active_bit_positions": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "popcount": 4,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 30,
+    "orthography": "dertig",
+    "segments": [
+      "der",
+      "tig"
+    ],
+    "morphemes": [
+      "dertig"
+    ],
+    "place_order": [
+      30
+    ],
+    "spoken_order": [
+      30
+    ],
+    "hinge_kind": "atomic",
+    "pulse_count": 2,
+    "binary": "11110",
+    "active_bit_positions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "popcount": 4,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 31,
+    "orthography": "eenendertig",
+    "segments": [
+      "een",
+      "en",
+      "der",
+      "tig"
+    ],
+    "morphemes": [
+      "een",
+      "en",
+      "dertig"
+    ],
+    "place_order": [
+      30,
+      1
+    ],
+    "spoken_order": [
+      1,
+      "en",
+      30
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "11111",
+    "active_bit_positions": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "popcount": 5,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 32,
+    "orthography": "tweeëndertig",
+    "segments": [
+      "twee",
+      "en",
+      "der",
+      "tig"
+    ],
+    "morphemes": [
+      "twee",
+      "en",
+      "dertig"
+    ],
+    "place_order": [
+      30,
+      2
+    ],
+    "spoken_order": [
+      2,
+      "en",
+      30
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "100000",
+    "active_bit_positions": [
+      5
+    ],
+    "popcount": 1,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 33,
+    "orthography": "drieëndertig",
+    "segments": [
+      "drie",
+      "en",
+      "der",
+      "tig"
+    ],
+    "morphemes": [
+      "drie",
+      "en",
+      "dertig"
+    ],
+    "place_order": [
+      30,
+      3
+    ],
+    "spoken_order": [
+      3,
+      "en",
+      30
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "100001",
+    "active_bit_positions": [
+      0,
+      5
+    ],
+    "popcount": 2,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 34,
+    "orthography": "vierendertig",
+    "segments": [
+      "vier",
+      "en",
+      "der",
+      "tig"
+    ],
+    "morphemes": [
+      "vier",
+      "en",
+      "dertig"
+    ],
+    "place_order": [
+      30,
+      4
+    ],
+    "spoken_order": [
+      4,
+      "en",
+      30
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "100010",
+    "active_bit_positions": [
+      1,
+      5
+    ],
+    "popcount": 2,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 35,
+    "orthography": "vijfendertig",
+    "segments": [
+      "vijf",
+      "en",
+      "der",
+      "tig"
+    ],
+    "morphemes": [
+      "vijf",
+      "en",
+      "dertig"
+    ],
+    "place_order": [
+      30,
+      5
+    ],
+    "spoken_order": [
+      5,
+      "en",
+      30
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "100011",
+    "active_bit_positions": [
+      0,
+      1,
+      5
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 36,
+    "orthography": "zesendertig",
+    "segments": [
+      "zes",
+      "en",
+      "der",
+      "tig"
+    ],
+    "morphemes": [
+      "zes",
+      "en",
+      "dertig"
+    ],
+    "place_order": [
+      30,
+      6
+    ],
+    "spoken_order": [
+      6,
+      "en",
+      30
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "100100",
+    "active_bit_positions": [
+      2,
+      5
+    ],
+    "popcount": 2,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 37,
+    "orthography": "zevenendertig",
+    "segments": [
+      "ze",
+      "ven",
+      "en",
+      "der",
+      "tig"
+    ],
+    "morphemes": [
+      "zeven",
+      "en",
+      "dertig"
+    ],
+    "place_order": [
+      30,
+      7
+    ],
+    "spoken_order": [
+      7,
+      "en",
+      30
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "100101",
+    "active_bit_positions": [
+      0,
+      2,
+      5
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 38,
+    "orthography": "achtendertig",
+    "segments": [
+      "acht",
+      "en",
+      "der",
+      "tig"
+    ],
+    "morphemes": [
+      "acht",
+      "en",
+      "dertig"
+    ],
+    "place_order": [
+      30,
+      8
+    ],
+    "spoken_order": [
+      8,
+      "en",
+      30
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "100110",
+    "active_bit_positions": [
+      1,
+      2,
+      5
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 39,
+    "orthography": "negenendertig",
+    "segments": [
+      "ne",
+      "gen",
+      "en",
+      "der",
+      "tig"
+    ],
+    "morphemes": [
+      "negen",
+      "en",
+      "dertig"
+    ],
+    "place_order": [
+      30,
+      9
+    ],
+    "spoken_order": [
+      9,
+      "en",
+      30
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "100111",
+    "active_bit_positions": [
+      0,
+      1,
+      2,
+      5
+    ],
+    "popcount": 4,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 40,
+    "orthography": "veertig",
+    "segments": [
+      "veer",
+      "tig"
+    ],
+    "morphemes": [
+      "veertig"
+    ],
+    "place_order": [
+      40
+    ],
+    "spoken_order": [
+      40
+    ],
+    "hinge_kind": "atomic",
+    "pulse_count": 2,
+    "binary": "101000",
+    "active_bit_positions": [
+      3,
+      5
+    ],
+    "popcount": 2,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 41,
+    "orthography": "eenenveertig",
+    "segments": [
+      "een",
+      "en",
+      "veer",
+      "tig"
+    ],
+    "morphemes": [
+      "een",
+      "en",
+      "veertig"
+    ],
+    "place_order": [
+      40,
+      1
+    ],
+    "spoken_order": [
+      1,
+      "en",
+      40
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "101001",
+    "active_bit_positions": [
+      0,
+      3,
+      5
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 42,
+    "orthography": "tweeënveertig",
+    "segments": [
+      "twee",
+      "en",
+      "veer",
+      "tig"
+    ],
+    "morphemes": [
+      "twee",
+      "en",
+      "veertig"
+    ],
+    "place_order": [
+      40,
+      2
+    ],
+    "spoken_order": [
+      2,
+      "en",
+      40
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "101010",
+    "active_bit_positions": [
+      1,
+      3,
+      5
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 43,
+    "orthography": "drieënveertig",
+    "segments": [
+      "drie",
+      "en",
+      "veer",
+      "tig"
+    ],
+    "morphemes": [
+      "drie",
+      "en",
+      "veertig"
+    ],
+    "place_order": [
+      40,
+      3
+    ],
+    "spoken_order": [
+      3,
+      "en",
+      40
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "101011",
+    "active_bit_positions": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "popcount": 4,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 44,
+    "orthography": "vierenveertig",
+    "segments": [
+      "vier",
+      "en",
+      "veer",
+      "tig"
+    ],
+    "morphemes": [
+      "vier",
+      "en",
+      "veertig"
+    ],
+    "place_order": [
+      40,
+      4
+    ],
+    "spoken_order": [
+      4,
+      "en",
+      40
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "101100",
+    "active_bit_positions": [
+      2,
+      3,
+      5
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 45,
+    "orthography": "vijfenveertig",
+    "segments": [
+      "vijf",
+      "en",
+      "veer",
+      "tig"
+    ],
+    "morphemes": [
+      "vijf",
+      "en",
+      "veertig"
+    ],
+    "place_order": [
+      40,
+      5
+    ],
+    "spoken_order": [
+      5,
+      "en",
+      40
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "101101",
+    "active_bit_positions": [
+      0,
+      2,
+      3,
+      5
+    ],
+    "popcount": 4,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 46,
+    "orthography": "zesenveertig",
+    "segments": [
+      "zes",
+      "en",
+      "veer",
+      "tig"
+    ],
+    "morphemes": [
+      "zes",
+      "en",
+      "veertig"
+    ],
+    "place_order": [
+      40,
+      6
+    ],
+    "spoken_order": [
+      6,
+      "en",
+      40
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "101110",
+    "active_bit_positions": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "popcount": 4,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 47,
+    "orthography": "zevenenveertig",
+    "segments": [
+      "ze",
+      "ven",
+      "en",
+      "veer",
+      "tig"
+    ],
+    "morphemes": [
+      "zeven",
+      "en",
+      "veertig"
+    ],
+    "place_order": [
+      40,
+      7
+    ],
+    "spoken_order": [
+      7,
+      "en",
+      40
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "101111",
+    "active_bit_positions": [
+      0,
+      1,
+      2,
+      3,
+      5
+    ],
+    "popcount": 5,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 48,
+    "orthography": "achtenveertig",
+    "segments": [
+      "acht",
+      "en",
+      "veer",
+      "tig"
+    ],
+    "morphemes": [
+      "acht",
+      "en",
+      "veertig"
+    ],
+    "place_order": [
+      40,
+      8
+    ],
+    "spoken_order": [
+      8,
+      "en",
+      40
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "110000",
+    "active_bit_positions": [
+      4,
+      5
+    ],
+    "popcount": 2,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 49,
+    "orthography": "negenenveertig",
+    "segments": [
+      "ne",
+      "gen",
+      "en",
+      "veer",
+      "tig"
+    ],
+    "morphemes": [
+      "negen",
+      "en",
+      "veertig"
+    ],
+    "place_order": [
+      40,
+      9
+    ],
+    "spoken_order": [
+      9,
+      "en",
+      40
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "110001",
+    "active_bit_positions": [
+      0,
+      4,
+      5
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 50,
+    "orthography": "vijftig",
+    "segments": [
+      "vijf",
+      "tig"
+    ],
+    "morphemes": [
+      "vijftig"
+    ],
+    "place_order": [
+      50
+    ],
+    "spoken_order": [
+      50
+    ],
+    "hinge_kind": "atomic",
+    "pulse_count": 2,
+    "binary": "110010",
+    "active_bit_positions": [
+      1,
+      4,
+      5
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 51,
+    "orthography": "eenenvijftig",
+    "segments": [
+      "een",
+      "en",
+      "vijf",
+      "tig"
+    ],
+    "morphemes": [
+      "een",
+      "en",
+      "vijftig"
+    ],
+    "place_order": [
+      50,
+      1
+    ],
+    "spoken_order": [
+      1,
+      "en",
+      50
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "110011",
+    "active_bit_positions": [
+      0,
+      1,
+      4,
+      5
+    ],
+    "popcount": 4,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 52,
+    "orthography": "tweeënvijftig",
+    "segments": [
+      "twee",
+      "en",
+      "vijf",
+      "tig"
+    ],
+    "morphemes": [
+      "twee",
+      "en",
+      "vijftig"
+    ],
+    "place_order": [
+      50,
+      2
+    ],
+    "spoken_order": [
+      2,
+      "en",
+      50
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "110100",
+    "active_bit_positions": [
+      2,
+      4,
+      5
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 53,
+    "orthography": "drieënvijftig",
+    "segments": [
+      "drie",
+      "en",
+      "vijf",
+      "tig"
+    ],
+    "morphemes": [
+      "drie",
+      "en",
+      "vijftig"
+    ],
+    "place_order": [
+      50,
+      3
+    ],
+    "spoken_order": [
+      3,
+      "en",
+      50
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "110101",
+    "active_bit_positions": [
+      0,
+      2,
+      4,
+      5
+    ],
+    "popcount": 4,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 54,
+    "orthography": "vierenvijftig",
+    "segments": [
+      "vier",
+      "en",
+      "vijf",
+      "tig"
+    ],
+    "morphemes": [
+      "vier",
+      "en",
+      "vijftig"
+    ],
+    "place_order": [
+      50,
+      4
+    ],
+    "spoken_order": [
+      4,
+      "en",
+      50
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "110110",
+    "active_bit_positions": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "popcount": 4,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 55,
+    "orthography": "vijfenvijftig",
+    "segments": [
+      "vijf",
+      "en",
+      "vijf",
+      "tig"
+    ],
+    "morphemes": [
+      "vijf",
+      "en",
+      "vijftig"
+    ],
+    "place_order": [
+      50,
+      5
+    ],
+    "spoken_order": [
+      5,
+      "en",
+      50
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "110111",
+    "active_bit_positions": [
+      0,
+      1,
+      2,
+      4,
+      5
+    ],
+    "popcount": 5,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 56,
+    "orthography": "zesenvijftig",
+    "segments": [
+      "zes",
+      "en",
+      "vijf",
+      "tig"
+    ],
+    "morphemes": [
+      "zes",
+      "en",
+      "vijftig"
+    ],
+    "place_order": [
+      50,
+      6
+    ],
+    "spoken_order": [
+      6,
+      "en",
+      50
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "111000",
+    "active_bit_positions": [
+      3,
+      4,
+      5
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 57,
+    "orthography": "zevenenvijftig",
+    "segments": [
+      "ze",
+      "ven",
+      "en",
+      "vijf",
+      "tig"
+    ],
+    "morphemes": [
+      "zeven",
+      "en",
+      "vijftig"
+    ],
+    "place_order": [
+      50,
+      7
+    ],
+    "spoken_order": [
+      7,
+      "en",
+      50
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "111001",
+    "active_bit_positions": [
+      0,
+      3,
+      4,
+      5
+    ],
+    "popcount": 4,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 58,
+    "orthography": "achtenvijftig",
+    "segments": [
+      "acht",
+      "en",
+      "vijf",
+      "tig"
+    ],
+    "morphemes": [
+      "acht",
+      "en",
+      "vijftig"
+    ],
+    "place_order": [
+      50,
+      8
+    ],
+    "spoken_order": [
+      8,
+      "en",
+      50
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "111010",
+    "active_bit_positions": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "popcount": 4,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 59,
+    "orthography": "negenenvijftig",
+    "segments": [
+      "ne",
+      "gen",
+      "en",
+      "vijf",
+      "tig"
+    ],
+    "morphemes": [
+      "negen",
+      "en",
+      "vijftig"
+    ],
+    "place_order": [
+      50,
+      9
+    ],
+    "spoken_order": [
+      9,
+      "en",
+      50
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "111011",
+    "active_bit_positions": [
+      0,
+      1,
+      3,
+      4,
+      5
+    ],
+    "popcount": 5,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 60,
+    "orthography": "zestig",
+    "segments": [
+      "zes",
+      "tig"
+    ],
+    "morphemes": [
+      "zestig"
+    ],
+    "place_order": [
+      60
+    ],
+    "spoken_order": [
+      60
+    ],
+    "hinge_kind": "atomic",
+    "pulse_count": 2,
+    "binary": "111100",
+    "active_bit_positions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "popcount": 4,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 61,
+    "orthography": "eenenzestig",
+    "segments": [
+      "een",
+      "en",
+      "zes",
+      "tig"
+    ],
+    "morphemes": [
+      "een",
+      "en",
+      "zestig"
+    ],
+    "place_order": [
+      60,
+      1
+    ],
+    "spoken_order": [
+      1,
+      "en",
+      60
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "111101",
+    "active_bit_positions": [
+      0,
+      2,
+      3,
+      4,
+      5
+    ],
+    "popcount": 5,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 62,
+    "orthography": "tweeënzestig",
+    "segments": [
+      "twee",
+      "en",
+      "zes",
+      "tig"
+    ],
+    "morphemes": [
+      "twee",
+      "en",
+      "zestig"
+    ],
+    "place_order": [
+      60,
+      2
+    ],
+    "spoken_order": [
+      2,
+      "en",
+      60
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "111110",
+    "active_bit_positions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "popcount": 5,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 63,
+    "orthography": "drieënzestig",
+    "segments": [
+      "drie",
+      "en",
+      "zes",
+      "tig"
+    ],
+    "morphemes": [
+      "drie",
+      "en",
+      "zestig"
+    ],
+    "place_order": [
+      60,
+      3
+    ],
+    "spoken_order": [
+      3,
+      "en",
+      60
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "111111",
+    "active_bit_positions": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "popcount": 6,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 64,
+    "orthography": "vierenzestig",
+    "segments": [
+      "vier",
+      "en",
+      "zes",
+      "tig"
+    ],
+    "morphemes": [
+      "vier",
+      "en",
+      "zestig"
+    ],
+    "place_order": [
+      60,
+      4
+    ],
+    "spoken_order": [
+      4,
+      "en",
+      60
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "1000000",
+    "active_bit_positions": [
+      6
+    ],
+    "popcount": 1,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 65,
+    "orthography": "vijfenzestig",
+    "segments": [
+      "vijf",
+      "en",
+      "zes",
+      "tig"
+    ],
+    "morphemes": [
+      "vijf",
+      "en",
+      "zestig"
+    ],
+    "place_order": [
+      60,
+      5
+    ],
+    "spoken_order": [
+      5,
+      "en",
+      60
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "1000001",
+    "active_bit_positions": [
+      0,
+      6
+    ],
+    "popcount": 2,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 66,
+    "orthography": "zesenzestig",
+    "segments": [
+      "zes",
+      "en",
+      "zes",
+      "tig"
+    ],
+    "morphemes": [
+      "zes",
+      "en",
+      "zestig"
+    ],
+    "place_order": [
+      60,
+      6
+    ],
+    "spoken_order": [
+      6,
+      "en",
+      60
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "1000010",
+    "active_bit_positions": [
+      1,
+      6
+    ],
+    "popcount": 2,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 67,
+    "orthography": "zevenenzestig",
+    "segments": [
+      "ze",
+      "ven",
+      "en",
+      "zes",
+      "tig"
+    ],
+    "morphemes": [
+      "zeven",
+      "en",
+      "zestig"
+    ],
+    "place_order": [
+      60,
+      7
+    ],
+    "spoken_order": [
+      7,
+      "en",
+      60
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "1000011",
+    "active_bit_positions": [
+      0,
+      1,
+      6
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 68,
+    "orthography": "achtenzestig",
+    "segments": [
+      "acht",
+      "en",
+      "zes",
+      "tig"
+    ],
+    "morphemes": [
+      "acht",
+      "en",
+      "zestig"
+    ],
+    "place_order": [
+      60,
+      8
+    ],
+    "spoken_order": [
+      8,
+      "en",
+      60
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "1000100",
+    "active_bit_positions": [
+      2,
+      6
+    ],
+    "popcount": 2,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 69,
+    "orthography": "negenenzestig",
+    "segments": [
+      "ne",
+      "gen",
+      "en",
+      "zes",
+      "tig"
+    ],
+    "morphemes": [
+      "negen",
+      "en",
+      "zestig"
+    ],
+    "place_order": [
+      60,
+      9
+    ],
+    "spoken_order": [
+      9,
+      "en",
+      60
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "1000101",
+    "active_bit_positions": [
+      0,
+      2,
+      6
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 70,
+    "orthography": "zeventig",
+    "segments": [
+      "ze",
+      "ven",
+      "tig"
+    ],
+    "morphemes": [
+      "zeventig"
+    ],
+    "place_order": [
+      70
+    ],
+    "spoken_order": [
+      70
+    ],
+    "hinge_kind": "atomic",
+    "pulse_count": 3,
+    "binary": "1000110",
+    "active_bit_positions": [
+      1,
+      2,
+      6
+    ],
+    "popcount": 3,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 71,
+    "orthography": "eenenzeventig",
+    "segments": [
+      "een",
+      "en",
+      "ze",
+      "ven",
+      "tig"
+    ],
+    "morphemes": [
+      "een",
+      "en",
+      "zeventig"
+    ],
+    "place_order": [
+      70,
+      1
+    ],
+    "spoken_order": [
+      1,
+      "en",
+      70
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "1000111",
+    "active_bit_positions": [
+      0,
+      1,
+      2,
+      6
+    ],
+    "popcount": 4,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 72,
+    "orthography": "tweeënzeventig",
+    "segments": [
+      "twee",
+      "en",
+      "ze",
+      "ven",
+      "tig"
+    ],
+    "morphemes": [
+      "twee",
+      "en",
+      "zeventig"
+    ],
+    "place_order": [
+      70,
+      2
+    ],
+    "spoken_order": [
+      2,
+      "en",
+      70
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "1001000",
+    "active_bit_positions": [
+      3,
+      6
+    ],
+    "popcount": 2,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 73,
+    "orthography": "drieënzeventig",
+    "segments": [
+      "drie",
+      "en",
+      "ze",
+      "ven",
+      "tig"
+    ],
+    "morphemes": [
+      "drie",
+      "en",
+      "zeventig"
+    ],
+    "place_order": [
+      70,
+      3
+    ],
+    "spoken_order": [
+      3,
+      "en",
+      70
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "1001001",
+    "active_bit_positions": [
+      0,
+      3,
+      6
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 74,
+    "orthography": "vierenzeventig",
+    "segments": [
+      "vier",
+      "en",
+      "ze",
+      "ven",
+      "tig"
+    ],
+    "morphemes": [
+      "vier",
+      "en",
+      "zeventig"
+    ],
+    "place_order": [
+      70,
+      4
+    ],
+    "spoken_order": [
+      4,
+      "en",
+      70
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "1001010",
+    "active_bit_positions": [
+      1,
+      3,
+      6
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 75,
+    "orthography": "vijfenzeventig",
+    "segments": [
+      "vijf",
+      "en",
+      "ze",
+      "ven",
+      "tig"
+    ],
+    "morphemes": [
+      "vijf",
+      "en",
+      "zeventig"
+    ],
+    "place_order": [
+      70,
+      5
+    ],
+    "spoken_order": [
+      5,
+      "en",
+      70
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "1001011",
+    "active_bit_positions": [
+      0,
+      1,
+      3,
+      6
+    ],
+    "popcount": 4,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 76,
+    "orthography": "zesenzeventig",
+    "segments": [
+      "zes",
+      "en",
+      "ze",
+      "ven",
+      "tig"
+    ],
+    "morphemes": [
+      "zes",
+      "en",
+      "zeventig"
+    ],
+    "place_order": [
+      70,
+      6
+    ],
+    "spoken_order": [
+      6,
+      "en",
+      70
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "1001100",
+    "active_bit_positions": [
+      2,
+      3,
+      6
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 77,
+    "orthography": "zevenenzeventig",
+    "segments": [
+      "ze",
+      "ven",
+      "en",
+      "ze",
+      "ven",
+      "tig"
+    ],
+    "morphemes": [
+      "zeven",
+      "en",
+      "zeventig"
+    ],
+    "place_order": [
+      70,
+      7
+    ],
+    "spoken_order": [
+      7,
+      "en",
+      70
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 6,
+    "binary": "1001101",
+    "active_bit_positions": [
+      0,
+      2,
+      3,
+      6
+    ],
+    "popcount": 4,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 78,
+    "orthography": "achtenzeventig",
+    "segments": [
+      "acht",
+      "en",
+      "ze",
+      "ven",
+      "tig"
+    ],
+    "morphemes": [
+      "acht",
+      "en",
+      "zeventig"
+    ],
+    "place_order": [
+      70,
+      8
+    ],
+    "spoken_order": [
+      8,
+      "en",
+      70
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "1001110",
+    "active_bit_positions": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "popcount": 4,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 79,
+    "orthography": "negenenzeventig",
+    "segments": [
+      "ne",
+      "gen",
+      "en",
+      "ze",
+      "ven",
+      "tig"
+    ],
+    "morphemes": [
+      "negen",
+      "en",
+      "zeventig"
+    ],
+    "place_order": [
+      70,
+      9
+    ],
+    "spoken_order": [
+      9,
+      "en",
+      70
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 6,
+    "binary": "1001111",
+    "active_bit_positions": [
+      0,
+      1,
+      2,
+      3,
+      6
+    ],
+    "popcount": 5,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 80,
+    "orthography": "tachtig",
+    "segments": [
+      "tach",
+      "tig"
+    ],
+    "morphemes": [
+      "tachtig"
+    ],
+    "place_order": [
+      80
+    ],
+    "spoken_order": [
+      80
+    ],
+    "hinge_kind": "atomic",
+    "pulse_count": 2,
+    "binary": "1010000",
+    "active_bit_positions": [
+      4,
+      6
+    ],
+    "popcount": 2,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 81,
+    "orthography": "eenentachtig",
+    "segments": [
+      "een",
+      "en",
+      "tach",
+      "tig"
+    ],
+    "morphemes": [
+      "een",
+      "en",
+      "tachtig"
+    ],
+    "place_order": [
+      80,
+      1
+    ],
+    "spoken_order": [
+      1,
+      "en",
+      80
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "1010001",
+    "active_bit_positions": [
+      0,
+      4,
+      6
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 82,
+    "orthography": "tweeëntachtig",
+    "segments": [
+      "twee",
+      "en",
+      "tach",
+      "tig"
+    ],
+    "morphemes": [
+      "twee",
+      "en",
+      "tachtig"
+    ],
+    "place_order": [
+      80,
+      2
+    ],
+    "spoken_order": [
+      2,
+      "en",
+      80
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "1010010",
+    "active_bit_positions": [
+      1,
+      4,
+      6
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 83,
+    "orthography": "drieëntachtig",
+    "segments": [
+      "drie",
+      "en",
+      "tach",
+      "tig"
+    ],
+    "morphemes": [
+      "drie",
+      "en",
+      "tachtig"
+    ],
+    "place_order": [
+      80,
+      3
+    ],
+    "spoken_order": [
+      3,
+      "en",
+      80
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "1010011",
+    "active_bit_positions": [
+      0,
+      1,
+      4,
+      6
+    ],
+    "popcount": 4,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 84,
+    "orthography": "vierentachtig",
+    "segments": [
+      "vier",
+      "en",
+      "tach",
+      "tig"
+    ],
+    "morphemes": [
+      "vier",
+      "en",
+      "tachtig"
+    ],
+    "place_order": [
+      80,
+      4
+    ],
+    "spoken_order": [
+      4,
+      "en",
+      80
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "1010100",
+    "active_bit_positions": [
+      2,
+      4,
+      6
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 85,
+    "orthography": "vijfentachtig",
+    "segments": [
+      "vijf",
+      "en",
+      "tach",
+      "tig"
+    ],
+    "morphemes": [
+      "vijf",
+      "en",
+      "tachtig"
+    ],
+    "place_order": [
+      80,
+      5
+    ],
+    "spoken_order": [
+      5,
+      "en",
+      80
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "1010101",
+    "active_bit_positions": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "popcount": 4,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 86,
+    "orthography": "zesentachtig",
+    "segments": [
+      "zes",
+      "en",
+      "tach",
+      "tig"
+    ],
+    "morphemes": [
+      "zes",
+      "en",
+      "tachtig"
+    ],
+    "place_order": [
+      80,
+      6
+    ],
+    "spoken_order": [
+      6,
+      "en",
+      80
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "1010110",
+    "active_bit_positions": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "popcount": 4,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 87,
+    "orthography": "zevenentachtig",
+    "segments": [
+      "ze",
+      "ven",
+      "en",
+      "tach",
+      "tig"
+    ],
+    "morphemes": [
+      "zeven",
+      "en",
+      "tachtig"
+    ],
+    "place_order": [
+      80,
+      7
+    ],
+    "spoken_order": [
+      7,
+      "en",
+      80
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "1010111",
+    "active_bit_positions": [
+      0,
+      1,
+      2,
+      4,
+      6
+    ],
+    "popcount": 5,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 88,
+    "orthography": "achtentachtig",
+    "segments": [
+      "acht",
+      "en",
+      "tach",
+      "tig"
+    ],
+    "morphemes": [
+      "acht",
+      "en",
+      "tachtig"
+    ],
+    "place_order": [
+      80,
+      8
+    ],
+    "spoken_order": [
+      8,
+      "en",
+      80
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 4,
+    "binary": "1011000",
+    "active_bit_positions": [
+      3,
+      4,
+      6
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 89,
+    "orthography": "negenentachtig",
+    "segments": [
+      "ne",
+      "gen",
+      "en",
+      "tach",
+      "tig"
+    ],
+    "morphemes": [
+      "negen",
+      "en",
+      "tachtig"
+    ],
+    "place_order": [
+      80,
+      9
+    ],
+    "spoken_order": [
+      9,
+      "en",
+      80
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "1011001",
+    "active_bit_positions": [
+      0,
+      3,
+      4,
+      6
+    ],
+    "popcount": 4,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 90,
+    "orthography": "negentig",
+    "segments": [
+      "ne",
+      "gen",
+      "tig"
+    ],
+    "morphemes": [
+      "negentig"
+    ],
+    "place_order": [
+      90
+    ],
+    "spoken_order": [
+      90
+    ],
+    "hinge_kind": "atomic",
+    "pulse_count": 3,
+    "binary": "1011010",
+    "active_bit_positions": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "popcount": 4,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 91,
+    "orthography": "eenennegentig",
+    "segments": [
+      "een",
+      "en",
+      "ne",
+      "gen",
+      "tig"
+    ],
+    "morphemes": [
+      "een",
+      "en",
+      "negentig"
+    ],
+    "place_order": [
+      90,
+      1
+    ],
+    "spoken_order": [
+      1,
+      "en",
+      90
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "1011011",
+    "active_bit_positions": [
+      0,
+      1,
+      3,
+      4,
+      6
+    ],
+    "popcount": 5,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 92,
+    "orthography": "tweeënnegentig",
+    "segments": [
+      "twee",
+      "en",
+      "ne",
+      "gen",
+      "tig"
+    ],
+    "morphemes": [
+      "twee",
+      "en",
+      "negentig"
+    ],
+    "place_order": [
+      90,
+      2
+    ],
+    "spoken_order": [
+      2,
+      "en",
+      90
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "1011100",
+    "active_bit_positions": [
+      2,
+      3,
+      4,
+      6
+    ],
+    "popcount": 4,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 93,
+    "orthography": "drieënnegentig",
+    "segments": [
+      "drie",
+      "en",
+      "ne",
+      "gen",
+      "tig"
+    ],
+    "morphemes": [
+      "drie",
+      "en",
+      "negentig"
+    ],
+    "place_order": [
+      90,
+      3
+    ],
+    "spoken_order": [
+      3,
+      "en",
+      90
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "1011101",
+    "active_bit_positions": [
+      0,
+      2,
+      3,
+      4,
+      6
+    ],
+    "popcount": 5,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 94,
+    "orthography": "vierennegentig",
+    "segments": [
+      "vier",
+      "en",
+      "ne",
+      "gen",
+      "tig"
+    ],
+    "morphemes": [
+      "vier",
+      "en",
+      "negentig"
+    ],
+    "place_order": [
+      90,
+      4
+    ],
+    "spoken_order": [
+      4,
+      "en",
+      90
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "1011110",
+    "active_bit_positions": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "popcount": 5,
+    "count_match": true
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 95,
+    "orthography": "vijfennegentig",
+    "segments": [
+      "vijf",
+      "en",
+      "ne",
+      "gen",
+      "tig"
+    ],
+    "morphemes": [
+      "vijf",
+      "en",
+      "negentig"
+    ],
+    "place_order": [
+      90,
+      5
+    ],
+    "spoken_order": [
+      5,
+      "en",
+      90
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "1011111",
+    "active_bit_positions": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "popcount": 6,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 96,
+    "orthography": "zesennegentig",
+    "segments": [
+      "zes",
+      "en",
+      "ne",
+      "gen",
+      "tig"
+    ],
+    "morphemes": [
+      "zes",
+      "en",
+      "negentig"
+    ],
+    "place_order": [
+      90,
+      6
+    ],
+    "spoken_order": [
+      6,
+      "en",
+      90
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "1100000",
+    "active_bit_positions": [
+      5,
+      6
+    ],
+    "popcount": 2,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 97,
+    "orthography": "zevenennegentig",
+    "segments": [
+      "ze",
+      "ven",
+      "en",
+      "ne",
+      "gen",
+      "tig"
+    ],
+    "morphemes": [
+      "zeven",
+      "en",
+      "negentig"
+    ],
+    "place_order": [
+      90,
+      7
+    ],
+    "spoken_order": [
+      7,
+      "en",
+      90
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 6,
+    "binary": "1100001",
+    "active_bit_positions": [
+      0,
+      5,
+      6
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 98,
+    "orthography": "achtennegentig",
+    "segments": [
+      "acht",
+      "en",
+      "ne",
+      "gen",
+      "tig"
+    ],
+    "morphemes": [
+      "acht",
+      "en",
+      "negentig"
+    ],
+    "place_order": [
+      90,
+      8
+    ],
+    "spoken_order": [
+      8,
+      "en",
+      90
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 5,
+    "binary": "1100010",
+    "active_bit_positions": [
+      1,
+      5,
+      6
+    ],
+    "popcount": 3,
+    "count_match": false
+  },
+  {
+    "profile_id": "nl-TKUFT-0-99-v2",
+    "value": 99,
+    "orthography": "negenennegentig",
+    "segments": [
+      "ne",
+      "gen",
+      "en",
+      "ne",
+      "gen",
+      "tig"
+    ],
+    "morphemes": [
+      "negen",
+      "en",
+      "negentig"
+    ],
+    "place_order": [
+      90,
+      9
+    ],
+    "spoken_order": [
+      9,
+      "en",
+      90
+    ],
+    "hinge_kind": "en_connector",
+    "pulse_count": 6,
+    "binary": "1100011",
+    "active_bit_positions": [
+      0,
+      1,
+      5,
+      6
+    ],
+    "popcount": 4,
+    "count_match": false
+  }
+]

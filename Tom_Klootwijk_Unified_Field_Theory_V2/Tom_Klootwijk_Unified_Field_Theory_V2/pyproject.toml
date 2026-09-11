@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tom-klootwijk-unified-field-theory"
+version = "2.0.0"
+description = "UU ID, Agnostic Boundary Horizon and chronotemporal identity calculus"
+authors = [{name = "Tom Klootwijk"}]
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]

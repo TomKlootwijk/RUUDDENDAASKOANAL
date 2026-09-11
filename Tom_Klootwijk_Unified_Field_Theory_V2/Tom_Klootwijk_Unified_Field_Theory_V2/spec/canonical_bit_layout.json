@@ -1,0 +1,85 @@
+{
+  "control": [
+    {
+      "field": "a",
+      "zero_based_range": [
+        0,
+        10
+      ],
+      "width": 11
+    },
+    {
+      "field": "g",
+      "zero_based_range": [
+        11,
+        13
+      ],
+      "width": 3
+    },
+    {
+      "field": "cooldown",
+      "zero_based_range": [
+        14,
+        26
+      ],
+      "width": 13
+    }
+  ],
+  "cells": [
+    {
+      "field": "U",
+      "local_first_bit": 0,
+      "local_last_bit": 31,
+      "width": 32,
+      "complete_word_first_bit_formula": "28 + 118*i + 0",
+      "source": "S2 C11"
+    },
+    {
+      "field": "V",
+      "local_first_bit": 32,
+      "local_last_bit": 63,
+      "width": 32,
+      "complete_word_first_bit_formula": "28 + 118*i + 32",
+      "source": "S2 C11"
+    },
+    {
+      "field": "z",
+      "local_first_bit": 64,
+      "local_last_bit": 80,
+      "width": 17,
+      "complete_word_first_bit_formula": "28 + 118*i + 64",
+      "source": "S2 C11"
+    },
+    {
+      "field": "m",
+      "local_first_bit": 81,
+      "local_last_bit": 97,
+      "width": 17,
+      "complete_word_first_bit_formula": "28 + 118*i + 81",
+      "source": "S2 C11"
+    },
+    {
+      "field": "r",
+      "local_first_bit": 98,
+      "local_last_bit": 113,
+      "width": 16,
+      "complete_word_first_bit_formula": "28 + 118*i + 98",
+      "source": "S2 C11"
+    },
+    {
+      "field": "flags",
+      "local_first_bit": 114,
+      "local_last_bit": 117,
+      "width": 4,
+      "complete_word_first_bit_formula": "28 + 118*i + 114",
+      "source": "S2 C11"
+    }
+  ],
+  "flags": {
+    "114": "latch",
+    "115": "previous pulse",
+    "116": "occupancy",
+    "117": "previous latch event"
+  },
+  "total_bits": "27 + 118*N"
+}

@@ -1,0 +1,107 @@
+{
+  "edition": "2.0.0",
+  "date": "2026-09-11",
+  "author": {
+    "name": "Tom Klootwijk",
+    "identifier": "NL200678942",
+    "date_of_birth": "10-07-1990"
+  },
+  "python_version": "3.13.5",
+  "unit_test_methods": 126,
+  "retained_core_test_methods": 63,
+  "uu_id_test_methods": 63,
+  "tests_passed": 126,
+  "literal_definitions": 34,
+  "content_hashes_verified": 34,
+  "json_schemas_checked": 2,
+  "literal_substrate_schema_validation": "passed",
+  "jsonschema_version": "4.26.0",
+  "retained_operators": 36,
+  "uu_id_mechanisms": 16,
+  "patterns": 20,
+  "dutch_profile_rows": 100,
+  "dutch_count_matches": 28,
+  "source_hashes_checked": 3,
+  "pdf_pages": 42,
+  "pdf_sha256": "8840b2497965f598ed0ff7ae962f573b60e4549b83b07663d21e09cb8d6bf8de",
+  "pdf_author_metadata": "Tom Klootwijk",
+  "layout_edge_violations": [],
+  "pdf_renderers": [
+    "Poppler pdftoppm",
+    "PyMuPDF"
+  ],
+  "attribution_scan": "passed",
+  "fresh_replay_comparison": "passed",
+  "demonstration": {
+    "version": "2.0.0",
+    "author": {
+      "name": "Tom Klootwijk",
+      "identifier": "NL200678942",
+      "date_of_birth": "10-07-1990"
+    },
+    "fixture": "TKUFT-integer-chart-v2",
+    "cells": 64,
+    "levels": 2,
+    "updates": 64,
+    "initial_mass": 18677,
+    "final_mass": 18677,
+    "total_pulses": 2258,
+    "last_update_pulses": 38,
+    "state_bits": 7579,
+    "state_bytes": 948,
+    "local_certificates_passed": 64,
+    "restart_equal": true,
+    "unsigned_conjugate_updates_verified": 64,
+    "final_state_sha256": "77f7cdbf7ce5f76029d5d6c27900187b7edbdf12f0ecbbe664db21f3fd6b9d8b",
+    "final_capsule_sha256": "2c94f25659e0c0236240f0e8785986017cc22041fdd41beb6cad91db1adb3e80",
+    "history_envelope_active_bits": 4262,
+    "history_envelope_strict_changes": 57,
+    "feedback_disabled_total_pulses": 2235,
+    "feedback_witness": {
+      "cell": 7,
+      "tick": 3,
+      "first_state_difference": 3,
+      "first_output_difference": 9,
+      "baseline_cell7_first40": "0101011010110100101010101010110110110111",
+      "intervened_cell7_first40": "0101011011010101001010101010110110111011"
+    },
+    "uu_id_example": {
+      "status": "defined",
+      "value": 0.5,
+      "witnesses": [
+        "A",
+        "B"
+      ],
+      "layers": [
+        {
+          "id": "A",
+          "raw": 1.5,
+          "threshold": 1.0,
+          "relation": ">",
+          "delta": 0.5
+        },
+        {
+          "id": "B",
+          "raw": 1.5,
+          "threshold": 1.0,
+          "relation": ">",
+          "delta": 0.5
+        }
+      ]
+    },
+    "chronotemporal_example": {
+      "time": 4,
+      "duration": 4.0,
+      "decay": 0.5,
+      "integral": 4.34729223463795,
+      "retention_mass": 1.7293294335267744,
+      "normalized_mean": 2.5138600837737046,
+      "historical_horizon_at_1_5": 0.0
+    },
+    "lineage_records": 4,
+    "logpolar_address_count": 7579,
+    "logpolar_minimum_separation": 0.006126071270597538,
+    "logpolar_horizon_radius": 0.0015315178176493844,
+    "dutch_count_matches": 28
+  }
+}

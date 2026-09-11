@@ -1,0 +1,29 @@
+profile_id,value,orthography,segments,morphemes,place_order,spoken_order,hinge_kind,pulse_count,binary,active_bit_positions,popcount,count_match
+nl-TKUFT-0-99-v2,1,een,"[""een""]","[""een""]",[1],[1],atomic,1,1,[0],1,True
+nl-TKUFT-0-99-v2,2,twee,"[""twee""]","[""twee""]",[2],[2],atomic,1,10,[1],1,True
+nl-TKUFT-0-99-v2,4,vier,"[""vier""]","[""vier""]",[4],[4],atomic,1,100,[2],1,True
+nl-TKUFT-0-99-v2,8,acht,"[""acht""]","[""acht""]",[8],[8],atomic,1,1000,[3],1,True
+nl-TKUFT-0-99-v2,9,negen,"[""ne"", ""gen""]","[""negen""]",[9],[9],atomic,2,1001,"[0, 3]",2,True
+nl-TKUFT-0-99-v2,18,achttien,"[""acht"", ""tien""]","[""acht"", ""tien""]","[10, 8]","[8, ""tien""]",teen_suffix,2,10010,"[1, 4]",2,True
+nl-TKUFT-0-99-v2,19,negentien,"[""ne"", ""gen"", ""tien""]","[""negen"", ""tien""]","[10, 9]","[9, ""tien""]",teen_suffix,3,10011,"[0, 1, 4]",3,True
+nl-TKUFT-0-99-v2,20,twintig,"[""twin"", ""tig""]","[""twintig""]",[20],[20],atomic,2,10100,"[2, 4]",2,True
+nl-TKUFT-0-99-v2,23,drieëntwintig,"[""drie"", ""en"", ""twin"", ""tig""]","[""drie"", ""en"", ""twintig""]","[20, 3]","[3, ""en"", 20]",en_connector,4,10111,"[0, 1, 2, 4]",4,True
+nl-TKUFT-0-99-v2,40,veertig,"[""veer"", ""tig""]","[""veertig""]",[40],[40],atomic,2,101000,"[3, 5]",2,True
+nl-TKUFT-0-99-v2,43,drieënveertig,"[""drie"", ""en"", ""veer"", ""tig""]","[""drie"", ""en"", ""veertig""]","[40, 3]","[3, ""en"", 40]",en_connector,4,101011,"[0, 1, 3, 5]",4,True
+nl-TKUFT-0-99-v2,45,vijfenveertig,"[""vijf"", ""en"", ""veer"", ""tig""]","[""vijf"", ""en"", ""veertig""]","[40, 5]","[5, ""en"", 40]",en_connector,4,101101,"[0, 2, 3, 5]",4,True
+nl-TKUFT-0-99-v2,46,zesenveertig,"[""zes"", ""en"", ""veer"", ""tig""]","[""zes"", ""en"", ""veertig""]","[40, 6]","[6, ""en"", 40]",en_connector,4,101110,"[1, 2, 3, 5]",4,True
+nl-TKUFT-0-99-v2,47,zevenenveertig,"[""ze"", ""ven"", ""en"", ""veer"", ""tig""]","[""zeven"", ""en"", ""veertig""]","[40, 7]","[7, ""en"", 40]",en_connector,5,101111,"[0, 1, 2, 3, 5]",5,True
+nl-TKUFT-0-99-v2,51,eenenvijftig,"[""een"", ""en"", ""vijf"", ""tig""]","[""een"", ""en"", ""vijftig""]","[50, 1]","[1, ""en"", 50]",en_connector,4,110011,"[0, 1, 4, 5]",4,True
+nl-TKUFT-0-99-v2,53,drieënvijftig,"[""drie"", ""en"", ""vijf"", ""tig""]","[""drie"", ""en"", ""vijftig""]","[50, 3]","[3, ""en"", 50]",en_connector,4,110101,"[0, 2, 4, 5]",4,True
+nl-TKUFT-0-99-v2,54,vierenvijftig,"[""vier"", ""en"", ""vijf"", ""tig""]","[""vier"", ""en"", ""vijftig""]","[50, 4]","[4, ""en"", 50]",en_connector,4,110110,"[1, 2, 4, 5]",4,True
+nl-TKUFT-0-99-v2,58,achtenvijftig,"[""acht"", ""en"", ""vijf"", ""tig""]","[""acht"", ""en"", ""vijftig""]","[50, 8]","[8, ""en"", 50]",en_connector,4,111010,"[1, 3, 4, 5]",4,True
+nl-TKUFT-0-99-v2,59,negenenvijftig,"[""ne"", ""gen"", ""en"", ""vijf"", ""tig""]","[""negen"", ""en"", ""vijftig""]","[50, 9]","[9, ""en"", 50]",en_connector,5,111011,"[0, 1, 3, 4, 5]",5,True
+nl-TKUFT-0-99-v2,70,zeventig,"[""ze"", ""ven"", ""tig""]","[""zeventig""]",[70],[70],atomic,3,1000110,"[1, 2, 6]",3,True
+nl-TKUFT-0-99-v2,80,tachtig,"[""tach"", ""tig""]","[""tachtig""]",[80],[80],atomic,2,1010000,"[4, 6]",2,True
+nl-TKUFT-0-99-v2,83,drieëntachtig,"[""drie"", ""en"", ""tach"", ""tig""]","[""drie"", ""en"", ""tachtig""]","[80, 3]","[3, ""en"", 80]",en_connector,4,1010011,"[0, 1, 4, 6]",4,True
+nl-TKUFT-0-99-v2,85,vijfentachtig,"[""vijf"", ""en"", ""tach"", ""tig""]","[""vijf"", ""en"", ""tachtig""]","[80, 5]","[5, ""en"", 80]",en_connector,4,1010101,"[0, 2, 4, 6]",4,True
+nl-TKUFT-0-99-v2,86,zesentachtig,"[""zes"", ""en"", ""tach"", ""tig""]","[""zes"", ""en"", ""tachtig""]","[80, 6]","[6, ""en"", 80]",en_connector,4,1010110,"[1, 2, 4, 6]",4,True
+nl-TKUFT-0-99-v2,87,zevenentachtig,"[""ze"", ""ven"", ""en"", ""tach"", ""tig""]","[""zeven"", ""en"", ""tachtig""]","[80, 7]","[7, ""en"", 80]",en_connector,5,1010111,"[0, 1, 2, 4, 6]",5,True
+nl-TKUFT-0-99-v2,91,eenennegentig,"[""een"", ""en"", ""ne"", ""gen"", ""tig""]","[""een"", ""en"", ""negentig""]","[90, 1]","[1, ""en"", 90]",en_connector,5,1011011,"[0, 1, 3, 4, 6]",5,True
+nl-TKUFT-0-99-v2,93,drieënnegentig,"[""drie"", ""en"", ""ne"", ""gen"", ""tig""]","[""drie"", ""en"", ""negentig""]","[90, 3]","[3, ""en"", 90]",en_connector,5,1011101,"[0, 2, 3, 4, 6]",5,True
+nl-TKUFT-0-99-v2,94,vierennegentig,"[""vier"", ""en"", ""ne"", ""gen"", ""tig""]","[""vier"", ""en"", ""negentig""]","[90, 4]","[4, ""en"", 90]",en_connector,5,1011110,"[1, 2, 3, 4, 6]",5,True

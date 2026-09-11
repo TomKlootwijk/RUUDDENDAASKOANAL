@@ -1,0 +1,254 @@
+[
+  {
+    "id": "K36-01",
+    "mechanism": "Literal definition node",
+    "contract": "Typed definition record containing operator or object semantics.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-02",
+    "mechanism": "Content-addressed definition",
+    "contract": "Canonical JSON, excluding the content-hash field, determines the SHA-256 address.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-03",
+    "mechanism": "Explicit dependency edge",
+    "contract": "Every composed definition names its dependencies by ID.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-04",
+    "mechanism": "Versioned namespace",
+    "contract": "IDs, schema versions and profile versions distinguish definitions and semantics.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-05",
+    "mechanism": "Definition-instance separation",
+    "contract": "An instance references a definition and carries literal parameters and state.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-06",
+    "mechanism": "Acyclic resolution rule",
+    "contract": "A finite dependency graph admits a deterministic topological order.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-07",
+    "mechanism": "Typed implicit-field sign",
+    "contract": "The inherited implicit-field record declares its signed membership convention.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-08",
+    "mechanism": "Exact-SDF capability flag",
+    "contract": "Exact signed-distance status is declared for the applicable field and metric.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-09",
+    "mechanism": "Parametric curve and sweep",
+    "contract": "A curve, parameter domain, regularity class and transport rule define a family.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-10",
+    "mechanism": "Pulse polygon embedding",
+    "contract": "A positive pulse count maps to a point, segment or regular polygon.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-11",
+    "mechanism": "Radix shell chart",
+    "contract": "Powers of the radix give digit thresholds and addresses for declared nested shells.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-12",
+    "mechanism": "Log-polar core chart",
+    "contract": "The chart carries logarithmic radius, angle and an explicit singular-core flag.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-13",
+    "mechanism": "Explicit quotient/gluing map",
+    "contract": "Ports carry coordinate, orientation and optional sheet transport.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-14",
+    "mechanism": "Sheet-aware co-location",
+    "contract": "Coordinates, sheet, phase, orientation, branch and coupling policy are separate state.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-15",
+    "mechanism": "Orientation transport",
+    "contract": "Orientation follows the declared maps and transitions.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-16",
+    "mechanism": "Port and branch routing",
+    "contract": "An admitted event chooses an output port from an explicit finite routing table.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-17",
+    "mechanism": "Split-merge lineage",
+    "contract": "A split names children; a merge records all parents and their addresses.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-18",
+    "mechanism": "Guarded topology change",
+    "contract": "A topology-class change is committed through its declared transition rule.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-19",
+    "mechanism": "Generic hinge tuple",
+    "contract": "A hinge contains pivot, state, selected map, guard and invariants.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-20",
+    "mechanism": "Continuous planar hinge",
+    "contract": "A pivoted rotation defines position and differentiated velocity.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-21",
+    "mechanism": "Discrete parity hinge",
+    "contract": "A Boolean state selects one of two maps or routes.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-22",
+    "mechanism": "Connector hinge",
+    "contract": "A graph connector carries incidence and its declared numerical contribution.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-23",
+    "mechanism": "Non-commutative hinge chain",
+    "contract": "The stored order of composition is part of the hinge definition.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-24",
+    "mechanism": "Invariant subspace contract",
+    "contract": "Fixed points, axes and preserved quantities are stated in the hinge contract.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-25",
+    "mechanism": "Bounded Dutch number profile",
+    "contract": "A versioned 0–99 lexicon records spelling, segments, morphemes and hinges.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-26",
+    "mechanism": "Syllable-pulse operator",
+    "contract": "Each segment in the declared profile emits one pulse.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-27",
+    "mechanism": "Teen suffix hinge",
+    "contract": "For 13–19, the unit root precedes the suffix tien in the spoken chart.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-28",
+    "mechanism": "En connector hinge",
+    "contract": "Non-multiple tens use the order unit, en, tens.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-29",
+    "mechanism": "Spoken-place permutation",
+    "contract": "An explicit map permutes semantic components and inserts the connector.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-30",
+    "mechanism": "Feature-count comparison",
+    "contract": "A Boolean test compares pronunciation-profile pulses and binary Hamming weight.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-31",
+    "mechanism": "Phase-ordered evaluator",
+    "contract": "The ten phases run from parse and normalization to transition and lineage.",
+    "source": "S1",
+    "physical_page": 18
+  },
+  {
+    "id": "K36-32",
+    "mechanism": "Support-compatibility-guard discipline",
+    "contract": "Support is evaluated before compatibility and relation-guard solving.",
+    "source": "S1",
+    "physical_page": 19
+  },
+  {
+    "id": "K36-33",
+    "mechanism": "Deterministic trace",
+    "contract": "Each executed step records definition ID, operator kind and typed output.",
+    "source": "S1",
+    "physical_page": 19
+  },
+  {
+    "id": "K36-34",
+    "mechanism": "Evidence disposition",
+    "contract": "The provenance record identifies the source or formal construction of each mechanism.",
+    "source": "S1",
+    "physical_page": 19
+  },
+  {
+    "id": "K36-35",
+    "mechanism": "Unknown-reference and cycle rejection",
+    "contract": "Loading checks unique IDs, resolved references, verified hashes and an acyclic graph.",
+    "source": "S1",
+    "physical_page": 19
+  },
+  {
+    "id": "K36-36",
+    "mechanism": "Package verification contract",
+    "contract": "Schemas, tests, source hashes, file digests and reproducible examples accompany the corpus.",
+    "source": "S1",
+    "physical_page": 19
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "origin": "explicit V2 synthetic example",
+  "events": [
+    {
+      "id": "experience:0",
+      "time": 0,
+      "centre": [
+        0
+      ],
+      "threshold": 1
+    },
+    {
+      "id": "experience:1",
+      "time": 1,
+      "centre": [
+        0.25
+      ],
+      "threshold": 1
+    },
+    {
+      "id": "experience:2",
+      "time": 2,
+      "centre": [
+        0.5
+      ],
+      "threshold": 1
+    }
+  ],
+  "continuity": {
+    "epsilon": 0.25,
+    "edge_distances": [
+      0.25,
+      0.25
+    ],
+    "continuous": true
+  }
+}

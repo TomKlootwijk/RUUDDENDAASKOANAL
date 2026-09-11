@@ -1,0 +1,137 @@
+[
+  {
+    "id": "C1",
+    "title": "Initialization and finite addressing",
+    "origin": "S2 proof family"
+  },
+  {
+    "id": "C2",
+    "title": "Finite generative closure",
+    "origin": "S2 proof family"
+  },
+  {
+    "id": "C3",
+    "title": "Shared edge law and nonnegative transport",
+    "origin": "S2 proof family"
+  },
+  {
+    "id": "C4",
+    "title": "Conservative local reaction",
+    "origin": "S2 proof family"
+  },
+  {
+    "id": "C5",
+    "title": "Activity, memory and intermediate bounds",
+    "origin": "S2 proof family"
+  },
+  {
+    "id": "C6",
+    "title": "One-bit codec and segment certificate",
+    "origin": "S2 proof family"
+  },
+  {
+    "id": "C7",
+    "title": "Hysteresis and event telescope",
+    "origin": "S2 proof family"
+  },
+  {
+    "id": "C8",
+    "title": "Exact packing and parity",
+    "origin": "S2 proof family"
+  },
+  {
+    "id": "C9",
+    "title": "Bounded phase and cooldown quotient",
+    "origin": "S2 proof family"
+  },
+  {
+    "id": "C10",
+    "title": "Boolean arithmetic refinement",
+    "origin": "S2 proof family"
+  },
+  {
+    "id": "C11",
+    "title": "Canonical state encoding and restart",
+    "origin": "S2 proof family"
+  },
+  {
+    "id": "C12",
+    "title": "Autonomous closure and eventual periodicity",
+    "origin": "S2 proof family"
+  },
+  {
+    "id": "C13",
+    "title": "Exact signed-distance state representation",
+    "origin": "S2 proof family"
+  },
+  {
+    "id": "C14",
+    "title": "Exact reduced-description criterion",
+    "origin": "S2 proof family"
+  },
+  {
+    "id": "C15",
+    "title": "Causal previous-output dependence",
+    "origin": "S2 proof family"
+  },
+  {
+    "id": "C16",
+    "title": "Staged backend refinement",
+    "origin": "S2 proof family"
+  },
+  {
+    "id": "UU1",
+    "title": "Minimum algebra",
+    "origin": "V2 derivation from declared definitions"
+  },
+  {
+    "id": "UU2",
+    "title": "Zero-set and tolerance-neighborhood union",
+    "origin": "V2 derivation from declared definitions"
+  },
+  {
+    "id": "UU3",
+    "title": "Exact unsigned boundary distance",
+    "origin": "V2 derivation from declared definitions"
+  },
+  {
+    "id": "UU4",
+    "title": "Tagged provenance preservation",
+    "origin": "V2 derivation from declared definitions"
+  },
+  {
+    "id": "UU5",
+    "title": "Chronotemporal segment recurrence",
+    "origin": "V2 derivation from declared definitions"
+  },
+  {
+    "id": "UU6",
+    "title": "Unsigned complete-state decoding",
+    "origin": "V2 derivation from declared definitions"
+  },
+  {
+    "id": "UU7",
+    "title": "Relational hinge equivalence",
+    "origin": "V2 derivation from declared definitions"
+  },
+  {
+    "id": "UU8",
+    "title": "Separated log-polar address lift",
+    "origin": "V2 derivation from declared definitions"
+  },
+  {
+    "id": "UU9",
+    "title": "Historical state envelope and Boolean OR",
+    "origin": "V2 derivation from declared definitions"
+  },
+  {
+    "id": "U4",
+    "title": "Unified operational closure",
+    "origin": "S2"
+  },
+  {
+    "id": "UF2",
+    "title": "UU ID referential and representational unification",
+    "origin": "V2 construction"
+  }
+]

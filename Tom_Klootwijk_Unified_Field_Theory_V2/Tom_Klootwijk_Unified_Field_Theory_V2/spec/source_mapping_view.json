@@ -1,0 +1,36 @@
+{
+  "source": "S3 physical page 16",
+  "role": "preserved source conceptual view",
+  "entries": [
+    {
+      "range": [
+        0,
+        48
+      ],
+      "label": "signed-field activation potential F_i; source associates H=49"
+    },
+    {
+      "range": [
+        49,
+        49
+      ],
+      "label": "occupancy status ell_i"
+    },
+    {
+      "range": [
+        50,
+        50
+      ],
+      "label": "chronotemporal latch state ell_i_prime"
+    },
+    {
+      "range": [
+        51,
+        117
+      ],
+      "label": "temporal recurrence trajectory coordinates and phase counters a,g,c"
+    }
+  ],
+  "executable_layout": "canonical_bit_layout.json",
+  "variant_record": "V06"
+}

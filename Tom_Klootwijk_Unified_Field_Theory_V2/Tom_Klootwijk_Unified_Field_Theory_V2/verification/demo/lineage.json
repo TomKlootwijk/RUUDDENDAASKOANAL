@@ -1,0 +1,61 @@
+[
+  {
+    "id": "root",
+    "sequence": 0,
+    "time": 0.0,
+    "parents": [],
+    "parent_hashes": [],
+    "payload": {
+      "origin": "synthetic example",
+      "label": "original structure"
+    },
+    "content_hash": "sha256:1462e3dbbd5b7e788782a19f5170cd43dbad50763451da35684c3d617d9fcead"
+  },
+  {
+    "id": "branch:A",
+    "sequence": 1,
+    "time": 1.0,
+    "parents": [
+      "root"
+    ],
+    "parent_hashes": [
+      "sha256:1462e3dbbd5b7e788782a19f5170cd43dbad50763451da35684c3d617d9fcead"
+    ],
+    "payload": {
+      "label": "material transition"
+    },
+    "content_hash": "sha256:7a9982d0eed22033ca5ecee1e8724bf52324f84f3609562fb81c95db47d2568f"
+  },
+  {
+    "id": "branch:B",
+    "sequence": 2,
+    "time": 1.0,
+    "parents": [
+      "root"
+    ],
+    "parent_hashes": [
+      "sha256:1462e3dbbd5b7e788782a19f5170cd43dbad50763451da35684c3d617d9fcead"
+    ],
+    "payload": {
+      "label": "knowledge transition"
+    },
+    "content_hash": "sha256:7e7c6678369085076e5c1615b2e43179fe8acdc4adbe1988e66788fba7cd01e0"
+  },
+  {
+    "id": "merge",
+    "sequence": 3,
+    "time": 2.0,
+    "parents": [
+      "branch:A",
+      "branch:B"
+    ],
+    "parent_hashes": [
+      "sha256:7a9982d0eed22033ca5ecee1e8724bf52324f84f3609562fb81c95db47d2568f",
+      "sha256:7e7c6678369085076e5c1615b2e43179fe8acdc4adbe1988e66788fba7cd01e0"
+    ],
+    "payload": {
+      "label": "Theseus identity record"
+    },
+    "content_hash": "sha256:be6477f994a59ab3d798833dca1b005fd282829d627eee0d4eb2e292bf395204"
+  }
+]

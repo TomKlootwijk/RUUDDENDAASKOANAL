@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:tkuft:definition:2",
+  "title": "V2 literal definition",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "kind",
+    "domain",
+    "codomain",
+    "evaluation_phase",
+    "dependencies",
+    "parameters",
+    "capabilities",
+    "invariants",
+    "provenance",
+    "content_hash"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kind": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "codomain": {
+      "type": "string"
+    },
+    "evaluation_phase": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 9
+    },
+    "dependencies": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "parameters": {
+      "type": "object"
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "invariants": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "origin",
+        "source",
+        "location"
+      ],
+      "properties": {
+        "origin": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        }
+      }
+    },
+    "content_hash": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    }
+  }
+}

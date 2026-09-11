@@ -1,0 +1,74 @@
+[
+  {
+    "id": "V01",
+    "source_location": "S3 pp.1–3,9",
+    "source_form": "UU ID uses raw metrics and thresholds; the absolute deltas are its inputs after normalization.",
+    "v2_formalization": "V2 normalizes each component once, then composes normalized horizons by pointwise minimum."
+  },
+  {
+    "id": "V02",
+    "source_location": "S3 p.3",
+    "source_form": "The geometric-behavior table has an incomplete third row.",
+    "v2_formalization": "Only its two complete logical predicates are transcribed; no missing equation is supplied."
+  },
+  {
+    "id": "V03",
+    "source_location": "S3 pp.4–6",
+    "source_form": "The main formula is a weighted time integral; the shader is a historical minimum and does not use the decay coefficient.",
+    "v2_formalization": "V2 retains both as distinct observables: absorbing integral and historical UU ID envelope."
+  },
+  {
+    "id": "V04",
+    "source_location": "S3 pp.10–12",
+    "source_form": "The prose assigns zero to the source; the JSON assigns zero to distance equal to the threshold.",
+    "v2_formalization": "V2 names separate source-centred and horizon-centred bit conventions; the executable horizon bit follows the JSON."
+  },
+  {
+    "id": "V05",
+    "source_location": "S3 pp.13,17–18; S2 p.13",
+    "source_form": "A local interval membership inequality is followed by a wrapper requiring an active-state selection.",
+    "v2_formalization": "V2 retains the active mask and permanent C13 anchor, then adds the explicit unsigned centre-query decoder."
+  },
+  {
+    "id": "V06",
+    "source_location": "S3 p.16; S2 pp.5,12,15",
+    "source_form": "S3 labels cell bits 0–48 as field potential, 49 as occupancy, 50 as latch, and 51–117 as trajectory and controls. S2 stores U,V,z,m,r,flags and puts controls outside cells.",
+    "v2_formalization": "The S3 mapping is preserved as a named conceptual view. The executable V2 word uses the fully specified S2 C11 layout; no lossless conversion from the S3 view is supplied by S3."
+  },
+  {
+    "id": "V07",
+    "source_location": "S3 pp.6,17–18",
+    "source_form": "The shaders initialize a minimum accumulator with 1e6.",
+    "v2_formalization": "The V2 mathematical empty-family value is positive infinity. JSON uses an explicit empty status and null value; complete-state fields are nonempty because of the anchor."
+  },
+  {
+    "id": "V08",
+    "source_location": "S3 pp.16–18; S2 p.13",
+    "source_form": "The shader loop is zero-based, while the C13 symbols are numbered from one.",
+    "v2_formalization": "V2 specifies global symbol j=k+1 for zero-based serialized position k, so the permanent anchor stays separate."
+  },
+  {
+    "id": "V09",
+    "source_location": "S3 pp.16–18",
+    "source_form": "The log-polar chart is given, but a complete invertible placement of all bit layers is not.",
+    "v2_formalization": "V2 adds a labelled layer coordinate, a separate control axis and a proved separation radius for a new 3D horizon family."
+  },
+  {
+    "id": "V10",
+    "source_location": "S3 pp.9–10,14; S2 pp.12–13",
+    "source_form": "The source joins an expanding experiential history to a finite eventually periodic engine.",
+    "v2_formalization": "V2 distinguishes current operative state, finite historical UU ID projection and append-only labelled lineage."
+  },
+  {
+    "id": "V11",
+    "source_location": "S3 pp.10–15",
+    "source_form": "The source describes the 1-bit God, monotheistic union and space-as-data as its ontological interpretation.",
+    "v2_formalization": "V2 retains these as named authorial postulates. Mathematical theorem statements separately identify their domains and hypotheses."
+  },
+  {
+    "id": "V12",
+    "source_location": "S3 pp.3,9,11",
+    "source_form": "The source describes an unbroken union and independent boundary identities.",
+    "v2_formalization": "The scalar UU ID retains the union of component horizons. Labels are retained by the tagged record; geometric connectedness has an explicit overlap condition, while lineage continuity has a parent-path condition."
+  }
+]

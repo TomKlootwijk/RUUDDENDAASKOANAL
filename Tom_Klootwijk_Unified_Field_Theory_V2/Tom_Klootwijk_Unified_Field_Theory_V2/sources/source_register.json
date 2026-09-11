@@ -1,0 +1,32 @@
+[
+  {
+    "id": "S1",
+    "filename": "UGTS_KC_3_6_Tom_Klootwijk.pdf",
+    "title": "Unified Geometric–Topological Substrate, UGTS-KC 3.6",
+    "version": "3.6.0",
+    "date": "2026-08-17",
+    "physical_pages": 19,
+    "sha256": "e21433cd8378368dafe4ae278d3c9c364725e45ae7fd75b743328bd2d6003a46",
+    "role": "Literal registry, geometry, topology, hinges, Dutch profiles and evaluation phases"
+  },
+  {
+    "id": "S2",
+    "filename": "Tom_Klootwijk_Gambit_Closed_Engine_4.0.pdf",
+    "title": "Tom Klootwijk Gambit: Unified One-Bit Self-Referential Engine",
+    "version": "Formal Closure 4.0",
+    "date": "2026-09-11",
+    "physical_pages": 20,
+    "sha256": "8939f4738fed8bb8401e193ff327336af9de63e8b5b73be09c306c1212569f0f",
+    "role": "Seed, transition, complete bit layout, U4 and proofs C1–C16"
+  },
+  {
+    "id": "S3",
+    "filename": "devoid the dark SDF definition where.pdf",
+    "title": "devoid the dark SDF definition where",
+    "version": "supplied 18-page dialogue",
+    "date": null,
+    "physical_pages": 18,
+    "sha256": "9f923f16491973a266b87d70345a6dbac8c47923b177d9a5d19cf068a04caed3",
+    "role": "Primary V2 source: open notation, UU ID, Theseus identity, Genesis horizon and mapping wrapper"
+  }
+]

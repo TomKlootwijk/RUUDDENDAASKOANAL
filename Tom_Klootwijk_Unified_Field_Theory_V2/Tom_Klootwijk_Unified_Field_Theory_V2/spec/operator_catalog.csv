@@ -1,0 +1,37 @@
+id,mechanism,contract,source,physical_page
+K36-01,Literal definition node,Typed definition record containing operator or object semantics.,S1,18
+K36-02,Content-addressed definition,"Canonical JSON, excluding the content-hash field, determines the SHA-256 address.",S1,18
+K36-03,Explicit dependency edge,Every composed definition names its dependencies by ID.,S1,18
+K36-04,Versioned namespace,"IDs, schema versions and profile versions distinguish definitions and semantics.",S1,18
+K36-05,Definition-instance separation,An instance references a definition and carries literal parameters and state.,S1,18
+K36-06,Acyclic resolution rule,A finite dependency graph admits a deterministic topological order.,S1,18
+K36-07,Typed implicit-field sign,The inherited implicit-field record declares its signed membership convention.,S1,18
+K36-08,Exact-SDF capability flag,Exact signed-distance status is declared for the applicable field and metric.,S1,18
+K36-09,Parametric curve and sweep,"A curve, parameter domain, regularity class and transport rule define a family.",S1,18
+K36-10,Pulse polygon embedding,"A positive pulse count maps to a point, segment or regular polygon.",S1,18
+K36-11,Radix shell chart,Powers of the radix give digit thresholds and addresses for declared nested shells.,S1,18
+K36-12,Log-polar core chart,"The chart carries logarithmic radius, angle and an explicit singular-core flag.",S1,18
+K36-13,Explicit quotient/gluing map,"Ports carry coordinate, orientation and optional sheet transport.",S1,18
+K36-14,Sheet-aware co-location,"Coordinates, sheet, phase, orientation, branch and coupling policy are separate state.",S1,18
+K36-15,Orientation transport,Orientation follows the declared maps and transitions.,S1,18
+K36-16,Port and branch routing,An admitted event chooses an output port from an explicit finite routing table.,S1,18
+K36-17,Split-merge lineage,A split names children; a merge records all parents and their addresses.,S1,18
+K36-18,Guarded topology change,A topology-class change is committed through its declared transition rule.,S1,18
+K36-19,Generic hinge tuple,"A hinge contains pivot, state, selected map, guard and invariants.",S1,18
+K36-20,Continuous planar hinge,A pivoted rotation defines position and differentiated velocity.,S1,18
+K36-21,Discrete parity hinge,A Boolean state selects one of two maps or routes.,S1,18
+K36-22,Connector hinge,A graph connector carries incidence and its declared numerical contribution.,S1,18
+K36-23,Non-commutative hinge chain,The stored order of composition is part of the hinge definition.,S1,18
+K36-24,Invariant subspace contract,"Fixed points, axes and preserved quantities are stated in the hinge contract.",S1,18
+K36-25,Bounded Dutch number profile,"A versioned 0–99 lexicon records spelling, segments, morphemes and hinges.",S1,18
+K36-26,Syllable-pulse operator,Each segment in the declared profile emits one pulse.,S1,18
+K36-27,Teen suffix hinge,"For 13–19, the unit root precedes the suffix tien in the spoken chart.",S1,18
+K36-28,En connector hinge,"Non-multiple tens use the order unit, en, tens.",S1,18
+K36-29,Spoken-place permutation,An explicit map permutes semantic components and inserts the connector.,S1,18
+K36-30,Feature-count comparison,A Boolean test compares pronunciation-profile pulses and binary Hamming weight.,S1,18
+K36-31,Phase-ordered evaluator,The ten phases run from parse and normalization to transition and lineage.,S1,18
+K36-32,Support-compatibility-guard discipline,Support is evaluated before compatibility and relation-guard solving.,S1,19
+K36-33,Deterministic trace,"Each executed step records definition ID, operator kind and typed output.",S1,19
+K36-34,Evidence disposition,The provenance record identifies the source or formal construction of each mechanism.,S1,19
+K36-35,Unknown-reference and cycle rejection,"Loading checks unique IDs, resolved references, verified hashes and an acyclic graph.",S1,19
+K36-36,Package verification contract,"Schemas, tests, source hashes, file digests and reproducible examples accompany the corpus.",S1,19

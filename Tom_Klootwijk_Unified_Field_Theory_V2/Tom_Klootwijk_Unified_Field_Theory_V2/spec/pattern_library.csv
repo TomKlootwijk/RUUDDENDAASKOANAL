@@ -1,0 +1,21 @@
+id,pattern,pipeline,source,physical_page
+P36-01,Radix threshold ladder,integer → radix thresholds → shell indices,S1,13
+P36-02,Active-bit pulse simplex,integer → active positions → pulse vertices,S1,13
+P36-03,Pascal parity mask,"(n,k) → binomial coefficient modulo two",S1,13
+P36-04,Dutch teen suffix hinge,13–19 → unit-root and tien,S1,13
+P36-05,Dutch en-order hinge,"non-multiple tens → unit, en, tens",S1,13
+P36-06,Cut-open boundary graph,closed edge → explicit pair of cut ports,S1,13
+P36-07,Loop-to-leg morph,closed arc → interpolated segment and topology record,S1,13
+P36-08,Split-oval antisymmetry,one loop → two oppositely displaced branches,S1,13
+P36-09,Overlap-lens domain,two regions → explicitly typed overlap domain,S1,13
+P36-10,SDF-zero event,field along trajectory → root → transition,S1,13
+P36-11,Cone support gate,"position, axis, radius and angle → local support",S1,13
+P36-12,Nested-shell relevance,radius → local shell interval,S1,13
+P36-13,Mobius orientation wrap,boundary crossing → coordinate wrap and orientation reversal,S1,14
+P36-14,Klein sheet wrap,"boundary crossing → wrap, orientation and sheet update",S1,14
+P36-15,Hourglass route table,"guard, sector and parity → branch",S1,14
+P36-16,Log-polar bitmask,"point → core flag, log radius, angle and admission bit",S1,14
+P36-17,Golden-angle schedule,sample index → declared angular sequence,S1,14
+P36-18,Bounded grammar recursion,seed and productions → finite budgeted expansion,S1,14
+P36-19,Event-latched field morph,continuous blend and discrete topology state → guarded commit,S1,14
+P36-20,Content-addressed definition graph,literal records → hashes → dependency DAG,S1,14

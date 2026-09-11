@@ -1,0 +1,142 @@
+[
+  {
+    "id": "P36-01",
+    "pattern": "Radix threshold ladder",
+    "pipeline": "integer → radix thresholds → shell indices",
+    "source": "S1",
+    "physical_page": 13
+  },
+  {
+    "id": "P36-02",
+    "pattern": "Active-bit pulse simplex",
+    "pipeline": "integer → active positions → pulse vertices",
+    "source": "S1",
+    "physical_page": 13
+  },
+  {
+    "id": "P36-03",
+    "pattern": "Pascal parity mask",
+    "pipeline": "(n,k) → binomial coefficient modulo two",
+    "source": "S1",
+    "physical_page": 13
+  },
+  {
+    "id": "P36-04",
+    "pattern": "Dutch teen suffix hinge",
+    "pipeline": "13–19 → unit-root and tien",
+    "source": "S1",
+    "physical_page": 13
+  },
+  {
+    "id": "P36-05",
+    "pattern": "Dutch en-order hinge",
+    "pipeline": "non-multiple tens → unit, en, tens",
+    "source": "S1",
+    "physical_page": 13
+  },
+  {
+    "id": "P36-06",
+    "pattern": "Cut-open boundary graph",
+    "pipeline": "closed edge → explicit pair of cut ports",
+    "source": "S1",
+    "physical_page": 13
+  },
+  {
+    "id": "P36-07",
+    "pattern": "Loop-to-leg morph",
+    "pipeline": "closed arc → interpolated segment and topology record",
+    "source": "S1",
+    "physical_page": 13
+  },
+  {
+    "id": "P36-08",
+    "pattern": "Split-oval antisymmetry",
+    "pipeline": "one loop → two oppositely displaced branches",
+    "source": "S1",
+    "physical_page": 13
+  },
+  {
+    "id": "P36-09",
+    "pattern": "Overlap-lens domain",
+    "pipeline": "two regions → explicitly typed overlap domain",
+    "source": "S1",
+    "physical_page": 13
+  },
+  {
+    "id": "P36-10",
+    "pattern": "SDF-zero event",
+    "pipeline": "field along trajectory → root → transition",
+    "source": "S1",
+    "physical_page": 13
+  },
+  {
+    "id": "P36-11",
+    "pattern": "Cone support gate",
+    "pipeline": "position, axis, radius and angle → local support",
+    "source": "S1",
+    "physical_page": 13
+  },
+  {
+    "id": "P36-12",
+    "pattern": "Nested-shell relevance",
+    "pipeline": "radius → local shell interval",
+    "source": "S1",
+    "physical_page": 13
+  },
+  {
+    "id": "P36-13",
+    "pattern": "Mobius orientation wrap",
+    "pipeline": "boundary crossing → coordinate wrap and orientation reversal",
+    "source": "S1",
+    "physical_page": 14
+  },
+  {
+    "id": "P36-14",
+    "pattern": "Klein sheet wrap",
+    "pipeline": "boundary crossing → wrap, orientation and sheet update",
+    "source": "S1",
+    "physical_page": 14
+  },
+  {
+    "id": "P36-15",
+    "pattern": "Hourglass route table",
+    "pipeline": "guard, sector and parity → branch",
+    "source": "S1",
+    "physical_page": 14
+  },
+  {
+    "id": "P36-16",
+    "pattern": "Log-polar bitmask",
+    "pipeline": "point → core flag, log radius, angle and admission bit",
+    "source": "S1",
+    "physical_page": 14
+  },
+  {
+    "id": "P36-17",
+    "pattern": "Golden-angle schedule",
+    "pipeline": "sample index → declared angular sequence",
+    "source": "S1",
+    "physical_page": 14
+  },
+  {
+    "id": "P36-18",
+    "pattern": "Bounded grammar recursion",
+    "pipeline": "seed and productions → finite budgeted expansion",
+    "source": "S1",
+    "physical_page": 14
+  },
+  {
+    "id": "P36-19",
+    "pattern": "Event-latched field morph",
+    "pipeline": "continuous blend and discrete topology state → guarded commit",
+    "source": "S1",
+    "physical_page": 14
+  },
+  {
+    "id": "P36-20",
+    "pattern": "Content-addressed definition graph",
+    "pipeline": "literal records → hashes → dependency DAG",
+    "source": "S1",
+    "physical_page": 14
+  }
+]

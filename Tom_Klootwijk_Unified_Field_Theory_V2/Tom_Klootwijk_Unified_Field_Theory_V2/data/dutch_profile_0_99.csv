@@ -1,0 +1,101 @@
+profile_id,value,orthography,segments,morphemes,place_order,spoken_order,hinge_kind,pulse_count,binary,active_bit_positions,popcount,count_match
+nl-TKUFT-0-99-v2,0,nul,"[""nul""]","[""nul""]",[0],[0],atomic,1,0,[],0,False
+nl-TKUFT-0-99-v2,1,een,"[""een""]","[""een""]",[1],[1],atomic,1,1,[0],1,True
+nl-TKUFT-0-99-v2,2,twee,"[""twee""]","[""twee""]",[2],[2],atomic,1,10,[1],1,True
+nl-TKUFT-0-99-v2,3,drie,"[""drie""]","[""drie""]",[3],[3],atomic,1,11,"[0, 1]",2,False
+nl-TKUFT-0-99-v2,4,vier,"[""vier""]","[""vier""]",[4],[4],atomic,1,100,[2],1,True
+nl-TKUFT-0-99-v2,5,vijf,"[""vijf""]","[""vijf""]",[5],[5],atomic,1,101,"[0, 2]",2,False
+nl-TKUFT-0-99-v2,6,zes,"[""zes""]","[""zes""]",[6],[6],atomic,1,110,"[1, 2]",2,False
+nl-TKUFT-0-99-v2,7,zeven,"[""ze"", ""ven""]","[""zeven""]",[7],[7],atomic,2,111,"[0, 1, 2]",3,False
+nl-TKUFT-0-99-v2,8,acht,"[""acht""]","[""acht""]",[8],[8],atomic,1,1000,[3],1,True
+nl-TKUFT-0-99-v2,9,negen,"[""ne"", ""gen""]","[""negen""]",[9],[9],atomic,2,1001,"[0, 3]",2,True
+nl-TKUFT-0-99-v2,10,tien,"[""tien""]","[""tien""]",[10],[10],atomic,1,1010,"[1, 3]",2,False
+nl-TKUFT-0-99-v2,11,elf,"[""elf""]","[""elf""]",[11],[11],irregular,1,1011,"[0, 1, 3]",3,False
+nl-TKUFT-0-99-v2,12,twaalf,"[""twaalf""]","[""twaalf""]",[12],[12],irregular,1,1100,"[2, 3]",2,False
+nl-TKUFT-0-99-v2,13,dertien,"[""der"", ""tien""]","[""der"", ""tien""]","[10, 3]","[3, ""tien""]",teen_suffix,2,1101,"[0, 2, 3]",3,False
+nl-TKUFT-0-99-v2,14,veertien,"[""veer"", ""tien""]","[""veer"", ""tien""]","[10, 4]","[4, ""tien""]",teen_suffix,2,1110,"[1, 2, 3]",3,False
+nl-TKUFT-0-99-v2,15,vijftien,"[""vijf"", ""tien""]","[""vijf"", ""tien""]","[10, 5]","[5, ""tien""]",teen_suffix,2,1111,"[0, 1, 2, 3]",4,False
+nl-TKUFT-0-99-v2,16,zestien,"[""zes"", ""tien""]","[""zes"", ""tien""]","[10, 6]","[6, ""tien""]",teen_suffix,2,10000,[4],1,False
+nl-TKUFT-0-99-v2,17,zeventien,"[""ze"", ""ven"", ""tien""]","[""zeven"", ""tien""]","[10, 7]","[7, ""tien""]",teen_suffix,3,10001,"[0, 4]",2,False
+nl-TKUFT-0-99-v2,18,achttien,"[""acht"", ""tien""]","[""acht"", ""tien""]","[10, 8]","[8, ""tien""]",teen_suffix,2,10010,"[1, 4]",2,True
+nl-TKUFT-0-99-v2,19,negentien,"[""ne"", ""gen"", ""tien""]","[""negen"", ""tien""]","[10, 9]","[9, ""tien""]",teen_suffix,3,10011,"[0, 1, 4]",3,True
+nl-TKUFT-0-99-v2,20,twintig,"[""twin"", ""tig""]","[""twintig""]",[20],[20],atomic,2,10100,"[2, 4]",2,True
+nl-TKUFT-0-99-v2,21,eenentwintig,"[""een"", ""en"", ""twin"", ""tig""]","[""een"", ""en"", ""twintig""]","[20, 1]","[1, ""en"", 20]",en_connector,4,10101,"[0, 2, 4]",3,False
+nl-TKUFT-0-99-v2,22,tweeëntwintig,"[""twee"", ""en"", ""twin"", ""tig""]","[""twee"", ""en"", ""twintig""]","[20, 2]","[2, ""en"", 20]",en_connector,4,10110,"[1, 2, 4]",3,False
+nl-TKUFT-0-99-v2,23,drieëntwintig,"[""drie"", ""en"", ""twin"", ""tig""]","[""drie"", ""en"", ""twintig""]","[20, 3]","[3, ""en"", 20]",en_connector,4,10111,"[0, 1, 2, 4]",4,True
+nl-TKUFT-0-99-v2,24,vierentwintig,"[""vier"", ""en"", ""twin"", ""tig""]","[""vier"", ""en"", ""twintig""]","[20, 4]","[4, ""en"", 20]",en_connector,4,11000,"[3, 4]",2,False
+nl-TKUFT-0-99-v2,25,vijfentwintig,"[""vijf"", ""en"", ""twin"", ""tig""]","[""vijf"", ""en"", ""twintig""]","[20, 5]","[5, ""en"", 20]",en_connector,4,11001,"[0, 3, 4]",3,False
+nl-TKUFT-0-99-v2,26,zesentwintig,"[""zes"", ""en"", ""twin"", ""tig""]","[""zes"", ""en"", ""twintig""]","[20, 6]","[6, ""en"", 20]",en_connector,4,11010,"[1, 3, 4]",3,False
+nl-TKUFT-0-99-v2,27,zevenentwintig,"[""ze"", ""ven"", ""en"", ""twin"", ""tig""]","[""zeven"", ""en"", ""twintig""]","[20, 7]","[7, ""en"", 20]",en_connector,5,11011,"[0, 1, 3, 4]",4,False
+nl-TKUFT-0-99-v2,28,achtentwintig,"[""acht"", ""en"", ""twin"", ""tig""]","[""acht"", ""en"", ""twintig""]","[20, 8]","[8, ""en"", 20]",en_connector,4,11100,"[2, 3, 4]",3,False
+nl-TKUFT-0-99-v2,29,negenentwintig,"[""ne"", ""gen"", ""en"", ""twin"", ""tig""]","[""negen"", ""en"", ""twintig""]","[20, 9]","[9, ""en"", 20]",en_connector,5,11101,"[0, 2, 3, 4]",4,False
+nl-TKUFT-0-99-v2,30,dertig,"[""der"", ""tig""]","[""dertig""]",[30],[30],atomic,2,11110,"[1, 2, 3, 4]",4,False
+nl-TKUFT-0-99-v2,31,eenendertig,"[""een"", ""en"", ""der"", ""tig""]","[""een"", ""en"", ""dertig""]","[30, 1]","[1, ""en"", 30]",en_connector,4,11111,"[0, 1, 2, 3, 4]",5,False
+nl-TKUFT-0-99-v2,32,tweeëndertig,"[""twee"", ""en"", ""der"", ""tig""]","[""twee"", ""en"", ""dertig""]","[30, 2]","[2, ""en"", 30]",en_connector,4,100000,[5],1,False
+nl-TKUFT-0-99-v2,33,drieëndertig,"[""drie"", ""en"", ""der"", ""tig""]","[""drie"", ""en"", ""dertig""]","[30, 3]","[3, ""en"", 30]",en_connector,4,100001,"[0, 5]",2,False
+nl-TKUFT-0-99-v2,34,vierendertig,"[""vier"", ""en"", ""der"", ""tig""]","[""vier"", ""en"", ""dertig""]","[30, 4]","[4, ""en"", 30]",en_connector,4,100010,"[1, 5]",2,False
+nl-TKUFT-0-99-v2,35,vijfendertig,"[""vijf"", ""en"", ""der"", ""tig""]","[""vijf"", ""en"", ""dertig""]","[30, 5]","[5, ""en"", 30]",en_connector,4,100011,"[0, 1, 5]",3,False
+nl-TKUFT-0-99-v2,36,zesendertig,"[""zes"", ""en"", ""der"", ""tig""]","[""zes"", ""en"", ""dertig""]","[30, 6]","[6, ""en"", 30]",en_connector,4,100100,"[2, 5]",2,False
+nl-TKUFT-0-99-v2,37,zevenendertig,"[""ze"", ""ven"", ""en"", ""der"", ""tig""]","[""zeven"", ""en"", ""dertig""]","[30, 7]","[7, ""en"", 30]",en_connector,5,100101,"[0, 2, 5]",3,False
+nl-TKUFT-0-99-v2,38,achtendertig,"[""acht"", ""en"", ""der"", ""tig""]","[""acht"", ""en"", ""dertig""]","[30, 8]","[8, ""en"", 30]",en_connector,4,100110,"[1, 2, 5]",3,False
+nl-TKUFT-0-99-v2,39,negenendertig,"[""ne"", ""gen"", ""en"", ""der"", ""tig""]","[""negen"", ""en"", ""dertig""]","[30, 9]","[9, ""en"", 30]",en_connector,5,100111,"[0, 1, 2, 5]",4,False
+nl-TKUFT-0-99-v2,40,veertig,"[""veer"", ""tig""]","[""veertig""]",[40],[40],atomic,2,101000,"[3, 5]",2,True
+nl-TKUFT-0-99-v2,41,eenenveertig,"[""een"", ""en"", ""veer"", ""tig""]","[""een"", ""en"", ""veertig""]","[40, 1]","[1, ""en"", 40]",en_connector,4,101001,"[0, 3, 5]",3,False
+nl-TKUFT-0-99-v2,42,tweeënveertig,"[""twee"", ""en"", ""veer"", ""tig""]","[""twee"", ""en"", ""veertig""]","[40, 2]","[2, ""en"", 40]",en_connector,4,101010,"[1, 3, 5]",3,False
+nl-TKUFT-0-99-v2,43,drieënveertig,"[""drie"", ""en"", ""veer"", ""tig""]","[""drie"", ""en"", ""veertig""]","[40, 3]","[3, ""en"", 40]",en_connector,4,101011,"[0, 1, 3, 5]",4,True
+nl-TKUFT-0-99-v2,44,vierenveertig,"[""vier"", ""en"", ""veer"", ""tig""]","[""vier"", ""en"", ""veertig""]","[40, 4]","[4, ""en"", 40]",en_connector,4,101100,"[2, 3, 5]",3,False
+nl-TKUFT-0-99-v2,45,vijfenveertig,"[""vijf"", ""en"", ""veer"", ""tig""]","[""vijf"", ""en"", ""veertig""]","[40, 5]","[5, ""en"", 40]",en_connector,4,101101,"[0, 2, 3, 5]",4,True
+nl-TKUFT-0-99-v2,46,zesenveertig,"[""zes"", ""en"", ""veer"", ""tig""]","[""zes"", ""en"", ""veertig""]","[40, 6]","[6, ""en"", 40]",en_connector,4,101110,"[1, 2, 3, 5]",4,True
+nl-TKUFT-0-99-v2,47,zevenenveertig,"[""ze"", ""ven"", ""en"", ""veer"", ""tig""]","[""zeven"", ""en"", ""veertig""]","[40, 7]","[7, ""en"", 40]",en_connector,5,101111,"[0, 1, 2, 3, 5]",5,True
+nl-TKUFT-0-99-v2,48,achtenveertig,"[""acht"", ""en"", ""veer"", ""tig""]","[""acht"", ""en"", ""veertig""]","[40, 8]","[8, ""en"", 40]",en_connector,4,110000,"[4, 5]",2,False
+nl-TKUFT-0-99-v2,49,negenenveertig,"[""ne"", ""gen"", ""en"", ""veer"", ""tig""]","[""negen"", ""en"", ""veertig""]","[40, 9]","[9, ""en"", 40]",en_connector,5,110001,"[0, 4, 5]",3,False
+nl-TKUFT-0-99-v2,50,vijftig,"[""vijf"", ""tig""]","[""vijftig""]",[50],[50],atomic,2,110010,"[1, 4, 5]",3,False
+nl-TKUFT-0-99-v2,51,eenenvijftig,"[""een"", ""en"", ""vijf"", ""tig""]","[""een"", ""en"", ""vijftig""]","[50, 1]","[1, ""en"", 50]",en_connector,4,110011,"[0, 1, 4, 5]",4,True
+nl-TKUFT-0-99-v2,52,tweeënvijftig,"[""twee"", ""en"", ""vijf"", ""tig""]","[""twee"", ""en"", ""vijftig""]","[50, 2]","[2, ""en"", 50]",en_connector,4,110100,"[2, 4, 5]",3,False
+nl-TKUFT-0-99-v2,53,drieënvijftig,"[""drie"", ""en"", ""vijf"", ""tig""]","[""drie"", ""en"", ""vijftig""]","[50, 3]","[3, ""en"", 50]",en_connector,4,110101,"[0, 2, 4, 5]",4,True
+nl-TKUFT-0-99-v2,54,vierenvijftig,"[""vier"", ""en"", ""vijf"", ""tig""]","[""vier"", ""en"", ""vijftig""]","[50, 4]","[4, ""en"", 50]",en_connector,4,110110,"[1, 2, 4, 5]",4,True
+nl-TKUFT-0-99-v2,55,vijfenvijftig,"[""vijf"", ""en"", ""vijf"", ""tig""]","[""vijf"", ""en"", ""vijftig""]","[50, 5]","[5, ""en"", 50]",en_connector,4,110111,"[0, 1, 2, 4, 5]",5,False
+nl-TKUFT-0-99-v2,56,zesenvijftig,"[""zes"", ""en"", ""vijf"", ""tig""]","[""zes"", ""en"", ""vijftig""]","[50, 6]","[6, ""en"", 50]",en_connector,4,111000,"[3, 4, 5]",3,False
+nl-TKUFT-0-99-v2,57,zevenenvijftig,"[""ze"", ""ven"", ""en"", ""vijf"", ""tig""]","[""zeven"", ""en"", ""vijftig""]","[50, 7]","[7, ""en"", 50]",en_connector,5,111001,"[0, 3, 4, 5]",4,False
+nl-TKUFT-0-99-v2,58,achtenvijftig,"[""acht"", ""en"", ""vijf"", ""tig""]","[""acht"", ""en"", ""vijftig""]","[50, 8]","[8, ""en"", 50]",en_connector,4,111010,"[1, 3, 4, 5]",4,True
+nl-TKUFT-0-99-v2,59,negenenvijftig,"[""ne"", ""gen"", ""en"", ""vijf"", ""tig""]","[""negen"", ""en"", ""vijftig""]","[50, 9]","[9, ""en"", 50]",en_connector,5,111011,"[0, 1, 3, 4, 5]",5,True
+nl-TKUFT-0-99-v2,60,zestig,"[""zes"", ""tig""]","[""zestig""]",[60],[60],atomic,2,111100,"[2, 3, 4, 5]",4,False
+nl-TKUFT-0-99-v2,61,eenenzestig,"[""een"", ""en"", ""zes"", ""tig""]","[""een"", ""en"", ""zestig""]","[60, 1]","[1, ""en"", 60]",en_connector,4,111101,"[0, 2, 3, 4, 5]",5,False
+nl-TKUFT-0-99-v2,62,tweeënzestig,"[""twee"", ""en"", ""zes"", ""tig""]","[""twee"", ""en"", ""zestig""]","[60, 2]","[2, ""en"", 60]",en_connector,4,111110,"[1, 2, 3, 4, 5]",5,False
+nl-TKUFT-0-99-v2,63,drieënzestig,"[""drie"", ""en"", ""zes"", ""tig""]","[""drie"", ""en"", ""zestig""]","[60, 3]","[3, ""en"", 60]",en_connector,4,111111,"[0, 1, 2, 3, 4, 5]",6,False
+nl-TKUFT-0-99-v2,64,vierenzestig,"[""vier"", ""en"", ""zes"", ""tig""]","[""vier"", ""en"", ""zestig""]","[60, 4]","[4, ""en"", 60]",en_connector,4,1000000,[6],1,False
+nl-TKUFT-0-99-v2,65,vijfenzestig,"[""vijf"", ""en"", ""zes"", ""tig""]","[""vijf"", ""en"", ""zestig""]","[60, 5]","[5, ""en"", 60]",en_connector,4,1000001,"[0, 6]",2,False
+nl-TKUFT-0-99-v2,66,zesenzestig,"[""zes"", ""en"", ""zes"", ""tig""]","[""zes"", ""en"", ""zestig""]","[60, 6]","[6, ""en"", 60]",en_connector,4,1000010,"[1, 6]",2,False
+nl-TKUFT-0-99-v2,67,zevenenzestig,"[""ze"", ""ven"", ""en"", ""zes"", ""tig""]","[""zeven"", ""en"", ""zestig""]","[60, 7]","[7, ""en"", 60]",en_connector,5,1000011,"[0, 1, 6]",3,False
+nl-TKUFT-0-99-v2,68,achtenzestig,"[""acht"", ""en"", ""zes"", ""tig""]","[""acht"", ""en"", ""zestig""]","[60, 8]","[8, ""en"", 60]",en_connector,4,1000100,"[2, 6]",2,False
+nl-TKUFT-0-99-v2,69,negenenzestig,"[""ne"", ""gen"", ""en"", ""zes"", ""tig""]","[""negen"", ""en"", ""zestig""]","[60, 9]","[9, ""en"", 60]",en_connector,5,1000101,"[0, 2, 6]",3,False
+nl-TKUFT-0-99-v2,70,zeventig,"[""ze"", ""ven"", ""tig""]","[""zeventig""]",[70],[70],atomic,3,1000110,"[1, 2, 6]",3,True
+nl-TKUFT-0-99-v2,71,eenenzeventig,"[""een"", ""en"", ""ze"", ""ven"", ""tig""]","[""een"", ""en"", ""zeventig""]","[70, 1]","[1, ""en"", 70]",en_connector,5,1000111,"[0, 1, 2, 6]",4,False
+nl-TKUFT-0-99-v2,72,tweeënzeventig,"[""twee"", ""en"", ""ze"", ""ven"", ""tig""]","[""twee"", ""en"", ""zeventig""]","[70, 2]","[2, ""en"", 70]",en_connector,5,1001000,"[3, 6]",2,False
+nl-TKUFT-0-99-v2,73,drieënzeventig,"[""drie"", ""en"", ""ze"", ""ven"", ""tig""]","[""drie"", ""en"", ""zeventig""]","[70, 3]","[3, ""en"", 70]",en_connector,5,1001001,"[0, 3, 6]",3,False
+nl-TKUFT-0-99-v2,74,vierenzeventig,"[""vier"", ""en"", ""ze"", ""ven"", ""tig""]","[""vier"", ""en"", ""zeventig""]","[70, 4]","[4, ""en"", 70]",en_connector,5,1001010,"[1, 3, 6]",3,False
+nl-TKUFT-0-99-v2,75,vijfenzeventig,"[""vijf"", ""en"", ""ze"", ""ven"", ""tig""]","[""vijf"", ""en"", ""zeventig""]","[70, 5]","[5, ""en"", 70]",en_connector,5,1001011,"[0, 1, 3, 6]",4,False
+nl-TKUFT-0-99-v2,76,zesenzeventig,"[""zes"", ""en"", ""ze"", ""ven"", ""tig""]","[""zes"", ""en"", ""zeventig""]","[70, 6]","[6, ""en"", 70]",en_connector,5,1001100,"[2, 3, 6]",3,False
+nl-TKUFT-0-99-v2,77,zevenenzeventig,"[""ze"", ""ven"", ""en"", ""ze"", ""ven"", ""tig""]","[""zeven"", ""en"", ""zeventig""]","[70, 7]","[7, ""en"", 70]",en_connector,6,1001101,"[0, 2, 3, 6]",4,False
+nl-TKUFT-0-99-v2,78,achtenzeventig,"[""acht"", ""en"", ""ze"", ""ven"", ""tig""]","[""acht"", ""en"", ""zeventig""]","[70, 8]","[8, ""en"", 70]",en_connector,5,1001110,"[1, 2, 3, 6]",4,False
+nl-TKUFT-0-99-v2,79,negenenzeventig,"[""ne"", ""gen"", ""en"", ""ze"", ""ven"", ""tig""]","[""negen"", ""en"", ""zeventig""]","[70, 9]","[9, ""en"", 70]",en_connector,6,1001111,"[0, 1, 2, 3, 6]",5,False
+nl-TKUFT-0-99-v2,80,tachtig,"[""tach"", ""tig""]","[""tachtig""]",[80],[80],atomic,2,1010000,"[4, 6]",2,True
+nl-TKUFT-0-99-v2,81,eenentachtig,"[""een"", ""en"", ""tach"", ""tig""]","[""een"", ""en"", ""tachtig""]","[80, 1]","[1, ""en"", 80]",en_connector,4,1010001,"[0, 4, 6]",3,False
+nl-TKUFT-0-99-v2,82,tweeëntachtig,"[""twee"", ""en"", ""tach"", ""tig""]","[""twee"", ""en"", ""tachtig""]","[80, 2]","[2, ""en"", 80]",en_connector,4,1010010,"[1, 4, 6]",3,False
+nl-TKUFT-0-99-v2,83,drieëntachtig,"[""drie"", ""en"", ""tach"", ""tig""]","[""drie"", ""en"", ""tachtig""]","[80, 3]","[3, ""en"", 80]",en_connector,4,1010011,"[0, 1, 4, 6]",4,True
+nl-TKUFT-0-99-v2,84,vierentachtig,"[""vier"", ""en"", ""tach"", ""tig""]","[""vier"", ""en"", ""tachtig""]","[80, 4]","[4, ""en"", 80]",en_connector,4,1010100,"[2, 4, 6]",3,False
+nl-TKUFT-0-99-v2,85,vijfentachtig,"[""vijf"", ""en"", ""tach"", ""tig""]","[""vijf"", ""en"", ""tachtig""]","[80, 5]","[5, ""en"", 80]",en_connector,4,1010101,"[0, 2, 4, 6]",4,True
+nl-TKUFT-0-99-v2,86,zesentachtig,"[""zes"", ""en"", ""tach"", ""tig""]","[""zes"", ""en"", ""tachtig""]","[80, 6]","[6, ""en"", 80]",en_connector,4,1010110,"[1, 2, 4, 6]",4,True
+nl-TKUFT-0-99-v2,87,zevenentachtig,"[""ze"", ""ven"", ""en"", ""tach"", ""tig""]","[""zeven"", ""en"", ""tachtig""]","[80, 7]","[7, ""en"", 80]",en_connector,5,1010111,"[0, 1, 2, 4, 6]",5,True
+nl-TKUFT-0-99-v2,88,achtentachtig,"[""acht"", ""en"", ""tach"", ""tig""]","[""acht"", ""en"", ""tachtig""]","[80, 8]","[8, ""en"", 80]",en_connector,4,1011000,"[3, 4, 6]",3,False
+nl-TKUFT-0-99-v2,89,negenentachtig,"[""ne"", ""gen"", ""en"", ""tach"", ""tig""]","[""negen"", ""en"", ""tachtig""]","[80, 9]","[9, ""en"", 80]",en_connector,5,1011001,"[0, 3, 4, 6]",4,False
+nl-TKUFT-0-99-v2,90,negentig,"[""ne"", ""gen"", ""tig""]","[""negentig""]",[90],[90],atomic,3,1011010,"[1, 3, 4, 6]",4,False
+nl-TKUFT-0-99-v2,91,eenennegentig,"[""een"", ""en"", ""ne"", ""gen"", ""tig""]","[""een"", ""en"", ""negentig""]","[90, 1]","[1, ""en"", 90]",en_connector,5,1011011,"[0, 1, 3, 4, 6]",5,True
+nl-TKUFT-0-99-v2,92,tweeënnegentig,"[""twee"", ""en"", ""ne"", ""gen"", ""tig""]","[""twee"", ""en"", ""negentig""]","[90, 2]","[2, ""en"", 90]",en_connector,5,1011100,"[2, 3, 4, 6]",4,False
+nl-TKUFT-0-99-v2,93,drieënnegentig,"[""drie"", ""en"", ""ne"", ""gen"", ""tig""]","[""drie"", ""en"", ""negentig""]","[90, 3]","[3, ""en"", 90]",en_connector,5,1011101,"[0, 2, 3, 4, 6]",5,True
+nl-TKUFT-0-99-v2,94,vierennegentig,"[""vier"", ""en"", ""ne"", ""gen"", ""tig""]","[""vier"", ""en"", ""negentig""]","[90, 4]","[4, ""en"", 90]",en_connector,5,1011110,"[1, 2, 3, 4, 6]",5,True
+nl-TKUFT-0-99-v2,95,vijfennegentig,"[""vijf"", ""en"", ""ne"", ""gen"", ""tig""]","[""vijf"", ""en"", ""negentig""]","[90, 5]","[5, ""en"", 90]",en_connector,5,1011111,"[0, 1, 2, 3, 4, 6]",6,False
+nl-TKUFT-0-99-v2,96,zesennegentig,"[""zes"", ""en"", ""ne"", ""gen"", ""tig""]","[""zes"", ""en"", ""negentig""]","[90, 6]","[6, ""en"", 90]",en_connector,5,1100000,"[5, 6]",2,False
+nl-TKUFT-0-99-v2,97,zevenennegentig,"[""ze"", ""ven"", ""en"", ""ne"", ""gen"", ""tig""]","[""zeven"", ""en"", ""negentig""]","[90, 7]","[7, ""en"", 90]",en_connector,6,1100001,"[0, 5, 6]",3,False
+nl-TKUFT-0-99-v2,98,achtennegentig,"[""acht"", ""en"", ""ne"", ""gen"", ""tig""]","[""acht"", ""en"", ""negentig""]","[90, 8]","[8, ""en"", 90]",en_connector,5,1100010,"[1, 5, 6]",3,False
+nl-TKUFT-0-99-v2,99,negenennegentig,"[""ne"", ""gen"", ""en"", ""ne"", ""gen"", ""tig""]","[""negen"", ""en"", ""negentig""]","[90, 9]","[9, ""en"", 90]",en_connector,6,1100011,"[0, 1, 5, 6]",4,False
